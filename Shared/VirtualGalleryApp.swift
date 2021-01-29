@@ -9,10 +9,14 @@ import SwiftUI
 
 @main
 struct VirtualGalleryApp: App {
+    
+    
+    @StateObject var store = ArtworkStore()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                ArtworkDetail(artwork: Artwork.example)
+                ArtworksList(store: store)
             }
         }
     }

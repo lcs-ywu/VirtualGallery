@@ -13,4 +13,4 @@ class ArtworkStore: ObservableObject {
         self.artworks = artworks
     }
 }
-let testStore = ArtworkStore(artworks: testArtworkStore)
+let testStore = ArtworkStore()

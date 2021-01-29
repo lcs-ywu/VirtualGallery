@@ -17,6 +17,8 @@
 		8A42FF2A25C0596600829CBC /* ArtworkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF2825C0596600829CBC /* ArtworkDetail.swift */; };
 		8A42FF3025C05C4500829CBC /* ArtworkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF2F25C05C4500829CBC /* ArtworkStore.swift */; };
 		8A42FF3125C05C4500829CBC /* ArtworkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF2F25C05C4500829CBC /* ArtworkStore.swift */; };
+		8A42FF3F25C3A3F200829CBC /* ArtworksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */; };
+		8A42FF4025C3A3F300829CBC /* ArtworksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		8A42FF1C25C0570300829CBC /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		8A42FF2825C0596600829CBC /* ArtworkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetail.swift; sourceTree = "<group>"; };
 		8A42FF2F25C05C4500829CBC /* ArtworkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkStore.swift; sourceTree = "<group>"; };
+		8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				8A42FF2825C0596600829CBC /* ArtworkDetail.swift */,
+				8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			files = (
 				8A42FF3025C05C4500829CBC /* ArtworkStore.swift in Sources */,
 				8A42FF1D25C0570300829CBC /* Artwork.swift in Sources */,
+				8A42FF3F25C3A3F200829CBC /* ArtworksList.swift in Sources */,
 				8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
 				8A42FF2925C0596600829CBC /* ArtworkDetail.swift in Sources */,
 			);
@@ -224,6 +229,7 @@
 			files = (
 				8A42FF3125C05C4500829CBC /* ArtworkStore.swift in Sources */,
 				8A42FF1E25C0570300829CBC /* Artwork.swift in Sources */,
+				8A42FF4025C3A3F300829CBC /* ArtworksList.swift in Sources */,
 				8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
 				8A42FF2A25C0596600829CBC /* ArtworkDetail.swift in Sources */,
 			);
