@@ -10,7 +10,12 @@ import Foundation
 class ArtworkStore: ObservableObject {
     @Published var artworks : [Artwork]
     init(artworks: [Artwork] = []) {
-        self.artworks = artworks
+        self.artworks = Artwork.testArtworkStore
     }
 }
 let testStore = ArtworkStore()
+
+
+
+
+//self.artworks = artworks
