@@ -55,7 +55,7 @@ struct ArtworkDetail: View {
             }
             .padding(.horizontal)
         }
-       .navigationTitle(artwork.name)
+        .navigationTitle(artwork.name)
     }
 }
 

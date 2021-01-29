@@ -24,6 +24,7 @@ struct ArtworksList: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 44, height:44)
+                        .cornerRadius(15)
                     
                     VStack(alignment: .leading) {
                         Text(artwork.name)
