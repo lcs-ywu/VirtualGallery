@@ -11,7 +11,9 @@ import SwiftUI
 struct VirtualGalleryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ArtworkDetail(artwork: Artwork.example)
+            }
         }
     }
 }
