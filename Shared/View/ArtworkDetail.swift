@@ -13,25 +13,30 @@ struct ArtworkDetail: View {
     
     var body: some View {
         ScrollView {
-        
+           
             Image(artwork.name)
                 .resizable()
                 .scaledToFit()
+            
             VStack{
                 HStack{
-                    Spacer()
+//                    Spacer()
                     Text(artwork.artist)
-                        .font(.title2)
+                        .font(.body)
     //                    .foregroundColor(.secondary)
                         .multilineTextAlignment(.leading)
 //                        .padding(.bottom)
                     
                     Spacer()
+//                    Button(<#T##title: StringProtocol##StringProtocol#>, action: <#T##() -> Void#>)
                  }
-                Text(artwork.medium).font(.title2)
-                Text("Created in \(artwork.yearCreated)")
-                    .font(.title2)
-                    .padding(.bottom)
+                HStack {
+                    Text(artwork.medium).font(.body)
+                    Spacer()
+                }
+//                Text("Created in \(artwork.yearCreated)")
+//                    .font(.body)
+//                    .padding(.bottom)
            
             }
             .padding(.horizontal)

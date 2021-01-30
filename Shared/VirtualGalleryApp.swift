@@ -15,9 +15,22 @@ struct VirtualGalleryApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                ArtworksList(store: store)
+            
+            TabView{
+                NavigationView{
+                    ArtworksList(store: testStore)
+                }
+                .tabItem { Image(systemName: "paintpalette")
+                Text("Artworks")
+                }
+                NavigationView {
+                    WorldMap(store: testStore)
+                }
+                .tabItem { Image(systemName: "map")
+                Text("Map")
+                }
             }
+            
         }
     }
 }
