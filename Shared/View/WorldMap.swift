@@ -14,9 +14,20 @@ struct WorldMap: View {
     //Centre on LCS, wide enough to show most of eastern North America
     @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 44.43922, longitude: -78.26571), span: MKCoordinateSpan(latitudeDelta: 40, longitudeDelta: 40))
     
+    
     var body: some View {
-            
+        
+//        @State var artworkNew = { (ArtworkStore) -> [Artwork] in
+//            if store.artworks in ArtworkAtore {
+//                print("Let's find somewhere safe!")
+//                return true
+//            }
+//            print("That's against the law.")
+//            return false
+//        }
+        
         Map(coordinateRegion: $region, annotationItems: store.artworks) { artwork in
+            
                 MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: artwork.latitude, longitude: artwork.longitude)) {
                     
                     NavigationLink(destination: ArtworkDetail(artwork: artwork)) {

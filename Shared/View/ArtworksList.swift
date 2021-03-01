@@ -10,12 +10,16 @@ import SwiftUI
 struct ArtworksList: View {
     
     @ObservedObject var store: ArtworkStore
+//    @ObservedObject var outline: Outline
     
     var body: some View {
         //Iterate over the list of locations in the data store
 //        OutlineGroup(<#T##data: _##_#>, id: <#T##KeyPath<DataElement, _>#>, children: <#T##KeyPath<DataElement, _?>#>) { element in
 //            Text("Artwork Around the World")
 //        }
+        
+//        List(outline.test)
+        
         List(store.artworks) { artwork in
             
             //Create a navigation link leading to the detial view
