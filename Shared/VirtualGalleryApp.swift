@@ -30,7 +30,7 @@ struct VirtualGalleryApp: App {
                 Text("Map")
                 }
             }
-            
+            // Problem: Clicking the middle of the two bars also alter the screen
         }
     }
 }

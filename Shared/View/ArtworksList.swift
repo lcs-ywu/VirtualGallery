@@ -21,6 +21,8 @@ struct ArtworksList: View {
 //        List(outline.test)
         
         List(store.artworks) { artwork in
+//
+//            Section(header: "Artworks Around the World", content: <#T##() -> _#>)
             
             //Create a navigation link leading to the detial view
             //Create example of abstraction in action!

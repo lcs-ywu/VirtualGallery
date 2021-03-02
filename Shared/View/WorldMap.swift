@@ -17,19 +17,21 @@ struct WorldMap: View {
     
     var body: some View {
         
-//        @State var artworkNew = { (ArtworkStore) -> [Artwork] in
-//            if store.artworks in ArtworkAtore {
-//                print("Let's find somewhere safe!")
-//                return true
-//            }
-//            print("That's against the law.")
-//            return false
-//        }
+        //        @State var artworkNew = { (ArtworkStore) -> [Artwork] in
+        //            if store.artworks in ArtworkAtore {
+        //                print("Let's find somewhere safe!")
+        //                return true
+        //            }
+        //            print("That's against the law.")
+        //            return false
+        //        }
         
         Map(coordinateRegion: $region, annotationItems: store.artworks) { artwork in
             
-                MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: artwork.latitude, longitude: artwork.longitude)) {
-                    
+            
+            MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: artwork.latitude, longitude: artwork.longitude)) {
+                
+                if artwork.onDisplay == true{
                     NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
                         Image(artwork.name)
                             .resizable()
@@ -38,10 +40,13 @@ struct WorldMap: View {
                             .frame(width:80, height:80)
                             .shadow(radius:3)
                     }
-                    
                 }
+                
+                
+                
             }
-            .navigationTitle("Map")
+        }
+        .navigationTitle("Map")
     }
 }
 
@@ -50,6 +55,6 @@ struct WorldMap_Previews: PreviewProvider {
         NavigationView {
             WorldMap(store: testStore)
         }
-       
+        
     }
 }
