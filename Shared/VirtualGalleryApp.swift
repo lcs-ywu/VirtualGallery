@@ -24,11 +24,18 @@ struct VirtualGalleryApp: App {
                 Text("Artworks")
                 }
                 NavigationView {
+                    ArtistsList()
+                }
+                .tabItem { Image(systemName: "person.fill")
+                Text("Artists")
+                }
+                NavigationView {
                     WorldMap(store: testStore)
                 }
                 .tabItem { Image(systemName: "map")
                 Text("Map")
                 }
+               
             }
             // Problem: Clicking the middle of the two bars also alter the screen
         }

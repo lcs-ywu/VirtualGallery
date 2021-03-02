@@ -14,11 +14,7 @@ struct ArtworksList: View {
     
     var body: some View {
         //Iterate over the list of locations in the data store
-//        OutlineGroup(<#T##data: _##_#>, id: <#T##KeyPath<DataElement, _>#>, children: <#T##KeyPath<DataElement, _?>#>) { element in
-//            Text("Artwork Around the World")
-//        }
-        
-//        List(outline.test)
+
         
         List(store.artworks) { artwork in
 //
@@ -56,3 +52,39 @@ struct ArtworksList_Previews: PreviewProvider {
     }
 }
 
+//Add a Dropdown view
+struct DropDown: View {
+    @State var expand = false
+    var body : some View {
+        VStack(alignment: .leading,spacing:10, content: {
+          //spacing: space occupied by each artwork
+            HStack {
+                Text("Expand").fontWeight(.heavy).foregroundColor(.white)
+                Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+            }.onTapGesture {
+                self.expand.toggle()
+            }
+            
+            if expand {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("Select 1")
+                }.foregroundColor(.white)
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("Select 2")
+                }.foregroundColor(.white)
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("Select 3")
+                }.foregroundColor(.white)
+                
+            }
+            
+        })
+//        }.frame(height: expand ? 500:100)
+        
+        .padding(7)
+        .background(LinearGradient(gradient: .init(colors: [.red, .blue]), startPoint: .top, endPoint: .bottom))
+        .cornerRadius(20)
+        .animation(.spring())
+    }
+    
+}

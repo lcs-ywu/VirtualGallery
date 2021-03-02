@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A3847B225C62D51009D3E7F /* Outline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3847B125C62D51009D3E7F /* Outline.swift */; };
-		8A3847B325C62D51009D3E7F /* Outline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3847B125C62D51009D3E7F /* Outline.swift */; };
 		8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */; };
 		8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */; };
 		8A42FF0325C0550500829CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A42FEEE25C0550500829CBC /* Assets.xcassets */; };
@@ -23,10 +21,11 @@
 		8A42FF4025C3A3F300829CBC /* ArtworksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */; };
 		8A42FF4A25C4A15100829CBC /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF4925C4A15100829CBC /* WorldMap.swift */; };
 		8A42FF4B25C4A15100829CBC /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF4925C4A15100829CBC /* WorldMap.swift */; };
+		8A52CD7025EDC30A006B6A3D /* ArtistsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */; };
+		8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A3847B125C62D51009D3E7F /* Outline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outline.swift; sourceTree = "<group>"; };
 		8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualGalleryApp.swift; sourceTree = "<group>"; };
 		8A42FEEE25C0550500829CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A42FEF325C0550500829CBC /* VirtualGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +38,7 @@
 		8A42FF2F25C05C4500829CBC /* ArtworkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkStore.swift; sourceTree = "<group>"; };
 		8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksList.swift; sourceTree = "<group>"; };
 		8A42FF4925C4A15100829CBC /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
+		8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +112,7 @@
 				8A42FF2825C0596600829CBC /* ArtworkDetail.swift */,
 				8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */,
 				8A42FF4925C4A15100829CBC /* WorldMap.swift */,
+				8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,7 +122,6 @@
 			children = (
 				8A42FF1C25C0570300829CBC /* Artwork.swift */,
 				8A42FF2F25C05C4500829CBC /* ArtworkStore.swift */,
-				8A3847B125C62D51009D3E7F /* Outline.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -225,9 +225,9 @@
 			files = (
 				8A42FF3025C05C4500829CBC /* ArtworkStore.swift in Sources */,
 				8A42FF4A25C4A15100829CBC /* WorldMap.swift in Sources */,
+				8A52CD7025EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A42FF1D25C0570300829CBC /* Artwork.swift in Sources */,
 				8A42FF3F25C3A3F200829CBC /* ArtworksList.swift in Sources */,
-				8A3847B225C62D51009D3E7F /* Outline.swift in Sources */,
 				8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
 				8A42FF2925C0596600829CBC /* ArtworkDetail.swift in Sources */,
 			);
@@ -239,9 +239,9 @@
 			files = (
 				8A42FF3125C05C4500829CBC /* ArtworkStore.swift in Sources */,
 				8A42FF4B25C4A15100829CBC /* WorldMap.swift in Sources */,
+				8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A42FF1E25C0570300829CBC /* Artwork.swift in Sources */,
 				8A42FF4025C3A3F300829CBC /* ArtworksList.swift in Sources */,
-				8A3847B325C62D51009D3E7F /* Outline.swift in Sources */,
 				8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
 				8A42FF2A25C0596600829CBC /* ArtworkDetail.swift in Sources */,
 			);
