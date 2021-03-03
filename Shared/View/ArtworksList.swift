@@ -10,38 +10,120 @@ import SwiftUI
 struct ArtworksList: View {
     
     @ObservedObject var store: ArtworkStore
+//    @ObservedObject var LCSstore: LCSStore
 //    @ObservedObject var outline: Outline
+    @State var expand = false
     
     var body: some View {
-        //Iterate over the list of locations in the data store
-
         
-        List(store.artworks) { artwork in
-//
-//            Section(header: "Artworks Around the World", content: <#T##() -> _#>)
-            
-            //Create a navigation link leading to the detial view
-            //Create example of abstraction in action!
-            NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                HStack{
+//        for menuNumber in 0...1 {
+//            print(menuNumber)
+//        } // why control flow cannot be used in view
+        VStack{
+            VStack(alignment: .leading,spacing:5, content: {
+              //spacing: space occupied by each artwork
+                HStack {
+                    Text("Artworks Around the World").fontWeight(.heavy).foregroundColor(.black)
+                    Spacer()
+                    Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                }.onTapGesture {
+                    self.expand.toggle()
+                }.frame(width: 310, height: 50, alignment: .center)
+                
+                if expand {
                     
-                    Image(artwork.name)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 44, height:44)
-                        .cornerRadius(15)
-                    
-                    VStack(alignment: .leading) {
-                        Text(artwork.name)
-                        Text(artwork.artist)
-                            .font(.subheadline)
+                    //put artwork cells here
+                    List(store.artworks) { artwork in
+                        
+                        //Create a navigation link leading to the detial view
+                        //Create example of abstraction in action!
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                            HStack{
+                                
+                                Image(artwork.name)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 44, height:44)
+                                    .cornerRadius(15)
+                                
+                                VStack(alignment: .leading) {
+                                    Text(artwork.name)
+                                    Text(artwork.artist)
+                                        .font(.subheadline)
+                                }
+                            }
+                        }
+                        
                     }
+                    
                 }
-            }
+               
+            })
+    //        }.frame(height: expand ? 500:100)
+            
+            .padding(7)
+            .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
+            .cornerRadius(10)
+            .animation(.spring())
+            
+            
+            VStack(alignment: .leading,spacing:5, content: {
+              //spacing: space occupied by each artwork
+                HStack {
+                    Text("Artworks in LCS").fontWeight(.heavy).foregroundColor(.black)
+                    Spacer()
+                    Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                }.onTapGesture {
+                    self.expand.toggle()
+                }.frame(width: 310, height: 50, alignment: .center)
+                
+                if expand {
+                    
+                    //Add artworks in LCS
+                    List(store.artworks) { artwork in
+                        
+                        //Create a navigation link leading to the detial view
+                        //Create example of abstraction in action!
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                            HStack{
+                                
+                                Image(artwork.name)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 44, height:44)
+                                    .cornerRadius(15)
+                                
+                                VStack(alignment: .leading) {
+                                    Text(artwork.name)
+                                    Text(artwork.artist)
+                                        .font(.subheadline)
+                                }
+                            }
+                        }
+                        
+                    }
+                    
+                }
+               
+            })
+    //        }.frame(height: expand ? 500:100)
+            
+            .padding(7)
+            .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
+            .cornerRadius(10)
+            .animation(.spring())
+            
+            Spacer()
             
         }
+        //Iterate over the list of locations in the data store
+       
+        
+        
+       
         .navigationTitle("Artworks")
     }
+   
 }
 
 struct ArtworksList_Previews: PreviewProvider {
@@ -53,38 +135,42 @@ struct ArtworksList_Previews: PreviewProvider {
 }
 
 //Add a Dropdown view
-struct DropDown: View {
-    @State var expand = false
-    var body : some View {
-        VStack(alignment: .leading,spacing:10, content: {
-          //spacing: space occupied by each artwork
-            HStack {
-                Text("Expand").fontWeight(.heavy).foregroundColor(.white)
-                Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
-            }.onTapGesture {
-                self.expand.toggle()
-            }
-            
-            if expand {
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Select 1")
-                }.foregroundColor(.white)
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Select 2")
-                }.foregroundColor(.white)
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Select 3")
-                }.foregroundColor(.white)
-                
-            }
-            
-        })
-//        }.frame(height: expand ? 500:100)
-        
-        .padding(7)
-        .background(LinearGradient(gradient: .init(colors: [.red, .blue]), startPoint: .top, endPoint: .bottom))
-        .cornerRadius(20)
-        .animation(.spring())
-    }
-    
-}
+//combine dropdown view and artwork list
+//struct DropDown: View {
+//    @State var expand = false
+//    var body : some View {
+//        VStack(alignment: .leading,spacing:10, content: {
+//          //spacing: space occupied by each artwork
+//            HStack {
+//                Text("Expand").fontWeight(.heavy).foregroundColor(.black)
+//                Spacer()
+//                Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+//            }.onTapGesture {
+//                self.expand.toggle()
+//            }.frame(width: 310, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//
+//            if expand {
+//
+//                //put artwork cells here
+//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+//                    Text("Select 1")
+//                }.foregroundColor(.black)
+//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+//                    Text("Select 2")
+//                }.foregroundColor(.black)
+//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+//                    Text("Select 3")
+//                }.foregroundColor(.black)
+//
+//            }
+//
+//        })
+////        }.frame(height: expand ? 500:100)
+//
+//        .padding(7)
+//        .background(LinearGradient(gradient: .init(colors: [.red, .blue]), startPoint: .top, endPoint: .bottom))
+//        .cornerRadius(10)
+//        .animation(.spring())
+//    }
+//
+//}

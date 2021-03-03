@@ -17,6 +17,35 @@ struct WorldMap: View {
     
     var body: some View {
         
+        ZStack{
+            //Add sth bihind the map
+            //Adjust colour
+            LinearGradient(gradient: .init(colors: [.red, .blue]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+            
+            
+            Map(coordinateRegion: $region, annotationItems: store.artworks) { artwork in
+                
+                
+                MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: artwork.latitude, longitude: artwork.longitude)) {
+                    
+                    if artwork.onDisplay == true{
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                            Image(artwork.name)
+                                .resizable()
+                                .cornerRadius(10)
+                                .scaledToFit()
+                                .frame(width:80, height:80)
+                                .shadow(radius:3)
+                        }
+                    }
+                    
+                    
+                    
+                }
+            }
+            .navigationTitle("Map")
+        }
+        
         //        @State var artworkNew = { (ArtworkStore) -> [Artwork] in
         //            if store.artworks in ArtworkAtore {
         //                print("Let's find somewhere safe!")
@@ -26,27 +55,7 @@ struct WorldMap: View {
         //            return false
         //        }
         
-        Map(coordinateRegion: $region, annotationItems: store.artworks) { artwork in
-            
-            
-            MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: artwork.latitude, longitude: artwork.longitude)) {
-                
-                if artwork.onDisplay == true{
-                    NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                        Image(artwork.name)
-                            .resizable()
-                            .cornerRadius(10)
-                            .scaledToFit()
-                            .frame(width:80, height:80)
-                            .shadow(radius:3)
-                    }
-                }
-                
-                
-                
-            }
-        }
-        .navigationTitle("Map")
+      
     }
 }
 
