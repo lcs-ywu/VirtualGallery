@@ -20,7 +20,7 @@ struct WorldMap: View {
         ZStack{
             //Add sth bihind the map
             //Adjust colour
-//            LinearGradient(gradient: .init(colors: [.primary, .blue]), startPoint: .top, endPoint: .center).edgesIgnoringSafeArea(.top)
+            //            LinearGradient(gradient: .init(colors: [.primary, .blue]), startPoint: .top, endPoint: .center).edgesIgnoringSafeArea(.top)
             
             
             Map(coordinateRegion: $region, annotationItems: store.artworks) { artwork in
@@ -28,7 +28,7 @@ struct WorldMap: View {
                 
                 MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: artwork.latitude, longitude: artwork.longitude)) {
                     
-                    if artwork.onDisplay == true{
+                    if artwork.onDisplay == true && artwork.latitude != 44.43922 && artwork.longitude != -78.26571{
                         NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
                             Image(artwork.name)
                                 .resizable()
@@ -37,9 +37,19 @@ struct WorldMap: View {
                                 .frame(width:80, height:80)
                                 .shadow(radius:3)
                         }
+                    } else if artwork.onDisplay == true && artwork.latitude == 44.43922 && artwork.longitude == -78.26571 {
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork))  {
+                        //Destination need to be changed not to one single painting
+                      
+                            Image("LCS")
+                                .resizable()
+                                .cornerRadius(10)
+                                .scaledToFit()
+                                .frame(width:100, height:100)
+                                .shadow(radius:3)
+                        }
+                        
                     }
-                    
-                    
                     
                 }
             }
@@ -57,7 +67,7 @@ struct WorldMap: View {
         //            return false
         //        }
         
-      
+        
     }
 }
 
