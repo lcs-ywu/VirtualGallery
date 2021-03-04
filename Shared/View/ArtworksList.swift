@@ -34,11 +34,16 @@ struct ArtworksList: View {
                 if expand1 {
                     
                     //put artwork cells here
+                    //Add a sorted method?
                     List(store.artworks) { artwork in
                         
                         //Create a navigation link leading to the detial view
                         //Create example of abstraction in action!
+                        
+                        //can't use a if statement in a trailing closure syntax
+
                         NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                    
                             HStack{
                                 
                                 Image(artwork.name)

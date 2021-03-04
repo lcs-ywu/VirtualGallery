@@ -9,7 +9,22 @@ import SwiftUI
 
 struct ArtistsList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+//        ACarousel(items,
+//                          spacing: 10,
+//                          headspace: 10,
+//                          sidesScaling: 0.7,
+//                          isWrap: true,
+//                          autoScroll: .active(2)) { item in
+//                    item.image
+//                        .resizable()
+//                        .scaledToFill()
+//                        .frame(height: 300)
+//                        .cornerRadius(30)
+//                }
+//                .frame(height: 300)
+        //Code for the Carousel
+        
     }
 }
 

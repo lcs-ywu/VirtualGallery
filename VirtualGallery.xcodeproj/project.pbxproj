@@ -25,6 +25,10 @@
 		8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */; };
 		8A52CD8225F06792006B6A3D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD8125F06791006B6A3D /* Artist.swift */; };
 		8A52CD8325F06792006B6A3D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD8125F06791006B6A3D /* Artist.swift */; };
+		8ADC8C4D25F07642006D1631 /* ACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC8C4C25F07641006D1631 /* ACarousel.swift */; };
+		8ADC8C4E25F07642006D1631 /* ACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC8C4C25F07641006D1631 /* ACarousel.swift */; };
+		8ADC8C5225F076DD006D1631 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC8C5125F076DD006D1631 /* Package.swift */; };
+		8ADC8C5325F076DD006D1631 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC8C5125F076DD006D1631 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,8 @@
 		8A42FF4925C4A15100829CBC /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
 		8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsList.swift; sourceTree = "<group>"; };
 		8A52CD8125F06791006B6A3D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		8ADC8C4C25F07641006D1631 /* ACarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarousel.swift; sourceTree = "<group>"; };
+		8ADC8C5125F076DD006D1631 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		8A42FF0F25C0555100829CBC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8ADC8C4C25F07641006D1631 /* ACarousel.swift */,
 				8A42FF2825C0596600829CBC /* ArtworkDetail.swift */,
 				8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */,
 				8A42FF4925C4A15100829CBC /* WorldMap.swift */,
@@ -123,6 +130,7 @@
 		8A42FF1025C0555C00829CBC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8ADC8C5125F076DD006D1631 /* Package.swift */,
 				8A42FF1C25C0570300829CBC /* Artwork.swift */,
 				8A42FF2F25C05C4500829CBC /* ArtworkStore.swift */,
 				8A52CD8125F06791006B6A3D /* Artist.swift */,
@@ -233,7 +241,9 @@
 				8A42FF1D25C0570300829CBC /* Artwork.swift in Sources */,
 				8A42FF3F25C3A3F200829CBC /* ArtworksList.swift in Sources */,
 				8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
+				8ADC8C5225F076DD006D1631 /* Package.swift in Sources */,
 				8A52CD8225F06792006B6A3D /* Artist.swift in Sources */,
+				8ADC8C4D25F07642006D1631 /* ACarousel.swift in Sources */,
 				8A42FF2925C0596600829CBC /* ArtworkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +258,9 @@
 				8A42FF1E25C0570300829CBC /* Artwork.swift in Sources */,
 				8A42FF4025C3A3F300829CBC /* ArtworksList.swift in Sources */,
 				8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
+				8ADC8C5325F076DD006D1631 /* Package.swift in Sources */,
 				8A52CD8325F06792006B6A3D /* Artist.swift in Sources */,
+				8ADC8C4E25F07642006D1631 /* ACarousel.swift in Sources */,
 				8A42FF2A25C0596600829CBC /* ArtworkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

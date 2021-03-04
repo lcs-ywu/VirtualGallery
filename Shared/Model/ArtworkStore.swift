@@ -15,13 +15,13 @@ class ArtworkStore: ObservableObject {
 }
 let testStore = ArtworkStore()
 
-class LCSStore: ObservableObject {
-    @Published var LCSartworks : [Artwork]
-    init(artworks: [Artwork] = []) {
-        self.LCSartworks = Artwork.testLCSStore
-    }
-}
-let testLCSStore = LCSStore()
+//class LCSStore: ObservableObject {
+//    @Published var LCSartworks : [Artwork]
+//    init(artworks: [Artwork] = []) {
+//        self.LCSartworks = Artwork.testLCSStore
+//    }
+//}
+//let testLCSStore = LCSStore()
 
 
 
