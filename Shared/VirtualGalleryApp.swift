@@ -18,7 +18,8 @@ struct VirtualGalleryApp: App {
             
             TabView{
                 NavigationView{
-                    ArtworksList(store: testStore)
+//                    store: testStore
+                    ArtworksList()
                 }
                 .tabItem { Image(systemName: "paintpalette")
                 Text("Artworks")

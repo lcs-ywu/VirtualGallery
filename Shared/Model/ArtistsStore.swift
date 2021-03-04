@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class ArtistsStore: ObservableObject {
+    @Published var artists : [Artist]
+    init(artists: [Artist] = []) {
+        self.artists = Artist.testArtistsStore
+    }
+}
+let testArtistStore = ArtistsStore()

@@ -9,14 +9,21 @@ import SwiftUI
 
 struct ArtworksList: View {
     
-    @ObservedObject var store: ArtworkStore
+   
 //    @ObservedObject var LCSstore: LCSStore
 //    @ObservedObject var outline: Outline
     @State var expand1 = false
     @State var expand2 = false
+//    @ObservedObject var store: ArtworkStore
     
+    init() {
+        //navigation title colour changable 
+        let navBarApperance = UINavigationBar.appearance()
+        navBarApperance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+//        navBarApperance.titleTextAttributes = [.foregroundColor: UIColor.yellow]
+    }
     var body: some View {
-        
+        let store = ArtworkStore()
 //        for menuNumber in 0...1 {
 //            print(menuNumber)
 //        } // why control flow cannot be used in view
@@ -135,7 +142,7 @@ struct ArtworksList: View {
 struct ArtworksList_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ArtworksList(store: testStore)
+            ArtworksList()
         }
     }
 }
