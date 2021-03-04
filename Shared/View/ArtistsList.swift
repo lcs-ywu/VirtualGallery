@@ -9,22 +9,7 @@ import SwiftUI
 
 struct ArtistsList: View {
     var body: some View {
-        
-//        ACarousel(items,
-//                          spacing: 10,
-//                          headspace: 10,
-//                          sidesScaling: 0.7,
-//                          isWrap: true,
-//                          autoScroll: .active(2)) { item in
-//                    item.image
-//                        .resizable()
-//                        .scaledToFill()
-//                        .frame(height: 300)
-//                        .cornerRadius(30)
-//                }
-//                .frame(height: 300)
-        //Code for the Carousel
-        
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
@@ -33,3 +18,30 @@ struct ArtistsList_Previews: PreviewProvider {
         ArtistsList()
     }
 }
+
+
+
+//Code for a carousel
+
+//struct Item: Identifiable {
+//    let id = UUID()
+//    let image: Image
+//}
+//
+//let roles = ["Luffy", "Zoro", "Sanji", "Nami", "Usopp", "Chopper", "Robin", "Franky", "Brook"]
+//
+//struct ContentView: View {
+//
+//    let items: [Item] = roles.map { Item(image: Image($0)) }
+//
+//    var body: some View {
+//        ACarousel(items) { item in
+//            item.image
+//                .resizable()
+//                .scaledToFill()
+//                .frame(height: 300)
+//                .cornerRadius(30)
+//        }
+//        .frame(height: 300)
+//    }
+//}
