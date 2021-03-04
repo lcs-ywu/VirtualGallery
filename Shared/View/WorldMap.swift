@@ -20,7 +20,7 @@ struct WorldMap: View {
         ZStack{
             //Add sth bihind the map
             //Adjust colour
-            LinearGradient(gradient: .init(colors: [.red, .blue]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+//            LinearGradient(gradient: .init(colors: [.primary, .blue]), startPoint: .top, endPoint: .center).edgesIgnoringSafeArea(.top)
             
             
             Map(coordinateRegion: $region, annotationItems: store.artworks) { artwork in
@@ -43,7 +43,9 @@ struct WorldMap: View {
                     
                 }
             }
-            .navigationTitle("Map")
+            .edgesIgnoringSafeArea(.top)
+            //How to make navgation title white?
+            .navigationTitle("Map".uppercased())
         }
         
         //        @State var artworkNew = { (ArtworkStore) -> [Artwork] in

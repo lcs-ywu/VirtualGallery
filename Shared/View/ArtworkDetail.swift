@@ -18,20 +18,33 @@ struct ArtworkDetail: View {
                 .resizable()
                 .scaledToFit()
             
+            Text(artwork.name).font(.title).bold()
+            
+            Spacer()
+            
             VStack{
                 HStack{
-//                    Spacer()
-                    Text(artwork.artist)
-                        .font(.body)
-    //                    .foregroundColor(.secondary)
-                        .multilineTextAlignment(.leading)
-//                        .padding(.bottom)
                     
                     Spacer()
-//                    Button(<#T##title: StringProtocol##StringProtocol#>, action: <#T##() -> Void#>)
+                    Text(artwork.artist)
+                        .italic()
+                        .font(.body)
+    //                    .foregroundColor(.secondary)
+//                        .multilineTextAlignment(.center)
+//                        .padding(.horizontal)
+                    Spacer()
+                  
                  }
                 HStack {
+                    Spacer()
                     Text(artwork.medium).font(.body)
+//                        .italic()
+                   Spacer()
+                }
+                HStack {
+                    Spacer()
+                    Text("created in year \(artwork.yearCreated)").font(.body)
+//                        .italic()
                     Spacer()
                 }
 //                Text("Created in \(artwork.yearCreated)")
@@ -50,17 +63,23 @@ struct ArtworkDetail: View {
            
             Text(artwork.description).padding(.horizontal)
             
-            HStack {
-                Text("Did you know?")
-                    .font(.title3)
-                    .bold()
-                    .padding(.vertical)
+            if artwork.more.count != 0 {
+                HStack {
+                    Text("Did you know?")
+                        .font(.title3)
+                        .bold()
+                        .padding(.vertical)
+                    
+                    Spacer()
+                }
+                .padding(.horizontal)
                 
-                Spacer()
+                Text(artwork.more).padding(.horizontal)
             }
-            .padding(.horizontal)
+           
         }
-        .navigationTitle(artwork.name)
+        .edgesIgnoringSafeArea(.top)
+//        .navigationTitle(artwork.name)
     }
 }
 

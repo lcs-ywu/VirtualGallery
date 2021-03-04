@@ -12,7 +12,8 @@ struct ArtworksList: View {
     @ObservedObject var store: ArtworkStore
 //    @ObservedObject var LCSstore: LCSStore
 //    @ObservedObject var outline: Outline
-    @State var expand = false
+    @State var expand1 = false
+    @State var expand2 = false
     
     var body: some View {
         
@@ -25,12 +26,12 @@ struct ArtworksList: View {
                 HStack {
                     Text("Artworks Around the World").fontWeight(.heavy).foregroundColor(.black)
                     Spacer()
-                    Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                    Image(systemName: expand1 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
                 }.onTapGesture {
-                    self.expand.toggle()
+                    self.expand1.toggle()
                 }.frame(width: 310, height: 50, alignment: .center)
                 
-                if expand {
+                if expand1 {
                     
                     //put artwork cells here
                     List(store.artworks) { artwork in
@@ -72,12 +73,12 @@ struct ArtworksList: View {
                 HStack {
                     Text("Artworks in LCS").fontWeight(.heavy).foregroundColor(.black)
                     Spacer()
-                    Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                    Image(systemName: expand2 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
                 }.onTapGesture {
-                    self.expand.toggle()
+                    self.expand2.toggle()
                 }.frame(width: 310, height: 50, alignment: .center)
                 
-                if expand {
+                if expand2 {
                     
                     //Add artworks in LCS
                     List(store.artworks) { artwork in
