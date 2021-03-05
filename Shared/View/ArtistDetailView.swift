@@ -12,7 +12,7 @@ struct ArtistDetailView: View {
     let artist: Artist
     
     var body: some View {
-        NavigationView{
+//        NavigationView{
             ScrollView{
                 
                
@@ -44,13 +44,15 @@ struct ArtistDetailView: View {
                 
             }.navigationTitle(artist.name)
 //            .ignoresSafeArea(edges: .top)
-        }
+//        }
         
     }
 }
 
 struct ArtistDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ArtistDetailView(artist: Artist.testArtist)
+        NavigationView {
+          ArtistDetailView(artist: Artist.testArtist)
+        }
     }
 }

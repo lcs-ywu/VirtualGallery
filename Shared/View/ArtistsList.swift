@@ -28,59 +28,87 @@ struct ContentView: View {
     var body: some View {
         
         let store = ArtistsStore()
+//        let worldStore = ArtistsStore()
+//        let LCSStore = ArtistsStore()
         
-        VStack {
-            
-            Spacer(minLength: 80)
-            Text("Artists").font(.largeTitle).bold()
-           
-            ACarousel(store.artists,
-                      spacing: 10,
-                      headspace: 10,
-                      sidesScaling: 0.7,
-                      isWrap: true) { item in
-    //                  ,autoScroll: .active(2)
-           
-                VStack {
-                    
-                    NavigationLink(destination: ArtistDetailView(artist: item)) {
-                        Image(item.name)
-                            .resizable()
-                            .scaledToFill()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(height: 200)
-                            .cornerRadius(30)
+        
+        ScrollView{
+            VStack {
+                
+                Spacer(minLength: 50)
+                //minLength: 80
+                Text(" Worldwide Artists").font(.largeTitle).bold().padding(.top)
+               
+                ACarousel(store.artists,
+                          spacing: 10,
+                          headspace: 10,
+                          sidesScaling: 0.7,
+                          isWrap: true) { item in
+        //                  ,autoScroll: .active(2)
+
+                    VStack {
+                        
+                        
+                        NavigationLink(destination: ArtistDetailView(artist: item)) {
+                            
+                            Image(item.name)
+                                .resizable()
+                                .scaledToFill()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(height: 200)
+                                .cornerRadius(30)
+                        }
+                       
+                        Text(item.name).bold().italic().font(.title2)
+                        Text(item.identity).font(.title2)
+                        Text(item.age).font(.title2)
+    //                    Text("Click on the picture to find out more")
+                        
                     }
                    
-                    Text(item.name).bold().italic().font(.title2)
-                    Text(item.identity).font(.title2)
-                    Text(item.age)
-                    
-                    
-                    
-//                    NavigationLink(destination: ArtistDetailView(artist: item)) {
-//                        HStack{
-//
-//                            Image(item.name)
-//                                .resizable()
-//                                .scaledToFit()
-//                                .frame(width: 44, height:44)
-//                                .cornerRadius(15)
-//
-//                            VStack(alignment: .leading) {
-//                                Text(artwork.name)
-//                                Text(artwork.artist)
-//                                    .font(.subheadline)
-//                            }
-//                        }
-//                    }
-                    
-                }
-               
-            }
+                }.scaledToFill()
+                
+                Spacer()
+                
+                
+                Text("LCS Artists").font(.largeTitle).bold().padding(.top)
+                //LCS Artists
+                ACarousel(store.artists,
+                          spacing: 10,
+                          headspace: 10,
+                          sidesScaling: 0.7,
+                          isWrap: true) { item in
+        //                  ,autoScroll: .active(2)
             
-            Spacer(minLength: 100)
+                    VStack {
+                        
+                        
+                        NavigationLink(destination: ArtistDetailView(artist: item)) {
+                            
+                            Image(item.name)
+                                .resizable()
+                                .scaledToFill()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(height: 200)
+                                .cornerRadius(30)
+                        }
+                       
+                        Text(item.name).bold().italic().font(.title2)
+                        Text(item.identity).font(.title2)
+                        Text(item.age).font(.title2)
+    //                    Text("Click on the picture to find out more")
+                        
+                    }
+                    
+                }.scaledToFill()
+
+    //            .padding()
+                
+    //            Spacer(minLength: 100)
+            }
         }
+        
+        
         .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom)).ignoresSafeArea(edges: .top)
         
         //.navigationTitle("Artists")
