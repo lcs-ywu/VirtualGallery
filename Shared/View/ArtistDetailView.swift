@@ -51,7 +51,7 @@ struct ArtistDetailView: View {
                             .font(.title3)
                             .bold()
                             .padding([.top, .leading, .bottom])
-                        Spacer()
+//                        Spacer()
                         Text(artist.artistStatement).padding(.horizontal)
                         
                      }

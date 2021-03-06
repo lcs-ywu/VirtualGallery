@@ -38,7 +38,9 @@ struct WorldMap: View {
                                 .shadow(radius:3)
                         }
                     } else if artwork.onDisplay == true && artwork.latitude == 44.43922 && artwork.longitude == -78.26571 {
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork))  {
+                        NavigationLink(destination: LCSArtCommunityView) {
+                        //ArtworkDetail(artwork: artwork)
+                       
                         //Destination need to be changed not to one single painting
                       
                             Image("LCS")
