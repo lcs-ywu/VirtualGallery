@@ -123,11 +123,11 @@
 		8A42FF0F25C0555100829CBC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8A42FF2825C0596600829CBC /* ArtworkDetail.swift */,
 				8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */,
-				8A42FF4925C4A15100829CBC /* WorldMap.swift */,
+				8A42FF2825C0596600829CBC /* ArtworkDetail.swift */,
 				8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */,
 				8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */,
+				8A42FF4925C4A15100829CBC /* WorldMap.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

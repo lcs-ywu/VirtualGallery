@@ -18,8 +18,24 @@ struct ArtistDetailView: View {
                
                 Image(artist.name).resizable().scaledToFit()
                 
+                HStack {
+                    Spacer()
+                    Text(artist.identity)
+//                        .italic()
+                    Spacer()
+                }
+
+                HStack {
+                    Spacer()
+                    Text(artist.age).font(.body)
+//                        .italic()
+                    Spacer()
+                }
+                
+
+                
                 VStack {
-                    Text("Description")
+                    Text("General Information")
                         .font(.title3)
                         .bold()
                         .padding([.top, .leading, .bottom])
