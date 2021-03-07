@@ -36,7 +36,7 @@ struct ArtworksList: View {
                     Image(systemName: expand1 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
                 }.onTapGesture {
                     self.expand1.toggle()
-                }.frame(width: 310, height: 50, alignment: .center)
+                }.frame(width: 310, height: 50, alignment: .center)//.padding(7)
                 
                 if expand1 {
                     
@@ -49,25 +49,29 @@ struct ArtworksList: View {
                         
                         //can't use a if statement in a trailing closure syntax
 
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                    
-                            HStack{
-                                
-                                Image(artwork.name)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 44, height:44)
-                                    .cornerRadius(15)
-                                
-                                VStack(alignment: .leading) {
-                                    Text(artwork.name)
-                                    Text(artwork.artist)
-                                        .font(.subheadline)
+                        if artwork.LCSart == false {
+                            NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                        
+                                HStack{
+                                    
+                                    Image(artwork.name)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                                    
+                                    VStack(alignment: .leading) {
+                                        Text(artwork.name)
+                                        Text(artwork.artist)
+                                            .font(.subheadline)
+                                    }
                                 }
-                            }
+                            }//.ignoresSafeArea(edges: .all)
                         }
                         
-                    }
+                        
+                        
+                    }.ignoresSafeArea(edges: .all)
                     
                 }
                
@@ -89,6 +93,7 @@ struct ArtworksList: View {
                 }.onTapGesture {
                     self.expand2.toggle()
                 }.frame(width: 310, height: 50, alignment: .center)
+//                .scaleToFit()
                 
                 if expand2 {
                     
@@ -97,22 +102,30 @@ struct ArtworksList: View {
                         
                         //Create a navigation link leading to the detial view
                         //Create example of abstraction in action!
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                            HStack{
-                                
-                                Image(artwork.name)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 44, height:44)
-                                    .cornerRadius(15)
-                                
-                                VStack(alignment: .leading) {
-                                    Text(artwork.name)
-                                    Text(artwork.artist)
-                                        .font(.subheadline)
+                        
+                        if artwork.LCSart == true {
+                            NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                                HStack{
+                                    
+                                    Image(artwork.name)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                                    
+                                    VStack(alignment: .leading) {
+                                        Text(artwork.name)
+                                        Text(artwork.artist)
+                                            .font(.subheadline)
+                                    }
                                 }
                             }
                         }
+//                        else{
+//                            continue
+//                        }
+                        
+                        
                         
                     }
                     
