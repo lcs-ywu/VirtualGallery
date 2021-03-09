@@ -50,6 +50,7 @@ struct ArtworksList: View {
                         //can't use a if statement in a trailing closure syntax
 
                         if artwork.LCSart == false {
+                            
                             NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
                         
                                 HStack{
