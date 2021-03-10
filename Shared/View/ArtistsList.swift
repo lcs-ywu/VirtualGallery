@@ -22,14 +22,14 @@ struct ArtistsList_Previews: PreviewProvider {
 
 struct ContentView: View {
     
-//    let artists: [Artist] = testArtistStore.artists { Artist.testArtist }
+    //    let artists: [Artist] = testArtistStore.artists { Artist.testArtist }
     
     
     var body: some View {
         
         let store = ArtistsStore()
-//        let worldStore = ArtistsStore()
-//        let LCSStore = ArtistsStore()
+        //        let worldStore = ArtistsStore()
+        //        let LCSStore = ArtistsStore()
         
         
         ScrollView{
@@ -38,14 +38,14 @@ struct ContentView: View {
                 Spacer(minLength: 50)
                 //minLength: 80
                 Text(" Worldwide Artists").font(.largeTitle).bold().padding(.top)
-               
+                
                 ACarousel(store.artists,
                           spacing: 10,
                           headspace: 10,
                           sidesScaling: 0.7,
                           isWrap: true) { item in
-        //                  ,autoScroll: .active(2)
-
+                    //                  ,autoScroll: .active(2)
+                    
                     VStack {
                         
                         
@@ -58,14 +58,18 @@ struct ContentView: View {
                                 .frame(height: 200)
                                 .cornerRadius(30)
                         }
-                       
+                        
                         Text(item.name).bold().italic().font(.title2)
                         Text(item.identity).font(.title2)
                         Text(item.age).font(.title2)
-    //                    Text("Click on the picture to find out more")
+                        //                    Text("Click on the picture to find out more")
                         
                     }
-                   
+                    
+                    
+                    
+                    
+                    
                 }.scaledToFill()
                 
                 Spacer()
@@ -78,8 +82,8 @@ struct ContentView: View {
                           headspace: 10,
                           sidesScaling: 0.7,
                           isWrap: true) { item in
-        //                  ,autoScroll: .active(2)
-            
+                    //                  ,autoScroll: .active(2)
+                    
                     VStack {
                         
                         
@@ -92,19 +96,19 @@ struct ContentView: View {
                                 .frame(height: 200)
                                 .cornerRadius(30)
                         }
-                       
+                        
                         Text(item.name).bold().italic().font(.title2)
                         Text(item.identity).font(.title2)
                         Text(item.age).font(.title2)
-    //                    Text("Click on the picture to find out more")
+                        //                    Text("Click on the picture to find out more")
                         
                     }
                     
                 }.scaledToFill()
-
-    //            .padding()
                 
-    //            Spacer(minLength: 100)
+                //            .padding()
+                
+                //            Spacer(minLength: 100)
             }
         }
         
@@ -112,7 +116,7 @@ struct ContentView: View {
         .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom)).ignoresSafeArea(edges: .top)
         
         //.navigationTitle("Artists")
-       
+        
     }
     
     

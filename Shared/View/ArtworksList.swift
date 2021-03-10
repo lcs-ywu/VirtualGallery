@@ -23,132 +23,155 @@ struct ArtworksList: View {
 //        navBarApperance.titleTextAttributes = [.foregroundColor: UIColor.yellow]
     }
     var body: some View {
+        
         let store = ArtworkStore()
+    
 //        for menuNumber in 0...1 {
 //            print(menuNumber)
 //        } // why control flow cannot be used in view
-        VStack{
-            VStack(alignment: .leading,spacing:5, content: {
-              //spacing: space occupied by each artwork
-                HStack {
-                    Text("Artworks Around the World").fontWeight(.heavy).foregroundColor(.black)
-                    Spacer()
-                    Image(systemName: expand1 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
-                }.onTapGesture {
-                    self.expand1.toggle()
-                }.frame(width: 310, height: 50, alignment: .center)//.padding(7)
+//        ZStack {
+            
+//            Image("AppBackground")
+//                .resizable().scaledToFill().ignoresSafeArea(.all)
+            
+            VStack{
                 
-                if expand1 {
+                Text("Artworks").bold().foregroundColor(.white).font(.largeTitle).padding()
+//                Spacer()
+                VStack(alignment: .leading,spacing:5, content: {
+                  //spacing: space occupied by each artwork
+                    HStack {
+                        Text("Worldwide Artworks").fontWeight(.heavy).foregroundColor(.black)
+                            .font(.title2)
+                        Spacer()
+                        Image(systemName: expand1 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                    }.onTapGesture {
+                        self.expand1.toggle()
+                    }.frame(width: 310, height: 50, alignment: .center)//.padding(7)
                     
-                    //put artwork cells here
-                    //Add a sorted method?
-                    List(store.artworks) { artwork in
+                    if expand1 {
                         
-                        //Create a navigation link leading to the detial view
-                        //Create example of abstraction in action!
-                        
-                        //can't use a if statement in a trailing closure syntax
-
-                        if artwork.LCSart == false {
+                        //put artwork cells here
+                        //Add a sorted method?
+                        ForEach(store.NonLCSArtworks) { artwork in
                             
-                            NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                        
-                                HStack{
-                                    
-                                    Image(artwork.name)
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                                    
-                                    VStack(alignment: .leading) {
-                                        Text(artwork.name)
-                                        Text(artwork.artist)
-                                            .font(.subheadline)
-                                    }
-                                }
-                            }//.ignoresSafeArea(edges: .all)
-                        }
-                        
-                        
-                        
-                    }.ignoresSafeArea(edges: .all)
-                    
-                }
-               
-            })
-    //        }.frame(height: expand ? 500:100)
-            
-            .padding(7)
-            .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
-            .cornerRadius(10)
-            .animation(.spring())
-            
-            
-            VStack(alignment: .leading,spacing:5, content: {
-              //spacing: space occupied by each artwork
-                HStack {
-                    Text("Artworks in LCS").fontWeight(.heavy).foregroundColor(.black)
-                    Spacer()
-                    Image(systemName: expand2 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
-                }.onTapGesture {
-                    self.expand2.toggle()
-                }.frame(width: 310, height: 50, alignment: .center)
-//                .scaleToFit()
-                
-                if expand2 {
-                    
-                    //Add artworks in LCS
-                    List(store.artworks) { artwork in
-                        
-                        //Create a navigation link leading to the detial view
-                        //Create example of abstraction in action!
-                        
-                        if artwork.LCSart == true {
-                            NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                                HStack{
-                                    
-                                    Image(artwork.name)
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                                    
-                                    VStack(alignment: .leading) {
-                                        Text(artwork.name)
-                                        Text(artwork.artist)
-                                            .font(.subheadline)
-                                    }
-                                }
-                            }
-                        }
-//                        else{
-//                            continue
-//                        }
-                        
-                        
+                            //Create a navigation link leading to the detial view
+                            //Create example of abstraction in action!
+                            
+                            //can't use a if statement in a trailing closure syntax
+
+    //                        if artwork.LCSart == false {
+                                
+                                NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                            
+                                    HStack{
+                                        
+                                        Image(artwork.name)
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                        
+                                        VStack(alignment: .leading) {
+                                            Text(artwork.name)
+                                            Text(artwork.artist)
+                                                .font(.subheadline)
+                                        }
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }//.ignoresSafeArea(edges: .all)
+    //                        }
+                            
+                            
+                            
+                        }.ignoresSafeArea(edges: .all)
+                        .foregroundColor(.black)
                         
                     }
-                    
-                }
+                   
+                })
+
+                .frame(width: 400, alignment: .center)
+                .scaledToFit()
+                .padding(7)
+                .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
+                .cornerRadius(10)
+                .animation(.spring())
                
-            })
-    //        }.frame(height: expand ? 500:100)
+                
+                
+                VStack(alignment: .leading,spacing:5, content: {
+                  //spacing: space occupied by each artwork
+                    HStack {
+                        Text("Artworks in LCS").fontWeight(.heavy).foregroundColor(.black)
+                            .font(.title2)
+                        Spacer()
+                        Image(systemName: expand2 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                    }.onTapGesture {
+                        self.expand2.toggle()
+                    }.frame(width: 310, height: 50, alignment: .center)
+    //                .scaleToFit()
+                    
+                    if expand2 {
+                        
+                        //Add artworks in LCS
+                        ForEach(store.LCSArtworks) { artwork in
+                            
+                            //Create a navigation link leading to the detial view
+                            //Create example of abstraction in action!
+                            
+    //                        if artwork.LCSart == true {
+                                
+                                NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                                    HStack{
+                                        
+                                        Image(artwork.name)
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                        
+                                        VStack(alignment: .leading) {
+                                            Text(artwork.name)
+                                            Text(artwork.artist)
+                                                .font(.subheadline)
+                                        }
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
+    //                        }
+    //                        else{
+    //                            continue
+    //                        }
+                            
+                            
+                            
+                        }.foregroundColor(.black)
+                        
+                    }
+                   
+                })
+        //        }
+                .frame(width: 400, alignment: .center)
+                .padding(7)
+                .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
+                .cornerRadius(10)
+                .animation(.spring())
+                
+                Spacer()
+                
+                
+            }
+            //Iterate over the list of locations in the data store
+           
             
-            .padding(7)
-            .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
-            .cornerRadius(10)
-            .animation(.spring())
             
-            Spacer()
             
-        }
-        //Iterate over the list of locations in the data store
-       
-        
-        
-       
-        .navigationTitle("Artworks")
+//            .navigationTitle("Artworks")
+            .background(Image("AppBackground"))
+//        }
     }
    
 }
