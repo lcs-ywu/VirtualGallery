@@ -56,7 +56,7 @@ struct WorldMap: View {
                     
                 }
             }
-            .edgesIgnoringSafeArea(.top)
+            .edgesIgnoringSafeArea(.all)
             //How to make navgation title white?
             .navigationTitle("Map".uppercased())
         }

@@ -16,7 +16,7 @@ class ArtworkStore: ObservableObject {
     
     init(artworks: [Artwork] = []) {
         
-        self.artworks = artworks
+        self.artworks = testArtworkStore
         self.LCSArtworks = getLCSArtWork(artworks: artworks)
         self.NonLCSArtworks = getNonLCSArtWork(artworks: artworks)
     }
@@ -102,7 +102,7 @@ func getNonLCSArtWork(artworks: [Artwork]) -> [Artwork] {
     
 }
 
-let testStore = ArtworkStore()
+let testStore = ArtworkStore(artworks: testArtworkStore)
 
 //class LCSStore: ObservableObject {
 //    @Published var LCSartworks : [Artwork]

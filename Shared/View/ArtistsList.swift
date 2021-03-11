@@ -77,7 +77,7 @@ struct ContentView: View {
                 
                 Text("LCS Artists").font(.largeTitle).bold().padding(.top)
                 //LCS Artists
-                ACarousel(store.LCSartists,
+                ACarousel(store.LCSArtists,
                           spacing: 10,
                           headspace: 10,
                           sidesScaling: 0.7,
