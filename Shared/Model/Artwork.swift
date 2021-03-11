@@ -9,20 +9,20 @@ import Foundation
 
 
 // Identify what properties should be read to and written from JSON
-enum ArtworkCodingKeys: CodingKey {
-    case id
-    case name
-    case artist
-    case yearCreated
-    case description
-    case more
-    case onDisplay
-    case museum
-    case latitude
-    case longitude
-    case medium
-    case LCSart
-}
+//enum ArtworkCodingKeys: CodingKey {
+//    case id
+//    case name
+//    case artist
+//    case yearCreated
+//    case description
+//    case more
+//    case onDisplay
+//    case museum
+//    case latitude
+//    case longitude
+//    case medium
+//    case LCSart
+//}
 
 
 struct Artwork: Identifiable, Codable {
@@ -40,9 +40,6 @@ struct Artwork: Identifiable, Codable {
     let LCSart: Bool
     
    
-    
-    
-    
     
 
     

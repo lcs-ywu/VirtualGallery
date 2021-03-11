@@ -35,11 +35,11 @@ struct ContentView: View {
         ScrollView{
             VStack {
                 
-                Spacer(minLength: 50)
+                Spacer(minLength: 70)
                 //minLength: 80
                 Text(" Worldwide Artists").font(.largeTitle).bold().padding(.top)
                 
-                ACarousel(store.artists,
+                ACarousel(store.NonLCSArtists,
                           spacing: 10,
                           headspace: 10,
                           sidesScaling: 0.7,
@@ -77,7 +77,7 @@ struct ContentView: View {
                 
                 Text("LCS Artists").font(.largeTitle).bold().padding(.top)
                 //LCS Artists
-                ACarousel(store.artists,
+                ACarousel(store.LCSartists,
                           spacing: 10,
                           headspace: 10,
                           sidesScaling: 0.7,
