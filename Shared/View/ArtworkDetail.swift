@@ -47,6 +47,12 @@ struct ArtworkDetail: View {
 //                        .italic()
                     Spacer()
                 }
+                HStack {
+                    Spacer()
+                    Text("currently stored in \(artwork.museum)").font(.body)
+//                        .italic()
+                    Spacer()
+                }
 //                Text("Created in \(artwork.yearCreated)")
 //                    .font(.body)
 //                    .padding(.bottom)
@@ -54,7 +60,7 @@ struct ArtworkDetail: View {
             }
             .padding(.horizontal)
             HStack {
-                Text("Description")
+                Text("General Information")
                     .font(.title3)
                     .bold()
                     .padding([.top, .leading, .bottom])

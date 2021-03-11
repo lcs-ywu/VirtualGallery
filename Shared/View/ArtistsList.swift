@@ -109,7 +109,7 @@ struct ContentView: View {
                 //            .padding()
                 
                 //            Spacer(minLength: 100)
-            }
+            }.ignoresSafeArea(edges: .top)
         }
         
         
