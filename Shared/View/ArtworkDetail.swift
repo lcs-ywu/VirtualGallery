@@ -10,6 +10,8 @@ import SwiftUI
 struct ArtworkDetail: View {
     
     let artwork: Artwork
+    @ObservedObject var CommentStore: CommentStore
+    @State private var showingAddComment = false
     
     var body: some View {
         ScrollView {
@@ -82,17 +84,62 @@ struct ArtworkDetail: View {
                 
                 Text(artwork.more).padding(.horizontal)
             }
-           
+            
+//            ForEach(CommentStore: testCommentStore) { comment in
+//
+//                HStack{
+//
+//                    Image(artwork.name)
+//                        .resizable()
+//                        .scaledToFit()
+//                        .frame(width: 44, height:44)
+//                        .cornerRadius(15)
+//
+//                    VStack(alignment: .leading) {
+//                        Text(artwork.name)
+//                        Text(artwork.artist)
+//                            .font(.subheadline)
+//                    }
+//                    Spacer()
+//                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+//                }.frame(width: 310, height: 50, alignment: .center)
+//
+//            }
+            
         }
         .edgesIgnoringSafeArea(.top)
 //        .navigationTitle(artwork.name)
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button("Add Comment") {
+                    showingAddComment = true
+                }
+            }
+        }
+        .sheet(isPresented: $showingAddComment) {
+            AddComment(store: CommentStore, showing: $showingAddComment)
+        }
+//        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        // When the app is quit or backgrounded, this closure will run
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
+            
+            // Save the list of tasks
+            let encoder = JSONEncoder()
+            if let encoded = try? encoder.encode(CommentStore.comments) {
+                print("Saving comments list now, app has been backgrounded or quit...")
+                // Actually save the tasks to UserDefaults
+                UserDefaults.standard.setValue(encoded, forKey: "comment")
+            }
+
+        }
+        
     }
 }
 
 struct ArtworkDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            ArtworkDetail(artwork: Artwork.example)
+            ArtworkDetail(artwork: Artwork.example, CommentStore: testCommentStore)
         }
     }
 }

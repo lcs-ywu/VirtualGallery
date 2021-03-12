@@ -62,7 +62,7 @@ struct ArtworksList: View {
 
     //                        if artwork.LCSart == false {
                                 
-                                NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                            NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
                             
                                     HStack{
                                         
@@ -123,7 +123,7 @@ struct ArtworksList: View {
                             
     //                        if artwork.LCSart == true {
                                 
-                                NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                            NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
                                     HStack{
                                         
                                         Image(artwork.name)

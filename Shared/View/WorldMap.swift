@@ -29,7 +29,7 @@ struct WorldMap: View {
                 MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: artwork.latitude, longitude: artwork.longitude)) {
                     
                     if artwork.onDisplay == true && artwork.latitude != 44.43922 && artwork.longitude != -78.26571{
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
                             Image(artwork.name)
                                 .resizable()
                                 .cornerRadius(10)
