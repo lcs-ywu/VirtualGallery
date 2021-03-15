@@ -10,6 +10,7 @@ import SwiftUI
 struct ArtworkDetail: View {
     
     let artwork: Artwork
+//    let comment: Comment
     @ObservedObject var CommentStore: CommentStore
     @State private var showingAddComment = false
     
@@ -85,15 +86,33 @@ struct ArtworkDetail: View {
                 Text(artwork.more).padding(.horizontal)
             }
             
+            
+            
+        NavigationLink(destination: CommentsView()) {
+                HStack{
+                    
+                    Text("Visitor Comments")
+                        .font(.title3)
+                        .bold()
+                        .padding([.top, .leading, .bottom])
+                    Spacer()
+                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                    
+                }
+        }.foregroundColor(.black)
+        
+            
+//            List(CommentStore:testCommentStore) { comment in
+//                HStack{
+//                    Text(comment.comment)
+//                }
+//            }
 //            ForEach(CommentStore: testCommentStore) { comment in
 //
 //                HStack{
 //
-//                    Image(artwork.name)
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(width: 44, height:44)
-//                        .cornerRadius(15)
+//                    Text(comment.)
+//
 //
 //                    VStack(alignment: .leading) {
 //                        Text(artwork.name)
