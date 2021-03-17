@@ -27,7 +27,8 @@ struct LCSArtCommunityView: View {
                     //Create example of abstraction in action!
                     
                     if artwork.LCSart == true {
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork))//, CommentStore: testCommentStore
+                        {
                             HStack{
                                 
                                 Image(artwork.name)

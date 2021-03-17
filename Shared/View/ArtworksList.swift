@@ -15,6 +15,8 @@ struct ArtworksList: View {
     @State var expand1 = false
     @State var expand2 = false
     
+    @State private var showingImagePicker = false
+    
     //Define user input search text
     @State private var searchText: String = ""
     
@@ -37,6 +39,39 @@ struct ArtworksList: View {
             SearchBarView(text: $searchText)
                 .padding(.top)
             
+            //            ForEach(testArtworkStore.filter({ artworks in
+            //                // When a search is active, filter the list of crew
+            //                if !searchText.isEmpty {
+            //                    // Only return true when this crew member's name contains the search text
+            //                    return someArtwork.name.contains(searchText)
+            //                } else {
+            //                    // When there is no search text, return every crew member
+            //                    return true
+            //                }
+            //            })) { someArtwork in
+            //
+            //                // Make a navigation link for each crew member in the list
+            //                NavigationLink(destination: ArtworkDetail(artwork: someArtwork)) {
+            //                    HStack{
+            //
+            //                        Image(someArtwork.name)
+            //                            .resizable()
+            //                            .scaledToFit()
+            //                            .frame(width: 44, height:44)
+            //                            .cornerRadius(15)
+            //
+            //                        VStack(alignment: .leading) {
+            //                            Text(someArtwork.name)
+            //                            Text(som.artist)
+            //                                .font(.subheadline)
+            //                        }
+            //                        Spacer()
+            //                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+            //                    }.frame(width: 310, height: 50, alignment: .center)
+            //                }
+            //                }
+            //            }
+            //        }
             
             
             //        for menuNumber in 0...1 {
@@ -76,7 +111,8 @@ struct ArtworksList: View {
                             
                             //                        if artwork.LCSart == false {
                             
-                            NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
+                            NavigationLink(destination: ArtworkDetail(artwork: artwork))//, CommentStore: testCommentStore
+                            {
                                 
                                 HStack{
                                     
@@ -137,7 +173,8 @@ struct ArtworksList: View {
                             
                             //                        if artwork.LCSart == true {
                             
-                            NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
+                            NavigationLink(destination: ArtworkDetail(artwork: artwork))//, CommentStore: testCommentStore
+                            {
                                 HStack{
                                     
                                     Image(artwork.name)
@@ -184,9 +221,10 @@ struct ArtworksList: View {
             //                .background(Image("AppBackground"))
         }
     }
-    //        .ignoresSafeArea()
-    
 }
+//        .ignoresSafeArea()
+
+
 
 
 

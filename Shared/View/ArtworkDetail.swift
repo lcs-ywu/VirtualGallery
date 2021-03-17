@@ -11,7 +11,7 @@ struct ArtworkDetail: View {
     
     let artwork: Artwork
 //    let comment: Comment
-    @ObservedObject var CommentStore: CommentStore
+//    @ObservedObject var CommentStore: CommentStore
     @State private var showingAddComment = false
     
     var body: some View {
@@ -155,18 +155,20 @@ struct ArtworkDetail: View {
         
         
 //        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        
+        
         // When the app is quit or backgrounded, this closure will run
-        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
-            
-            // Save the list of tasks
-            let encoder = JSONEncoder()
-            if let encoded = try? encoder.encode(CommentStore.comments) {
-                print("Saving comments list now, app has been backgrounded or quit...")
-                // Actually save the tasks to UserDefaults
-                UserDefaults.standard.setValue(encoded, forKey: "comment")
-            }
-
-        }
+//        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
+//
+//            // Save the list of tasks
+//            let encoder = JSONEncoder()
+//            if let encoded = try? encoder.encode(CommentStore.comments) {
+//                print("Saving comments list now, app has been backgrounded or quit...")
+//                // Actually save the tasks to UserDefaults
+//                UserDefaults.standard.setValue(encoded, forKey: "comment")
+//            }
+//
+//        }
         
     }
 }
@@ -174,7 +176,7 @@ struct ArtworkDetail: View {
 struct ArtworkDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            ArtworkDetail(artwork: Artwork.example, CommentStore: testCommentStore)
+            ArtworkDetail(artwork: Artwork.example) //, CommentStore: testCommentStore
         }
     }
 }
