@@ -9,22 +9,22 @@ import SwiftUI
 
 struct ArtworksList: View {
     
-   
-//    @ObservedObject var LCSstore: LCSStore
-//    @ObservedObject var outline: Outline
+    
+    //    @ObservedObject var LCSstore: LCSStore
+    //    @ObservedObject var outline: Outline
     @State var expand1 = false
     @State var expand2 = false
     
     //Define user input search text
     @State private var searchText: String = ""
     
-//    @ObservedObject var store: ArtworkStore
+    //    @ObservedObject var store: ArtworkStore
     
     init() {
         //navigation title colour changable 
         let navBarApperance = UINavigationBar.appearance()
         navBarApperance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
-//        navBarApperance.titleTextAttributes = [.foregroundColor: UIColor.yellow]
+        //        navBarApperance.titleTextAttributes = [.foregroundColor: UIColor.yellow]
     }
     var body: some View {
         
@@ -32,157 +32,194 @@ struct ArtworksList: View {
         
         
         VStack {
-            SearchBarView(text: $searchText)
-                .padding(.top, 20).foregroundColor(.white)
+            Text("Artworks").bold().foregroundColor(.black).font(.largeTitle).padding()
             
-    //        for menuNumber in 0...1 {
-    //            print(menuNumber)
-    //        } // why control flow cannot be used in view
-    //        ZStack {
+            SearchBarView(text: $searchText)
+                .padding(.top)
+            
+            
+            
+            //        for menuNumber in 0...1 {
+            //            print(menuNumber)
+            //        } // why control flow cannot be used in view
+            //        ZStack {
+            
+            //            Image("AppBackground")
+            //                .resizable().scaledToFill().ignoresSafeArea(.all)
+            Spacer()
+            
+            VStack{
                 
-    //            Image("AppBackground")
-    //                .resizable().scaledToFill().ignoresSafeArea(.all)
                 
-                VStack{
+                //                Spacer()
+                VStack(alignment: .leading,spacing:5, content: {
+                    //spacing: space occupied by each artwork
+                    HStack {
+                        Text("Worldwide Artworks").fontWeight(.heavy).foregroundColor(.black)
+                            .font(.title2)
+                        Spacer()
+                        Image(systemName: expand1 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                    }.onTapGesture {
+                        self.expand1.toggle()
+                    }.frame(width: 310, height: 50, alignment: .center)//.padding(7)
                     
-                    Text("Artworks").bold().foregroundColor(.white).font(.largeTitle).padding()
-    //                Spacer()
-                    VStack(alignment: .leading,spacing:5, content: {
-                      //spacing: space occupied by each artwork
-                        HStack {
-                            Text("Worldwide Artworks").fontWeight(.heavy).foregroundColor(.black)
-                                .font(.title2)
-                            Spacer()
-                            Image(systemName: expand1 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
-                        }.onTapGesture {
-                            self.expand1.toggle()
-                        }.frame(width: 310, height: 50, alignment: .center)//.padding(7)
+                    if expand1 {
                         
-                        if expand1 {
+                        //put artwork cells here
+                        //Add a sorted method?
+                        ForEach(store.NonLCSArtworks) { artwork in
                             
-                            //put artwork cells here
-                            //Add a sorted method?
-                            ForEach(store.NonLCSArtworks) { artwork in
+                            //Create a navigation link leading to the detial view
+                            //Create example of abstraction in action!
+                            
+                            //can't use a if statement in a trailing closure syntax
+                            
+                            //                        if artwork.LCSart == false {
+                            
+                            NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
                                 
-                                //Create a navigation link leading to the detial view
-                                //Create example of abstraction in action!
-                                
-                                //can't use a if statement in a trailing closure syntax
-
-        //                        if artwork.LCSart == false {
+                                HStack{
                                     
-                                NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
-                                
-                                        HStack{
-                                            
-                                            Image(artwork.name)
-                                                .resizable()
-                                                .scaledToFit()
-                                                .frame(width: 44, height:44)
-                                                .cornerRadius(15)
-                                            
-                                            VStack(alignment: .leading) {
-                                                Text(artwork.name)
-                                                Text(artwork.artist)
-                                                    .font(.subheadline)
-                                            }
-                                            Spacer()
-                                            Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                        }.frame(width: 310, height: 50, alignment: .center)
-                                    }//.ignoresSafeArea(edges: .all)
-        //                        }
-                                
-                                
-                                
-                            }.ignoresSafeArea(edges: .all)
-                            .foregroundColor(.black)
-                            
-                        }
-                       
-                    })
-
-                    .frame(width: 400, alignment: .center)
-                    .scaledToFit()
-                    .padding(7)
-                    .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
-                    .cornerRadius(10)
-                    .animation(.spring())
-                   
-                    
-                    
-                    VStack(alignment: .leading,spacing:5, content: {
-                      //spacing: space occupied by each artwork
-                        HStack {
-                            Text("Artworks in LCS").fontWeight(.heavy).foregroundColor(.black)
-                                .font(.title2)
-                            Spacer()
-                            Image(systemName: expand2 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
-                        }.onTapGesture {
-                            self.expand2.toggle()
-                        }.frame(width: 310, height: 50, alignment: .center)
-        //                .scaleToFit()
-                        
-                        if expand2 {
-                            
-                            //Add artworks in LCS
-                            ForEach(store.LCSArtworks) { artwork in
-                                
-                                //Create a navigation link leading to the detial view
-                                //Create example of abstraction in action!
-                                
-        //                        if artwork.LCSart == true {
+                                    Image(artwork.name)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
                                     
-                                NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
-                                        HStack{
-                                            
-                                            Image(artwork.name)
-                                                .resizable()
-                                                .scaledToFit()
-                                                .frame(width: 44, height:44)
-                                                .cornerRadius(15)
-                                            
-                                            VStack(alignment: .leading) {
-                                                Text(artwork.name)
-                                                Text(artwork.artist)
-                                                    .font(.subheadline)
-                                            }
-                                            Spacer()
-                                            Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                        }.frame(width: 310, height: 50, alignment: .center)
+                                    VStack(alignment: .leading) {
+                                        Text(artwork.name)
+                                        Text(artwork.artist)
+                                            .font(.subheadline)
                                     }
-        //                        }
-        //                        else{
-        //                            continue
-        //                        }
-                                
-                                
-                                
-                            }.foregroundColor(.black)
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }//.ignoresSafeArea(edges: .all)
+                            //                        }
                             
-                        }
-                       
-                    })
-            //        }
-                    .frame(width: 400, alignment: .center)
-                    .padding(7)
-                    .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
-                    .cornerRadius(10)
-                    .animation(.spring())
+                            
+                            
+                        }.ignoresSafeArea(edges: .all)
+                        .foregroundColor(.black)
+                        
+                    }
                     
-                    Spacer()
+                })
+                
+                .frame(width: 400, alignment: .center)
+                .scaledToFit()
+                .padding(7)
+                .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
+                .cornerRadius(10)
+                .animation(.spring())
+                
+                
+                
+                VStack(alignment: .leading,spacing:5, content: {
+                    //spacing: space occupied by each artwork
+                    HStack {
+                        Text("Artworks in LCS").fontWeight(.heavy).foregroundColor(.black)
+                            .font(.title2)
+                        Spacer()
+                        Image(systemName: expand2 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                    }.onTapGesture {
+                        self.expand2.toggle()
+                    }.frame(width: 310, height: 50, alignment: .center)
+                    //                .scaleToFit()
                     
+                    if expand2 {
+                        
+                        //Add artworks in LCS
+                        ForEach(store.LCSArtworks) { artwork in
+                            
+                            //Create a navigation link leading to the detial view
+                            //Create example of abstraction in action!
+                            
+                            //                        if artwork.LCSart == true {
+                            
+                            NavigationLink(destination: ArtworkDetail(artwork: artwork, CommentStore: testCommentStore)) {
+                                HStack{
+                                    
+                                    Image(artwork.name)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                                    
+                                    VStack(alignment: .leading) {
+                                        Text(artwork.name)
+                                        Text(artwork.artist)
+                                            .font(.subheadline)
+                                    }
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            //                        }
+                            //                        else{
+                            //                            continue
+                            //                        }
+                            
+                            
+                            
+                        }.foregroundColor(.black)
+                        
+                    }
                     
-                }
-                //Iterate over the list of locations in the data store
-
-    //            .navigationTitle("Artworks")
-                .background(Image("AppBackground"))
-    //        }
+                })
+                //        }
+                .frame(width: 400, alignment: .center)
+                .padding(7)
+                .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
+                .cornerRadius(10)
+                .animation(.spring())
+                
+                Spacer()
+                
+                
+            }
+            //Iterate over the list of locations in the data store
+            
+            //            .navigationTitle("Artworks")
+            //                .background(Image("AppBackground"))
         }
- 
     }
-   
+    //        .ignoresSafeArea()
+    
 }
+
+
+
+
+
+//func filterArtworks(textInput:String) -> [Artwork] {
+//    ForEach(store.LCSArtworks.filter({ crewMember in
+//                                            // When a search is active, filter the list of crew
+//                                            if !searchText.isEmpty {
+//                                                // Only return true when this crew member's name contains the search text
+//                                                return crewMember.name.contains(searchText)
+//                                            } else {
+//                                                // When there is no search text, return every crew member
+//                                                return true
+//                                            }
+//                                        })
+//    ) { someCrewMember in
+//
+//        // Make a navigation link for each crew member in the list
+//        NavigationLink(destination: CrewPrimaryDetailView(crewMember: someCrewMember)) {
+//            Text(someCrewMember.name)
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
+
 
 struct ArtworksList_Previews: PreviewProvider {
     static var previews: some View {
@@ -232,3 +269,5 @@ struct ArtworksList_Previews: PreviewProvider {
 //    }
 //
 //}
+
+

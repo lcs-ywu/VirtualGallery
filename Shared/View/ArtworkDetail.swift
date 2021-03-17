@@ -87,20 +87,26 @@ struct ArtworkDetail: View {
             }
             
             
-            
-        NavigationLink(destination: CommentsView()) {
-                HStack{
-                    
-                    Text("Visitor Comments")
-                        .font(.title3)
-                        .bold()
-                        .padding([.top, .leading, .bottom])
-                    Spacer()
-                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                    
-                }
-        }.foregroundColor(.black)
+            //Navigation Link to comments view
+//        NavigationLink(destination: CommentsView()) {
+//                HStack{
+//
+//                    Text("Visitor Comments")
+//                        .font(.title3)
+//                        .bold()
+//                        .padding([.top, .leading, .bottom])
+//                    Spacer()
+//                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+//
+//                }
+//        }.foregroundColor(.black)
         
+            
+            
+            
+            
+            
+            
             
 //            List(CommentStore:testCommentStore) { comment in
 //                HStack{
@@ -127,17 +133,27 @@ struct ArtworkDetail: View {
             
         }
         .edgesIgnoringSafeArea(.top)
+        
+        
+        
+        //Add "Add menu" button lead to add comment view
 //        .navigationTitle(artwork.name)
-        .toolbar {
-            ToolbarItem(placement: .primaryAction) {
-                Button("Add Comment") {
-                    showingAddComment = true
-                }
-            }
-        }
-        .sheet(isPresented: $showingAddComment) {
-            AddComment(store: CommentStore, showing: $showingAddComment)
-        }
+//        .toolbar {
+//            ToolbarItem(placement: .primaryAction) {
+//                Button("Add Comment") {
+//                    showingAddComment = true
+//                }
+//            }
+//        }
+//        .sheet(isPresented: $showingAddComment) {
+//            AddComment(store: CommentStore, showing: $showingAddComment)
+//        }
+        
+        
+        
+        
+        
+        
 //        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         // When the app is quit or backgrounded, this closure will run
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in

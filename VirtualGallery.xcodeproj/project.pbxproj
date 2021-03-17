@@ -31,6 +31,8 @@
 		8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */; };
 		8A52CD8225F06792006B6A3D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD8125F06791006B6A3D /* Artist.swift */; };
 		8A52CD8325F06792006B6A3D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD8125F06791006B6A3D /* Artist.swift */; };
+		8AB0D1ED2600F16400751B14 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0D1EC2600F16300751B14 /* ImagePicker.swift */; };
+		8AB0D1EE2600F16400751B14 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0D1EC2600F16300751B14 /* ImagePicker.swift */; };
 		8AD23C6C25FA8A7E00DFE50F /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD23C6B25FA8A7E00DFE50F /* Comments.swift */; };
 		8AD23C6D25FA8A7E00DFE50F /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD23C6B25FA8A7E00DFE50F /* Comments.swift */; };
 		8AD23C7125FB0BDB00DFE50F /* CommentsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD23C7025FB0BDB00DFE50F /* CommentsStore.swift */; };
@@ -64,6 +66,7 @@
 		8A42FF4925C4A15100829CBC /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
 		8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsList.swift; sourceTree = "<group>"; };
 		8A52CD8125F06791006B6A3D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		8AB0D1EC2600F16300751B14 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		8AD23C6B25FA8A7E00DFE50F /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
 		8AD23C7025FB0BDB00DFE50F /* CommentsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsStore.swift; sourceTree = "<group>"; };
 		8AD23C7B25FB10E200DFE50F /* AddComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddComment.swift; sourceTree = "<group>"; };
@@ -164,6 +167,7 @@
 				8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */,
 				8AD23C6B25FA8A7E00DFE50F /* Comments.swift */,
 				8AD23C7025FB0BDB00DFE50F /* CommentsStore.swift */,
+				8AB0D1EC2600F16300751B14 /* ImagePicker.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -274,6 +278,7 @@
 				8ADC8C6025F07FCE006D1631 /* ArtistsStore.swift in Sources */,
 				8A42FF3025C05C4500829CBC /* ArtworkStore.swift in Sources */,
 				8A42FF4A25C4A15100829CBC /* WorldMap.swift in Sources */,
+				8AB0D1ED2600F16400751B14 /* ImagePicker.swift in Sources */,
 				8AD23C7125FB0BDB00DFE50F /* CommentsStore.swift in Sources */,
 				8A52CD7025EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A42FF1D25C0570300829CBC /* Artwork.swift in Sources */,
@@ -298,6 +303,7 @@
 				8ADC8C6125F07FCE006D1631 /* ArtistsStore.swift in Sources */,
 				8A42FF3125C05C4500829CBC /* ArtworkStore.swift in Sources */,
 				8A42FF4B25C4A15100829CBC /* WorldMap.swift in Sources */,
+				8AB0D1EE2600F16400751B14 /* ImagePicker.swift in Sources */,
 				8AD23C7225FB0BDB00DFE50F /* CommentsStore.swift in Sources */,
 				8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A42FF1E25C0570300829CBC /* Artwork.swift in Sources */,
