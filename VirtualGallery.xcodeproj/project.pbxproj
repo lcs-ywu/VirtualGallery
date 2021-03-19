@@ -149,13 +149,13 @@
 			children = (
 				8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */,
 				8A42FF2825C0596600829CBC /* ArtworkDetail.swift */,
-				8AD23C9425FEEAC600DFE50F /* CommentsView.swift */,
-				8AD23C7B25FB10E200DFE50F /* AddComment.swift */,
 				8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */,
 				8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */,
 				8A42FF4925C4A15100829CBC /* WorldMap.swift */,
 				8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */,
 				8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */,
+				8AD23C7B25FB10E200DFE50F /* AddComment.swift */,
+				8AD23C9425FEEAC600DFE50F /* CommentsView.swift */,
 				8AB0D1FF26018BA300751B14 /* AddArtworkView.swift */,
 			);
 			path = View;

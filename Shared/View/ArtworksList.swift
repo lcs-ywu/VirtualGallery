@@ -15,7 +15,7 @@ struct ArtworksList: View {
     @State var expand1 = false
     @State var expand2 = false
     
-    @State private var showingImagePicker = false
+//    @State private var showingImagePicker = false
     
     //Define user input search text
     @State private var searchText: String = ""
@@ -39,49 +39,30 @@ struct ArtworksList: View {
             SearchBarView(text: $searchText)
                 .padding(.top)
             
-            //            ForEach(testArtworkStore.filter({ artworks in
-            //                // When a search is active, filter the list of crew
-            //                if !searchText.isEmpty {
-            //                    // Only return true when this crew member's name contains the search text
-            //                    return someArtwork.name.contains(searchText)
-            //                } else {
-            //                    // When there is no search text, return every crew member
-            //                    return true
-            //                }
-            //            })) { someArtwork in
-            //
-            //                // Make a navigation link for each crew member in the list
-            //                NavigationLink(destination: ArtworkDetail(artwork: someArtwork)) {
-            //                    HStack{
-            //
-            //                        Image(someArtwork.name)
-            //                            .resizable()
-            //                            .scaledToFit()
-            //                            .frame(width: 44, height:44)
-            //                            .cornerRadius(15)
-            //
-            //                        VStack(alignment: .leading) {
-            //                            Text(someArtwork.name)
-            //                            Text(som.artist)
-            //                                .font(.subheadline)
-            //                        }
-            //                        Spacer()
-            //                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-            //                    }.frame(width: 310, height: 50, alignment: .center)
-            //                }
-            //                }
-            //            }
-            //        }
-            
-            
-            //        for menuNumber in 0...1 {
-            //            print(menuNumber)
-            //        } // why control flow cannot be used in view
-            //        ZStack {
-            
-            //            Image("AppBackground")
-            //                .resizable().scaledToFill().ignoresSafeArea(.all)
             Spacer()
+            
+//            if !searchText.isEmpty {
+//
+////                store.NonLCSArtworks = store.NonLCSArtworks.
+//
+//                 ForEach(filterArtworks(searchText: searchText, list: testArtworkStore)) {artwork in
+//
+//                    //need to clean nonLCSArtworkStore before appending new objects.
+//                    if artwork.LCSArtwork == false {
+//                        store.NonLCSArtworks.append(artwork)
+//                    }else{
+//                        store.LCSArtworks.append(artwork)
+//                    }
+//                    if !store.NonLCSArtworks.isEmpty {
+//                        expand1 = true
+//                    }
+//                    if !store.LCSArtworks.isEmpty {
+//                        expand2 = true
+//                    }
+//
+//                }
+//
+//            }
             
             VStack{
                 
@@ -230,27 +211,23 @@ struct ArtworksList: View {
 
 
 
-//func filterArtworks(textInput:String) -> [Artwork] {
-//    ForEach(store.LCSArtworks.filter({ crewMember in
-//                                            // When a search is active, filter the list of crew
-//                                            if !searchText.isEmpty {
-//                                                // Only return true when this crew member's name contains the search text
-//                                                return crewMember.name.contains(searchText)
-//                                            } else {
-//                                                // When there is no search text, return every crew member
-//                                                return true
-//                                            }
-//                                        })
-//    ) { someCrewMember in
-//
-//        // Make a navigation link for each crew member in the list
-//        NavigationLink(destination: CrewPrimaryDetailView(crewMember: someCrewMember)) {
-//            Text(someCrewMember.name)
-//        }
-//    }
+
 //}
 
-
+func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
+    
+    var presentArtworks: [Artwork] = []
+    if searchText.isEmpty {
+        return artworkStore
+    }
+    for artwork in artworkStore {
+        if artwork.name.lowercased().contains(searchText.lowercased()) || artwork.artist.lowercased().contains(searchText.lowercased()) {
+            
+            presentArtworks.append(artwork)
+        }
+    }
+    return presentArtworks
+}
 
 
 
@@ -266,46 +243,4 @@ struct ArtworksList_Previews: PreviewProvider {
         }
     }
 }
-
-//Add a Dropdown view
-//combine dropdown view and artwork list
-//struct DropDown: View {
-//    @State var expand = false
-//    var body : some View {
-//        VStack(alignment: .leading,spacing:10, content: {
-//          //spacing: space occupied by each artwork
-//            HStack {
-//                Text("Expand").fontWeight(.heavy).foregroundColor(.black)
-//                Spacer()
-//                Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
-//            }.onTapGesture {
-//                self.expand.toggle()
-//            }.frame(width: 310, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-//
-//            if expand {
-//
-//                //put artwork cells here
-//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-//                    Text("Select 1")
-//                }.foregroundColor(.black)
-//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-//                    Text("Select 2")
-//                }.foregroundColor(.black)
-//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-//                    Text("Select 3")
-//                }.foregroundColor(.black)
-//
-//            }
-//
-//        })
-////        }.frame(height: expand ? 500:100)
-//
-//        .padding(7)
-//        .background(LinearGradient(gradient: .init(colors: [.red, .blue]), startPoint: .top, endPoint: .bottom))
-//        .cornerRadius(10)
-//        .animation(.spring())
-//    }
-//
-//}
-
 
