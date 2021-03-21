@@ -15,7 +15,7 @@ struct ArtworksList: View {
     @State var expand1 = false
     @State var expand2 = false
     
-//    @State private var showingImagePicker = false
+    //    @State private var showingImagePicker = false
     
     //Define user input search text
     @State private var searchText: String = ""
@@ -34,42 +34,47 @@ struct ArtworksList: View {
         
         
         VStack {
-            Text("Artworks").bold().foregroundColor(.black).font(.largeTitle).padding()
+            Text("Artworks").bold().foregroundColor(.white).font(.largeTitle).padding()
             
             SearchBarView(text: $searchText)
                 .padding(.top)
             
-            Spacer()
+//            Spacer()
             
-//            if !searchText.isEmpty {
+           
+            
+//            VStack{
+                
+//                if !searchText.isEmpty {
 //
-////                store.NonLCSArtworks = store.NonLCSArtworks.
+//                    store.NonLCSArtworks = store.NonLCSArtworks.removeAll()
+//                    store.NonLCSArtworks = store.NonLCSArtworks.removeAll()
 //
-//                 ForEach(filterArtworks(searchText: searchText, list: testArtworkStore)) {artwork in
+//                    ForEach(filterArtworks(searchText: searchText, list: testArtworkStore)) { artwork in
 //
-//                    //need to clean nonLCSArtworkStore before appending new objects.
-//                    if artwork.LCSArtwork == false {
-//                        store.NonLCSArtworks.append(artwork)
-//                    }else{
-//                        store.LCSArtworks.append(artwork)
-//                    }
-//                    if !store.NonLCSArtworks.isEmpty {
-//                        expand1 = true
-//                    }
-//                    if !store.LCSArtworks.isEmpty {
-//                        expand2 = true
+//                        //need to clean nonLCSArtworkStore before appending new objects.
+//                        if artwork.LCSArtwork == false {
+//                            store.NonLCSArtworks.append(artwork)
+//                        } else {
+//                            store.LCSArtworks.append(artwork)
+//                        }
+//                        if !store.NonLCSArtworks.isEmpty {
+//                            expand1 = true
+//                        }
+//                        if !store.LCSArtworks.isEmpty {
+//                            expand2 = true
+//                        }
+//
 //                    }
 //
 //                }
-//
-//            }
+//                                Spacer()
             
-            VStack{
-                
-                
-                //                Spacer()
+            
                 VStack(alignment: .leading,spacing:5, content: {
                     //spacing: space occupied by each artwork
+
+                    
                     HStack {
                         Text("Worldwide Artworks").fontWeight(.heavy).foregroundColor(.black)
                             .font(.title2)
@@ -83,7 +88,7 @@ struct ArtworksList: View {
                         
                         //put artwork cells here
                         //Add a sorted method?
-                        ForEach(store.NonLCSArtworks) { artwork in
+                        ForEach(filterArtworks(searchText: searchText, list: store.NonLCSArtworks)) { artwork in
                             
                             //Create a navigation link leading to the detial view
                             //Create example of abstraction in action!
@@ -147,7 +152,7 @@ struct ArtworksList: View {
                     if expand2 {
                         
                         //Add artworks in LCS
-                        ForEach(store.LCSArtworks) { artwork in
+                        ForEach(filterArtworks(searchText: searchText, list: store.LCSArtworks)) { artwork in
                             
                             //Create a navigation link leading to the detial view
                             //Create example of abstraction in action!
@@ -199,8 +204,9 @@ struct ArtworksList: View {
             //Iterate over the list of locations in the data store
             
             //            .navigationTitle("Artworks")
-            //                .background(Image("AppBackground"))
-        }
+                            .background(Image("AppBackground"))
+//        }
+        
     }
 }
 //        .ignoresSafeArea()
@@ -213,6 +219,12 @@ struct ArtworksList: View {
 
 
 //}
+
+
+
+
+
+
 
 func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
     
