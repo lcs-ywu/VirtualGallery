@@ -9,18 +9,11 @@ import SwiftUI
 
 struct ArtworksList: View {
     
-    
-    //    @ObservedObject var LCSstore: LCSStore
-    //    @ObservedObject var outline: Outline
     @State var expand1 = false
     @State var expand2 = false
     
-    //    @State private var showingImagePicker = false
-    
-    //Define user input search text
     @State private var searchText: String = ""
     
-    //    @ObservedObject var store: ArtworkStore
     
     init() {
         //navigation title colour changable 
@@ -39,40 +32,15 @@ struct ArtworksList: View {
             SearchBarView(text: $searchText)
                 .padding(.top)
             
-//            Spacer()
+//            if !searchText.isEmpty {
+//                expand1 = true
+//                expand2 = true
+//            }
             
-           
-            
-//            VStack{
-                
-//                if !searchText.isEmpty {
-//
-//                    store.NonLCSArtworks = store.NonLCSArtworks.removeAll()
-//                    store.NonLCSArtworks = store.NonLCSArtworks.removeAll()
-//
-//                    ForEach(filterArtworks(searchText: searchText, list: testArtworkStore)) { artwork in
-//
-//                        //need to clean nonLCSArtworkStore before appending new objects.
-//                        if artwork.LCSArtwork == false {
-//                            store.NonLCSArtworks.append(artwork)
-//                        } else {
-//                            store.LCSArtworks.append(artwork)
-//                        }
-//                        if !store.NonLCSArtworks.isEmpty {
-//                            expand1 = true
-//                        }
-//                        if !store.LCSArtworks.isEmpty {
-//                            expand2 = true
-//                        }
-//
-//                    }
-//
-//                }
-//                                Spacer()
+
             
             
                 VStack(alignment: .leading,spacing:5, content: {
-                    //spacing: space occupied by each artwork
 
                     
                     HStack {
@@ -90,12 +58,6 @@ struct ArtworksList: View {
                         //Add a sorted method?
                         ForEach(filterArtworks(searchText: searchText, list: store.NonLCSArtworks)) { artwork in
                             
-                            //Create a navigation link leading to the detial view
-                            //Create example of abstraction in action!
-                            
-                            //can't use a if statement in a trailing closure syntax
-                            
-                            //                        if artwork.LCSart == false {
                             
                             NavigationLink(destination: ArtworkDetail(artwork: artwork))//, CommentStore: testCommentStore
                             {
@@ -178,10 +140,6 @@ struct ArtworksList: View {
                                     Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
                                 }.frame(width: 310, height: 50, alignment: .center)
                             }
-                            //                        }
-                            //                        else{
-                            //                            continue
-                            //                        }
                             
                             
                             
@@ -201,28 +159,11 @@ struct ArtworksList: View {
                 
                 
             }
-            //Iterate over the list of locations in the data store
-            
-            //            .navigationTitle("Artworks")
                             .background(Image("AppBackground"))
 //        }
         
     }
 }
-//        .ignoresSafeArea()
-
-
-
-
-
-
-
-
-//}
-
-
-
-
 
 
 

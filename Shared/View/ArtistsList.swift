@@ -22,15 +22,9 @@ struct ArtistsList_Previews: PreviewProvider {
 
 struct ContentView: View {
     
-    //    let artists: [Artist] = testArtistStore.artists { Artist.testArtist }
-    
-    
     var body: some View {
         
         let store = ArtistsStore()
-        //        let worldStore = ArtistsStore()
-        //        let LCSStore = ArtistsStore()
-        
         
         ScrollView{
             VStack {
@@ -121,29 +115,3 @@ struct ContentView: View {
     
     
 }
-
-
-//Code for a carousel
-
-//struct Item: Identifiable {
-//    let id = UUID()
-//    let image: Image
-//}
-//
-//let roles = ["Luffy", "Zoro", "Sanji", "Nami", "Usopp", "Chopper", "Robin", "Franky", "Brook"]
-//
-//struct ContentView: View {
-//
-//    let items: [Item] = roles.map { Item(image: Image($0)) }
-//
-//    var body: some View {
-//        ACarousel(items) { item in
-//            item.image
-//                .resizable()
-//                .scaledToFill()
-//                .frame(height: 300)
-//                .cornerRadius(30)
-//        }
-//        .frame(height: 300)
-//    }
-//}

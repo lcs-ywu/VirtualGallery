@@ -10,8 +10,7 @@ import SwiftUI
 struct ArtworkDetail: View {
     
     let artwork: Artwork
-//    let comment: Comment
-//    @ObservedObject var CommentStore: CommentStore
+
     @State private var showingAddComment = false
     
     var body: some View {
@@ -32,9 +31,7 @@ struct ArtworkDetail: View {
                     Text(artwork.artist)
                         .italic()
                         .font(.body)
-    //                    .foregroundColor(.secondary)
-//                        .multilineTextAlignment(.center)
-//                        .padding(.horizontal)
+
                     Spacer()
                   
                  }
@@ -86,89 +83,9 @@ struct ArtworkDetail: View {
                 Text(artwork.more).padding(.horizontal)
             }
             
-            
-            //Navigation Link to comments view
-//        NavigationLink(destination: CommentsView()) {
-//                HStack{
-//
-//                    Text("Visitor Comments")
-//                        .font(.title3)
-//                        .bold()
-//                        .padding([.top, .leading, .bottom])
-//                    Spacer()
-//                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-//
-//                }
-//        }.foregroundColor(.black)
-        
-            
-            
-            
-            
-            
-            
-            
-//            List(CommentStore:testCommentStore) { comment in
-//                HStack{
-//                    Text(comment.comment)
-//                }
-//            }
-//            ForEach(CommentStore: testCommentStore) { comment in
-//
-//                HStack{
-//
-//                    Text(comment.)
-//
-//
-//                    VStack(alignment: .leading) {
-//                        Text(artwork.name)
-//                        Text(artwork.artist)
-//                            .font(.subheadline)
-//                    }
-//                    Spacer()
-//                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-//                }.frame(width: 310, height: 50, alignment: .center)
-//
-//            }
-            
         }
         .edgesIgnoringSafeArea(.top)
         
-        
-        
-        //Add "Add menu" button lead to add comment view
-//        .navigationTitle(artwork.name)
-//        .toolbar {
-//            ToolbarItem(placement: .primaryAction) {
-//                Button("Add Comment") {
-//                    showingAddComment = true
-//                }
-//            }
-//        }
-//        .sheet(isPresented: $showingAddComment) {
-//            AddComment(store: CommentStore, showing: $showingAddComment)
-//        }
-        
-        
-        
-        
-        
-        
-//        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-        
-        
-        // When the app is quit or backgrounded, this closure will run
-//        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
-//
-//            // Save the list of tasks
-//            let encoder = JSONEncoder()
-//            if let encoded = try? encoder.encode(CommentStore.comments) {
-//                print("Saving comments list now, app has been backgrounded or quit...")
-//                // Actually save the tasks to UserDefaults
-//                UserDefaults.standard.setValue(encoded, forKey: "comment")
-//            }
-//
-//        }
         
     }
 }

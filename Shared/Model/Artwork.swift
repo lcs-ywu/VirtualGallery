@@ -7,24 +7,6 @@
 
 import Foundation
 
-
-// Identify what properties should be read to and written from JSON
-//enum ArtworkCodingKeys: CodingKey {
-//    case id
-//    case name
-//    case artist
-//    case yearCreated
-//    case description
-//    case more
-//    case onDisplay
-//    case museum
-//    case latitude
-//    case longitude
-//    case medium
-//    case LCSart
-//}
-
-
 struct Artwork: Identifiable, Codable {
     let id = UUID()
     let name: String
@@ -39,13 +21,7 @@ struct Artwork: Identifiable, Codable {
     let medium: String
     let LCSart: Bool
     
-   
-    
-
-    
     static let example = Artwork(name: "Mona Lisa", artist: "Leonado da Vinci", yearCreated: 1506, description: "The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as 'the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world'. The painting's novel qualities include the subject's enigmatic expression, the monumentality of the composition, the subtle modelling of forms, and the atmospheric illusionism", more: "The painting is probably of the Italian noblewoman Lisa Gherardini, the wife of Francesco del Giocondo, and is in oil on a white Lombardy poplar panel. It had been believed to have been painted between 1503 and 1506; however, Leonardo may have continued working on it as late as 1517. It was acquired by King Francis I of France and is now the property of the French Republic itself, on permanent display at the Louvre, Paris since 1797.", onDisplay: true, museum: "Louvre Museum", latitude: 10, longitude: 10, medium: "oil on canvas", LCSart: false)
-    
-   
     
 }
 
@@ -58,49 +34,3 @@ let testArtworkStore = [
     Artwork(name: "Fruit", artist: "James", yearCreated: 2020, description: "In this oil painting, I intend to discuss the thesis of time and vividness through the difference between the rotten loquat in front and the fresh fruits behind. I put much time and effort into trying to magnify the freshness and realism of the subjects inside the painting with shade and colour. This work is also my initiation of detailed realistic oil paintings.", more: "", onDisplay: false, museum: "", latitude: 0, longitude: 0, medium: "oil on canvas", LCSart: true)
     
 ]
-//Reference from Reminder 2.0
-
-//class Task: Identifiable, ObservableObject, Codable {
-//    var id = UUID()
-//    var description: String
-//    var priority: TaskPriority
-//    @Published var completed: Bool
-//
-//    internal init(id: UUID = UUID(), description: String, priority: TaskPriority, completed: Bool) {
-//        self.id = id
-//        self.description = description
-//        self.priority = priority
-//        self.completed = completed
-//    }
-//
-//    // Provide details for how to decode from JSON into an instance of this data type
-//    required init(from decoder: Decoder) throws {
-//        let container = try decoder.container(keyedBy: TaskCodingKeys.self)
-//
-//        // Decode "description" property into an instance of the String type
-//        self.description = try container.decode(String.self, forKey: .description)
-//        // Decode "priority" property into an instance of the TaskPriority type
-//        self.priority = try container.decode(TaskPriority.self, forKey: .priority)
-//        // Decode "completed" property into an instance of the Bool type
-//        self.completed = try container.decode(Bool.self, forKey: .completed)
-//    }
-//
-//    // Provide details for how to encode to JSON from an instance of this type
-//    func encode(to encoder: Encoder) throws {
-//
-//        var container = encoder.container(keyedBy: TaskCodingKeys.self)
-//
-//        // Everything is encoded into String types
-//        try container.encode(description, forKey: .description)
-//        try container.encode(priority.rawValue, forKey: .priority)
-//        try container.encode(completed, forKey: .completed)
-//
-//    }
-//}
-//
-//let testData = [
-//    Task(description: "Grow long hair", priority: .high, completed: true),
-//    Task(description: "Get modelling contract", priority: .medium, completed: false),
-//    Task(description: "Retire from teaching", priority: .low, completed: false),
-//]
-

@@ -23,9 +23,6 @@ struct LCSArtCommunityView: View {
                 //Add artworks in LCS
                 List(store.LCSArtworks) { artwork in
                     
-                    //Create a navigation link leading to the detial view
-                    //Create example of abstraction in action!
-                    
                     if artwork.LCSart == true {
                         NavigationLink(destination: ArtworkDetail(artwork: artwork))//, CommentStore: testCommentStore
                         {
@@ -50,8 +47,6 @@ struct LCSArtCommunityView: View {
                 
                 
             }
-            
-            //                Text("The visual arts program at LCS is a natural extension of the classroom").bold().font(.title)
             Spacer()
         }
     }

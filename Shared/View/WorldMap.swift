@@ -18,10 +18,6 @@ struct WorldMap: View {
     var body: some View {
         
         ZStack{
-            //Add sth bihind the map
-            //Adjust colour
-            //            LinearGradient(gradient: .init(colors: [.primary, .blue]), startPoint: .top, endPoint: .center).edgesIgnoringSafeArea(.top)
-            
             
             Map(coordinateRegion: $region, annotationItems: store.artworks) { artwork in
                 
@@ -40,10 +36,6 @@ struct WorldMap: View {
                         }
                     } else if artwork.onDisplay == true && artwork.latitude == 44.43922 && artwork.longitude == -78.26571 {
                         NavigationLink(destination: LCSArtCommunityView()) {
-                        //ArtworkDetail(artwork: artwork)
-                        //LCSArtCommunityView
-                       
-                        //Destination need to be changed not to one single painting
                       
                             Image("LCS")
                                 .resizable()
@@ -61,16 +53,6 @@ struct WorldMap: View {
             //How to make navgation title white?
             .navigationTitle("Map".uppercased())
         }
-        
-        //        @State var artworkNew = { (ArtworkStore) -> [Artwork] in
-        //            if store.artworks in ArtworkAtore {
-        //                print("Let's find somewhere safe!")
-        //                return true
-        //            }
-        //            print("That's against the law.")
-        //            return false
-        //        }
-        
         
     }
 }
