@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+
+// Begin cited code
+// https://github.com/lcs-rgordon/SongBrowser/blob/main/SongBrowser/Views/SearchBarView.swift
 struct SearchBarView: View {
     
     var placeholderText: String = "Search..."
@@ -91,3 +94,4 @@ struct SearchBarView_Previews: PreviewProvider {
         SearchBarView(text: .constant(""))
     }
 }
+// End cited code

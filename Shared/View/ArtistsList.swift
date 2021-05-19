@@ -33,6 +33,8 @@ struct ContentView: View {
                 //minLength: 80
                 Text(" Worldwide Artists").font(.largeTitle).bold().padding(.top)
                 
+                // Begin cited code
+                // https://iosexample.com/a-carousel-view-for-swiftui/
                 ACarousel(store.NonLCSArtists,
                           spacing: 10,
                           headspace: 10,
@@ -59,18 +61,19 @@ struct ContentView: View {
                         //                    Text("Click on the picture to find out more")
                         
                     }
-                    
-                    
-                    
-                    
-                    
+            
                 }.scaledToFill()
+                // End cited code
+                
                 
                 Spacer()
                 
                 
                 Text("LCS Artists").font(.largeTitle).bold().padding(.top)
                 //LCS Artists
+                
+                // Begin cited code
+                // https://iosexample.com/a-carousel-view-for-swiftui/
                 ACarousel(store.LCSArtists,
                           spacing: 10,
                           headspace: 10,
@@ -99,8 +102,7 @@ struct ContentView: View {
                     }
                     
                 }.scaledToFill()
-                
-                //            .padding()
+                // End cited code
                 
                 //            Spacer(minLength: 100)
             }.ignoresSafeArea(edges: .top)

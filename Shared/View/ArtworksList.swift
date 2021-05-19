@@ -169,10 +169,10 @@ struct ArtworksList: View {
 
 func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
     
-    var presentArtworks: [Artwork] = []
     if searchText.isEmpty {
         return artworkStore
     }
+    var presentArtworks: [Artwork] = []
     for artwork in artworkStore {
         if artwork.name.lowercased().contains(searchText.lowercased()) || artwork.artist.lowercased().contains(searchText.lowercased()) {
             
