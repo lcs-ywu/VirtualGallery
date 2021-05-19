@@ -13,7 +13,7 @@ struct ArtistDetailView: View {
     let artworkStore = ArtworkStore()
     var body: some View {
 //        NavigationView{
-            ScrollView{
+            ScrollView {
                 
                
                 Image(artist.name).resizable().scaledToFit()
@@ -64,23 +64,32 @@ struct ArtistDetailView: View {
                         .bold()
                         .padding([.top, .leading, .bottom])
                     
-                    List(artworkStore.LCSArtworks) {
+                    ForEach(artworkStore.LCSArtworks) {
                         artwork in
                         NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                            HStack{
-                                
-                                Image(artwork.name)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 44, height:44)
-                                    .cornerRadius(15)
-                                
-                                VStack(alignment: .leading) {
-                                    Text(artwork.name)
-                                    Text(artwork.artist)
-                                        .font(.subheadline)
-                                }
+                        
+                            VStack {
+                                HStack{
+                                    
+                                    Image(artwork.name)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                                        
+                                    VStack(alignment: .leading) {
+                                        Text(artwork.name)
+                                            .foregroundColor(.black)
+                                        Text(artwork.artist)
+                                            .font(.subheadline)
+                                            .foregroundColor(.black)
+                                    }
+                                    
+                                    Spacer()
+                                }.padding(.horizontal)
+                                Divider()
                             }
+                           
                         }
                     }
                 }
