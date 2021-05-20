@@ -11,6 +11,7 @@ struct ArtistDetailView: View {
     
     let artist: Artist
     let artworkStore = ArtworkStore()
+    
     var body: some View {
         //        NavigationView{
         ScrollView {
@@ -67,7 +68,8 @@ struct ArtistDetailView: View {
                     .bold()
                     .padding([.top, .leading, .bottom])
                 
-                ForEach(artworkStore.LCSArtworks) {
+                ForEach(getFilteredArtwork(artist: artist.name)) {
+                    
                     artwork in
                     
                     
@@ -106,17 +108,20 @@ struct ArtistDetailView: View {
         //        }
         
     }
+    
+    func getFilteredArtwork(artist: String) -> [Artwork] {
+        var filteredArtwork: [Artwork] = []
+        for artwork in testArtworksStore.list {
+            if artwork.artist == artist {
+                filteredArtwork.append(artwork)
+            }
+        }
+        return filteredArtwork
+    }
+    
 }
 
-func getFilteredArtwork(artist: String) -> [Artwork] {
-    var filteredArtwork: [Artwork] = []
-    for artwork in test {
-        if artwork.artist == artist {
-            filteredArtwork.append(artwork)
-        }
-    }
-    return filteredArtwork
-}
+
 
 
 struct ArtistDetailView_Previews: PreviewProvider {

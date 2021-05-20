@@ -16,7 +16,7 @@ class ArtworkStore: ObservableObject {
     
     init(artworks: [Artwork] = []) {
         
-        self.artworks = testArtworkStore
+        self.artworks = testArtworksStore.list
         self.LCSArtworks = getLCSArtWork(artworks: artworks)
         self.NonLCSArtworks = getNonLCSArtWork(artworks: artworks)
     }
@@ -27,7 +27,7 @@ class ArtworkStore: ObservableObject {
 }
 func getLCSArtWork(artworks: [Artwork]) -> [Artwork] {
     var outputArray: [Artwork] = []
-    for artwork in testArtworkStore {
+    for artwork in testArtworksStore.list {
         if artwork.LCSart == true {
             outputArray.append(artwork)
         }
@@ -40,7 +40,7 @@ func getLCSArtWork(artworks: [Artwork]) -> [Artwork] {
 
 func getNonLCSArtWork(artworks: [Artwork]) -> [Artwork] {
     var outputArray: [Artwork] = []
-    for artwork in testArtworkStore {
+    for artwork in testArtworksStore.list {
         if artwork.LCSart == false {
             outputArray.append(artwork)
         }
@@ -51,5 +51,5 @@ func getNonLCSArtWork(artworks: [Artwork]) -> [Artwork] {
     
 }
 
-let testStore = ArtworkStore(artworks: testArtworkStore)
+let testStore = ArtworkStore(artworks: testArtworksStore.list)
 
