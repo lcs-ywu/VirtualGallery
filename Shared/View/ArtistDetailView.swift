@@ -10,7 +10,7 @@ import SwiftUI
 struct ArtistDetailView: View {
     
     let artist: Artist
-    
+    let artworkStore = ArtworkStore()
     var body: some View {
 //        NavigationView{
             ScrollView{
@@ -42,6 +42,7 @@ struct ArtistDetailView: View {
 //                    Spacer()
                     
                     Text(artist.infor).padding(.horizontal)
+                        .lineLimit(nil)
                 }
                 
                 if artist.artistStatement.count != 0 {
@@ -53,9 +54,36 @@ struct ArtistDetailView: View {
                             .padding([.top, .leading, .bottom])
 //                        Spacer()
                         Text(artist.artistStatement).padding(.horizontal)
-                        
+                            .lineLimit(nil)
                      }
                     }
+                
+                VStack {
+                    Text("Artworks Created by This Artist")
+                        .font(.title3)
+                        .bold()
+                        .padding([.top, .leading, .bottom])
+                    
+                    List(artworkStore.LCSArtworks) {
+                        artwork in
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                            HStack{
+                                
+                                Image(artwork.name)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 44, height:44)
+                                    .cornerRadius(15)
+                                
+                                VStack(alignment: .leading) {
+                                    Text(artwork.name)
+                                    Text(artwork.artist)
+                                        .font(.subheadline)
+                                }
+                            }
+                        }
+                    }
+                }
                     
                 
             }.navigationTitle(artist.name)
