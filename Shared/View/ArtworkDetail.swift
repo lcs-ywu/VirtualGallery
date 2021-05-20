@@ -59,6 +59,7 @@ struct ArtworkDetail: View {
            
             }
             .padding(.horizontal)
+            
             HStack {
                 Text("General Information")
                     .font(.title3)
