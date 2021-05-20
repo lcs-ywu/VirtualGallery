@@ -35,7 +35,7 @@ struct Artwork: Identifiable, Codable {
     
 }
 
-
+// Change the artwork store to an initializer, put in the contents on the slides
 let testArtworkStore = [
     Artwork(name: "Mona Lisa",
             artist: "Leonado da Vinci",
