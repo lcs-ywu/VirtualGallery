@@ -11,92 +11,123 @@ struct ArtistDetailView: View {
     
     let artist: Artist
     let artworkStore = ArtworkStore()
+    
     var body: some View {
-//        NavigationView{
-            ScrollView{
-                
-               
-                Image(artist.name).resizable().scaledToFit()
-                
+        //        NavigationView{
+        ScrollView {
+            
+            
+            Image(artist.name).resizable().scaledToFit()
+            
+            VStack {
                 HStack {
                     Spacer()
                     Text(artist.identity)
-//                        .italic()
+                    //                        .italic()
                     Spacer()
                 }
-
+                
                 HStack {
                     Spacer()
                     Text(artist.age).font(.body)
-//                        .italic()
+                    //                        .italic()
                     Spacer()
                 }
+            }
+           
+            
+            
+            
+            VStack {
+                Text("General Information")
+                    .font(.title3)
+                    .bold()
+                    .padding([.top, .leading, .bottom])
+                //                    Spacer()
                 
-
-                
+                Text(artist.infor).padding(.horizontal)
+                    .lineLimit(nil)
+            }
+            
+            if artist.artistStatement.count != 0 {
                 VStack {
-                    Text("General Information")
+                    
+                    Text("Artist Statement")
                         .font(.title3)
                         .bold()
                         .padding([.top, .leading, .bottom])
-//                    Spacer()
-                    
-                    Text(artist.infor).padding(.horizontal)
+                    //                        Spacer()
+                    Text(artist.artistStatement).padding(.horizontal)
                         .lineLimit(nil)
                 }
+            }
+            
+            VStack {
+                Text("Artworks Created by This Artist")
+                    .font(.title3)
+                    .bold()
+                    .padding([.top, .leading, .bottom])
                 
-                if artist.artistStatement.count != 0 {
-                    VStack {
-                        
-                        Text("Artist Statement")
-                            .font(.title3)
-                            .bold()
-                            .padding([.top, .leading, .bottom])
-//                        Spacer()
-                        Text(artist.artistStatement).padding(.horizontal)
-                            .lineLimit(nil)
-                     }
-                    }
-                
-                VStack {
-                    Text("Artworks Created by This Artist")
-                        .font(.title3)
-                        .bold()
-                        .padding([.top, .leading, .bottom])
+                ForEach(getFilteredArtwork(artist: artist.name)) {
                     
-                    List(artworkStore.LCSArtworks) {
-                        artwork in
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                            HStack{
-                                
-                                Image(artwork.name)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 44, height:44)
-                                    .cornerRadius(15)
-                                
-                                VStack(alignment: .leading) {
-                                    Text(artwork.name)
-                                    Text(artwork.artist)
-                                        .font(.subheadline)
-                                }
+                    artwork in
+                    
+                    
+                    NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
+                            
+                            VStack {
+                                HStack{
+                                    
+                                    Image(artwork.name)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                                    
+                                    VStack(alignment: .leading) {
+                                        Text(artwork.name)
+                                            .foregroundColor(.black)
+                                        Text(artwork.artist)
+                                            .font(.subheadline)
+                                            .foregroundColor(.black)
+                                    }
+                                    
+                                    Spacer()
+                                }.padding(.horizontal)
+                                Divider()
                             }
+                            
                         }
-                    }
-                }
                     
-                
-            }.navigationTitle(artist.name)
-//            .ignoresSafeArea(edges: .top)
-//        }
+                }
+            }
+            
+            
+        }.navigationTitle(artist.name)
+        //            .ignoresSafeArea(edges: .top)
+        //        }
         
     }
+    
+    func getFilteredArtwork(artist: String) -> [Artwork] {
+        var filteredArtwork: [Artwork] = []
+        for artwork in testArtworksStore.list {
+            if artwork.artist == artist {
+                filteredArtwork.append(artwork)
+            }
+        }
+        return filteredArtwork
+    }
+    
 }
+
+
+
 
 struct ArtistDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-          ArtistDetailView(artist: Artist.testArtist)
+            ArtistDetailView(artist: Artist.testArtist)
         }
     }
 }
