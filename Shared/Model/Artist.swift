@@ -42,7 +42,23 @@ let testArtistsStore =
         I like abstract art and most of my artworks are abstract. Whereas realistic art is easier to notice what the creator is trying to say through the artwork, abstracts art makes audience to think more and also connect to their own life. Also, my idea comes from my creativity and experiences which makes it more special.
         """, artistStatement: "", LCSArtist: true, works: []),
       
-      
+      Artist(name: "Hinako Hotta", age: "2002 - Present", identity: "", infor: """
+        About Me
+        Hi everyone! Thank you for finding my site and having interested in my portfolio. Before you explore my artworks, please let me introduce myself...
+
+        My name is Hinako Hotta (堀田 日南子) and I am currently studying in a Canadian high school as an international student. I was born in 2002 and grew up in Tokyo where a busy but energized town. My childhood was devoted for figure skating because my dream was to be an Olympic skater. However, I stopped 10 years of my skating life just 3 years ago due to an injury. It was such a difficult and serious decision but it became the first turning point of my life. Since then, I'm looking for something attractive and challenging myself to do new things, such as trying sports I've never done, switching school, and finding my next dream.
+
+        But there is one thing that I keep continuing since I was little. It is creating art. When I was little, there were always colourful crayons and a few sketchbooks in my house and I could draw anything whenever I wanted to. My mother drew and painted a lot of things with me and my father thought me how to use other tools such as cutters and crafted together on weekends. When I was alone having some time, I created toys with empty boxes and coloured paper. When it was one of my family members' birthday, I painted flowers. When I traveled, I sketched the views and food. And one of my favourite works was a house made with cardboard. Because of this environment for being creative, I naturally started to love art and it became a part of my life even though the style of art that I create had changed as I grew up.
+
+        When I look back my life, art is always with me and it allows me to be creative, express myself, and be free.
+
+        Art makes my life colourful!
+        """, artistStatement: """
+        A quote inspired me...
+
+        Because I have a dream, a life is brilliant
+                                ー Wolfgang Amadeus Mozart
+        """, LCSArtist: true, works: []),
       
       
       Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
