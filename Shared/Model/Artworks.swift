@@ -670,9 +670,81 @@ struct Artworks {
         
         list.append(Artwork(name: "Untitled Mixed Media 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
         
+        list.append(Artwork(name: "The Faces", artist: "Joe Huang", yearCreated: 2020, description: """
+                        In this series of paintings, I explore some of the most extreme expressions on human faces and try to amplify them with colours.
+
+                            The top left painting represents shock and fear with a monochromatic colour scheme. The emotion is exaggerated with different shades of red. The bottom left painting expresses a sense of sadness with dark green, and the last one explores hesitation, anxiety and struggle. The purple colour makes it more mysterious.
+
+                            The paintings are made on wood panels with a base of acrylic paint and oil paint on top to enhance details. The nature of oil paint makes it easy to blend therefore making the painting smooth while high in contrast.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil on Wood", LCSart: true))
         
+        list.append(Artwork(name: "Plate of Food ", artist: "Joe Huang", yearCreated: 2020, description: "Born in a Chinese family hotpot has always been a symbol of reunion. It tastes hot, feels hot and reminds me of my family. It is a great dish for sharing, everyone put what they want to eat in the boiling soup and food can be added anytime. Some common ingredients are Enoki Mushroom, Sliced Lamb/Beef, Tofu, Lettuce and Seafood. A good hot pot is always made up of two parts, spending quality time with the family and enjoying delicious food.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Low Fire Clay and Glaze", LCSart: true))
         
+        list.append(Artwork(name: "Paddle 1", artist: "Joe Huang", yearCreated: 2020, description: """
+                        In this project, we brainstormed ideas for the school's waterfront installation. We collaborated with Guest Artist Tia Cavanagh and came up with a final design called "Timelapse Hanging Canoe". Each of us then paint a paddle which will later be part of the installation. I used outdoor paint in both Yellow and Orange.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior acrylic on white maple paddles", LCSart: true))
         
+        list.append(Artwork(name: "Paddle 2", artist: "Joe Huang", yearCreated: 2020, description: """
+                        In this project, we brainstormed ideas for the school's waterfront installation. We collaborated with Guest Artist Tia Cavanagh and came up with a final design called "Timelapse Hanging Canoe". Each of us then paint a paddle which will later be part of the installation. I used outdoor paint in both Yellow and Orange.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior acrylic on white maple paddles", LCSart: true))
+        
+        list.append(Artwork(name: "Timelapse Hanging Canoe", artist: "Joe Huang", yearCreated: 2020, description: """
+                        In this project, we brainstormed ideas for the school's waterfront installation. We collaborated with Guest Artist Tia Cavanagh and came up with a final design called "Timelapse Hanging Canoe". Each of us then paint a paddle which will later be part of the installation. I used outdoor paint in both Yellow and Orange.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior acrylic on white maple paddles", LCSart: true))
+        
+        list.append(Artwork(name: "The Bund Impression", artist: "Joe Huang", yearCreated: 2020, description: """
+                        I acknowledge my hometown in this piece, where I came from is an important part of my self-identity.
+
+                        This artwork is made up of two separate pieces, inspired by my hometown, Shanghai. I used a photo I took at The Bund as the background and my headshot as the representative of my identity.
+
+                        For the piece on the right, first, I tried to print my headshot on a transparent paper and layer it on top of the photo, but they didn't blend in well. So I used software to combine these two and the result is satisfactory. I used all real photos in this piece because I want to reflect the reality of life. All the neon lights on the buildings make people feel energized, on the edge of over-whelming.
+
+                        For the one on the left, I used collage to replace the photo which adds a more abstract feeling to it, making it an idealized world. I chose different shades of blue and a touch of light yellow to create a calm yet exciting emotion. On top of the collage, I did a blind contour drawing to match the other piece, in an abstract way.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
+        
+        list.append(Artwork(name: "Nature ", artist: "Joe Huang", yearCreated: 2020, description: """
+                        This piece is called Nature because I want the audience to find their true-self in this piece. I used three of the same headshot in this piece which may seem receptive at a glance but each of them are unique in their own way.
+
+                        Counting from the left, the first part is the most blurry and shows the least amount of details. This represent the most organic part inside my head, the true nature of myself.
+
+                        The second part feels rough but you can identify a person's face from it. This is the middle ground of my identity.
+
+                        The third part is the most clear and is a full representation of myself. Putting three of the parts together shows the audience what really represents me and what I am made up of.
+
+                        All three parts are printed with the same piece. On the right is the original piece; the middle one is the first print and the left one is the last print which had the least amount of ink left, creating a rough texture.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed media on card", LCSart: true))
+        
+        list.append(Artwork(name: "Open-minded", artist: "Joe Huang", yearCreated: 2020, description: """
+                        In this piece, I explored my identity as a creative artist and gave the audience a chance to look at the humours side of me.
+
+                        I took the inspiration of this artwork from the famous painting Mona Lisa and the photograph of Einstein sticking his tongue out. Appropriating elements of the two artworks with the concept of optical illusions and impossible objects as well as my portrait, I was able to create a humorous yet inspiring artwork. The darker shades of colours I used creates a mysterious and energized feeling.
+
+                        In this artwork, I used a mix of different medias such as sharpies and coloured paper. I printed my portrait on a piece of transparent paper so that the colours can pass through. The drawing is done on a card and prints are stick onto it with glue.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed media on card", LCSart: true))
+        
+        list.append(Artwork(name: "Pandemic 2020", artist: "Joe Huang", yearCreated: 2020, description: "May 31, 2020. ‎⁨Shanghai Pudong International Airport⁩, Shanghai, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "The Nightingale", artist: "Joe Huang", yearCreated: 2020, description: "September 22, 2020. The McKinnon Hotel, Shanghai, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "Reflection", artist: "Joe Huang", yearCreated: 2019, description: "May 31, 2020. ‎⁨Shanghai Pudong International Airport⁩, Shanghai, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+
+        list.append(Artwork(name: "Country Road", artist: "Joe Huang", yearCreated: 2019, description: "August 18, 2019. Zhangye National Geopark, Zhangye, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "The Demon Tower", artist: "Joe Huang", yearCreated: 2019, description: "August 19, 2019. Mogao Caves, Jiuquan, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "The Arc", artist: "Joe Huang", yearCreated: 2018, description: "March 19, 2018. Lower Antelope Canyon, Arizona, U.S.A", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "Columbia Circle", artist: "Joe Huang", yearCreated: 2020, description: "July 3, 2020. Columbia Circle, Shanghai, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "Zhapu Bridge", artist: "Joe Huang", yearCreated: 2020, description: "August 11, 2020. Zhapu Bridge, Shanghai, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "Shexian", artist: "Joe Huang", yearCreated: 2018, description: "July 29, 2018. Shexian, Anhui, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "Kiyomizu-dera", artist: "Joe Huang", yearCreated: 2018, description: "August 18, 2018. Kiyomizu-dera, Kyoto, Japan.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "Senbon Torii", artist: "Joe Huang", yearCreated: 2018, description: "August 19, 2018. Senbon Torii, Kyoto, Japan.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        list.append(Artwork(name: "Dotombori", artist: "Joe Huang", yearCreated: 2018, description: "August 19, 2018. Dotombori, Osaka, Japan", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
         
         
         
