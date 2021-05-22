@@ -51,7 +51,7 @@ struct ContentView: View {
                                 .resizable()
                                 .scaledToFill()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(height: 200)
+                                .frame(height: 300)
                                 .cornerRadius(30)
                         }
                         
@@ -90,7 +90,7 @@ struct ContentView: View {
                                 .resizable()
                                 .scaledToFill()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(height: 200)
+                                .frame(height: 300)
                                 .cornerRadius(30)
                         }
                         
@@ -109,7 +109,7 @@ struct ContentView: View {
         }
         
         
-        .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom)).ignoresSafeArea(edges: .top)
+//        .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom)).ignoresSafeArea(edges: .top)
         
         //.navigationTitle("Artists")
         

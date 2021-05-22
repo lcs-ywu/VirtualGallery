@@ -13,6 +13,14 @@
 		8A1A2A8C25F18982005F6BCA /* ArtistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */; };
 		8A1A2A9C25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */; };
 		8A1A2A9D25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */; };
+		8A27AB4E26591BBC0084CCE6 /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB4D26591BBC0084CCE6 /* Concept.swift */; };
+		8A27AB4F26591BBC0084CCE6 /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB4D26591BBC0084CCE6 /* Concept.swift */; };
+		8A27AB5B2659404E0084CCE6 /* ArtHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */; };
+		8A27AB5C2659404E0084CCE6 /* ArtHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */; };
+		8A27AB60265940620084CCE6 /* ConceptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5F265940620084CCE6 /* ConceptStore.swift */; };
+		8A27AB61265940620084CCE6 /* ConceptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5F265940620084CCE6 /* ConceptStore.swift */; };
+		8A27AB65265940F60084CCE6 /* ArtHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB64265940F60084CCE6 /* ArtHistory.swift */; };
+		8A27AB66265940F60084CCE6 /* ArtHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB64265940F60084CCE6 /* ArtHistory.swift */; };
 		8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */; };
 		8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */; };
 		8A42FF0325C0550500829CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A42FEEE25C0550500829CBC /* Assets.xcassets */; };
@@ -44,6 +52,10 @@
 		8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarColorChange.swift; sourceTree = "<group>"; };
 		8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
 		8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCSArtCommunityView.swift; sourceTree = "<group>"; };
+		8A27AB4D26591BBC0084CCE6 /* Concept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concept.swift; sourceTree = "<group>"; };
+		8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtHistoryView.swift; sourceTree = "<group>"; };
+		8A27AB5F265940620084CCE6 /* ConceptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptStore.swift; sourceTree = "<group>"; };
+		8A27AB64265940F60084CCE6 /* ArtHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtHistory.swift; sourceTree = "<group>"; };
 		8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualGalleryApp.swift; sourceTree = "<group>"; };
 		8A42FEEE25C0550500829CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A42FEF325C0550500829CBC /* VirtualGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +151,7 @@
 				8A42FF4925C4A15100829CBC /* WorldMap.swift */,
 				8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */,
 				8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */,
+				8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +165,9 @@
 				8A52CD8125F06791006B6A3D /* Artist.swift */,
 				8ADC8C5F25F07FCE006D1631 /* ArtistsStore.swift */,
 				8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */,
+				8A27AB4D26591BBC0084CCE6 /* Concept.swift */,
+				8A27AB5F265940620084CCE6 /* ConceptStore.swift */,
+				8A27AB64265940F60084CCE6 /* ArtHistory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,7 +277,9 @@
 			files = (
 				8ADC8C6025F07FCE006D1631 /* ArtistsStore.swift in Sources */,
 				8A42FF3025C05C4500829CBC /* ArtworkStore.swift in Sources */,
+				8A27AB60265940620084CCE6 /* ConceptStore.swift in Sources */,
 				8A42FF4A25C4A15100829CBC /* WorldMap.swift in Sources */,
+				8A27AB5B2659404E0084CCE6 /* ArtHistoryView.swift in Sources */,
 				8A52CD7025EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A42FF1D25C0570300829CBC /* Artwork.swift in Sources */,
 				8A1A2A7D25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */,
@@ -271,8 +289,10 @@
 				8A1A2A9C25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
 				8A52CD8225F06792006B6A3D /* Artist.swift in Sources */,
 				8AD23C9C25FFE89F00DFE50F /* SearchBarView.swift in Sources */,
+				8A27AB65265940F60084CCE6 /* ArtHistory.swift in Sources */,
 				9CDF44E72655EE560081456B /* Artworks.swift in Sources */,
 				8A42FF2925C0596600829CBC /* ArtworkDetail.swift in Sources */,
+				8A27AB4E26591BBC0084CCE6 /* Concept.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +302,9 @@
 			files = (
 				8ADC8C6125F07FCE006D1631 /* ArtistsStore.swift in Sources */,
 				8A42FF3125C05C4500829CBC /* ArtworkStore.swift in Sources */,
+				8A27AB61265940620084CCE6 /* ConceptStore.swift in Sources */,
 				8A42FF4B25C4A15100829CBC /* WorldMap.swift in Sources */,
+				8A27AB5C2659404E0084CCE6 /* ArtHistoryView.swift in Sources */,
 				8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A42FF1E25C0570300829CBC /* Artwork.swift in Sources */,
 				8A1A2A7E25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */,
@@ -292,8 +314,10 @@
 				8A1A2A9D25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
 				8A52CD8325F06792006B6A3D /* Artist.swift in Sources */,
 				8AD23C9D25FFE89F00DFE50F /* SearchBarView.swift in Sources */,
+				8A27AB66265940F60084CCE6 /* ArtHistory.swift in Sources */,
 				9CDF44E82655EE560081456B /* Artworks.swift in Sources */,
 				8A42FF2A25C0596600829CBC /* ArtworkDetail.swift in Sources */,
+				8A27AB4F26591BBC0084CCE6 /* Concept.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
