@@ -48,7 +48,8 @@ struct ArtworksList: View {
                     .cornerRadius(30)
             }
             .frame(height: 600)
-            .shadow(color: .gray, radius: 2, x: 10, y: 15)
+//            .shadow(color: .gray, radius: 2, x: 10, y: 15)
+            .shadow(radius: 20)
 
             // To do: make the shadow fading
             // LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom)
@@ -109,14 +110,18 @@ struct ArtworksList: View {
             
             .frame(width: 400, alignment: .center)
             .scaledToFit()
-            .padding(7)
+            .padding(.bottom)
 //            .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
 //            .background(RadialGradient(gradient: Gradient(colors: [.gray, .white]), center: .center, startRadius: 10, endRadius: 70))
-            .cornerRadius(10)
+            .cornerRadius(20)
             .animation(.spring())
+//            .background(.white)
+            .shadow(radius: 20)
+            //Cannot assign shadow on the block of text plus picture
+            
 //            .padding()
 //            .shadow(color: .gray, radius: 2, x: 10, y: 15)
-            
+//            Spacer()
             
             VStack(alignment: .leading,spacing:5, content: {
                 //spacing: space occupied by each artwork
@@ -172,8 +177,9 @@ struct ArtworksList: View {
             .frame(width: 400, alignment: .center)
             .padding(7)
 //            .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
-            .cornerRadius(10)
+            .cornerRadius(20)
             .animation(.spring())
+            .shadow(radius: 20)
             
         }.toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
@@ -182,6 +188,11 @@ struct ArtworksList: View {
                     .onTapGesture {
                     print("hi")
                 }
+//                NavigationLink(destination: CDSideMenuMainView()
+//                                    .environmentObject(createConfiguration()), label: {
+//                                        Text("Now, click here ;) ")
+//                                            .font(.system(.subheadline, design: .monospaced))
+//                                })
             }
             
             ToolbarItem(placement: .primaryAction) {
