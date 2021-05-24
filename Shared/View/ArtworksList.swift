@@ -41,25 +41,22 @@ struct ArtworksList: View {
                       sidesScaling: 0.7,
                       isWrap: true,
                       autoScroll: .active(2)) { item in
-                Image(item.name)
-                    .resizable()
-                    .scaledToFit()
-                    //                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealWidth: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: 600, idealHeight: 500, maxHeight: 500, alignment: .center)
-                    .cornerRadius(30)
+                VStack {
+                    NavigationLink(destination: ArtworkDetail(artwork: item)){
+                        Image(item.name)
+                            .resizable()
+                            .scaledToFit()
+                            .cornerRadius(30)
+                    }
+                    Text(item.name).font(.system(.title2, design: .serif))
+                    Text(item.artist).font(.system(.title3, design: .serif))
+                }
             }
             .frame(height: 600)
 //            .shadow(color: .gray, radius: 2, x: 10, y: 15)
             .shadow(radius: 20)
-
-            // To do: make the shadow fading
-            // LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom)
-            
-            
-            
-            
             
             VStack(alignment: .leading,spacing:5, content: {
-                
                 
                 HStack {
                     Text("knowledge Base")
@@ -78,7 +75,7 @@ struct ArtworksList: View {
                     ForEach(filterArtworks(searchText: searchText, list: store.NonLCSArtworks)) { artwork in
                         
                         
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork))//, CommentStore: testCommentStore
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork))
                         {
                             
                             HStack{
@@ -99,15 +96,12 @@ struct ArtworksList: View {
                             }.frame(width: 310, height: 50, alignment: .center)
                         }
                         
-                        
-                        
                     }.ignoresSafeArea(edges: .all)
                     .foregroundColor(.black)
                     
                 }
                 
             })
-            
             .frame(width: 400, alignment: .center)
             .scaledToFit()
             .padding(.bottom)
@@ -122,57 +116,20 @@ struct ArtworksList: View {
 //            .padding()
 //            .shadow(color: .gray, radius: 2, x: 10, y: 15)
 //            Spacer()
+            NavigationLink(destination: ArtHistoryView()){
+                VStack(alignment: .leading,spacing:5, content: {
+                    //spacing: space occupied by each artwork
+                    HStack {
+                        Text("A Brief Art History")
+                            .foregroundColor(.black)
+                            .font(.system(.title, design: .serif))
+                        Spacer()
+                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).foregroundColor(.black)
+                    }.frame(width: 310, height: 50, alignment: .center)
+                })
+            }
             
-            VStack(alignment: .leading,spacing:5, content: {
-                //spacing: space occupied by each artwork
-                HStack {
-                    Text("A Brief Art History")
-//                        .fontWeight(.heavy).foregroundColor(.black)
-                        .font(.system(.title, design: .serif))
-                    Spacer()
-                    Image(systemName: expand2 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
-                }.onTapGesture {
-                    self.expand2.toggle()
-                }.frame(width: 310, height: 50, alignment: .center)
-                //                .scaleToFit()
-                
-                if expand2 {
-                    
-                    //Add artworks in LCS
-                    ForEach(filterArtworks(searchText: searchText, list: store.LCSArtworks)) { artwork in
-                        
-                        //Create a navigation link leading to the detial view
-                        //Create example of abstraction in action!
-                        
-                        //                        if artwork.LCSart == true {
-                        
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork))//, CommentStore: testCommentStore
-                        {
-                            HStack{
-                                
-                                Image(artwork.name)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 44, height:44)
-                                    .cornerRadius(15)
-                                
-                                VStack(alignment: .leading) {
-                                    Text(artwork.name)
-                                    Text(artwork.artist)
-                                        .font(.subheadline)
-                                }
-                                Spacer()
-                                Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                            }.frame(width: 310, height: 50, alignment: .center)
-                        }
-                        
-                        
-                        
-                    }.foregroundColor(.black)
-                    
-                }
-                
-            })
+           
             //        }
             .frame(width: 400, alignment: .center)
             .padding(7)
@@ -232,12 +189,6 @@ func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwor
     }
     return presentArtworks
 }
-
-
-
-
-
-
 
 
 struct ArtworksList_Previews: PreviewProvider {
