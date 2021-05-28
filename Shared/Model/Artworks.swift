@@ -805,37 +805,67 @@ struct Artworks {
                         I decided to have the person in colour to show that we have a large ammount of potential and are alot more than we seem. Arms dark and in murky liquid/ water to represent what we are submerged in and soemthing holding us back. Only showing top half of the torso to show the person emerging. The area above water is coloureed to express a new and colourfull world in contrast to the murky submerged water.
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
         
-        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
-                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
+        list.append(Artwork(name: "The Unity Ring", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        - Unity ring crafted out of paddles
 
-                        ​
+                        - Circular, placed on the boardwalk to hide its metal base. This should give it the illusion that it's floating.
 
-                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
-                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+                        - We intend on painting things that represent each country in our school on the paddles.
+
+                        - There is an example of how the first layer might look like.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paddles", LCSart: true))
         
-        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
-                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
+        list.append(Artwork(name: "Paddles", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        This was a rather hard project to complete because I had no interest or motivation to do. Though with time and organization I managed to finish them.
 
-                        ​
+                        First was to lay out the designs which were only triangles. This was quite challenging considering the shape of the paddle causing it to be more and less detailed in different areas. The ideas did flow quite easily despite this and I might even add that this may have been the easiest step throughout the entire project.
 
-                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
-                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+                        Once completed the design I began working on the paint. This was a challenge too as the surface and type of work I had yet to experience causing numerous mistakes along the work.
+
+                        I had the colours Pink and Purple. painting was fun though it did become rather labouring very quickly.
+
+                        Overall the final products was not quite to my liking and I would personally refrain from doing this again. It was quite the experience and I am now very glad I know of it.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paints", LCSart: true))
         
-        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
-                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
+        list.append(Artwork(name: "The Unsullied", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        II knew I wanted to challenge myself t something I wasn't particularly good at but enjoyed and was determined to improve on. This led to the decision of using a graphic tablet to create the piece.
 
+                        The media used on the tablet were, Airbrush, Graphite, and Ink.
+
+                        I chose these because I believed they would best convey the feeling I was attempting to get across.
+
+                        This so far has been the hardest and most draining piece to make for me.
                         ​
+                        The prompt was whatever we wanted and I had trouble finding something. I knew I wanted to express my emotions and bring to life the feelings evoked in me.
 
-                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
-                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+                        To start I began researching meanings behind it, and how I could incorporate them into something on a bigger scale. This was in part due to my fear of personalizing and expressing my emotions on a deeper scale.
+
+                        I decided to go with the feelings of depression and anxiety along with PTSD. This showed and expressed the meaning and feeling I wanted to portray and allowed for an explanation that was partially detached from my original intent.
+
+                        Starting the sketches were simple as the ideas had come to me straight from the start. having done this I began drawing on the tablet creating sketches and Identifying the different areas that needed to be looked at or would have some concern.
+
+                        The body seemed to need a lot of detail despite being a rather small piece of the puzzle. I enlarged it to allow for more detail and began drawing. The intersections between muscles, bone, and skin may have been a rather high concern, but the hip bone was the hardest one to draw and define. to concur with this I went over it countless times referring to bone structures, anatomy books, and internet pictures of different bones in different lighting.
+
+                        The muscles only required minimal detail and were shown by short sharp lines in high numbers. This proved effective and once learned made them a rather easy part.
+
+                        After completing the body I decided to make the character lookup with a blindfold which quickly proved challenging and required me to refer to our previous units' skills. Real-life drawing.
+
+                        This was not much of a challenge, unfortunately, as I completed the body the file got deleted and so I was back to square one.
+
+                        I was not deterred from completing this but had run into a wall as I had no idea what I was meant to do from there. I stayed clueless for a period of 3 days unsure of what to do or add.
+
+                        This was until I remembered that I could just express the very emotions that I felt as it occurred and so I began once again.
+
+                        Thankfully with knowing how to do it, the process of drawing the body was much faster. This allowed me to integrate things that I could not in the first piece such as smooth transitions from bone to muscle and skin, and completing the monster I would later on refer to as ET.
+
+                        The human having a glow that attracts evil almost in this case being E.T and The monster itself being almost translucent to show that our fears aren't as real as they seem to us.
+
+                        I would then come to draw a picture of a human body without a face, and only muscles and bones exposed. Behind this would be E.T surrounded by darkness and white smoke.
+
+                        The humanoid figure would be completely unsuspecting to the monster, much like I was to the possibility of it all failing. In relation to my original prompt the ignorance, we all have to the issues we contain inside us.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Airbrush, Graphite, Ink", LCSart: true))
         
-        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
-                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
-
-                        ​
-
-                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
-                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+        
         
         
         list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))

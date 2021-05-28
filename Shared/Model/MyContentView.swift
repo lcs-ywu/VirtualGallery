@@ -51,7 +51,7 @@ struct MyContentView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 30) {
-                Text("Welcome, my friend!")
+                Text("Welcome to the Virtual Gallery!")
                     .font(.system(.subheadline, design: .monospaced))
                 
                 #warning("Step 3 (required): Create a NavigationLink to push the CDSideMenuMainView")
@@ -61,7 +61,7 @@ struct MyContentView: View {
                             .font(.system(.subheadline, design: .monospaced))
                 })
             }
-            .navigationBarTitle("CDSideMenu Example", displayMode: .inline)
+            .navigationBarTitle("Virtual Gallery", displayMode: .inline)
     }
 }
 }

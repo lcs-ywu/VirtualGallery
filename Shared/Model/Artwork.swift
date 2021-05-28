@@ -8,7 +8,7 @@
 import Foundation
 
 struct Artwork: Identifiable, Codable, Hashable {
-    let id = UUID()
+    var id = UUID()
     let name: String
     let artist : String
     let yearCreated : Int
