@@ -746,7 +746,96 @@ struct Artworks {
         
         list.append(Artwork(name: "Dotombori", artist: "Joe Huang", yearCreated: 2018, description: "August 19, 2018. Dotombori, Osaka, Japan", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
         
+        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
+
+                        ​
+
+                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
         
+        list.append(Artwork(name: "The Lie", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        Looking internally I realized I was far from the person I thought I was. I had created a  facade, a mask, put on a veil that was neatly decorated, and conformed to all the societal rules and expectations. I drew and painted a normal well detailed human face with all features that made one... attractive and fit in. Upon realizing this, I feared for what was behind, the truth behind years of work and structure. The pure and unadulterated me. I found something foreign yet familiar. I looked at it and saw the difference between the lie and the truth. Although different I could tell it was me. The true me that lied dormant for years. To express this I showed a pale face that matched the body, exposed cheekbones to show starvation almost ( represent being tucked away for a long time). And eyes, void-like, to express the depth the true self goes. Far from the stereotypical human face shape and style, this was because I don't believe there is one specific style or type of feature that makes us human. In knowing this I free myself from judging and fruitless judgment.
+
+                        Overall this was hard piece that held more than I initially intended. It was a process and the ideas flew in as I began. The media being,
+                            Graphic design, new to me.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Graphic tablet, Watercolor, Pencil", LCSart: true))
+        
+        list.append(Artwork(name: "Blind", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        After introspection, I noticed that despite all the things I did, created, or changed with myself, the veil removed and the true self is shown, I was still trapped. The things that happened to me and that I do are mostly out of my control. I felt like an observer giving the idea that I was just a head in a jar watching the events pass by me.
+                        
+                        At first, I wanted to dramatize this by incorporating colors that exposed it to be dramatic and painful. This is because that is how I believed others perceived it to be. A painful experience that should be hated and agonized about. THis is why I made the extremities and emphasized on making it look painful and used dramatic colors.
+
+                        After careful consideration, I realized that the ideas I had of how it should be was different from the reality of it. Everything outside seems to be nice and the inside which represents our thoughts is the only dark place. This is to signify the dark parts in our minds, thoughts and  feelings we experience. With all that it becomes muddled and dar. Thus the reason for the dark colours inside the Jar.
+
+                        Inately, we are normal and happy creatures. To express this I used many light and bright colors to show this also adding a slight smile. Unfortuntely we are constantly blinded by the world around us making everything seem darker than it actually is. To show this, I changed the eyes to pure black.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Clear Emotions", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        This series required us to create three pieces. Two eyes and a nose. The process started with drawing out the eyes we had made which were relatively simple as we had sample pictures prior to starting. The only challenge would be showing the emotion in the drawings. This though proved easy enough and quite fun.
+                        
+                        The next required copying the drawing unto a wooden plate. This too was straightforward and quite simple.
+                        
+                        The point of this was to create an expressive piece that portrayed some form of emotion in great detail. After printing them onto the boards we'd cover the basic colors in acrylic paint to show our basic design on the expressions.
+
+                        Personally, painting is a challenge for me, and so this was very enjoyable and forced me to push my adaptation skills to their limits. My first acrylic painting had a great amount of detail which also took a lot of time leaving little for the other pieces. This made the other two a little more rushed but with the experience gained it was much easier. I made sample colors where needed to get an idea of the shades and transitions, kept it vague to allow for change later and let them sit and dry.
+                        
+                        The next and final step involved adding detail and all the extra things to make the piece look realistic. This was achieved with oil colors. There was no real purpose or intent behind anything done in the piece. I mainly wanted to attempt this new art style and see how proficient I am with it.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paints, Acrylic Paints", LCSart: true))
+        
+        list.append(Artwork(name: "Alloco", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        This project was much easier to get started with than the rest, as in comparison, to the previous ones. During my time back home there has always been a snack that I'd eat whenever I can back home. This is something that I've greatly missed and so upon hearing the prompt, foods, This was the first thing that popped into my mind. Aloco. A food made from plantain that is native to my home country, Ivory Coast, and rather common in certain areas in Africa. Sometimes as a snack or a meal, regardless after moving from home I held on to it and so it is something rather special to me.
+                        """, more: """
+                        For the base I wanted something I saw commonly in Ivory Coast. And Palm leaves was something greatly seen and used by people around the country. Some even wrapped their food in this. Taking this into account I decided to have the plate be a palm leaf. This was relatively challenging as I had to add the shape and design seen on real ones without an IRL reference leaving most to my imagination.
+                        
+                        To portray and give an understanding of what the food is and how it is made, I designed it in a way that shows the transition from start to finish. This was the plantain originally, followed by it being cut into pieces, and then once again smaller pieces until in a bowl and ready to consume.
+
+                        The challenge with this was not only making the pieces but mostly coming up with the idea. This was because to me simply making the food would not be enough and I needed the audience to know and delve deeper into the process of making this food.
+
+                        At first, I believed this would be a quick process but painting them proved to be a much longer process.  This was due to factors like; Inability to tell what color would look like after firing in the kiln, blending or showing an effective transition between the pieces.
+                        
+                        The final product after having encouuntered multiple issues with the kiln had come out rather successful. I believe the transitions I attempted to make came out successful and worked as I had hoped. I do although believe the colors could have been a little different as the idea I had was not quite the outcome.
+""", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Low Fire Clay, Glaze", LCSart: true))
+        
+        list.append(Artwork(name: "Awakened", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        The first step was the easiest. Involving creating the image. I needed to show someone rising or growing. This was to represent growth. To emphasize on this on a personal level, I decided to use paint as it was not a strong suit.
+
+                        We are constantly submerged and envelopped in things that mean little to nothing and are pulled back by irrational fears. These are represented by the chains- later on removed due to wanting a softer approach.
+
+                        I decided to have the person in colour to show that we have a large ammount of potential and are alot more than we seem. Arms dark and in murky liquid/ water to represent what we are submerged in and soemthing holding us back. Only showing top half of the torso to show the person emerging. The area above water is coloureed to express a new and colourfull world in contrast to the murky submerged water.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+        
+        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
+
+                        ​
+
+                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+        
+        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
+
+                        ​
+
+                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+        
+        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
+
+                        ​
+
+                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+        
+        list.append(Artwork(name: "In Sight", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        In sight. That is the title I gave this. The Stimuli for this project was to look within yourself. . In doing so I decided to analyze the way I dealt with things and work towards goals.
+
+                        ​
+
+                        I discovered that I have a habit of always looking ahead regardless of the situation. As I believe that it is the journey that is exciting and not the destination. This causes a constant unquenched thirst for more. Now although this can be a good thing, it can also be the cause of a lack of joy. This was expressed by using simply black color on this piece. To show a lack of emotion or life. A slight smile for the enjoyment of it, and the incompleteness of the entire piece to represent the ongoing process.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
         
         
         list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))

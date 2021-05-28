@@ -75,6 +75,19 @@ let testArtistsStore =
 
         """, LCSArtist: true, works: []),
       
+      Artist(name: "Marc Bossongbra", age: "`", identity: "", infor: """
+        ABOUT
+        My name is Bossongbra Aka Marc-Aurèle. Originally from West Africa, Côte D'Ivoire. I originally grew up there until the age of five where I moved to Tanzania. I then got the opportunity to travel around both Africa and Europe mainly exposing me to all sorts of cultures and perspectives. I've only just recently over the past four years been exposed to western culture. This allowed me to gain a love for traveling, architecture, arts, and even psychology. I currently go to school in Lakefield college school as a boarder and return to either the Ivory Coast or Tanzania
+
+        My other interests mainly involve sports and learning. I adore snow sports such as snowboarding and nordic skiing. Water sports such as sailing and windsurfing greatly amuse me, and things like rock climbing and cross country running keep me active. Team sports such as football, basketball, and rugby are great to practice during spring. Other hobbies include studying astronomy, Architecture, and Psychology. Researching history and random knowledge have recently become something of interest due to my newfound realization of the knowledge I lack. Design and crochet are points of interest occasionally though it is something that could be afforded more time.
+
+        Regarding art styles, I don't have any specific preferences. I am aware that I require a higher skill level for painting for which I intend to attain. My goal is to become proficient in most if not all art styles to some degree and apply that to graphic design and animation.
+        """, artistStatement: """
+        Since as far as I can remember, art has been a fascinating hobby of mine. Originally something is done to past time and creat for fun later became a source of comfort. upon looking at other artists I grew a desire to test out new art styles and techniques.  I had originally been enticed due to the Japanese animated shows known as anime. My cousins and I would watch show after show and the act of bringing a fictional character to life with a pen fascinated and drove me to learn a lot more about it.
+
+        As I grew older it changed into a skill I wanted to perfect. I desired to create my own style while learning about others. I used art to express feelings and emotions that could not be shown through words. As I had seen many others do, it became away to present myself to the world all the while also being a source of comfort.
+        """, LCSArtist: true, works: []),
+      
       Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
       Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"])
     ]
