@@ -13,6 +13,42 @@
 		8A1A2A8C25F18982005F6BCA /* ArtistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */; };
 		8A1A2A9C25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */; };
 		8A1A2A9D25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */; };
+		8A27AB4E26591BBC0084CCE6 /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB4D26591BBC0084CCE6 /* Concept.swift */; };
+		8A27AB4F26591BBC0084CCE6 /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB4D26591BBC0084CCE6 /* Concept.swift */; };
+		8A27AB5B2659404E0084CCE6 /* ArtHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */; };
+		8A27AB5C2659404E0084CCE6 /* ArtHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */; };
+		8A27AB60265940620084CCE6 /* ConceptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5F265940620084CCE6 /* ConceptStore.swift */; };
+		8A27AB61265940620084CCE6 /* ConceptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5F265940620084CCE6 /* ConceptStore.swift */; };
+		8A27AB65265940F60084CCE6 /* ArtHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB64265940F60084CCE6 /* ArtHistory.swift */; };
+		8A27AB66265940F60084CCE6 /* ArtHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB64265940F60084CCE6 /* ArtHistory.swift */; };
+		8A27ABD3265A0D820084CCE6 /* CDSideMenuViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC2265A0D810084CCE6 /* CDSideMenuViewModifiers.swift */; };
+		8A27ABD4265A0D820084CCE6 /* CDSideMenuViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC2265A0D810084CCE6 /* CDSideMenuViewModifiers.swift */; };
+		8A27ABD5265A0D820084CCE6 /* CDViewsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC3265A0D810084CCE6 /* CDViewsModifier.swift */; };
+		8A27ABD6265A0D820084CCE6 /* CDViewsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC3265A0D810084CCE6 /* CDViewsModifier.swift */; };
+		8A27ABD7265A0D820084CCE6 /* CDSideMenuNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC5265A0D810084CCE6 /* CDSideMenuNotification.swift */; };
+		8A27ABD8265A0D820084CCE6 /* CDSideMenuNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC5265A0D810084CCE6 /* CDSideMenuNotification.swift */; };
+		8A27ABD9265A0D820084CCE6 /* CDSideMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC6265A0D810084CCE6 /* CDSideMenuConfiguration.swift */; };
+		8A27ABDA265A0D820084CCE6 /* CDSideMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC6265A0D810084CCE6 /* CDSideMenuConfiguration.swift */; };
+		8A27ABDB265A0D820084CCE6 /* CDSideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC7265A0D810084CCE6 /* CDSideMenuItem.swift */; };
+		8A27ABDC265A0D820084CCE6 /* CDSideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC7265A0D810084CCE6 /* CDSideMenuItem.swift */; };
+		8A27ABDD265A0D820084CCE6 /* CDUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC8265A0D810084CCE6 /* CDUserData.swift */; };
+		8A27ABDE265A0D820084CCE6 /* CDUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC8265A0D810084CCE6 /* CDUserData.swift */; };
+		8A27ABDF265A0D820084CCE6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCA265A0D810084CCE6 /* String.swift */; };
+		8A27ABE0265A0D820084CCE6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCA265A0D810084CCE6 /* String.swift */; };
+		8A27ABE1265A0D820084CCE6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCB265A0D810084CCE6 /* Color.swift */; };
+		8A27ABE2265A0D820084CCE6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCB265A0D810084CCE6 /* Color.swift */; };
+		8A27ABE3265A0D820084CCE6 /* CDSideMenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCD265A0D810084CCE6 /* CDSideMenuRow.swift */; };
+		8A27ABE4265A0D820084CCE6 /* CDSideMenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCD265A0D810084CCE6 /* CDSideMenuRow.swift */; };
+		8A27ABE5265A0D820084CCE6 /* CDSideMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCE265A0D810084CCE6 /* CDSideMenuButton.swift */; };
+		8A27ABE6265A0D820084CCE6 /* CDSideMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCE265A0D810084CCE6 /* CDSideMenuButton.swift */; };
+		8A27ABE7265A0D820084CCE6 /* CDSideMenuAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCF265A0D810084CCE6 /* CDSideMenuAccountView.swift */; };
+		8A27ABE8265A0D820084CCE6 /* CDSideMenuAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABCF265A0D810084CCE6 /* CDSideMenuAccountView.swift */; };
+		8A27ABE9265A0D820084CCE6 /* CDSideMenuItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABD0265A0D810084CCE6 /* CDSideMenuItemList.swift */; };
+		8A27ABEA265A0D820084CCE6 /* CDSideMenuItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABD0265A0D810084CCE6 /* CDSideMenuItemList.swift */; };
+		8A27ABEB265A0D820084CCE6 /* CDSideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABD1265A0D810084CCE6 /* CDSideMenuView.swift */; };
+		8A27ABEC265A0D820084CCE6 /* CDSideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABD1265A0D810084CCE6 /* CDSideMenuView.swift */; };
+		8A27ABED265A0D820084CCE6 /* CDSideMenuMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABD2265A0D810084CCE6 /* CDSideMenuMainView.swift */; };
+		8A27ABEE265A0D820084CCE6 /* CDSideMenuMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABD2265A0D810084CCE6 /* CDSideMenuMainView.swift */; };
 		8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */; };
 		8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */; };
 		8A42FF0325C0550500829CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A42FEEE25C0550500829CBC /* Assets.xcassets */; };
@@ -44,6 +80,24 @@
 		8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarColorChange.swift; sourceTree = "<group>"; };
 		8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
 		8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCSArtCommunityView.swift; sourceTree = "<group>"; };
+		8A27AB4D26591BBC0084CCE6 /* Concept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concept.swift; sourceTree = "<group>"; };
+		8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtHistoryView.swift; sourceTree = "<group>"; };
+		8A27AB5F265940620084CCE6 /* ConceptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptStore.swift; sourceTree = "<group>"; };
+		8A27AB64265940F60084CCE6 /* ArtHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtHistory.swift; sourceTree = "<group>"; };
+		8A27ABC2265A0D810084CCE6 /* CDSideMenuViewModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuViewModifiers.swift; sourceTree = "<group>"; };
+		8A27ABC3265A0D810084CCE6 /* CDViewsModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDViewsModifier.swift; sourceTree = "<group>"; };
+		8A27ABC5265A0D810084CCE6 /* CDSideMenuNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuNotification.swift; sourceTree = "<group>"; };
+		8A27ABC6265A0D810084CCE6 /* CDSideMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuConfiguration.swift; sourceTree = "<group>"; };
+		8A27ABC7265A0D810084CCE6 /* CDSideMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuItem.swift; sourceTree = "<group>"; };
+		8A27ABC8265A0D810084CCE6 /* CDUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDUserData.swift; sourceTree = "<group>"; };
+		8A27ABCA265A0D810084CCE6 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		8A27ABCB265A0D810084CCE6 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8A27ABCD265A0D810084CCE6 /* CDSideMenuRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuRow.swift; sourceTree = "<group>"; };
+		8A27ABCE265A0D810084CCE6 /* CDSideMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuButton.swift; sourceTree = "<group>"; };
+		8A27ABCF265A0D810084CCE6 /* CDSideMenuAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuAccountView.swift; sourceTree = "<group>"; };
+		8A27ABD0265A0D810084CCE6 /* CDSideMenuItemList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuItemList.swift; sourceTree = "<group>"; };
+		8A27ABD1265A0D810084CCE6 /* CDSideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuView.swift; sourceTree = "<group>"; };
+		8A27ABD2265A0D810084CCE6 /* CDSideMenuMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuMainView.swift; sourceTree = "<group>"; };
 		8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualGalleryApp.swift; sourceTree = "<group>"; };
 		8A42FEEE25C0550500829CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A42FEF325C0550500829CBC /* VirtualGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +136,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A27ABC0265A0D810084CCE6 /* CDSideMenuSrc */ = {
+			isa = PBXGroup;
+			children = (
+				8A27ABC1265A0D810084CCE6 /* Modifiers */,
+				8A27ABC4265A0D810084CCE6 /* Models */,
+				8A27ABC9265A0D810084CCE6 /* Extensions */,
+				8A27ABCC265A0D810084CCE6 /* Views */,
+			);
+			path = CDSideMenuSrc;
+			sourceTree = "<group>";
+		};
+		8A27ABC1265A0D810084CCE6 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8A27ABC2265A0D810084CCE6 /* CDSideMenuViewModifiers.swift */,
+				8A27ABC3265A0D810084CCE6 /* CDViewsModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		8A27ABC4265A0D810084CCE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A27ABC5265A0D810084CCE6 /* CDSideMenuNotification.swift */,
+				8A27ABC6265A0D810084CCE6 /* CDSideMenuConfiguration.swift */,
+				8A27ABC7265A0D810084CCE6 /* CDSideMenuItem.swift */,
+				8A27ABC8265A0D810084CCE6 /* CDUserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A27ABC9265A0D810084CCE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A27ABCA265A0D810084CCE6 /* String.swift */,
+				8A27ABCB265A0D810084CCE6 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8A27ABCC265A0D810084CCE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A27ABCD265A0D810084CCE6 /* CDSideMenuRow.swift */,
+				8A27ABCE265A0D810084CCE6 /* CDSideMenuButton.swift */,
+				8A27ABCF265A0D810084CCE6 /* CDSideMenuAccountView.swift */,
+				8A27ABD0265A0D810084CCE6 /* CDSideMenuItemList.swift */,
+				8A27ABD1265A0D810084CCE6 /* CDSideMenuView.swift */,
+				8A27ABD2265A0D810084CCE6 /* CDSideMenuMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8A42FEE625C054FF00829CBC = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +206,7 @@
 				8A42FF1025C0555C00829CBC /* Model */,
 				8A42FF0F25C0555100829CBC /* View */,
 				8A42FEEE25C0550500829CBC /* Assets.xcassets */,
+				8A27ABC0265A0D810084CCE6 /* CDSideMenuSrc */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -139,6 +247,7 @@
 				8A42FF4925C4A15100829CBC /* WorldMap.swift */,
 				8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */,
 				8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */,
+				8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +261,9 @@
 				8A52CD8125F06791006B6A3D /* Artist.swift */,
 				8ADC8C5F25F07FCE006D1631 /* ArtistsStore.swift */,
 				8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */,
+				8A27AB4D26591BBC0084CCE6 /* Concept.swift */,
+				8A27AB5F265940620084CCE6 /* ConceptStore.swift */,
+				8A27AB64265940F60084CCE6 /* ArtHistory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,18 +373,36 @@
 			files = (
 				8ADC8C6025F07FCE006D1631 /* ArtistsStore.swift in Sources */,
 				8A42FF3025C05C4500829CBC /* ArtworkStore.swift in Sources */,
+				8A27ABD3265A0D820084CCE6 /* CDSideMenuViewModifiers.swift in Sources */,
+				8A27AB60265940620084CCE6 /* ConceptStore.swift in Sources */,
 				8A42FF4A25C4A15100829CBC /* WorldMap.swift in Sources */,
+				8A27ABE9265A0D820084CCE6 /* CDSideMenuItemList.swift in Sources */,
+				8A27AB5B2659404E0084CCE6 /* ArtHistoryView.swift in Sources */,
 				8A52CD7025EDC30A006B6A3D /* ArtistsList.swift in Sources */,
+				8A27ABE7265A0D820084CCE6 /* CDSideMenuAccountView.swift in Sources */,
 				8A42FF1D25C0570300829CBC /* Artwork.swift in Sources */,
 				8A1A2A7D25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */,
+				8A27ABD9265A0D820084CCE6 /* CDSideMenuConfiguration.swift in Sources */,
+				8A27ABE5265A0D820084CCE6 /* CDSideMenuButton.swift in Sources */,
 				8A1A2A8B25F18982005F6BCA /* ArtistDetailView.swift in Sources */,
+				8A27ABDD265A0D820084CCE6 /* CDUserData.swift in Sources */,
 				8A42FF3F25C3A3F200829CBC /* ArtworksList.swift in Sources */,
 				8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
+				8A27ABD5265A0D820084CCE6 /* CDViewsModifier.swift in Sources */,
 				8A1A2A9C25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
 				8A52CD8225F06792006B6A3D /* Artist.swift in Sources */,
+				8A27ABED265A0D820084CCE6 /* CDSideMenuMainView.swift in Sources */,
+				8A27ABE1265A0D820084CCE6 /* Color.swift in Sources */,
+				8A27ABE3265A0D820084CCE6 /* CDSideMenuRow.swift in Sources */,
+				8A27ABDF265A0D820084CCE6 /* String.swift in Sources */,
+				8A27ABEB265A0D820084CCE6 /* CDSideMenuView.swift in Sources */,
 				8AD23C9C25FFE89F00DFE50F /* SearchBarView.swift in Sources */,
+				8A27AB65265940F60084CCE6 /* ArtHistory.swift in Sources */,
 				9CDF44E72655EE560081456B /* Artworks.swift in Sources */,
+				8A27ABD7265A0D820084CCE6 /* CDSideMenuNotification.swift in Sources */,
 				8A42FF2925C0596600829CBC /* ArtworkDetail.swift in Sources */,
+				8A27AB4E26591BBC0084CCE6 /* Concept.swift in Sources */,
+				8A27ABDB265A0D820084CCE6 /* CDSideMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,18 +412,36 @@
 			files = (
 				8ADC8C6125F07FCE006D1631 /* ArtistsStore.swift in Sources */,
 				8A42FF3125C05C4500829CBC /* ArtworkStore.swift in Sources */,
+				8A27ABD4265A0D820084CCE6 /* CDSideMenuViewModifiers.swift in Sources */,
+				8A27AB61265940620084CCE6 /* ConceptStore.swift in Sources */,
 				8A42FF4B25C4A15100829CBC /* WorldMap.swift in Sources */,
+				8A27ABEA265A0D820084CCE6 /* CDSideMenuItemList.swift in Sources */,
+				8A27AB5C2659404E0084CCE6 /* ArtHistoryView.swift in Sources */,
 				8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */,
+				8A27ABE8265A0D820084CCE6 /* CDSideMenuAccountView.swift in Sources */,
 				8A42FF1E25C0570300829CBC /* Artwork.swift in Sources */,
 				8A1A2A7E25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */,
+				8A27ABDA265A0D820084CCE6 /* CDSideMenuConfiguration.swift in Sources */,
+				8A27ABE6265A0D820084CCE6 /* CDSideMenuButton.swift in Sources */,
 				8A1A2A8C25F18982005F6BCA /* ArtistDetailView.swift in Sources */,
+				8A27ABDE265A0D820084CCE6 /* CDUserData.swift in Sources */,
 				8A42FF4025C3A3F300829CBC /* ArtworksList.swift in Sources */,
 				8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
+				8A27ABD6265A0D820084CCE6 /* CDViewsModifier.swift in Sources */,
 				8A1A2A9D25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
 				8A52CD8325F06792006B6A3D /* Artist.swift in Sources */,
+				8A27ABEE265A0D820084CCE6 /* CDSideMenuMainView.swift in Sources */,
+				8A27ABE2265A0D820084CCE6 /* Color.swift in Sources */,
+				8A27ABE4265A0D820084CCE6 /* CDSideMenuRow.swift in Sources */,
+				8A27ABE0265A0D820084CCE6 /* String.swift in Sources */,
+				8A27ABEC265A0D820084CCE6 /* CDSideMenuView.swift in Sources */,
 				8AD23C9D25FFE89F00DFE50F /* SearchBarView.swift in Sources */,
+				8A27AB66265940F60084CCE6 /* ArtHistory.swift in Sources */,
 				9CDF44E82655EE560081456B /* Artworks.swift in Sources */,
+				8A27ABD8265A0D820084CCE6 /* CDSideMenuNotification.swift in Sources */,
 				8A42FF2A25C0596600829CBC /* ArtworkDetail.swift in Sources */,
+				8A27AB4F26591BBC0084CCE6 /* Concept.swift in Sources */,
+				8A27ABDC265A0D820084CCE6 /* CDSideMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
