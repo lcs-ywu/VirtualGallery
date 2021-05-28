@@ -13,6 +13,7 @@ struct VirtualGalleryApp: App {
     
     @StateObject var store = ArtworkStore()
     
+   
     var body: some Scene {
         WindowGroup {
             
@@ -36,7 +37,6 @@ struct VirtualGalleryApp: App {
                 .tabItem { Image(systemName: "map")
                 Text("Map")
                 }
-               
             }
             // Problem: Clicking the middle of the two bars also alter the screen
         }
