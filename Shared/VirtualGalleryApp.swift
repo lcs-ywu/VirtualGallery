@@ -13,31 +13,11 @@ struct VirtualGalleryApp: App {
     
     @StateObject var store = ArtworkStore()
     
+   
     var body: some Scene {
         WindowGroup {
             
-            TabView{
-                NavigationView{
-//                    store: testStore
-                    ArtworksList()
-                }
-                .tabItem { Image(systemName: "paintpalette")
-                Text("Artworks")
-                }
-                NavigationView {
-                    ArtistsList()
-                }
-                .tabItem { Image(systemName: "person.fill")
-                Text("Artists")
-                }
-                NavigationView {
-                    WorldMap(store: testStore)
-                }
-                .tabItem { Image(systemName: "map")
-                Text("Map")
-                }
-               
-            }
+            MyContentView()
             // Problem: Clicking the middle of the two bars also alter the screen
         }
     }

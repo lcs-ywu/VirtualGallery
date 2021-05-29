@@ -83,7 +83,7 @@ let testArtistsStore =
 
         """, LCSArtist: true, works: []),
       
-      Artist(name: "Marc Bossongbra", age: "`", identity: "", infor: """
+      Artist(name: "Marc Bossongbra", age: "", identity: "", infor: """
         ABOUT
         My name is Bossongbra Aka Marc-Aurèle. Originally from West Africa, Côte D'Ivoire. I originally grew up there until the age of five where I moved to Tanzania. I then got the opportunity to travel around both Africa and Europe mainly exposing me to all sorts of cultures and perspectives. I've only just recently over the past four years been exposed to western culture. This allowed me to gain a love for traveling, architecture, arts, and even psychology. I currently go to school in Lakefield college school as a boarder and return to either the Ivory Coast or Tanzania
 
