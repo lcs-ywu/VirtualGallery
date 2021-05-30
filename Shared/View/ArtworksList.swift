@@ -53,7 +53,6 @@ struct ArtworksList: View {
                 }
             }
             .frame(height: 600)
-//            .shadow(color: .gray, radius: 2, x: 10, y: 15)
             .shadow(radius: 20)
             
             VStack(alignment: .leading,spacing:5, content: {
@@ -105,11 +104,8 @@ struct ArtworksList: View {
             .frame(width: 400, alignment: .center)
             .scaledToFit()
             .padding(.bottom)
-//            .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
-//            .background(RadialGradient(gradient: Gradient(colors: [.gray, .white]), center: .center, startRadius: 10, endRadius: 70))
             .cornerRadius(20)
             .animation(.spring())
-//            .background(.white)
             .shadow(radius: 20)
             //Cannot assign shadow on the block of text plus picture
             
