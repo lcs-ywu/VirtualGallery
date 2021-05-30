@@ -57,7 +57,7 @@ struct ArtworksList: View {
             VStack(alignment: .leading,spacing:5, content: {
                 
                 HStack {
-                    Text("knowledge Base")
+                    Text("Knowledge Base")
 //                    .fontWeight(.heavy).foregroundColor(.black)
                         .font(.system(.title, design: .serif))
                     Spacer()
@@ -139,7 +139,7 @@ struct ArtworksList: View {
                                         .frame(width: 44, height:44)
                                         .cornerRadius(15)
                             
-                                        Text("reative Process")
+                                        Text("Creative Process")
                                     Spacer()
                                     Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
                                 }.frame(width: 310, height: 50, alignment: .center)
