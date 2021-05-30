@@ -244,7 +244,7 @@ struct ArtworksList: View {
             
             
         }.sheet(isPresented: $showingSearchingView) {
-            SearchBarView(text: $searchText)
+            SearchView(searchText: searchText)
         }
 
         //                            .background(Image("AppBackground"))
@@ -255,20 +255,20 @@ struct ArtworksList: View {
 
 
 
-func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
-    
-    if searchText.isEmpty {
-        return artworkStore
-    }
-    var presentArtworks: [Artwork] = []
-    for artwork in artworkStore {
-        if artwork.name.lowercased().contains(searchText.lowercased()) || artwork.artist.lowercased().contains(searchText.lowercased()) {
-            
-            presentArtworks.append(artwork)
-        }
-    }
-    return presentArtworks
-}
+//func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
+//    
+//    if searchText.isEmpty {
+//        return artworkStore
+//    }
+//    var presentArtworks: [Artwork] = []
+//    for artwork in artworkStore {
+//        if artwork.name.lowercased().contains(searchText.lowercased()) || artwork.artist.lowercased().contains(searchText.lowercased()) {
+//            
+//            presentArtworks.append(artwork)
+//        }
+//    }
+//    return presentArtworks
+//}
 
 
 struct ArtworksList_Previews: PreviewProvider {
