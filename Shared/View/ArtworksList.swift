@@ -40,7 +40,7 @@ struct ArtworksList: View {
                       headspace: 10,
                       sidesScaling: 0.7,
                       isWrap: true,
-                      autoScroll: .active(2)) { item in
+                      autoScroll: .active(4)) { item in
                 VStack {
                     NavigationLink(destination: ArtworkDetail(artwork: item)){
                         Image(item.name)
@@ -139,22 +139,10 @@ struct ArtworksList: View {
             .shadow(radius: 20)
             
         }.toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                
-                Image(systemName: "person.circle").resizable().scaledToFill().frame(width: 40)
-                    .onTapGesture {
-                    print("hi")
-                }
-//                NavigationLink(destination: CDSideMenuMainView()
-//                                    .environmentObject(createConfiguration()), label: {
-//                                        Text("Now, click here ;) ")
-//                                            .font(.system(.subheadline, design: .monospaced))
-//                                })
-            }
             
             ToolbarItem(placement: .primaryAction) {
                     
-                Image(systemName: "magnifyingglass.circle").resizable().scaledToFill().frame(width: 40)
+                Image(systemName: "magnifyingglass.circle").resizable().scaledToFill().frame(width: 30)
                         
                 .onTapGesture {
                     showingSearchingView = true
