@@ -41,7 +41,7 @@ struct PostModernPrinciples: View {
                     Spacer()
                 }
             }
-        
+            
             Group{
                 HStack {
                     Text("Juxtaposition").bold().font(.system(.title, design: .serif)).padding(.all)
@@ -73,7 +73,89 @@ struct PostModernPrinciples: View {
                 }
             }
             
+            Group{
+                HStack {
+                    Text("Layering").bold().font(.system(.title, design: .serif)).padding(.all)
+                    Spacer()
+                }
+                Text("""
+            Reflective of the manner in which images have become cheap and disposable, layering refers to the over-exposure to images we commonly experience in the 21st century.
+
+            Physically or digitally layering images of varying transparency
+            """).font(.system(.title, design: .serif)).padding(.all)
+                Image("Layering").resizable().scaledToFill()
+            }
+            
+            Group{
+                HStack {
+                    Text("Text & Image Interaction").bold().font(.system(.title, design: .serif)).padding(.all)
+                    Spacer()
+                }
+                Text("""
+            Learning not to demand the literal matching of verbal and visual signifiers, but rather to explore disjuncture between the two modes as a source of meaning and pleasure.
+            """).font(.system(.title, design: .serif)).padding(.all)
+                Image("Text & Image Interaction").resizable().scaledToFill()
+                HStack {
+                    Text("Untitled. Barbara Kruger.").font(.system(.body, design: .serif)).padding(.leading)
+                    Spacer()
+                }
+            }
+            
+            Group{
+                HStack {
+                    Text("Hybridity").bold().font(.system(.title, design: .serif)).padding(.all)
+                    Spacer()
+                }
+                Text("""
+            Artwork that combines new and emerging technologies to provide the viewer with a complex experience.
+            """).font(.system(.title, design: .serif)).padding(.all)
+                Image("Hybridity").resizable().scaledToFill()
+                HStack {
+                    Text("The Rain Room. Random International.").font(.system(.body, design: .serif)).padding(.leading)
+                    Spacer()
+                }
+            }
+            
+            Group{
+                HStack {
+                    Text("Gazing").bold().font(.system(.title, design: .serif)).padding(.all)
+                    Spacer()
+                }
+                Text("""
+            Deals with how an audience views the people presented.
+
+            This concept is extended in the framework of feminist theory, where it can deal with how men look at women, how women look at themselves and other women, and the effects surrounding this.
+
+            The gaze can be characterised by who is doing the looking:
+              1.Spectator's gaze: the spectator who is viewing the text. This is often us, the audience of a certain text
+              2.Intra-diegetic gaze: where one person depicted in the text who is looking at another person or object in the text, such as another character looking at another
+              3.Extra-diegetic gaze: where the person depicted in the text looks at the spectator, such as an aside, or an acknowledgement of the fourth wall, or
+              4.Camera's gaze: which is the gaze of the camera, and is often equated to the director's gaze.
+            """).font(.system(.title, design: .serif)).padding(.all)
+                Image("Gazing").resizable().scaledToFill()
+                HStack {
+                    Text("Olympia. Manet").font(.system(.body, design: .serif)).padding(.leading)
+                    Spacer()
+                }
+            }
+            
+            Group{
+                HStack {
+                    Text("Representing").bold().font(.system(.title, design: .serif)).padding(.all)
+                    Spacer()
+                }
+                Text("""
+            U.S. urban street slang for proclaiming one’s identity and affiliations, representing, describes the strategy of locating one’s artistic voice within one’s personal history and culture of origin.
+            """).font(.system(.title, design: .serif)).padding(.all)
+                Image("Representing").resizable().scaledToFill()
+                HStack {
+                    Text("My Bed. Tracey Emin.").font(.system(.body, design: .serif)).padding(.leading)
+                    Spacer()
+                }
+            }
+            
         }.ignoresSafeArea()
+        //Need to fix the frame shift
     }
 }
 

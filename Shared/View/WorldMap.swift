@@ -32,7 +32,7 @@ struct WorldMap: View {
                                 .cornerRadius(10)
                                 .scaledToFit()
                                 .frame(width:80, height:80)
-                                .shadow(radius:3)
+//                                .shadow(radius:3)
                         }
                     } else if artwork.onDisplay == true && artwork.latitude == 44.43922 && artwork.longitude == -78.26571 {
                         NavigationLink(destination: LCSArtCommunityView()) {
@@ -42,7 +42,7 @@ struct WorldMap: View {
                                 .cornerRadius(10)
                                 .scaledToFit()
                                 .frame(width:100, height:100)
-                                .shadow(radius:3)
+//                                .shadow(radius:3)
                         }
                         
                     }

@@ -10,8 +10,7 @@ import ACarousel
 
 struct ArtworksList: View {
     
-    @State var expand1 = false
-    @State var expand2 = false
+    @State var expand = false
     
     @State private var searchText: String = ""
     
@@ -62,41 +61,138 @@ struct ArtworksList: View {
 //                    .fontWeight(.heavy).foregroundColor(.black)
                         .font(.system(.title, design: .serif))
                     Spacer()
-                    Image(systemName: expand1 ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                    Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
                 }.onTapGesture {
-                    self.expand1.toggle()
+                    self.expand.toggle()
                 }.frame(width: 310, height: 50, alignment: .center)//.padding(7)
                 
-                if expand1 {
-                    
-                    //put artwork cells here
-                    //Add a sorted method?
-                    ForEach(filterArtworks(searchText: searchText, list: store.NonLCSArtworks)) { artwork in
+                if expand {
                         
-                        
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork))
-                        {
+                        VStack{
                             
-                            HStack{
-                                
-                                Image(artwork.name)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 44, height:44)
-                                    .cornerRadius(15)
-                                
-                                VStack(alignment: .leading) {
-                                    Text(artwork.name)
-                                    Text(artwork.artist)
-                                        .font(.subheadline)
-                                }
-                                Spacer()
-                                Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                            }.frame(width: 310, height: 50, alignment: .center)
-                        }
+                            NavigationLink(destination: PurposeOfArt())
+                            {
+                                HStack{
+                                    Image("Purpose Of Art")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                            
+                                        Text("Purpose of Art")
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            
+                            NavigationLink(destination: ElementsOfArt())
+                            {
+                                HStack{
+                                    Image("Elements Of Art")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                            
+                                        Text("Elements Of Art")
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            
+                            NavigationLink(destination: PrinciplesOfDesign())
+                            {
+                                HStack{
+                                    Image("Principles Of Design")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                            
+                                        Text("Principles Of Design")
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            
+                            NavigationLink(destination: PostModernPrinciples())
+                            {
+                                HStack{
+                                    Image("Postmodern Principles")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                            
+                                        Text("Postmodern Principles")
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            
+                            NavigationLink(destination: CreativeProcess())
+                            {
+                                HStack{
+                                    Image("Creative Process")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                            
+                                        Text("reative Process")
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            
+                            NavigationLink(destination: Surrealism())
+                            {
+                                HStack{
+                                    Image("Surrealism")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                            
+                                        Text("Surrealism")
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            
+                            NavigationLink(destination: CriticalAnalysisProcess())
+                            {
+                                HStack{
+                                    Image("Critical Analysis Process")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                            
+                                        Text("Critical Analysis Process")
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            
+                            NavigationLink(destination: GroupOfSeven())
+                            {
+                                HStack{
+                                    Image("Group of Seven")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 44, height:44)
+                                        .cornerRadius(15)
+                            
+                                        Text("Group of Seven")
+                                    Spacer()
+                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                }.frame(width: 310, height: 50, alignment: .center)
+                            }
+                            
+                        }.ignoresSafeArea(edges: .all)
+                        .foregroundColor(.black)
                         
-                    }.ignoresSafeArea(edges: .all)
-                    .foregroundColor(.black)
                     
                 }
                 
