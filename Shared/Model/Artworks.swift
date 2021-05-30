@@ -580,53 +580,51 @@ struct Artworks {
         
         list.append(Artwork(name: "Untitled Pen Painting 36", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 22", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 22", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 23", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 23", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Coloured Pencil Painting 24", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+        list.append(Artwork(name: "Untitled Colour Pencil Painting 24", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
         
         list.append(Artwork(name: "Untitled Digital Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
         
@@ -915,9 +913,60 @@ struct Artworks {
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Clay, Low Fire Glaze", LCSart: true))
         
         
+        // Carter's section needs confirmation
+        list.append(Artwork(name: "Untitled?", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        While working on this project I found I tried to represent best how I felt mostly inside. I took one of my favourite things being music by recreating an album cover from one of my favourite artists Lil Uzi Vert. I found it represented well how I feel my heads always in space considering I get lost in my own thoughts and find and find I zone out easily. I also added the tombstone on the drawing of myself considering it represents my biggest fear, death.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "To be added", LCSart: true))
+        
+        list.append(Artwork(name: "Second Project?", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        For my second project, I really wanted to express how I was feeling inside. Since I'm at such a young age I find I'm still trying to figure myself out and experiencing life every day. I also thought it would be interesting to not draw the eyes considering it is said that you can really read someone through their eyes, I found it added a theme of mystery to the project.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+        
+        list.append(Artwork(name: "Untitled2", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        I thought for this part of our project I would try and use some appropriation of Picasso art style to over exaggerate my features mainly focusing on hair. I purposely made it extra pouffy and wavy parting in the middle. As well as my mouth, i purposely made it smaller then normal considering in real life that is a physical feature of mine.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "To be added", LCSart: true))
+        
+        list.append(Artwork(name: "Final Project?", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        The final project I chose to keep it very simple, just using an F pencil I sketched my jeep and me walking up the side of it. Cars have always been a huge part of my life and considering it felt like it was a huge part of my identity I thought this would be an important factor to include in at least one of my artworks. Jeeps have been something me and my Dad have always bonded over and I thought this was a great approach to represent "Windows in to my World".
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "To be added", LCSart: true))
+        
+        list.append(Artwork(name: "Sad?", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        For this piece I focused mostly on the sad emotion. It was the second eye I attempted and personally I feel it is definitely the better art work of the two. It took almost half the time as the previous one considering I had really found my groove. The part I felt went best was the actual eye, as well as the creases, I found they represented the emotion perfectly. I also felt the dark to light blue created a good contrast and related to the emotion.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Seriousness?", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        The main emotion I tried to represent was seriousness. This was my third and most difficult piece out of the three-piece collection. Originally I was going to do a yellow acrylic background then accidentally painted it blue. I thought the thick oil pant would cover this easily but this was not the case. I had to apply crazy thick paint where the yellow lays making it incredibly difficult for the layering and blending between the yellow shades. Mid way through I also decided to paint the mouth shut, I felt seriousness represented me better, and I was more excited to show the depth and roundness of the lips. One thing I found went very well were the lips. The red covered the blue with ease allowing me to demonstrate my skills properly with the use of oil paint.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Anger?", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        With this being my very first piece and my first time using oil paint, as well as my first time painting an eye, I struggled. I attempted to show anger through this painting which in my opinion is portrayed well. I struggled most with the eye, it needed to be reshaped around three times eating up much of my time pushing me close to the deadline. With persistence, I finished it and was quite honestly happy with the final product. One thing I felt went really well was the color choice and shading. With the brown and purple, I was able to develop dark angry like tones which shaped an angry firey emotion. Although, this is my second least favourite of the three, the mouth and nose holding number one.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Untitled3", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        Originally, at the beginning of this project, I found I struggled with choosing the dish I wanted to re-create. I ended up compiling all of my favourite foods into one dish. The part I struggled with the most was the original plate design. I attempted three times to form a slab of wood to serve the dish on although, this deemed to be very difficult leading me to do a simple grey plate which was slightly disappointing. One area I found I excelled in was the steak. Being the first sculpture I attempted it went much better than I thought it would. The pasta was definitely the easiest considering I was able to simply push it through a tool used to create the thin noodle shape. The lobster tail was a very tricky part of the process. Not only having trouble sculpting it, the colouring was a challenge to perfect considering the different shades and vibrant layers there are to a lobster shell.  This project has been one of my favourites this year and I found it was a great introduction to sculpting. I will likely sculpt again in the future.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Clay, Low fire glaze", LCSart: true))
+        
+        list.append(Artwork(name: "Paddle Project", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        This paddle project was genuinely one of my most challenging art works yet. Originally I began painting the triangles freehand and this went horribly. I was not getting straight lines and knew I would not be happy with my final project therefore I found a solution. I used green tape to get perfectly shaped triangles which ended up giving my design a very abstract look. The only downside to this was the extreme amount of time it took although, I felt it was honestly worth it when seeing the end result. For the shaft, I kept a very simple design that almost showed the paddle to be spinning because of the triangle placement. Considering painting is one of my worst skills, this project went well for me in my opinion.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior acrylic paint", LCSart: true))
+        
+        list.append(Artwork(name: "Confidence", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        While approaching my final culminating task, knowing this would be my final art project, I knew I had to make it the best I possibly could to finish my art career at LCS with a bang. The main theme I felt I could focus on for my project was confidence. With this in mind, I first analyzed my life to determine why I have felt confident in the past. This immediately made me think of my father and our relationship. Before any sporting event or school assessment I always remember he would ask “how you feelin?” and I would always say “I’m nervous” which he would respond with “good” considering he felt me being nervous just showed I cared. But then he would always end the conversation with “Just do what you do, and be confident”.
+
+                        Now was the time to decide what media to use, what to do in general, and how I would get the point of “Confidence” across to my audience. I ended up deciding on drawing a portrait because I genuinely felt drawing is my best use of media. I originally thought paint would be interesting although, my painting skills are not very good therefore I felt drawing was my safest route.
+
+                        Choosing who or what I wanted to draw really boggled my mind. My original plan was to draw Connor McGregor and Carey Price in the safe portrait, but I quickly realized that this would be near impossible in the time frame we were given, therefore, I quickly decided to only do Connor. I felt he displayed the confidence theme the best considering he is known worldwide for his trash talk, and ultimate confidence while in the octagon. He talks the talk and walks the walk, that is something I have always admired that about this athlete.
+
+                        During the process, some of my most successful parts included the right eye as well as the tattoo. The right eye was the first eye I targeted in this piece and I genuinely think it is the best feature of the piece. Using the 8B pencil I was able to develop an emphasis on the inner eye as well as the slight glare in the pupil. This gave an effect of lights being shined on Connor giving the stadium feel. My second favourite element was the tattoo. I felt it honestly looked very realistic and represented Connor’s chest very well.
+
+                        With this process came many annoying and rage-inducing moments as well. This included the left eye as well as the beard. The left eye was more than painful then the right considering I had to restart it four different times and did not finish with a product I was 100% confident with the final product. My second biggest challenge was the beard. It wasn’t exactly difficult but I had to darken it approximately three times and I had to re-do each strand of hair taking me an enormous amount of time. Although, I was happy with the final product.
+
+                        This project has taught me a lot about my skills and patients as an artist. I was genuinely happy with the end result and am very sad art is over. I felt this was the best project I could have finished my year with and I am excited to create more art in the future.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior acrylic paint", LCSart: true))
         
         
         
+   
         
         
         list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))

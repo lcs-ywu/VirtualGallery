@@ -104,6 +104,9 @@ let testArtistsStore =
         Art galleries and museums have always been my first choice when it comes to spending time alone. I love the peaceful environment galleries provide, which enables me to enjoy art and take a break from the busy life.
         """, artistStatement: "", LCSArtist: true, works: []),
       
+      Artist(name: "Carter Chartier", age: "", identity: "", infor: "To Be Added", artistStatement: "", LCSArtist: true, works: []),
+      
+      
       Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
       Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"])
 ]
