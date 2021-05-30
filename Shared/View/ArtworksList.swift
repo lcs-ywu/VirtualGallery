@@ -34,7 +34,7 @@ struct ArtworksList: View {
             
             Spacer()
             
-            ACarousel(store.artworks,
+            ACarousel(store.artworksOnDisplay,
                       spacing: 10,
                       headspace: 10,
                       sidesScaling: 0.7,

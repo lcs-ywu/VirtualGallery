@@ -52,5 +52,5 @@ class ArtworkStore: ObservableObject {
     
 //}
 
-//let testStore = ArtworkStore(artworks: testArtworksStore.list)
+let testStore = ArtworkStore(artworks: testArtworksStore.list)
 
