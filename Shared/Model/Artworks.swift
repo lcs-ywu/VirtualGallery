@@ -9,6 +9,7 @@ import Foundation
 
 struct Artworks {
     var list: [Artwork] = []
+    var listOnDisplay: [Artwork] = []
     
     init() {
         list.append(Artwork(name: "Mona Lisa", artist: "Leonado da Vinci", yearCreated: 1506, description: "The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as 'the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world'. The painting's novel qualities include the subject's enigmatic expression, the monumentality of the composition, the subtle modelling of forms, and the atmospheric illusionism", more: "The painting is probably of the Italian noblewoman Lisa Gherardini, the wife of Francesco del Giocondo, and is in oil on a white Lombardy poplar panel. It had been believed to have been painted between 1503 and 1506; however, Leonardo may have continued working on it as late as 1517. It was acquired by King Francis I of France and is now the property of the French Republic itself, on permanent display at the Louvre, Paris since 1797.", onDisplay: true, museum: "Louvre Museum", latitude: 48.861111, longitude: 2.336389, medium: "Oil on canvas", LCSart: false))
@@ -102,7 +103,7 @@ struct Artworks {
         
         list.append(Artwork(name: "Self-Portrait", artist: "Minah Bae", yearCreated: 2019, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Graphite on illustration board", LCSart: true))
         
-
+        
         
         list.append(Artwork(name: "5 Faces", artist: "Minah Bae", yearCreated: 2018, description: """
                         This project was done for the school assignment "Gallery In The Grove", and I worked with a parter. We were not given any specific topics and we chose "racism".
@@ -132,7 +133,7 @@ struct Artworks {
                           I used acrylic paint for the background colour and rough draft for eyes and mouth. I wanted these look as realistic as possible and the details such as eye ball, eyelashes, and the texture of skin. Oil paint was really helpful for the texture of skin since it blends very well.
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Oil paint", LCSart: true))
         
-
+        
         list.append(Artwork(name: "골뱅이 소면과 수제비", artist: "Minah Bae", yearCreated: 2020, description: "We were asked to create our favourite dish or a dish that connects us to family, friends, or memories. This is the food that I chose for this assignment.  My mom always cooks this food whenever I come back home from Canada. This is one of my favourite food that I miss the most from home. This food reminds me of my family, home and especially those lovely dinners that I had with my family. ", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Low Fire White clay and glaze", LCSart: true))
         
         list.append(Artwork(name: "Memory", artist: "Minah Bae", yearCreated: 2020, description: "My grandpa passed away 2 years ago and we have this memorial ceremony every year on the day the person passed away. It’s a tradition that we do as a family in Korea. And I wanted to create something special for my grandpa and for myself as well to remember him. And the reason why I chose to draw a wave is because he was a captain back when he was young and he’s always loved the ocean. When I explain the meaning behind this, I think everyone could relate to these feelings and emotions when we experience the loss of a loved one. We all have something that reminds us of them. Those patterns are things that remind me of him such as coffee, croissant, and his initial SCB. Also, the reason why I chose these intense waves instead of calming waves is because it represents how hard it is for me to face the fact that he’s not here with me anymore and also the pain through this experience. This painting didn’t go the same as I planned. I sort of decided everything along the way. I wanted to give perspective to this painting and that was the hardest part. It was really challenging to get the perfect colour which can show the depth perception. Also, getting the texture on the waterfall was challenging as well.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic paint, poster board on canvas", LCSart: true))
@@ -429,7 +430,7 @@ struct Artworks {
                         Also, through this artwork, I wanted to express the beauty of nature. Since I love the outdoor, I had seen many different faces of it and each has its own fascination. For example, in summer, trees are green and everything sounds active. But in winter, the air sounds sharp but quiet from the cold weather and snow. To show the different seasons, time, and places, I chose 9 of my favourite moments and described in different materials, and elements.
                         """, onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Crayons", LCSart: true))
         
-       
+        
         
         
         list.append(Artwork(name: "Untitled Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
@@ -725,7 +726,7 @@ struct Artworks {
         list.append(Artwork(name: "The Nightingale", artist: "Joe Huang", yearCreated: 2020, description: "September 22, 2020. The McKinnon Hotel, Shanghai, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
         
         list.append(Artwork(name: "Reflection", artist: "Joe Huang", yearCreated: 2019, description: "May 31, 2020. ‎⁨Shanghai Pudong International Airport⁩, Shanghai, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
-
+        
         list.append(Artwork(name: "Country Road", artist: "Joe Huang", yearCreated: 2019, description: "August 18, 2019. Zhangye National Geopark, Zhangye, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
         
         list.append(Artwork(name: "The Demon Tower", artist: "Joe Huang", yearCreated: 2019, description: "August 19, 2019. Mogao Caves, Jiuquan, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
@@ -964,16 +965,13 @@ struct Artworks {
                         This project has taught me a lot about my skills and patients as an artist. I was genuinely happy with the end result and am very sad art is over. I felt this was the best project I could have finished my year with and I am excited to create more art in the future.
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior acrylic paint", LCSart: true))
         
+        //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
         
-        
-   
-        
-        
-        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
-        
-       
+        listOnDisplay.append(Artwork(name: "Fruit", artist: "James", yearCreated: 2020, description: "In this oil painting, I intend to discuss the thesis of time and vividness through the difference between the rotten loquat in front and the fresh fruits behind. I put much time and effort into trying to magnify the freshness and realism of the subjects inside the painting with shade and colour. This work is also my initiation of detailed realistic oil paintings.", more: "", onDisplay: false, museum: "", latitude: 0, longitude: 0, medium: "Oil on canvas", LCSart: true))
+        listOnDisplay.append(Artwork(name: "Rumination", artist: "James", yearCreated: 2019, description: "The model in the photo is sitting on marble platform in a posture which demonstrates his muscle definition. Hence the sketch is a great exercise of studying anatomy and physical beauty.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil and pastel on sketch paper", LCSart: true))
+        listOnDisplay.append(Artwork(name: "Harmony", artist: "James", yearCreated: 2019, description: "This pencil sketch of a skull is one of my practice during my anatomy studying. I intend to strengthen my understanding of the structure of human head through this drawing. I sharpen the contrast and add details such as tooth and the cracks with the sketching process.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Charcoal pencil on sketch paper", LCSart: true))
+        listOnDisplay.append(Artwork(name: "Anton", artist: "James", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil on canvas", LCSart: true))
     }
-    
     
     
 }
