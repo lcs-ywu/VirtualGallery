@@ -21,10 +21,10 @@ struct LCSArtCommunityView: View {
                 
                 let store = ArtworkStore()
                 //Add artworks in LCS
-                List(store.LCSArtworks) { artwork in
+                List(store.artworks) { artwork in
                     
                     if artwork.LCSart == true {
-                        NavigationLink(destination: ArtworkDetail(artwork: artwork))//, CommentStore: testCommentStore
+                        NavigationLink(destination: ArtworkDetail(artwork: artwork))
                         {
                             HStack{
                                 
@@ -44,15 +44,10 @@ struct LCSArtCommunityView: View {
                     }
                 
                 }.scaledToFit()
-                
-                
             }
             Spacer()
         }
     }
-    
-    
-    
 }
 
 

@@ -42,8 +42,7 @@ struct ArtistsList: View {
                     
                     VStack {
                         
-                        
-                        NavigationLink(destination: ArtistDetailView(artist: item)) {
+                        NavigationLink(destination: ArtworkDetail(artwork:item)) {
                             
                             Image(item.name)
                                 .resizable()
@@ -54,8 +53,8 @@ struct ArtistsList: View {
                         }
                         
                         Text(item.name).bold().italic().font(.title2)
-                        Text(item.identity).font(.title2)
-                        Text(item.age).font(.title2)
+                        Text(item.artist).font(.title2)
+                        Text(item.medium).font(.title2)
                         //                    Text("Click on the picture to find out more")
                         
                     }
@@ -69,9 +68,9 @@ struct ArtistsList: View {
                             NavigationLink(destination: ArtworkDetail(artwork: item)){
                                 Image(item.name)
                                     .resizable()
-                                    .scaledToFit()
+                                    .scaledToFill()
                                     .frame(width: 300, height: 300)
-                                    .background(Color.red).cornerRadius(20)
+                                    .cornerRadius(20)
                             }
                         }
                     }.padding()
@@ -117,21 +116,20 @@ struct ArtistsList: View {
                 
             }.scaledToFill()
             // End cited code
-            ScrollView(.horizontal) {
-                HStack(spacing: 20) {
-                    ForEach(artworkStore.artworks) { item in
-                        NavigationLink(destination: ArtworkDetail(artwork: item)){
-                            Image(item.name)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 300, height: 300)
-                                .background(Color.red).cornerRadius(20)
-                        }
-                    }
-                }.padding()
-            }
             
-            // Add a navigation title
+//            ScrollView(.horizontal) {
+//                HStack(spacing: 20) {
+//                    ForEach(artworkStore.artworks) { item in
+//                        NavigationLink(destination: ArtworkDetail(artwork: item)){
+//                            Image(item.name)
+//                                .resizable()
+//                                .scaledToFit()
+//                                .frame(width: 300, height: 300)
+//                                .background(Color.red).cornerRadius(20)
+//                        }
+//                    }
+//                }.padding()
+//            }
             
         }
         
