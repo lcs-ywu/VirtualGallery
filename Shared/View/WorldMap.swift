@@ -60,7 +60,7 @@ struct WorldMap: View {
 struct WorldMap_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            WorldMap(store: testArtworkStore)
+            WorldMap()
         }
         
     }

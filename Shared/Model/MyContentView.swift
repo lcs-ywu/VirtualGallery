@@ -18,7 +18,7 @@ struct MyContentView: View {
         
         menuItems.append(CDSideMenuItem(title: "Art History", sfImage: "house", view: AnyView(ArtHistoryView())))
         
-        menuItems.append(CDSideMenuItem(title: "Museums", sfImage: "map", view: AnyView(WorldMap(store: testStore))))
+        menuItems.append(CDSideMenuItem(title: "Museums", sfImage: "map", view: AnyView(WorldMap())))
         
         do { /// You must setup your left menu in a do-catch as the Configurator will let you know if there is anything wrong with your configuration
            
