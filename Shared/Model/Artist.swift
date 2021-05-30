@@ -108,5 +108,5 @@ let testArtistsStore =
       
       
       Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
-      Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"])
-]
+      Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"]),
+    ]

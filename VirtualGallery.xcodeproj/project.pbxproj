@@ -67,6 +67,22 @@
 		8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */; };
 		8A52CD8225F06792006B6A3D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD8125F06791006B6A3D /* Artist.swift */; };
 		8A52CD8325F06792006B6A3D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52CD8125F06791006B6A3D /* Artist.swift */; };
+		8A7E667726634D0F00BE054E /* PostModernPrinciples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E667626634D0F00BE054E /* PostModernPrinciples.swift */; };
+		8A7E667826634D0F00BE054E /* PostModernPrinciples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E667626634D0F00BE054E /* PostModernPrinciples.swift */; };
+		8A89477926635E9A004C9177 /* ElementsOfArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89477826635E9A004C9177 /* ElementsOfArt.swift */; };
+		8A89477A26635E9A004C9177 /* ElementsOfArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89477826635E9A004C9177 /* ElementsOfArt.swift */; };
+		8A89477E26635EDE004C9177 /* PurposeOfArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89477D26635EDE004C9177 /* PurposeOfArt.swift */; };
+		8A89477F26635EDE004C9177 /* PurposeOfArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89477D26635EDE004C9177 /* PurposeOfArt.swift */; };
+		8A89478326635F77004C9177 /* PrinciplesOfDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89478226635F77004C9177 /* PrinciplesOfDesign.swift */; };
+		8A89478426635F77004C9177 /* PrinciplesOfDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89478226635F77004C9177 /* PrinciplesOfDesign.swift */; };
+		8A89478A26635FF2004C9177 /* CreativeProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89478926635FF2004C9177 /* CreativeProcess.swift */; };
+		8A89478B26635FF2004C9177 /* CreativeProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89478926635FF2004C9177 /* CreativeProcess.swift */; };
+		8A894791266360E7004C9177 /* Surrealism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A894790266360E7004C9177 /* Surrealism.swift */; };
+		8A894792266360E7004C9177 /* Surrealism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A894790266360E7004C9177 /* Surrealism.swift */; };
+		8A89479626636112004C9177 /* CriticalAnalysisProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89479526636112004C9177 /* CriticalAnalysisProcess.swift */; };
+		8A89479726636112004C9177 /* CriticalAnalysisProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89479526636112004C9177 /* CriticalAnalysisProcess.swift */; };
+		8A89479B26636123004C9177 /* GroupOfSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89479A26636123004C9177 /* GroupOfSeven.swift */; };
+		8A89479C26636123004C9177 /* GroupOfSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89479A26636123004C9177 /* GroupOfSeven.swift */; };
 		8AD23C9C25FFE89F00DFE50F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */; };
 		8AD23C9D25FFE89F00DFE50F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */; };
 		8ADC8C5825F0789D006D1631 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 8ADC8C5725F0789D006D1631 /* ACarousel */; };
@@ -114,6 +130,14 @@
 		8A42FF4925C4A15100829CBC /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
 		8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsList.swift; sourceTree = "<group>"; };
 		8A52CD8125F06791006B6A3D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		8A7E667626634D0F00BE054E /* PostModernPrinciples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModernPrinciples.swift; sourceTree = "<group>"; };
+		8A89477826635E9A004C9177 /* ElementsOfArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsOfArt.swift; sourceTree = "<group>"; };
+		8A89477D26635EDE004C9177 /* PurposeOfArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurposeOfArt.swift; sourceTree = "<group>"; };
+		8A89478226635F77004C9177 /* PrinciplesOfDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinciplesOfDesign.swift; sourceTree = "<group>"; };
+		8A89478926635FF2004C9177 /* CreativeProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeProcess.swift; sourceTree = "<group>"; };
+		8A894790266360E7004C9177 /* Surrealism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surrealism.swift; sourceTree = "<group>"; };
+		8A89479526636112004C9177 /* CriticalAnalysisProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalAnalysisProcess.swift; sourceTree = "<group>"; };
+		8A89479A26636123004C9177 /* GroupOfSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOfSeven.swift; sourceTree = "<group>"; };
 		8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		8ADC8C5F25F07FCE006D1631 /* ArtistsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsStore.swift; sourceTree = "<group>"; };
 		9CA266E12660ADF700378A7F /* MyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
@@ -209,6 +233,7 @@
 				8A42FF1025C0555C00829CBC /* Model */,
 				8A42FF0F25C0555100829CBC /* View */,
 				8A42FEEE25C0550500829CBC /* Assets.xcassets */,
+				8A7E66732663476F00BE054E /* Concepts */,
 				8A27ABC0265A0D810084CCE6 /* CDSideMenuSrc */,
 			);
 			path = Shared;
@@ -270,6 +295,21 @@
 				9CA266E12660ADF700378A7F /* MyContentView.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8A7E66732663476F00BE054E /* Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				8A89477D26635EDE004C9177 /* PurposeOfArt.swift */,
+				8A89477826635E9A004C9177 /* ElementsOfArt.swift */,
+				8A89478226635F77004C9177 /* PrinciplesOfDesign.swift */,
+				8A7E667626634D0F00BE054E /* PostModernPrinciples.swift */,
+				8A89478926635FF2004C9177 /* CreativeProcess.swift */,
+				8A894790266360E7004C9177 /* Surrealism.swift */,
+				8A89479526636112004C9177 /* CriticalAnalysisProcess.swift */,
+				8A89479A26636123004C9177 /* GroupOfSeven.swift */,
+			);
+			path = Concepts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,12 +415,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A89479B26636123004C9177 /* GroupOfSeven.swift in Sources */,
 				8ADC8C6025F07FCE006D1631 /* ArtistsStore.swift in Sources */,
 				8A42FF3025C05C4500829CBC /* ArtworkStore.swift in Sources */,
+				8A89477926635E9A004C9177 /* ElementsOfArt.swift in Sources */,
 				8A27ABD3265A0D820084CCE6 /* CDSideMenuViewModifiers.swift in Sources */,
 				8A27AB60265940620084CCE6 /* ConceptStore.swift in Sources */,
 				8A42FF4A25C4A15100829CBC /* WorldMap.swift in Sources */,
 				8A27ABE9265A0D820084CCE6 /* CDSideMenuItemList.swift in Sources */,
+				8A894791266360E7004C9177 /* Surrealism.swift in Sources */,
+				8A89477E26635EDE004C9177 /* PurposeOfArt.swift in Sources */,
 				8A27AB5B2659404E0084CCE6 /* ArtHistoryView.swift in Sources */,
 				8A52CD7025EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A27ABE7265A0D820084CCE6 /* CDSideMenuAccountView.swift in Sources */,
@@ -388,18 +432,21 @@
 				8A42FF1D25C0570300829CBC /* Artwork.swift in Sources */,
 				8A1A2A7D25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */,
 				8A27ABD9265A0D820084CCE6 /* CDSideMenuConfiguration.swift in Sources */,
+				8A89478326635F77004C9177 /* PrinciplesOfDesign.swift in Sources */,
 				8A27ABE5265A0D820084CCE6 /* CDSideMenuButton.swift in Sources */,
 				8A1A2A8B25F18982005F6BCA /* ArtistDetailView.swift in Sources */,
 				8A27ABDD265A0D820084CCE6 /* CDUserData.swift in Sources */,
 				8A42FF3F25C3A3F200829CBC /* ArtworksList.swift in Sources */,
 				8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
 				8A27ABD5265A0D820084CCE6 /* CDViewsModifier.swift in Sources */,
+				8A7E667726634D0F00BE054E /* PostModernPrinciples.swift in Sources */,
 				8A1A2A9C25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
 				8A52CD8225F06792006B6A3D /* Artist.swift in Sources */,
 				8A27ABED265A0D820084CCE6 /* CDSideMenuMainView.swift in Sources */,
 				8A27ABE1265A0D820084CCE6 /* Color.swift in Sources */,
 				8A27ABE3265A0D820084CCE6 /* CDSideMenuRow.swift in Sources */,
 				8A27ABDF265A0D820084CCE6 /* String.swift in Sources */,
+				8A89479626636112004C9177 /* CriticalAnalysisProcess.swift in Sources */,
 				8A27ABEB265A0D820084CCE6 /* CDSideMenuView.swift in Sources */,
 				8AD23C9C25FFE89F00DFE50F /* SearchBarView.swift in Sources */,
 				8A27AB65265940F60084CCE6 /* ArtHistory.swift in Sources */,
@@ -407,6 +454,7 @@
 				8A27ABD7265A0D820084CCE6 /* CDSideMenuNotification.swift in Sources */,
 				8A42FF2925C0596600829CBC /* ArtworkDetail.swift in Sources */,
 				8A27AB4E26591BBC0084CCE6 /* Concept.swift in Sources */,
+				8A89478A26635FF2004C9177 /* CreativeProcess.swift in Sources */,
 				8A27ABDB265A0D820084CCE6 /* CDSideMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,12 +463,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A89479C26636123004C9177 /* GroupOfSeven.swift in Sources */,
 				8ADC8C6125F07FCE006D1631 /* ArtistsStore.swift in Sources */,
 				8A42FF3125C05C4500829CBC /* ArtworkStore.swift in Sources */,
+				8A89477A26635E9A004C9177 /* ElementsOfArt.swift in Sources */,
 				8A27ABD4265A0D820084CCE6 /* CDSideMenuViewModifiers.swift in Sources */,
 				8A27AB61265940620084CCE6 /* ConceptStore.swift in Sources */,
 				8A42FF4B25C4A15100829CBC /* WorldMap.swift in Sources */,
 				8A27ABEA265A0D820084CCE6 /* CDSideMenuItemList.swift in Sources */,
+				8A894792266360E7004C9177 /* Surrealism.swift in Sources */,
+				8A89477F26635EDE004C9177 /* PurposeOfArt.swift in Sources */,
 				8A27AB5C2659404E0084CCE6 /* ArtHistoryView.swift in Sources */,
 				8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A27ABE8265A0D820084CCE6 /* CDSideMenuAccountView.swift in Sources */,
@@ -428,18 +480,21 @@
 				8A42FF1E25C0570300829CBC /* Artwork.swift in Sources */,
 				8A1A2A7E25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */,
 				8A27ABDA265A0D820084CCE6 /* CDSideMenuConfiguration.swift in Sources */,
+				8A89478426635F77004C9177 /* PrinciplesOfDesign.swift in Sources */,
 				8A27ABE6265A0D820084CCE6 /* CDSideMenuButton.swift in Sources */,
 				8A1A2A8C25F18982005F6BCA /* ArtistDetailView.swift in Sources */,
 				8A27ABDE265A0D820084CCE6 /* CDUserData.swift in Sources */,
 				8A42FF4025C3A3F300829CBC /* ArtworksList.swift in Sources */,
 				8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
 				8A27ABD6265A0D820084CCE6 /* CDViewsModifier.swift in Sources */,
+				8A7E667826634D0F00BE054E /* PostModernPrinciples.swift in Sources */,
 				8A1A2A9D25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
 				8A52CD8325F06792006B6A3D /* Artist.swift in Sources */,
 				8A27ABEE265A0D820084CCE6 /* CDSideMenuMainView.swift in Sources */,
 				8A27ABE2265A0D820084CCE6 /* Color.swift in Sources */,
 				8A27ABE4265A0D820084CCE6 /* CDSideMenuRow.swift in Sources */,
 				8A27ABE0265A0D820084CCE6 /* String.swift in Sources */,
+				8A89479726636112004C9177 /* CriticalAnalysisProcess.swift in Sources */,
 				8A27ABEC265A0D820084CCE6 /* CDSideMenuView.swift in Sources */,
 				8AD23C9D25FFE89F00DFE50F /* SearchBarView.swift in Sources */,
 				8A27AB66265940F60084CCE6 /* ArtHistory.swift in Sources */,
@@ -447,6 +502,7 @@
 				8A27ABD8265A0D820084CCE6 /* CDSideMenuNotification.swift in Sources */,
 				8A42FF2A25C0596600829CBC /* ArtworkDetail.swift in Sources */,
 				8A27AB4F26591BBC0084CCE6 /* Concept.swift in Sources */,
+				8A89478B26635FF2004C9177 /* CreativeProcess.swift in Sources */,
 				8A27ABDC265A0D820084CCE6 /* CDSideMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

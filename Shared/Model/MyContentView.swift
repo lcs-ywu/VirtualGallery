@@ -28,17 +28,19 @@ struct MyContentView: View {
             /// Choice #2 : Chris's favorite configuration
             return try CDSideMenuConfiguration(navigationBarHidden: false,
                                                accountViewHidden: false,
-                                               menuBackgroundColor: .cdDarkGray,
-                                               menuForegroundColor: .white,
-                                               viewsBackgroundColor: .cdOffGreen,
+                                               menuBackgroundColor: .cdDarkGray
+//                                               ,
+//                                               menuForegroundColor: .white,
+//                                               viewsBackgroundColor: .cdOffGreen
+                                               ,
                                                menuFont: Font.system(.body, design: .rounded),
                                                menuButtonSize: 28,
                                                menuSizeFactor: 1.1,
-                                               menuItems: menuItems,
-                                               userData: CDUserData(userName: "Chris", imageUrl: "turtlerock"))
+                                               menuItems: menuItems
+//                                               ,
+//                                               userData: CDUserData(userName: "Chris", imageUrl: "turtlerock")
+            )
             
-            /// Choice #3 : Custom configuration
-            //  return try CDSideMenuConfiguration(navigationBarHidden: true, accountViewHidden: false, menuBackgroundColor: .cdDarkGray, menuForegroundColor: .white, viewsBackgroundColor: .cdOffGreen, menuFont: Font.system(size: 15), menuButtonSize: 32, menuSizeFactor: 1.5, openedMenuButtonSFImage: "chevron.right.2", closedMenuButtonSFImage: "chevron.right.2", menuItems: menuItems, userData: CDUserData(userName: "Chris", imageUrl: "turtlerock"))
         }
         catch {
             print("CDSideMenu configuration failed. Please check your error below:")
