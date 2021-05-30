@@ -96,6 +96,17 @@ let testArtistsStore =
         As I grew older it changed into a skill I wanted to perfect. I desired to create my own style while learning about others. I used art to express feelings and emotions that could not be shown through words. As I had seen many others do, it became away to present myself to the world all the while also being a source of comfort.
         """, LCSArtist: true, works: []),
       
+      Artist(name: "Joe Huang", age: "2002 - Present", identity: "Chinese Visual Artist", infor: """
+        Hello, my name is Joe Huang. I was born in September, 2002 in Shanghai, China. Right now I am a grade 12 student in Lakefield College School, Canada.
+
+        Growing up in Shanghai, I have been making art since I was in grade school. One of the first forms of art I have been exposed to is Chinese Calligraphy. Traditional Chinese painting has also influenced me as an artist. I got a lot of my inspiration from my life, the things I see and people I meet. I have always believed a great artwork is derived from real life. I love making artworks that are genuine, emotional and have a story behind it. I want my audience to immerse in the art I make and have a pleasant experience. Photography is also one form of art I make a lot. Most photos you will see are shot on iPhone, no filters, all authentic.
+
+        Art galleries and museums have always been my first choice when it comes to spending time alone. I love the peaceful environment galleries provide, which enables me to enjoy art and take a break from the busy life.
+        """, artistStatement: "", LCSArtist: true, works: []),
+      
+      Artist(name: "Carter Chartier", age: "", identity: "", infor: "To Be Added", artistStatement: "", LCSArtist: true, works: []),
+      
+      
       Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
       Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"]),
     ]
