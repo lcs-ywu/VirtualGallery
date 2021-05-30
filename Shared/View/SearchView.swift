@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SearchView: View {
     @State var searchText: String
-    
+    @Binding var showing: Bool
     let artworks = ArtworkStore()
     var body: some View {
         NavigationView{
@@ -30,7 +30,14 @@ struct SearchView: View {
                             }
                         }
                     }.navigationTitle("Search")
-                    
+//                    .toolbar {
+//                        ToolbarItem(placement: .navigationBarLeading) {
+//
+//                            Text("Cancel").foregroundColor(.white).onTapGesture {
+//                                showing = false
+//                            }
+//                        }
+//                    }
                 } else {
                     Form {
                         List {
@@ -46,8 +53,17 @@ struct SearchView: View {
                             }
                         }
                     }.navigationTitle("Search")
+//                     .toolbar {
+//                        ToolbarItem(placement: .navigationBarLeading) {
+//
+//                            Text("Cancel").foregroundColor(.white).onTapGesture {
+//                                showing = false
+//                            }
+//                        }
+//                    }
                 }
             }
+           
         }
     }
 }

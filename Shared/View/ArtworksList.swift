@@ -57,7 +57,7 @@ struct ArtworksList: View {
             VStack(alignment: .leading,spacing:5, content: {
                 
                 HStack {
-                    Text("knowledge Base")
+                    Text("Knowledge Base")
 //                    .fontWeight(.heavy).foregroundColor(.black)
                         .font(.system(.title, design: .serif))
                     Spacer()
@@ -244,7 +244,7 @@ struct ArtworksList: View {
             
             
         }.sheet(isPresented: $showingSearchingView) {
-            SearchView(searchText: searchText)
+            SearchView(searchText: searchText, showing: $showingSearchingView)
         }
 
         //                            .background(Image("AppBackground"))
