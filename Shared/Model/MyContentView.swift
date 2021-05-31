@@ -50,20 +50,37 @@ struct MyContentView: View {
         }
     }
     
+    let artworks = Artworks()
+    
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 30) {
-                Text("Welcome to the Virtual Gallery!")
-                    .font(.system(.subheadline, design: .monospaced))
+                VStack {
+                    Text("Welcome to the Virtual Gallery!")
+                        .font(.system(.largeTitle))
+                        .bold()
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 20))
+                        .padding(.bottom)
+                    Spacer()
+                    Text("Click anywhere on the Image to continue")
+                        .font(.system(.subheadline))
+                        .bold()
+                        
+                }
+                
                 
                 #warning("Step 3 (required): Create a NavigationLink to push the CDSideMenuMainView")
-                NavigationLink(destination: CDSideMenuMainView()
-                    .environmentObject(createConfiguration()), label: {
-                        Text("Now, click here ;) ")
-                            .font(.system(.subheadline, design: .monospaced))
-                })
+               
             }
             .navigationBarTitle("Virtual Gallery", displayMode: .inline)
+            .background(
+                NavigationLink(destination: CDSideMenuMainView()
+                    .environmentObject(createConfiguration()), label: {
+                        Image(artworks.list.randomElement()!.name)
+                })
+                
+            )
     }
 }
 }
