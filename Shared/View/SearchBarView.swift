@@ -27,7 +27,7 @@ struct SearchBarView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Search").bold().foregroundColor(.black).font(.system(.largeTitle, design: .serif)).padding(.leading)
+                Text("Search").bold().foregroundColor(.black).font(.system(.largeTitle, design: .serif)).padding(.all)
                 Spacer()
             }
             HStack {
