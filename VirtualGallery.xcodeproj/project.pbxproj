@@ -301,9 +301,9 @@
 			isa = PBXGroup;
 			children = (
 				8A89477D26635EDE004C9177 /* PurposeOfArt.swift */,
+				8A7E667626634D0F00BE054E /* PostModernPrinciples.swift */,
 				8A89477826635E9A004C9177 /* ElementsOfArt.swift */,
 				8A89478226635F77004C9177 /* PrinciplesOfDesign.swift */,
-				8A7E667626634D0F00BE054E /* PostModernPrinciples.swift */,
 				8A89478926635FF2004C9177 /* CreativeProcess.swift */,
 				8A894790266360E7004C9177 /* Surrealism.swift */,
 				8A89479526636112004C9177 /* CriticalAnalysisProcess.swift */,

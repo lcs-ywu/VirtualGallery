@@ -12,9 +12,9 @@ struct MyContentView: View {
         #warning("Step 2 (required): Configure your CDSideMenu")
         
         var menuItems = [CDSideMenuItem]()
-        menuItems.append(CDSideMenuItem(title: "Artworks", sfImage: "paintpalette", view: AnyView(ArtworksList())))
+        menuItems.append(CDSideMenuItem(title: "Art Concepts", sfImage: "paintpalette", view: AnyView(ArtworksList())))
         
-        menuItems.append(CDSideMenuItem(title: "Artists", sfImage: "person.fill", view: AnyView(ArtistsList())))
+        menuItems.append(CDSideMenuItem(title: "Art At LCS", sfImage: "person.fill", view: AnyView(ArtistsList())))
         
         menuItems.append(CDSideMenuItem(title: "Art History", sfImage: "house", view: AnyView(ArtHistoryView())))
         
