@@ -24,6 +24,8 @@ struct SearchBarView: View {
     // Initialize a timer that will fire in one second
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
+    let artworks = ArtworkStore()
+    
     var body: some View {
         VStack {
             HStack {
@@ -90,11 +92,12 @@ struct SearchBarView: View {
                 timer.upstream.connect().cancel()
                 
             }
-            Spacer()
+            
         }
-        
     }
 }
+
+
 
 struct SearchBarView_Previews: PreviewProvider {
     static var previews: some View {
@@ -103,17 +106,17 @@ struct SearchBarView_Previews: PreviewProvider {
 }
 // End cited code
 
-//func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
-//
-//    if searchText.isEmpty {
-//        return artworkStore
-//    }
-//    var presentArtworks: [Artwork] = []
-//    for artwork in artworkStore {
-//        if artwork.name.lowercased().contains(searchText.lowercased()) || artwork.artist.lowercased().contains(searchText.lowercased()) {
-//
-//            presentArtworks.append(artwork)
-//        }
-//    }
-//    return presentArtworks
-//}
+func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
+    
+    if searchText.isEmpty {
+        return artworkStore
+    }
+    var presentArtworks: [Artwork] = []
+    for artwork in artworkStore {
+        if artwork.name.lowercased().contains(searchText.lowercased()) {
+            
+            presentArtworks.append(artwork)
+        }
+    }
+    return presentArtworks
+}

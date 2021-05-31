@@ -10,7 +10,12 @@ import SwiftUI
 struct ArtHistoryView: View {
     var body: some View {
         
-        Text("This is Art History View")
+        ZStack {
+            Image("James Wu").resizable().clipShape(Circle()).scaledToFit()
+            Text("This is Art History View")
+        }
+        
+        
     }
 }
 
