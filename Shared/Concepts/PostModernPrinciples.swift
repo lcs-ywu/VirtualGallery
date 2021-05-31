@@ -17,20 +17,14 @@ struct PostModernPrinciples: View {
                     
                     Spacer()
                     
-                    Text("""
-        The Postmodern Principles of art are a set of principles designed to address themes identified in 21st century artworks.
-        """).font(.system(.title, design: .serif)).padding(.all)
+                    Text("The Postmodern Principles of art are a set of principles designed to address themes identified in 21st century artworks.").font(.system(.title, design: .serif)).padding(.all)
                     
                     HStack {
                         Text("Appropriation").bold().font(.system(.title, design: .serif)).padding(.all)
                         Spacer()
                     }
-                    Text("""
-                Appropriation is an artistic strategy in which the artist consciously borrows imagery from other artists, past or present, reworks it to some degree and then ‘re-presents’ the ideas and concepts from the original in a new way.
-                """).font(.system(.title, design: .serif)).padding(.all)
-                    Text("""
-            Typically, the act of appropriation is about paying homage to another artist, or criticising the worldview and beliefs that another artist (usually from the past) lived in.
-            """).font(.system(.title, design: .serif)).padding(.all)
+                    Text("Appropriation is an artistic strategy in which the artist consciously borrows imagery from other artists, past or present, reworks it to some degree and then ‘re-presents’ the ideas and concepts from the original in a new way.").font(.system(.title, design: .serif)).padding(.all)
+                    Text("Typically, the act of appropriation is about paying homage to another artist, or criticising the worldview and beliefs that another artist (usually from the past) lived in.").font(.system(.title, design: .serif)).padding(.all)
                     Image("Appropriation").resizable().scaledToFill()
                     HStack {
                         Text("""
@@ -47,9 +41,7 @@ struct PostModernPrinciples: View {
                         Text("Juxtaposition").bold().font(.system(.title, design: .serif)).padding(.all)
                         Spacer()
                     }
-                    Text("""
-                Simply stated, juxtaposition means placing things side-by-side. In art this usually is done with the intention of bringing out a specific quality or creating an effect, particularly when two contrasting or opposing elements are used.
-                """).font(.system(.title, design: .serif)).padding(.all)
+                    Text("Simply stated, juxtaposition means placing things side-by-side. In art this usually is done with the intention of bringing out a specific quality or creating an effect, particularly when two contrasting or opposing elements are used.").font(.system(.title, design: .serif)).padding(.all)
                     Image("Juxtaposition").resizable().scaledToFill()
                     HStack {
                         Text("Object. Meret Oppenheim.").font(.system(.body, design: .serif)).padding(.leading)
@@ -132,9 +124,9 @@ struct PostModernPrinciples: View {
                 3. Extra-diegetic gaze: where the person depicted in the text looks at the spectator, such as an aside, or an acknowledgement of the fourth wall, or
 
                 4. Camera's gaze: which is the gaze of the camera, and is often equated to the director's gaze.
-                """).font(.system(.title, design: .serif)).padding(.all).fixedSize(horizontal:false, vertical: true)
+                """).font(.system(.title, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
                     
-                    Image("Gazing").resizable().scaledToFill().padding(.horizontal)
+                    Image("Gazing").resizable().scaledToFill()
                     HStack {
                         Text("Olympia. Manet").font(.system(.body, design: .serif)).padding(.leading)
                         Spacer()

@@ -57,7 +57,7 @@ struct ArtworksList: View {
             VStack(alignment: .leading,spacing:5, content: {
                 
                 HStack {
-                    Text("knowledge Base")
+                    Text("Knowledge Base")
 //                    .fontWeight(.heavy).foregroundColor(.black)
                         .font(.system(.title, design: .serif))
                     Spacer()
@@ -244,7 +244,7 @@ struct ArtworksList: View {
             
             
         }.sheet(isPresented: $showingSearchingView) {
-            SearchBarView(text: $searchText)
+            SearchView(searchText: searchText, showing: $showingSearchingView)
         }
 
         //                            .background(Image("AppBackground"))
@@ -255,20 +255,20 @@ struct ArtworksList: View {
 
 
 
-func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
-    
-    if searchText.isEmpty {
-        return artworkStore
-    }
-    var presentArtworks: [Artwork] = []
-    for artwork in artworkStore {
-        if artwork.name.lowercased().contains(searchText.lowercased()) || artwork.artist.lowercased().contains(searchText.lowercased()) {
-            
-            presentArtworks.append(artwork)
-        }
-    }
-    return presentArtworks
-}
+//func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
+//    
+//    if searchText.isEmpty {
+//        return artworkStore
+//    }
+//    var presentArtworks: [Artwork] = []
+//    for artwork in artworkStore {
+//        if artwork.name.lowercased().contains(searchText.lowercased()) || artwork.artist.lowercased().contains(searchText.lowercased()) {
+//            
+//            presentArtworks.append(artwork)
+//        }
+//    }
+//    return presentArtworks
+//}
 
 
 struct ArtworksList_Previews: PreviewProvider {
