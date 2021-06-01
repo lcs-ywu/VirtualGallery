@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct ArtHistoryDetailView: View {
+    
+    let period : Period
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Image(period.name).resizable().scaledToFit()
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        }.ignoresSafeArea()
     }
 }
 
 struct ArtHistoryDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ArtHistoryDetailView()
+        ArtHistoryDetailView(period: Period.example)
     }
 }

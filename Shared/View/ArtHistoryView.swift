@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ArtHistoryView: View {
     var body: some View {
+        
+        let store = Periods()
+        
         ScrollView{
             //            HStack {
             Image("Art History").resizable().scaledToFit()
@@ -17,15 +20,15 @@ struct ArtHistoryView: View {
             //                Spacer()
             //            }
             
-            ForEach((1...5).reversed(), id: \.self) {_ in
-                NavigationLink(destination: ArtHistoryDetailView()){
+            ForEach(store.periods) { period in
+                NavigationLink(destination: ArtHistoryDetailView(period: period)){
                     ZStack {
                         Image("Frame").resizable().scaledToFit().padding(.all).frame(width: 420, height: 420, alignment: .center)
                         // Need to make the frame fixed size
-                        Image("Prehistoric Art").resizable().clipShape(Circle()).frame(width: 300, height: 300, alignment: .center)
+                        Image(period.name).resizable().clipShape(Circle()).frame(width: 300, height: 300, alignment: .center)
                         VStack {
-                            Text("Prehistoric Art").bold().foregroundColor(.black).font(.system(.title2, design: .serif)).padding(.leading)
-                            Text("~40,000–4,000 B.C.").bold().foregroundColor(.black).font(.system(.title3, design: .serif)).padding(.leading)
+                            Text(period.name).bold().foregroundColor(.black).font(.system(.title2, design: .serif)).padding(.leading)
+                            Text(period.time).bold().foregroundColor(.black).font(.system(.title3, design: .serif)).padding(.leading)
                         }
                     }
                 }
