@@ -20,10 +20,9 @@ struct LCSArtCommunityView: View {
                 Text("Student Artworks").bold().font(.title).foregroundColor(Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1))
                 
                 let store = ArtworkStore()
-                //Add artworks in LCS
-                List(store.artworks) { artwork in
-                    
-                    if artwork.LCSart == true {
+              
+                List(store.artworksOnDisplay) { artwork in
+//                    if artwork.LCSart == true {
                         NavigationLink(destination: ArtworkDetail(artwork: artwork))
                         {
                             HStack{
@@ -41,11 +40,25 @@ struct LCSArtCommunityView: View {
                                 }
                             }
                         }
-                    }
+//                    }
                 
-                }.scaledToFit()
+                }.frame(height: 300)
+                
+                Text("The Peter Dalglish Awards").bold().font(.title).foregroundColor(Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1))
+                Spacer()
+                Text("""
+The purpose of the Peter Dalglish Art Award is to inspire, encourage and recognize artistic talent at Lakefield College School by promoting promising young artists and their future contributions to art in Canada and beyond. In recognition of their father's affection for Lakefield College School, his love of the arts and his commitment to nurturing and supporting young artists, Geordie Dalglish ’89, and Kim Dalglish Abell, have established the Peter Dalglish Art Award funded by an endowed gift made in 2014.
+""").font(.title2).padding()
+               
+                Text("Meet the Dalglish Recipients!").bold().font(.title).foregroundColor(Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1))
+                
+                HStack {
+                    Text("Placeholder for recipients").font(.title2).padding()
+                    Spacer()
+                }
+    
             }
-            Spacer()
+//            Spacer()
         }
     }
 }

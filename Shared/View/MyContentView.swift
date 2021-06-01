@@ -14,7 +14,7 @@ struct MyContentView: View {
         var menuItems = [CDSideMenuItem]()
         menuItems.append(CDSideMenuItem(title: "Art Concepts", sfImage: "paintpalette", view: AnyView(ArtworksList())))
         
-        menuItems.append(CDSideMenuItem(title: "Art At LCS", sfImage: "person.fill", view: AnyView(ArtistsList())))
+        menuItems.append(CDSideMenuItem(title: "Art At LCS", sfImage: "person", view: AnyView(ArtistsList())))
         
         menuItems.append(CDSideMenuItem(title: "Art History", sfImage: "house", view: AnyView(ArtHistoryView())))
         
@@ -81,7 +81,6 @@ struct MyContentView: View {
                         .colorInvert()
                         .foregroundColor(.secondary)
 
-                        
                 }
                 
                 
@@ -94,7 +93,7 @@ struct MyContentView: View {
                     .environmentObject(createConfiguration()), label: {
                         Image(backgrounds.randomElement()!)
                 })
-                
+                    .ignoresSafeArea(.all)
             )
     }
 }
