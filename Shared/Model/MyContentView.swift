@@ -20,6 +20,8 @@ struct MyContentView: View {
         
         menuItems.append(CDSideMenuItem(title: "Museums", sfImage: "map", view: AnyView(WorldMap())))
         
+        menuItems.append(CDSideMenuItem(title: "About Us", sfImage: "tortoise", view: AnyView(InformationPage())))
+        
         do { /// You must setup your left menu in a do-catch as the Configurator will let you know if there is anything wrong with your configuration
            
             /// Choice #1 : Default configuration

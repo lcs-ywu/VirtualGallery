@@ -9,6 +9,13 @@ import SwiftUI
 
 struct InformationPage: View {
     var body: some View {
+        
+        NavigationLink(destination: Contributors()) {
+            Text("Contributors").foregroundColor(.white)
+            Image("Sihan Chen").resizable().clipShape(Circle())
+        }
+        
+        
         Text("Hello, World!")
     }
 }
