@@ -15,8 +15,6 @@
 		8A1A2A9D25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */; };
 		8A27AB5B2659404E0084CCE6 /* ArtHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */; };
 		8A27AB5C2659404E0084CCE6 /* ArtHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */; };
-		8A27AB65265940F60084CCE6 /* ArtHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB64265940F60084CCE6 /* ArtHistory.swift */; };
-		8A27AB66265940F60084CCE6 /* ArtHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27AB64265940F60084CCE6 /* ArtHistory.swift */; };
 		8A27ABD3265A0D820084CCE6 /* CDSideMenuViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC2265A0D810084CCE6 /* CDSideMenuViewModifiers.swift */; };
 		8A27ABD4265A0D820084CCE6 /* CDSideMenuViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC2265A0D810084CCE6 /* CDSideMenuViewModifiers.swift */; };
 		8A27ABD5265A0D820084CCE6 /* CDViewsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27ABC3265A0D810084CCE6 /* CDViewsModifier.swift */; };
@@ -101,7 +99,6 @@
 		8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
 		8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCSArtCommunityView.swift; sourceTree = "<group>"; };
 		8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtHistoryView.swift; sourceTree = "<group>"; };
-		8A27AB64265940F60084CCE6 /* ArtHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtHistory.swift; sourceTree = "<group>"; };
 		8A27ABC2265A0D810084CCE6 /* CDSideMenuViewModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuViewModifiers.swift; sourceTree = "<group>"; };
 		8A27ABC3265A0D810084CCE6 /* CDViewsModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDViewsModifier.swift; sourceTree = "<group>"; };
 		8A27ABC5265A0D810084CCE6 /* CDSideMenuNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuNotification.swift; sourceTree = "<group>"; };
@@ -271,6 +268,7 @@
 		8A42FF0F25C0555100829CBC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9CA266E12660ADF700378A7F /* MyContentView.swift */,
 				8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */,
 				9C85FAB226640EDE0069A55E /* SearchView.swift */,
 				8A42FF2825C0596600829CBC /* ArtworkDetail.swift */,
@@ -295,8 +293,6 @@
 				8A52CD8125F06791006B6A3D /* Artist.swift */,
 				8ADC8C5F25F07FCE006D1631 /* ArtistsStore.swift */,
 				8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */,
-				8A27AB64265940F60084CCE6 /* ArtHistory.swift */,
-				9CA266E12660ADF700378A7F /* MyContentView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -454,7 +450,6 @@
 				8A89479626636112004C9177 /* CriticalAnalysisProcess.swift in Sources */,
 				8A27ABEB265A0D820084CCE6 /* CDSideMenuView.swift in Sources */,
 				8AD23C9C25FFE89F00DFE50F /* SearchBarView.swift in Sources */,
-				8A27AB65265940F60084CCE6 /* ArtHistory.swift in Sources */,
 				9CDF44E72655EE560081456B /* Artworks.swift in Sources */,
 				8A27ABD7265A0D820084CCE6 /* CDSideMenuNotification.swift in Sources */,
 				8A42FF2925C0596600829CBC /* ArtworkDetail.swift in Sources */,
@@ -503,7 +498,6 @@
 				8A89479726636112004C9177 /* CriticalAnalysisProcess.swift in Sources */,
 				8A27ABEC265A0D820084CCE6 /* CDSideMenuView.swift in Sources */,
 				8AD23C9D25FFE89F00DFE50F /* SearchBarView.swift in Sources */,
-				8A27AB66265940F60084CCE6 /* ArtHistory.swift in Sources */,
 				9CDF44E82655EE560081456B /* Artworks.swift in Sources */,
 				8A27ABD8265A0D820084CCE6 /* CDSideMenuNotification.swift in Sources */,
 				8A42FF2A25C0596600829CBC /* ArtworkDetail.swift in Sources */,

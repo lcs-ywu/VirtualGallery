@@ -39,8 +39,8 @@ struct MyContentView: View {
                                                menuButtonSize: 28,
                                                menuSizeFactor: 1.1,
                                                menuItems: menuItems
-//                                               ,
-//                                               userData: CDUserData(userName: "Chris", imageUrl: "turtlerock")
+                                               ,
+                                               userData: CDUserData(userName: "Chris", imageUrl: "turtlerock")
             )
             
         }
@@ -53,21 +53,34 @@ struct MyContentView: View {
     }
     
     let artworks = Artworks()
+    let backgrounds = ["background1", "background2", "background3", "background4", "background5", "background6", "background7"]
     
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 30) {
                 VStack {
-                    Text("Welcome to the Virtual Gallery!")
+                    Spacer()
+                    Text("ᐯIᖇTᑌᗩᒪ GᗩᒪᒪEᖇY")
                         .font(.system(.largeTitle))
                         .bold()
                         .multilineTextAlignment(.center)
                         .font(.system(size: 20))
                         .padding(.bottom)
-                    Spacer()
-                    Text("Click anywhere on the Image to continue")
-                        .font(.system(.subheadline))
+                        .colorInvert()
+                    Text("𝙔𝙤𝙪𝙧 𝙋𝙚𝙧𝙨𝙤𝙣𝙖𝙡 𝘼𝙧𝙩 𝙂𝙖𝙡𝙡𝙚𝙧𝙮").font(.system(.title2))
                         .bold()
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 20))
+                        .colorInvert()
+                    Spacer()
+                    Text("Tap To Continue")
+                        .font(.system(.title2,design: .serif))
+                        .bold()
+                        .colorScheme(.light)
+                        .padding(.all)
+                        .colorInvert()
+                        .foregroundColor(.secondary)
+
                         
                 }
                 
@@ -75,11 +88,11 @@ struct MyContentView: View {
                 #warning("Step 3 (required): Create a NavigationLink to push the CDSideMenuMainView")
                
             }
-            .navigationBarTitle("Virtual Gallery", displayMode: .inline)
+//            .navigationBarTitle("Virtual Gallery", displayMode: .inline)
             .background(
                 NavigationLink(destination: CDSideMenuMainView()
                     .environmentObject(createConfiguration()), label: {
-                        Image(artworks.list.randomElement()!.name)
+                        Image(backgrounds.randomElement()!)
                 })
                 
             )
