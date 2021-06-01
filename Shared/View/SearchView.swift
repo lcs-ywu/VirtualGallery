@@ -21,64 +21,80 @@ struct SearchView: View {
                             Section(header: Text("Artworks").foregroundColor(.black)) {
                                 ForEach(filterArtworks(searchText: searchText, list: artworks.artworks), id: \.id) { artwork in
                                     NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                                        HStack {
-                                            Image(artwork.name).resizable().scaledToFit()
+                                        HStack{
+                                            Image(artwork.name)
+                                                .resizable()
+                                                .scaledToFit()
+                                                .frame(width: 44, height:44)
+                                                .cornerRadius(15)
+                                            
                                             Text(artwork.name)
-                                        }
+                                            Spacer()
+                                            Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                        }.frame(width: 310, height: 50, alignment: .center)
                                     }
                                 }
                             }
                         }
-                    }.navigationTitle("Search")
-//                    .toolbar {
-//                        ToolbarItem(placement: .navigationBarLeading) {
-//
-//                            Text("Cancel").foregroundColor(.white).onTapGesture {
-//                                showing = false
-//                            }
-//                        }
-//                    }
-                } else {
+                    }               .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            Text("Cancel").onTapGesture {
+                                showing = false
+                            }
+                        }
+                    }
+                }
+                
+                //            }
+                else {
                     Form {
                         List {
                             Section(header: Text("Artworks").foregroundColor(.black)) {
                                 ForEach(artworks.artworks, id: \.id) { artwork in
                                     NavigationLink(destination: ArtworkDetail(artwork: artwork)) {
-                                        HStack {
-                                            Image(artwork.name).resizable().scaledToFit()
+                                        HStack{
+                                            Image(artwork.name)
+                                                .resizable()
+                                                .scaledToFit()
+                                                .frame(width: 44, height:44)
+                                                .cornerRadius(15)
+                                            
                                             Text(artwork.name)
-                                        }
+                                            Spacer()
+                                            Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                        }.frame(width: 310, height: 50, alignment: .center)
                                     }
                                 }
                             }
                         }
-                    }.navigationTitle("Search")
-//                     .toolbar {
-//                        ToolbarItem(placement: .navigationBarLeading) {
-//
-//                            Text("Cancel").foregroundColor(.white).onTapGesture {
-//                                showing = false
-//                            }
-//                        }
-//                    }
+                    }
+                    //                .navigationTitle("Search")
+                    .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            Text("Cancel").onTapGesture {
+                                showing = false
+                            }
+                        }
+                    }
                 }
             }
         }
     }
-    func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
-
-        if searchText.isEmpty {
-            return artworkStore
-        }
-        var presentArtworks: [Artwork] = []
-        for artwork in artworkStore {
-            if artwork.name.lowercased().contains(searchText.lowercased()) {
-
-                presentArtworks.append(artwork)
-            }
-        }
-        return presentArtworks
-    }
 }
+func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
+    
+    if searchText.isEmpty {
+        return artworkStore
+    }
+    var presentArtworks: [Artwork] = []
+    for artwork in artworkStore {
+        if artwork.name.lowercased().contains(searchText.lowercased()) {
+            
+            presentArtworks.append(artwork)
+        }
+    }
+    return presentArtworks
+}
+
 
 

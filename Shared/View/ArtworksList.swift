@@ -58,7 +58,6 @@ struct ArtworksList: View {
                 
                 HStack {
                     Text("Knowledge Base")
-//                    .fontWeight(.heavy).foregroundColor(.black)
                         .font(.system(.title, design: .serif))
                     Spacer()
                     Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
@@ -66,7 +65,7 @@ struct ArtworksList: View {
                 }.onTapGesture {
                     self.expand.toggle()
                     
-                }.frame(width: 310, height: 50, alignment: .center)//.padding(7)
+                }.frame(width: 310, height: 50, alignment: .center)
 
                 if expand {
                         
@@ -89,9 +88,7 @@ struct ArtworksList: View {
                                 }
                                 Divider().frame(width: 300)
                             }
-                            
-                            
-                            
+                
                             Group {
                                 NavigationLink(destination: ElementsOfArt())
                                 {
@@ -237,11 +234,9 @@ struct ArtworksList: View {
             .cornerRadius(20)
             .animation(.spring())
             .shadow(radius: 20)
-            //Cannot assign shadow on the block of text plus picture
             
-//            .padding()
-//            .shadow(color: .gray, radius: 2, x: 10, y: 15)
-//            Spacer()
+            Divider().frame(width: 300)
+           
             NavigationLink(destination: ArtHistoryView()){
                 VStack(alignment: .leading,spacing:5, content: {
                     //spacing: space occupied by each artwork

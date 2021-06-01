@@ -12,7 +12,7 @@ import SwiftUI
 // https://github.com/lcs-rgordon/SongBrowser/blob/main/SongBrowser/Views/SearchBarView.swift
 struct SearchBarView: View {
     
-    var placeholderText: String = "Search..."
+    var placeholderText: String = "Search for any artworks..."
     
     @Binding var text: String
     
