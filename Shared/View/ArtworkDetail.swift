@@ -43,13 +43,13 @@ struct ArtworkDetail: View {
                 }
                 HStack {
                     Spacer()
-                    Text("created in year \(artwork.yearCreated)").font(.body)
+                    Text("Created in year " + String(artwork.yearCreated)).font(.body)
 //                        .italic()
                     Spacer()
                 }
                 HStack {
                     Spacer()
-                    Text("currently stored in \(artwork.museum)").font(.body)
+                    Text("Currently stored in \(artwork.museum)").font(.body)
 //                        .italic()
                     Spacer()
                 }

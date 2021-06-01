@@ -23,7 +23,8 @@ struct Contributors: View {
                     Image("Sihan Chen").resizable().scaledToFit().frame(width: 200, height: 200)
                     Text("Sihan Chen '22").font(.system(.title2, design: .serif))
                 }
-            }.padding()
+            }.padding().frame(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            
             
             HStack {
                 Text("""

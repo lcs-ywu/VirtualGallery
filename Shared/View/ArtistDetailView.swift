@@ -26,13 +26,15 @@ struct ArtistDetailView: View {
                     //                        .italic()
                     Spacer()
                 }
-                
-                HStack {
-                    Spacer()
-                    Text(artist.age).font(.body)
-                    //                        .italic()
-                    Spacer()
+                if artist.LCSArtist == false{
+                    HStack {
+                        Spacer()
+                        Text(artist.age).font(.body)
+                        //                        .italic()
+                        Spacer()
+                    }
                 }
+                
             }
            
             
