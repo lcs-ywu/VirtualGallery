@@ -106,17 +106,3 @@ struct SearchBarView_Previews: PreviewProvider {
 }
 // End cited code
 
-//func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
-//
-//    if searchText.isEmpty {
-//        return artworkStore
-//    }
-//    var presentArtworks: [Artwork] = []
-//    for artwork in artworkStore {
-//        if artwork.name.lowercased().contains(searchText.lowercased()) {
-//
-//            presentArtworks.append(artwork)
-//        }
-//    }
-//    return presentArtworks
-//}

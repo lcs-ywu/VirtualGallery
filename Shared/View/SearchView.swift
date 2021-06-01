@@ -30,13 +30,13 @@ struct SearchView: View {
                                             
                                             Text(artwork.name)
                                             Spacer()
-                                            Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+//                                            Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
                                         }.frame(width: 310, height: 50, alignment: .center)
                                     }
                                 }
                             }
                         }
-                    }               .toolbar {
+                    }.toolbar {
                         ToolbarItem(placement: .navigationBarTrailing) {
                             Text("Cancel").onTapGesture {
                                 showing = false
@@ -61,7 +61,7 @@ struct SearchView: View {
                                             
                                             Text(artwork.name)
                                             Spacer()
-                                            Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+//                                            Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
                                         }.frame(width: 310, height: 50, alignment: .center)
                                     }
                                 }
@@ -78,7 +78,7 @@ struct SearchView: View {
                     }
                 }
             }
-        }
+        }.ignoresSafeArea()
     }
 }
 func filterArtworks(searchText: String, list artworkStore: [Artwork]) -> [Artwork] {
