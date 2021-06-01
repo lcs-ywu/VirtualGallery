@@ -79,6 +79,10 @@
 		8A89479C26636123004C9177 /* GroupOfSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89479A26636123004C9177 /* GroupOfSeven.swift */; };
 		8ACCF28A266607510091F545 /* ArtHistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCF289266607510091F545 /* ArtHistoryDetailView.swift */; };
 		8ACCF28B266607510091F545 /* ArtHistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCF289266607510091F545 /* ArtHistoryDetailView.swift */; };
+		8ACCF2A026661F060091F545 /* ArtPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCF29F26661F060091F545 /* ArtPeriod.swift */; };
+		8ACCF2A126661F060091F545 /* ArtPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCF29F26661F060091F545 /* ArtPeriod.swift */; };
+		8ACCF2A5266620F10091F545 /* ArtPeriods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCF2A4266620F10091F545 /* ArtPeriods.swift */; };
+		8ACCF2A6266620F10091F545 /* ArtPeriods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCF2A4266620F10091F545 /* ArtPeriods.swift */; };
 		8AD23C9C25FFE89F00DFE50F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */; };
 		8AD23C9D25FFE89F00DFE50F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */; };
 		8ADC8C5825F0789D006D1631 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 8ADC8C5725F0789D006D1631 /* ACarousel */; };
@@ -138,6 +142,8 @@
 		8A89479526636112004C9177 /* CriticalAnalysisProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalAnalysisProcess.swift; sourceTree = "<group>"; };
 		8A89479A26636123004C9177 /* GroupOfSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOfSeven.swift; sourceTree = "<group>"; };
 		8ACCF289266607510091F545 /* ArtHistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtHistoryDetailView.swift; sourceTree = "<group>"; };
+		8ACCF29F26661F060091F545 /* ArtPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtPeriod.swift; sourceTree = "<group>"; };
+		8ACCF2A4266620F10091F545 /* ArtPeriods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtPeriods.swift; sourceTree = "<group>"; };
 		8AD23C9B25FFE89E00DFE50F /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		8ADC8C5F25F07FCE006D1631 /* ArtistsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsStore.swift; sourceTree = "<group>"; };
 		9C024B0B2665B02E00483A32 /* Contributors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contributors.swift; sourceTree = "<group>"; };
@@ -297,6 +303,8 @@
 				8A52CD8125F06791006B6A3D /* Artist.swift */,
 				8ADC8C5F25F07FCE006D1631 /* ArtistsStore.swift */,
 				8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */,
+				8ACCF29F26661F060091F545 /* ArtPeriod.swift */,
+				8ACCF2A4266620F10091F545 /* ArtPeriods.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -446,6 +454,8 @@
 				8A27ABD5265A0D820084CCE6 /* CDViewsModifier.swift in Sources */,
 				8A7E667726634D0F00BE054E /* PostModernPrinciples.swift in Sources */,
 				8A1A2A9C25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
+				8ACCF2A026661F060091F545 /* ArtPeriod.swift in Sources */,
+				8ACCF2A5266620F10091F545 /* ArtPeriods.swift in Sources */,
 				8A52CD8225F06792006B6A3D /* Artist.swift in Sources */,
 				8A27ABED265A0D820084CCE6 /* CDSideMenuMainView.swift in Sources */,
 				8A27ABE1265A0D820084CCE6 /* Color.swift in Sources */,
@@ -495,6 +505,8 @@
 				8A27ABD6265A0D820084CCE6 /* CDViewsModifier.swift in Sources */,
 				8A7E667826634D0F00BE054E /* PostModernPrinciples.swift in Sources */,
 				8A1A2A9D25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
+				8ACCF2A126661F060091F545 /* ArtPeriod.swift in Sources */,
+				8ACCF2A6266620F10091F545 /* ArtPeriods.swift in Sources */,
 				8A52CD8325F06792006B6A3D /* Artist.swift in Sources */,
 				8A27ABEE265A0D820084CCE6 /* CDSideMenuMainView.swift in Sources */,
 				8A27ABE2265A0D820084CCE6 /* Color.swift in Sources */,
