@@ -62,133 +62,167 @@ struct ArtworksList: View {
                         .font(.system(.title, design: .serif))
                     Spacer()
                     Image(systemName: expand ? "chevron.up": "chevron.down").resizable().frame(width: 13, height: 6)
+                    
                 }.onTapGesture {
                     self.expand.toggle()
+                    
                 }.frame(width: 310, height: 50, alignment: .center)//.padding(7)
-                
+
                 if expand {
                         
                         VStack{
                             
-                            NavigationLink(destination: PurposeOfArt())
-                            {
-                                HStack{
-                                    Image("Purpose Of Art")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                            
-                                        Text("Purpose of Art")
-                                    Spacer()
-                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                }.frame(width: 310, height: 50, alignment: .center)
+                            Group {
+                                NavigationLink(destination: PurposeOfArt())
+                                {
+                                    HStack{
+                                        Image("Purpose Of Art")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                
+                                            Text("Purpose of Art")
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
+                                Divider().frame(width: 300)
                             }
                             
-                            NavigationLink(destination: ElementsOfArt())
-                            {
-                                HStack{
-                                    Image("Elements Of Art")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
                             
-                                        Text("Elements Of Art")
-                                    Spacer()
-                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                }.frame(width: 310, height: 50, alignment: .center)
+                            
+                            Group {
+                                NavigationLink(destination: ElementsOfArt())
+                                {
+                                    HStack{
+                                        Image("Elements Of Art")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                
+                                            Text("Elements Of Art")
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
+                                
+                                Divider().frame(width: 300)
+                            }
+                           
+                            Group {
+                                NavigationLink(destination: PrinciplesOfDesign())
+                                {
+                                    HStack{
+                                        Image("Principles Of Design")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                
+                                            Text("Principles Of Design")
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
+                                
+                                Divider().frame(width: 300)
+                            }
+                           
+                            Group {
+                                NavigationLink(destination: PostModernPrinciples())
+                                {
+                                    HStack{
+                                        Image("Postmodern Principles")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                
+                                            Text("Postmodern Principles")
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
+                                
+                                Divider().frame(width: 300)
                             }
                             
-                            NavigationLink(destination: PrinciplesOfDesign())
-                            {
-                                HStack{
-                                    Image("Principles Of Design")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                            
-                                        Text("Principles Of Design")
-                                    Spacer()
-                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                }.frame(width: 310, height: 50, alignment: .center)
+                            Group {
+                                NavigationLink(destination: CreativeProcess())
+                                {
+                                    HStack{
+                                        Image("Creative Process")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                
+                                            Text("reative Process")
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
+                                
+                                Divider().frame(width: 300)
                             }
                             
-                            NavigationLink(destination: PostModernPrinciples())
-                            {
-                                HStack{
-                                    Image("Postmodern Principles")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                            
-                                        Text("Postmodern Principles")
-                                    Spacer()
-                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                }.frame(width: 310, height: 50, alignment: .center)
+                            Group {
+                                NavigationLink(destination: Surrealism())
+                                {
+                                    HStack{
+                                        Image("Surrealism")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                
+                                            Text("Surrealism")
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
+                                
+                                Divider().frame(width: 300)
                             }
                             
-                            NavigationLink(destination: CreativeProcess())
-                            {
-                                HStack{
-                                    Image("Creative Process")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                            
-                                        Text("reative Process")
-                                    Spacer()
-                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                }.frame(width: 310, height: 50, alignment: .center)
+                            Group {
+                                NavigationLink(destination: CriticalAnalysisProcess())
+                                {
+                                    HStack{
+                                        Image("Critical Analysis Process")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                
+                                            Text("Critical Analysis Process")
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
+                                
+                                Divider().frame(width: 300)
+                            }
+                           
+                            Group {
+                                NavigationLink(destination: GroupOfSeven())
+                                {
+                                    HStack{
+                                        Image("Group of Seven")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 44, height:44)
+                                            .cornerRadius(15)
+                                
+                                            Text("Group of Seven")
+                                        Spacer()
+                                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                                    }.frame(width: 310, height: 50, alignment: .center)
+                                }
                             }
                             
-                            NavigationLink(destination: Surrealism())
-                            {
-                                HStack{
-                                    Image("Surrealism")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                            
-                                        Text("Surrealism")
-                                    Spacer()
-                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                }.frame(width: 310, height: 50, alignment: .center)
-                            }
-                            
-                            NavigationLink(destination: CriticalAnalysisProcess())
-                            {
-                                HStack{
-                                    Image("Critical Analysis Process")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                            
-                                        Text("Critical Analysis Process")
-                                    Spacer()
-                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                }.frame(width: 310, height: 50, alignment: .center)
-                            }
-                            
-                            NavigationLink(destination: GroupOfSeven())
-                            {
-                                HStack{
-                                    Image("Group of Seven")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 44, height:44)
-                                        .cornerRadius(15)
-                            
-                                        Text("Group of Seven")
-                                    Spacer()
-                                    Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                }.frame(width: 310, height: 50, alignment: .center)
-                            }
                             
                         }.ignoresSafeArea(edges: .all)
                         .foregroundColor(.black)

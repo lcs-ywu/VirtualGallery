@@ -19,11 +19,6 @@ struct ArtistsList: View {
         ScrollView{
             
             Image("LCS").resizable().scaledToFill()
-            HStack {
-                Text("Art At LCS").bold().foregroundColor(.black).font(.system(.largeTitle, design: .serif)).padding(.leading)
-                Spacer()
-            }// Change this to navigation title
-            
             VStack {
                 Spacer(minLength: 40)
                 //minLength: 80
@@ -62,19 +57,19 @@ struct ArtistsList: View {
                 }.scaledToFill()
                 // End cited code
                 
-                ScrollView(.horizontal) {
-                    HStack(spacing: 20) {
-                        ForEach(artworkStore.artworks) { item in
-                            NavigationLink(destination: ArtworkDetail(artwork: item)){
-                                Image(item.name)
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 300, height: 300)
-                                    .cornerRadius(20)
-                            }
-                        }
-                    }.padding()
-                }
+//                ScrollView(.horizontal) {
+//                    HStack(spacing: 20) {
+//                        ForEach(artworkStore.artworks) { item in
+//                            NavigationLink(destination: ArtworkDetail(artwork: item)){
+//                                Image(item.name)
+//                                    .resizable()
+//                                    .scaledToFill()
+//                                    .frame(width: 300, height: 300)
+//                                    .cornerRadius(20)
+//                            }
+//                        }
+//                    }.padding()
+//                }
                 
             }
             //            .shadow(radius: 20)
@@ -83,7 +78,7 @@ struct ArtistsList: View {
             
             
             HStack {
-                Text("People").bold().foregroundColor(.black).font(.system(.largeTitle, design: .serif)).padding(.leading)
+                Text("Artists").bold().foregroundColor(.black).font(.system(.largeTitle, design: .serif)).padding(.leading)
                 Spacer()
             }
             

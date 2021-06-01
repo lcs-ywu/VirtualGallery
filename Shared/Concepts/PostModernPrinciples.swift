@@ -13,7 +13,7 @@ struct PostModernPrinciples: View {
             Section {
                 Group{
                     Image("Postmodern Principles").resizable().scaledToFill()
-                    Text("Introduction to the Postmodern Principles").bold().foregroundColor(.black).font(.system(.largeTitle, design:.serif)).padding(.leading).multilineTextAlignment(.leading)
+                    Text("Introduction to the Postmodern Principles").bold().foregroundColor(.black).font(.system(.largeTitle, design:.serif)).padding(.leading)
                     
                     Spacer()
                     

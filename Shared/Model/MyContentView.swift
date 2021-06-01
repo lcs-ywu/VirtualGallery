@@ -12,13 +12,15 @@ struct MyContentView: View {
         #warning("Step 2 (required): Configure your CDSideMenu")
         
         var menuItems = [CDSideMenuItem]()
-        menuItems.append(CDSideMenuItem(title: "Artworks", sfImage: "paintpalette", view: AnyView(ArtworksList())))
+        menuItems.append(CDSideMenuItem(title: "Art Concepts", sfImage: "paintpalette", view: AnyView(ArtworksList())))
         
-        menuItems.append(CDSideMenuItem(title: "Artists", sfImage: "person.fill", view: AnyView(ArtistsList())))
+        menuItems.append(CDSideMenuItem(title: "Art At LCS", sfImage: "person.fill", view: AnyView(ArtistsList())))
         
         menuItems.append(CDSideMenuItem(title: "Art History", sfImage: "house", view: AnyView(ArtHistoryView())))
         
         menuItems.append(CDSideMenuItem(title: "Museums", sfImage: "map", view: AnyView(WorldMap())))
+        
+        menuItems.append(CDSideMenuItem(title: "About Us", sfImage: "tortoise", view: AnyView(InformationPage())))
         
         do { /// You must setup your left menu in a do-catch as the Configurator will let you know if there is anything wrong with your configuration
            
@@ -50,20 +52,37 @@ struct MyContentView: View {
         }
     }
     
+    let artworks = Artworks()
+    
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 30) {
-                Text("Welcome to the Virtual Gallery!")
-                    .font(.system(.subheadline, design: .monospaced))
+                VStack {
+                    Text("Welcome to the Virtual Gallery!")
+                        .font(.system(.largeTitle))
+                        .bold()
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 20))
+                        .padding(.bottom)
+                    Spacer()
+                    Text("Click anywhere on the Image to continue")
+                        .font(.system(.subheadline))
+                        .bold()
+                        
+                }
+                
                 
                 #warning("Step 3 (required): Create a NavigationLink to push the CDSideMenuMainView")
-                NavigationLink(destination: CDSideMenuMainView()
-                    .environmentObject(createConfiguration()), label: {
-                        Text("Now, click here ;) ")
-                            .font(.system(.subheadline, design: .monospaced))
-                })
+               
             }
             .navigationBarTitle("Virtual Gallery", displayMode: .inline)
+            .background(
+                NavigationLink(destination: CDSideMenuMainView()
+                    .environmentObject(createConfiguration()), label: {
+                        Image(artworks.list.randomElement()!.name)
+                })
+                
+            )
     }
 }
 }
