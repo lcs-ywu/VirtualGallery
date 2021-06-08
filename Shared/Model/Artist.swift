@@ -106,6 +106,52 @@ let testArtistsStore =
       
       Artist(name: "Carter Chartier", age: "", identity: "", infor: "To Be Added", artistStatement: "", LCSArtist: true, works: []),
       
+      Artist(name: "Grace Devitt", age: "", identity: "", infor: "Hi, I'm Grace Devitt. I am passionate about singing, playing squash, and skiing. My interest in art started when I was very young, I loved making crafts, and was in the art club at my school. I really loved painting and making sculptures out of clay. My parents always encouraged me to be creative and artistic, leading me to love art. I am often inspired by nature and different types of landscapes, because I love to paint landscapes and nature scenes. I also love observing water colour paintings, oil paintings, and acrylic paintings. I enjoy making sculptures, landscape paintings, water colour paintings, and pour paintings. I aspire to take art classes in university.", artistStatement: "", LCSArtist: true, works: []),
+      
+      Artist(name: "Ellie Murdock", age: "", identity: "", infor: """
+        The work I have produced over the years aren't always very consistent as I like to work with many types of media so every piece unique. When planning out a projects, ideas don't come easy so I always have a pencil in hand and some scrap paper to scribble down my plans. My art is typically very basic but with a well thought out back story and a tactile component.
+
+        My love of art started at a young age and has grown so much over time. As a child I would go out into the woods and use nature as my canvas and make 3D sculptures of whatever I found. Although I did enjoy drawing, it was never really a strong suit of mine so I stuck to tactile work instead.
+
+        I was born in the small down of east city surrounded by family and many friends. At the age of seven, my family and I moved to New Zealand for a year and got to learn and grow so much. Even at this age I was often told I was a wise child and I can thank my parents for this. As each day passed I would listen and look around at the beauty and sadness the people and the world had to offer. The following Christmas we got a phone call from my grandparents saying if we moved home now we could buy the farm from them. To this day I live in the township of Selwyn just outside Peterborough city.
+
+        The types of work I do as mentioned early are very hands on. I took many pottery classes growing up and choose painting over drawing any day. I hope in the future I reach out and try new medias but so far this is me.
+        """, artistStatement: "", LCSArtist: true, works: []),
+      
+      Artist(name: "Meeri Mattila", age: "", identity: "", infor: """
+        My name is Meeri Mattila.
+        I'm 18 years old and I started doing art as a hobby when I was 5. I'm from Finland but I was born in China and adopted to Finland when I was just a baby.
+
+        As I mentioned I started to do art when I was five years old. I used to go to this "art school" for kids that run every Wednesday evening. At first it was for fun, but later it became a very big part of my life. Art has always been something I do to take me away from the reality. One could say I seek comfort in art, or more in what I feel when I create it.
+
+        Most of my inspiration comes from my emotions. I would say I'm most creative in a strong emoytional state.
+
+        I want find myself as an artist and try everything along the way. Recently I have been trying out digital art connected to anime and manga. I really enjoy painting, it makes me more relaxed and relives stress. Also one form of art I love is tattoos.
+        """, artistStatement: "", LCSArtist: true, works: []),
+      
+      Artist(name: "Fatima Shahbaz", age: "2003 - present", identity: "", infor: "My name is Fatima Shahbaz, I am an Irish born and raised artist attending my final year at Lakefield College School. I am on a never-ending journey to find new ways to innovate and add extra depth to my work. I have always been inspired by art. What influences me is the world around us. Art can be a way of expressing emotions and is a technique I like to play around with. I plan on pursuing art for leisure purposes because it has always been an outlet for me throughout my busy life.  Explore my updated Art Portfolio to discover my influences and inspiration behind some of my proudest accomplishments.", artistStatement: "", LCSArtist: true, works: []),
+      
+      Artist(name: "Carlota Tommasi", age: "", identity: "Professional Fine Artist", infor: """
+        Artist. Creator. Visionary.
+
+        “Art is not a thing, it is a way”
+
+        --- Elbert Hubbard
+
+        Art is my outlet from all the stress and craziness in my world. I have the ability to express myself in a safe and mind roam and create visually appealing pieces. Love the fact that I'm able to do what my mind tells me and express myself, and to feel free to express myself without being worried about what others think about my artworks.
+
+        I enjoy pushing myself to learn and trying new things. I like doing that because that's the only way i can learn about my own mistakes.
+        """, artistStatement: """
+        Art has always been my favorite subject and I have been practicing my skills inside and out of school for many years.
+
+        Art is like my “therapy” where I get stress relief by being creative and escaping from reality. It also expresses my emotions and thoughts without me worrying to get judged. Even though I create primarily for myself.
+
+        Art is my outlet from all the stress and craziness in my world. I have the ability to express myself in a safe and mind roam and create visually appealing pieces. Love the fact that I'm able to do what my mind tells me and express myself, and to feel free to express myself without being worried about what others think about my artworks.
+
+        I enjoy pushing myself to learn and trying new things. I like doing that because that's the only way i can learn about my own mistakes.
+
+        I gather much of my inspiration from personal experiences, the environment and cultures around the world.
+        """, LCSArtist: true, works: []),
       
       Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
       Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"]),
