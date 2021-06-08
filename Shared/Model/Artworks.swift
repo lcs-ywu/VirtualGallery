@@ -965,8 +965,43 @@ struct Artworks {
                         This project has taught me a lot about my skills and patients as an artist. I was genuinely happy with the end result and am very sad art is over. I felt this was the best project I could have finished my year with and I am excited to create more art in the future.
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior acrylic paint", LCSart: true))
         
+        list.append(Artwork(name: "Childhood", artist: "Grace Devitt", yearCreated: 2020, description: "I chose to create an abstract self portrait collage, because I wanted it to represent my childhood, and for it to look as though my younger self made it. I used a lot of different colours to represent my childhood and how unique and different it was. I created an abstract self portrait to represent my past self which is still a big part of who I am since the past has shaped me into who I am today.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Water Colour, Magazine Clippings", LCSart: true))
+        
+        list.append(Artwork(name: "Ocean Bliss", artist: "Grace Devitt", yearCreated: 2020, description: "I chose to create a pour painting to represent the ocean, because that is where I feel home is. My cottage is right by the ocean, and it feels like a second home to me. The ocean is a big part of my identity.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Varnish, Gloss Finish, Silicon Drops, Pouring Medium and Water", LCSart: true))
+        
+        list.append(Artwork(name: "PEI Beach", artist: "Grace Devitt", yearCreated: 2020, description: "I chose to draw a photo of of myself on the beach in PEI, because that is one of my favorite memories. I feel most like myself when I'm on the beach.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Lead Pencil", LCSart: true))
+        
+        list.append(Artwork(name: "Spirit", artist: "Grace Devitt", yearCreated: 2020, description: "I chose to paint Monarch butterflies because I believe they are my spirit animal. That is why I titled the artwork spirit, because I feel they represent who I am and my spirit.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Watercolour, Acrylic Paint, Black Marker", LCSart: true))
+        
+        list.append(Artwork(name: "Happy", artist: "Grace Devitt", yearCreated: 2020, description: "I chose the expression happy for the mouth. I chose the colour pink, because to me pink feels like a very happy colour. I chose happy for the mouth so posed with a smile on my face.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil paint on wood", LCSart: true))
+        
+        list.append(Artwork(name: "Anger", artist: "Grace Devitt", yearCreated: 2020, description: "I chose anger for the eye. I chose a warm colour palette with reds oranges, and yellows, because to me these colours represent anger. I chose anger for the eye and held an intense stare like I was angry at someone.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint on Wood", LCSart: true))
+        
+        list.append(Artwork(name: "Surprised", artist: "Grace Devitt", yearCreated: 2020, description: "I chose surprised for the eye. I chose to do cool toned colours, like purple and blue, because to me they represent surprised. I chose surprised for my eye, so I raised my eyebrow and opened my eyes wide.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint on Wood", LCSart: true))
+        
+        list.append(Artwork(name: "Spaghetti and Pesto", artist: "Grace Devitt", yearCreated: 2020, description: "In class we were asked to create our favorite dish of food out of clay, so I chose to make spaghetti with pesto sauce and tomatoes.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Low Fire White Clay with Low Fire Glaze", LCSart: true))
+        
+        list.append(Artwork(name: "Paddle Project", artist: "Grace Devitt", yearCreated: 2020, description: "In class, we were asked to come up with canoe paddle structure proposal ideas. \nThis was the final stage I had finished the front side of the paddle. I chose to create a geometric triangle design on the paddle. I wanted the triangles to all be different sizes and different shades of red.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior Acrylic Paint on White Maple Paddle", LCSart: true))
+        
+        list.append(Artwork(name: "Summer Beach", artist: "Grace Devitt", yearCreated: 2020, description: """
+                        In class we were assigned to create a piece of art, using whatever media we wanted. I chose to use oil paint to try and recreate a photo I took on the beach this summer. This was my proposal.
+                        
+                        I chose to use a graph to paint the beach because I have experience using one, and I feel it gives me more accurate proportions. I started to paint the background sky with acrylic pint.
+                        
+                        I added oil paint on top of the acrylic paint to help blend and paint the details. I started to paint in the forground adding details in the sand.
+                        
+                        Then I added the clouds, which were challenging to paint accurately, because when I blended them they would become bigger and not look accurate to the photo.
+                        
+                        I added in the details in the water, and changed up the clouds a bit, to soften the look of them and make them look a bit more realistic.
+                        
+                        In the final stage I added the details in the grass on the left, and created the suns reflection off the water.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint on Canvas", LCSart: true))
+        
         //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
         
+        
+        
+        // Artwork on display added here
         listOnDisplay.append(Artwork(name: "Fruit", artist: "James", yearCreated: 2020, description: "In this oil painting, I intend to discuss the thesis of time and vividness through the difference between the rotten loquat in front and the fresh fruits behind. I put much time and effort into trying to magnify the freshness and realism of the subjects inside the painting with shade and colour. This work is also my initiation of detailed realistic oil paintings.", more: "", onDisplay: false, museum: "", latitude: 0, longitude: 0, medium: "Oil on canvas", LCSart: true))
         listOnDisplay.append(Artwork(name: "Rumination", artist: "James", yearCreated: 2019, description: "The model in the photo is sitting on marble platform in a posture which demonstrates his muscle definition. Hence the sketch is a great exercise of studying anatomy and physical beauty.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil and pastel on sketch paper", LCSart: true))
         listOnDisplay.append(Artwork(name: "Harmony", artist: "James", yearCreated: 2019, description: "This pencil sketch of a skull is one of my practice during my anatomy studying. I intend to strengthen my understanding of the structure of human head through this drawing. I sharpen the contrast and add details such as tooth and the cracks with the sketching process.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Charcoal pencil on sketch paper", LCSart: true))
