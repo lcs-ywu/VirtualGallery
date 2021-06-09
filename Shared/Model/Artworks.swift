@@ -997,6 +997,31 @@ struct Artworks {
                         In the final stage I added the details in the grass on the left, and created the suns reflection off the water.
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint on Canvas", LCSart: true))
         
+        list.append(Artwork(name: "Different Qualities", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
+
+                        My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Different Qualities", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
+
+                        My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Different Qualities", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
+
+                        My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint", LCSart: true))
+        
+        list.append(Artwork(name: "You are not alone", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
+
+                        My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint and White Ink", LCSart: true))
+        
+        
         //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
         
         
