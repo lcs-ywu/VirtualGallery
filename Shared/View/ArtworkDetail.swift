@@ -43,7 +43,7 @@ struct ArtworkDetail: View {
                 }
                 HStack {
                     Spacer()
-                    Text("Created in year " + String(artwork.yearCreated)).font(.body)
+                    Text("Created in " + String(artwork.yearCreated)).font(.body)
 //                        .italic()
                     Spacer()
                 }

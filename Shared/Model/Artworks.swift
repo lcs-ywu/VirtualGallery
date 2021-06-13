@@ -1021,7 +1021,50 @@ struct Artworks {
                         My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint and White Ink", LCSart: true))
         
+        list.append(Artwork(name: "MI ALEBRIJE", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
+
+                        My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint and White Ink", LCSart: true))
         
+        list.append(Artwork(name: "Myself", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        This work is a printed photo, I decided to paint the hat I was using in this image with strong contrasting colors because it is black and white. The background of the artwork is cut in different sizes (which from my point of view is as if something was broken and has to be fixed), it means my own weaknesses and my vulnerabilities that I have to improve and work on.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint on Photo", LCSart: true))
+        
+        
+        list.append(Artwork(name: "Red", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        I chose to do these facial expressions because I feel that they are the ones that have the most feeling, as at the moment we are living them. I picked this palette of colours because I feel they were the best colour to be able to help me and express the facial expressions I have chosen.
+
+                        I really enjoyed doing this project because it gave me the opportunity to work with ole paint again.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic and Oil Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Paddle Globe", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        The art proposal that I had with my colleague was to put all the paddles in such a way that they would create a paddle globe, this way this globe would represent the world. Above that we had planned to make the shape of the continents of the world with a wire. On the blade of each paddle is a painted representation of each of the artists nationalities.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "", LCSart: true))
+        
+        list.append(Artwork(name: "My Paddle", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        The design that my paddle has, is a pattern of triangles of different sizes with different shades of purple. Each one of the triangles is divided in three, and with that division forms three triangles and in those three triangles each one has a different shade of purple (it is varied between dark purple, medium purple and light purple), the purpose of this pattern is as if the triangles were seen in 3D dimension, but at the same time you can see many triangles.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint on Paddle", LCSart: true))
+        
+        list.append(Artwork(name: "SOPES", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        The dish that I decided to make is called Sopes. The Sopes are a traditional Mexican dish originating in the central and southern parts of Mexico. It is an antojito, which at first sight looks like an unusually thick tortilla with vegetables and meat toppings. I chose this dish because it is a very famous dish in Mexico and it is also one of my favorite Mexican dishes that I eat often. I also chose this dish because it brings back many memories from back home.
+                        """, more: """
+                        In the process of making this project it was very difficult and also challenging  for me, because I had never worked with clay before, and working with clay is very difficult to make many details in it. First I started to make the plate and then I started to make the base of the soups along with a little bowl. After a long time of Hand-Building I started making what would be the toppings of the sope, such as beans, meat and cheese. The most difficult thing was to make the plate, because the plate was not completely stable and was not on a flat surface which means that the plate was not flat enough. When we let the clay dry all night and it was already in the Leather-hard stage.
+
+                        After we placed the Greenware into the kiln, the bisque was in a really good shape. Afterward i started to think and choose bout the colours i was going to choose for it, it was really difficult to try to picture the final product because the colors I chose to paint the bisque, at the beginning were completely different from what I was imagining, so it was very difficult for me to imagine how the final product would look.
+                        """, onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Low Fire White Clay and Glaze", LCSart: true))
+        
+        list.append(Artwork(name: "Final Project", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        I created this painting as a tribute to my parents. The photo I am painting shows them while they were still in high school. They met at 14 and 16 and have now been together for over 30 years. This is probably my favourite photo I have of them. Looking at it always evokes such a strong emotional response in me. I think it is amazing that after such a long period of time they’ve been together their love is still mutual. My family is one of the most important things in my life and I could never live without them. I am incredibly grateful for them and for everything they have done for me. They have shaped me into the person I am today, given me so many opportunities, support me in everything I do and given me a family full of love and respect. This is a small way for me to give something back to them and thank them for everything they have done.
+                        """, more: """
+                        The materials I used were acrylic paint, gesso, pen with white ink and mostly oil paint.
+
+                        To start my project I first divided the photograph I was basing on into grids, and I also divided my canvas into grids because by doing so I would be able to have the most accurate measurements. Then I started to make the shapes of my parents with a normal pencil, I didn't make any details, because it was just to know where everything went.
+
+                        Once I had the sketch I started to apply the acrylic paint, the acrylic paint I just used it as a base to guide me to the moment when I will start to paint with the oil paint, at the moment I was making the acrylic paint base I realized that it was helping me to fill the little white spots that are sometimes difficult to cover.
+
+                        After I was done with the acrylic paint I started to paint with oil paint. Since I was painting with the oil paint I started making the shadows and details. When I finished with it I started to paint the background with white plaster combined with strong grey paint, after it was dry I started to make the patter (I did it with white ink pen).
+                        """, onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Gesso, Oil Paint, White Ink", LCSart: true))
         //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
         
         
