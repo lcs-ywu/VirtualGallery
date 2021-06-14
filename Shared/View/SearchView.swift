@@ -67,13 +67,16 @@ struct SearchView: View {
                                 }
                             }
                         }
-                    }
+                    }.edgesIgnoringSafeArea(.all)
                     //                .navigationTitle("Search")
                     .toolbar {
                         ToolbarItem(placement: .navigationBarTrailing) {
-                            Text("Cancel").onTapGesture {
-                                showing = false
-                            }
+                            Button("Cancel", action: {
+                                self.showing = false
+
+                                UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+
+                        })
                         }
                     }
                 }
