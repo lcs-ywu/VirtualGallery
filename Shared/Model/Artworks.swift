@@ -1122,6 +1122,150 @@ struct Artworks {
                         During my research period for my Independent project in Visual Arts, I wanted to primarily focus on women’s marginalization and embracing womanhood from a different culture. My thoughts at first, were to create a portrait of an Indigenous woman primarily because I knew that this specific marginalized voice was a voice that I wanted to bring to light. This was a project idea that required me to think about my boundaries in a story that isn’t mine to tell. I knew that this was a difficult task to do in a short amount of time, but I still wanted to see what I could learn from this part of the creative process. In that same week, after speaking with Ms. Brown (my AP English teacher) she kindly allowed me to incorporate my art project into my english assignment. She encouraged me to explore with what I could do by reaching out to people who could help me. Following that conversation, I set up a meeting with Peterborough artist Tia Cavanagh, and we talked for what felt like minutes because I absorbed so much of her perspective as an Indigenous woman. After much consideration I decided that it would be beneficial for me to be as creative as possible with my own ethnic background. That way, I wouldn’t have to have the constant worry of pushing a boundary. That conversation with Tia was an integral part of my creative process, because it made me realize that in some form I want to pursue my learning about the Indigenous culture, the art, and the degrees of marginalization from someone who knows very little. Tia helped me find my creative style as an artist from colours to topics.  As passionate as I am about women’s rights, and learning about oppression within different cultures, I knew it would be interesting to learn more about my own roots as well. So much of it has been forgotten, and almost eliminated due to modern day society.
                         """, onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint and Acrylic", LCSart: true))
         
+        list.append(Artwork(name: "Favourite Color", artist: "Meeri Matilla", yearCreated: 2020, description: "The idea behind this artwork was to show a peace of mind. All my artworks drom All sides of me are about showing emotions whitout  eyes. In this one the eyes are closed, but still give a calm expression on her face.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil Crayons", LCSart: true))
+        
+        list.append(Artwork(name: "Two Faced", artist: "Meeri Matilla", yearCreated: 2020, description: "I wanted one of my artworks to be digital art. This one is about two personalities and faces people see. Because I'm a Gemini it inspired me in making this work happen. I consider myself as a person who has many sides to me. This artwork represents two of the opposite state of minds.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Art", LCSart: true))
+        
+        list.append(Artwork(name: "Mood Swings", artist: "Meeri Matilla", yearCreated: 2020, description: "I wanted to connect these two artworks.  I wanted to use paint and opposite colors. In other one warm colors and a personality type/mood, the other one cool colors and a different personality type/mood. Even if someone seems through on the outside, what lies inside might be different and beyond what the eye sees. I continued with my theme of not using eyes to show emotion in these two pieces as well.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Black Marker", LCSart: true))
+        
+        list.append(Artwork(name: "Intense", artist: "Meeri Matilla", yearCreated: 2020, description: """
+                        The media we used was assigned and it was interesting to try oil painting for the first time. It wasn't as hard as I had originally thaught. It took a lot of blending and patience, sometimes it took forever for the paint to dry and sometimes it dried too fast. Making a soft finish was really hard but it got easier when I found the right way and direction to do the brush strokes. Hardest part was to keep the two opposite colors from mixing too much and creating a brown color.
+
+                        I chose these emotions just because they are the main ones everyone uses in their daily lives. Also the reason I chose happy for the mouth is that it's so much easier to smile with your mouth than your eyes. I wanted to make that apparent in my artwork. Also using the tear has been a theme in my works lately, so I just wanted to continue using it.
+
+                        The colors each are somehow connected to the emotion chosen. Usually red is connected with being angry or irritated and so on, sad is blue and happy is yellow. After chiising the main colors I took their opposite color and paired them up. Then I just decided wich one to use as a highlight color and which one as shadow. Then I just started painting.
+
+                        The theme was showing emotions taking a photo and painting it as realistically as possible. I used different emotions and did what was asked. It was really fun and teaching experience.
+
+                        In the end I think this project was successful, I reached my own goals and I had fun doing it. My goal was to do my best, make it as realistic as possible, learn to use oil paint and not to mess up the color combinations. I think I succeeded.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Oil on Wood", LCSart: true))
+        
+        list.append(Artwork(name: "Happy  ", artist: "Meeri Matilla", yearCreated: 2020, description: """
+                        The media we used was assigned and it was interesting to try oil painting for the first time. It wasn't as hard as I had originally thaught. It took a lot of blending and patience, sometimes it took forever for the paint to dry and sometimes it dried too fast. Making a soft finish was really hard but it got easier when I found the right way and direction to do the brush strokes. Hardest part was to keep the two opposite colors from mixing too much and creating a brown color.
+
+                        I chose these emotions just because they are the main ones everyone uses in their daily lives. Also the reason I chose happy for the mouth is that it's so much easier to smile with your mouth than your eyes. I wanted to make that apparent in my artwork. Also using the tear has been a theme in my works lately, so I just wanted to continue using it.
+
+                        The colors each are somehow connected to the emotion chosen. Usually red is connected with being angry or irritated and so on, sad is blue and happy is yellow. After chiising the main colors I took their opposite color and paired them up. Then I just decided wich one to use as a highlight color and which one as shadow. Then I just started painting.
+
+                        The theme was showing emotions taking a photo and painting it as realistically as possible. I used different emotions and did what was asked. It was really fun and teaching experience.
+
+                        In the end I think this project was successful, I reached my own goals and I had fun doing it. My goal was to do my best, make it as realistic as possible, learn to use oil paint and not to mess up the color combinations. I think I succeeded.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Oil on Wood", LCSart: true))
+        
+        list.append(Artwork(name: "Sad", artist: "Meeri Matilla", yearCreated: 2020, description: """
+                        The media we used was assigned and it was interesting to try oil painting for the first time. It wasn't as hard as I had originally thaught. It took a lot of blending and patience, sometimes it took forever for the paint to dry and sometimes it dried too fast. Making a soft finish was really hard but it got easier when I found the right way and direction to do the brush strokes. Hardest part was to keep the two opposite colors from mixing too much and creating a brown color.
+
+                        I chose these emotions just because they are the main ones everyone uses in their daily lives. Also the reason I chose happy for the mouth is that it's so much easier to smile with your mouth than your eyes. I wanted to make that apparent in my artwork. Also using the tear has been a theme in my works lately, so I just wanted to continue using it.
+
+                        The colors each are somehow connected to the emotion chosen. Usually red is connected with being angry or irritated and so on, sad is blue and happy is yellow. After chiising the main colors I took their opposite color and paired them up. Then I just decided wich one to use as a highlight color and which one as shadow. Then I just started painting.
+
+                        The theme was showing emotions taking a photo and painting it as realistically as possible. I used different emotions and did what was asked. It was really fun and teaching experience.
+
+                        In the end I think this project was successful, I reached my own goals and I had fun doing it. My goal was to do my best, make it as realistic as possible, learn to use oil paint and not to mess up the color combinations. I think I succeeded.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Oil on Wood", LCSart: true))
+        
+        
+        list.append(Artwork(name: "Strawberry Cake", artist: "Meeri Matilla", yearCreated: 2020, description: """
+                        For this assignment we had to make a plate of food from clay that has some significance to us.
+
+                        I chose to make a piece of strawberry cake. It reminds me of my family and home. Every time we have a party, wheter it was someone's birthday or just a normal weekend I would bake something. When I asked my parents what they wanted me to bake they alwasy said "Strawverry cake". Even if I suggested something different they always wrinkled their nose and said: "no, the strawberry cake is the best and most traditional." I just nodded and made the cake, and always they loved it.
+
+                        Strawberry cake reminds me of home and the people who feel like home to me.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Low Fire White Clay, Coloured Glaze", LCSart: true))
+        
+        list.append(Artwork(name: "Paddle ", artist: "Meeri Matilla", yearCreated: 2020, description: """
+                        Our Visual art class and other class came together to create an idea of a sculpture made of paddles. We divided into groups and every group had to pitch an idea of a paddle installation.
+
+                        All students voted for an idea they liked the best and wanted to start making. After deciding we started to paint the paddles (1 or 2 each student) in different triangle patterns designed by students and then painted with different shades of one assigned colour.
+
+                        Here is a design I did in my group with Nancy.
+                        Idea:
+
+                        The Campfire
+                        Have 3 paddles leaning on each other. Carve three values we want to represent. To the long part of the paddle. To the blade paint a globe or seasons? Somewhere else on the campus scatter the remaining paddles to different places by theme.
+
+                        In a form of a campfire, the display represents the unity, team work, trust and support in our school.
+
+                        The waterfront is a place where we come together as a community to enjoy the campfire and have fun time together as a school.
+
+                        In the middle of the triangle put a light that represent the fire and will light the artwork even in the dark.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior Acrylic", LCSart: true))
+        
+        
+        list.append(Artwork(name: "No Air", artist: "Meeri Matilla", yearCreated: 2020, description: """
+                        For my Culminating Task I wanted to paint something that depicts my feelings. This wasn't my original plan though. My works mostly contain portraits, anime and manga styled art has always interested me. So I used that style in my Culminating Task. The tear in all my works symbolizes my own memories as well as the pain and suffering that has made me the person I am today.
+
+                        I started this project only this Thursday.  I abandoned my original idea as I realized it wasn't what I actually wanted to do and it was't "me". This style of art is more something that looks like work done by me and my personal voice comes across louder.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Oil on Canvas", LCSart: true))
+        
+        list.append(Artwork(name: "Bare", artist: "Meeri Matilla", yearCreated: 2020, description: """
+                        As my project I decided to do a project about body image, specifically about eating disorders (anorexia). There are so many young women who suffer from the body image pressures that society has set for us. There is this one model that everyone should fit to in order to reach the beauty standards. This pressure causes young women to go to extreme measures to transform their bodies to that model.
+
+                        With my art piece I wanted to address this problem. The physical as well as psychological illnesses this kind of setting causes for young women all over the world is heartbreaking.
+
+                        This article is a big part of my inspiration. In the article it said that people who suffer from anorexia use multiple layers of makeup to hide it.
+
+                        https://www.mirror.co.uk/news/real-life-stories/anorexia-sufferer-spent-three-hours-10200765
+
+                        Video:
+                        https://youtu.be/9fHijK31MfY
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Makeup (contour, highlighter, fundation…), Aquarelle Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Self Portrait", artist: "Meeri Matilla", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+        
+        list.append(Artwork(name: "Life Through Emotion", artist: "Ellie Murdock", yearCreated: 2020, description: """
+                        For this assignment we were asked to use oil paint to represent an expressive emotion. Starting out with a sketch, we progressed throughout the project basing the style on the type of art that suits the artist. I personally chose to be open to different styles and techniques as I went along. In the blue and yellow painting I used two colours that are on the opposite side of the colour wheel. I chose to represent the emotion of fear using the blue as an icy cold colour as circulation leaves the face. In the red painting I chose to show anger and use red the represent a fuming face. The strokes of the brush make a smooth realistic feel next to the harsh creases in the face. In the yellow painting, joy and happiness was the emotion. Using a darker yellow around the defined parts of the face I was able to create depth as if there were shadows. the red lips were intended to draw the viewers attention to the smile as smiles are happy and contagious.
+
+                        For this project the overall theme was the intensity that each emotion brought. Although none of these works have anything in common, they still get a message across about each emotion without having prior knowledge.
+
+                        I enjoyed this type of material of art in that although I wasn't familiar with oil paints, I still enjoyed trying something knew. there are many aspects of each work I really enjoy but also parts I could still critic. in the end I am happy with the turn out and the final product.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil, Acrylic Paint, Oil Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Windows Into My World", artist: "Ellie Murdock", yearCreated: 2020, description: """
+                        Windows to my world was an assignment to express you and your personality throughout images no smaller  than 6x6. The first image shown is of a wave painted on a rock. The wave was painted to represent  how each day I just go with the flow rolling over with my big personality and ended with a calm, smooth and comforting sound. The reasoning behind the wave on the rock is that when I travel I always know that no matter where I am, I'm always connected to home by the land and ocean.
+
+                        The image of the Claddagh signifies my Irish family background and the three morals I live by. Loyalty, Love and Friendship have always been so important in my life. Most of this model was made 3D because of my artistic choice to have volume in my art. The crown is jewels as each person I am loyal to is a solid stone in my life. the hands are transparent because I am true and clear about who I my friends are and how significant they are to me. the heart is a celtic knot because although I am loved and love many things, I can often be closed off and let my heart sparkle as often as I can.
+
+                        The next image is a tree and represents me as a whole. the one side is very abstract background and thread outlining the tree. This side of me is complicated and all over the place but no matter how you look at it, as a whole it makes sense. The other side is more basic and flows as it is painted. this is the chill side of me that flows with whatever is thrown at me. the roots of the tree are not showing because they represent how grounded I am. although people can't see deep down who I am, my past and my morals drive me through each day
+
+                        The last image is three slices of lemons. "When life gives you lemons, add some sugar and water and make lemonade". My drive toward making this art was based off this quote. No matter what is thrown at me I always try to make the best of it by turning sour into sweet. the centre of the lemon is made of tissue paper making is slightly transparent. this material was used because often if I am in a tough situation I share half the information but use my sweetness to see the positive.
+
+                        I thought this was a great project to dig deep and see who each of my classmates were including learning who I am.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Rock, Acrylic Paint, Embroider String, Tissue Paper, Paper", LCSart: true))
+        
+        list.append(Artwork(name: "The Paddle Project ", artist: "Ellie Murdock", yearCreated: 2020, description: """
+                        The paddle project was an interactive activity for our grade 12 art section to work together and create an installation for the waterfront at school.
+
+                        We began in groups of two to think of ideas on how we were going to put together 40 painted paddles into one or more sculptures. My group came up with the idea to paint country flags from around the world on the paddle head and attach the paddles in a way that looks like a circular ball. we then would add a wire outline of each country and place it on top to create a visual that made all the paddles into a globe. to me this is what LCS represents, our diversity and equality.
+
+                        After a section vote, the concluding sculpture was decided to be The Hanging Canoe. As described on artists slide their idea was said "A big part of Lakefield is keeping traditions alive, while still advancing and modernizing with the passing of time. A canoe is a traditional form of transportation, and paddling is a big tradition in our school. As we design the canoe with a modern style, is demonstrates the merging of old and new. Growing and developing in the modern world while still staying true to our roots."
+
+                        Within the two classes we got to work to paint all the paddles different vibrant colours in a triangular pattern. the are to be put together and installed in latter months when the snow is gone.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paddle, Pencil, Acrylic Paint", LCSart: true))
+        
+        list.append(Artwork(name: "Meals at the Sugar Bush", artist: "Ellie Murdock", yearCreated: 2020, description: """
+                        The pottery project was a hands on assignment working with molding clay into the most realistic meal you can, to be dried, glazed and fired in the kiln.
+
+                        The basis of this assignment was to create a meal that was significant to you, your culture or reminded you of a good time or occasion. I personally chose to make weiners and beans with chips on the side, placed on a paper plate. to anyone else this meal is simple and typically seen as comfort food but to me it's so much more. Every year my family and I open up our sugar shack in March and produce maple syrup till the seasons end. this has always been a special time as it's a community event that we can share with our friends and family. A typical day at the sugar bush would have over 20- 50 people rotating throughout the day coming in and out. For this number of people it's hard to feed so my family would cook up a quick pot of weiners and beans on the open shed wood fire mixed with some of the freshly boiling maple syrup. The simplicity of the meal makes it easy to make but also brings everyone together as they wait by the fire for their food. Another significant part of the project was the placement of the food on a paper plate.  In many art projects leaving white space has a very negative affect but in this specific work it was intentional. The weiners and beans were perfectly placed to the one side while the chips on the other. Besides this moment of 0.5 seconds the plate is made to perfect like it could be on a cooking show. There was irony in the placement because nothing at the sugar bush is perfect and everything is always chaotic. The drizzle of syrup coming from the weiners and beans is the start of everything. Around the chaos is so much smiles and laughter as we chat away. The stories we tell and the lessons we learn within this time are so valuable yet not noticed in the moment. the chips however have the similar affect as we know we will always go back for seconds. Once people truly dive deep into the experience in front of them they never want to leave or when they do they want to come back. A meal can be so simple but when explained can mean so much. This is why I chose weiners and beans based on the affect it has had on my life.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Potters Clay, Pottery Glaze, Kiln", LCSart: true))
+        
+        list.append(Artwork(name: "The Anxious Trees of an Overthinker", artist: "Ellie Murdock", yearCreated: 2020, description: """
+                        The art culminating project was presented as an opportunity to express any project media of choice. For this assignment I decided to try something new and make trees with wire. The idea was inspired by my love of metal working artists and the creativity that goes into sculpting. While on a trip to Vancouver, I met an artist that uses old metal pieces to weld them together and make new art pieces. I did not have experience or access to welding so I started with bending wire. Over time experimenting with different medias, I have found my passion for sculpting and working with my hands in a tactile way.
+
+                        Over the past year or so I have noticed a deep connection to trees and their beautiful structures in nature. Most of my recent works have revolved around the idea of trees and how they can describe me as a person.
+
+                        I am an over thinker therefore when I get good ideas, the end product is always different. For my wire trees there is variety in the shape of the trees, branches and the rocks they sit on. The colour of the leaves are only significant to the season they represent and the favourite colour of each of my family members. My dads tree is red, moms is blue, brothers is green and my tree has no leaves. The reasoning behind the lack of leaves on my tree was to resemble winter but also the fact that I grow and change every day just like the season.
+
+                        The anatomy of a tree is like the anatomy of me as a person. the leaves are wild and spread out all over the place reaching for the sky. This is a representation or my thoughts and goals, all over the place but still end back to the same place or origin. The tree trunk is like my core, the sturdy structure of my body. no matter how much people poke, prod and push, I still stand tall and proud of who I am. I am a very huggable person and when someone needs a helping hand or somewhere to go for comfort I am there. Last but not least is my roots. The roots are my morals and everything I stand for. Their strength keeps me grounded, holding me down to earth.
+
+                        The wooden table and board that all the trees sat on were not as significant but brought out the earthy feel the trees represented. 
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Rocks, Malleable Wire (coloured)", LCSart: true))
+        
+        list.append(Artwork(name: "单面镜", artist: "Chelsea Yue", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "To be Added", LCSart: true))
+        
+        
+        
+        
         //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
         
         
