@@ -9,7 +9,13 @@ import SwiftUI
 
 struct GroupOfSeven: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("The Group Of Seven").bold().font(.system(.title, design: .serif)).padding(.all)
+            Spacer()
+        }
+        
+        
+        Image("The Group Of Seven").resizable().scaledToFill()
     }
 }
 
