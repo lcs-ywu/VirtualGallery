@@ -153,7 +153,7 @@ let testArtistsStore =
         I gather much of my inspiration from personal experiences, the environment and cultures around the world.
         """, LCSArtist: true, works: []),
       
-      Artist(name: "Chelsea Yue", age: "", identity: "", infor: "", artistStatement: "To Be Added", LCSArtist: true, works: [])
+      Artist(name: "Chelsea Yue", age: "", identity: "", infor: "", artistStatement: "To Be Added", LCSArtist: true, works: []),
       
       Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
       Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"]),
