@@ -177,7 +177,7 @@ struct Surrealism: View {
                     Image("The Battle of the Argonne").resizable().scaledToFill()
                     HStack {
                         Text("""
-                            René Magritte,The Battle of the Argonne, 1959, oil on canvas, 50×61 cm.
+                            René Magritte, The Battle of the Argonne, 1959, oil on canvas, 50×61 cm.
                             """).font(.system(.body, design: .serif)).padding(.leading)
                         Spacer()
                     }
@@ -380,12 +380,145 @@ struct Surrealism: View {
                             """).font(.system(.title, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
                         Spacer()
                     }
+                    
+                    Image("Not Crazy").resizable().scaledToFill()
+                    Image("Salvador Dali").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            - Key figure in the surrealist movement
+
+                            - Aimed to “discredit reality”
+
+                            - Often created a juxtaposition between the ordinary and the bizarre in his works
+                            """).font(.system(.title, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                    Image("The Persistence of Memory").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dali, The Persistence of Memory, Oil On Canvas, 1931
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    Image("The Disintegration of the Persistence of Memory").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dali, The Disintegration of the Persistence of Memory, Oil On Canvas, 1952-54
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
                 }
             }
             
             Section {
                 Group {
+                    Image("The Angelus").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Jean-François Millet,
+                            The Angelus, 1857-1859, sketch and oil painting,
+                            55.5 x 66 cm
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    HStack {
+                        Text("""
+                            For the artist Salvador Dalí, it became a kind of artistic obsession, recreating the scene many times in the 1930s, and in his book The Tragic Myth of The Angelus of Millet, (1938) argued that the couple had actually been praying over their buried child and that the work contained a message of repressed sexual aggression. Dalí's certainty may have been cemented by the words of the Angelus itself, which essentially condenses the Incarnation of Christ into three short prayers, one for each time of day, followed by the Hail Mary. The prayer for the evening is: 'And the Word was made flesh: and dwelt among us.' In 1963, in response to Dalí's repeated assertions, the Louvre x-rayed the painting revealing an underlying geometric shape similar to that of a coffin in the place where the farmer was now digging potatoes. Regardless of Millet's intention or Dalí's beliefs, there is an awareness of humanity's fall from grace where, having sinned, Adam and Eve were condemned to 'earning one's bread by the sweat of one's brow,' and where redemption existed only in the distant realm of heaven.
+                            """).font(.system(.title, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
                     
+                    Image("The Angelus of Millet").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dali, The Angelus of Millet, oil on canvas, c. 1935
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                    Image("The Architectonic Angelus of Millet").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dali,The Architectonic Angelus of Millet, 1933, oil painting, 73 x 61 cm
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                    Image("The Anthropomorphic Cabinet").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dali, The Anthropomorphic Cabinet, Oil On Panel, 1936
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                    HStack {
+                        Text("""
+                            Dali was deeply influenced by the work of Sigmund Freud, contending "The only difference between immortal Greece and contemporary times is Sigmund Freud, who discovered that the human body, purely platonic in the Greek epoch, is nowadays full of secret drawers that only psychoanalysis is capable to open."
+                            """).font(.system(.title, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                }
+                
+                Group {
+                    Image("Dream Caused by the Flight of a Bee").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dream Caused by the Flight of a Bee Around a Pomegranate a Second Before Awakening, Dali, c. 1944, oil on canvas.
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    Image("Elephant and Obelisk").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Elephant and Obelisk, Bernini, c.1667, marble sculpture.
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                    Image("The Birth of Venus").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            The Birth of Venus, Alexandre Cabanel,  c. 1863, oil on canvas.
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                    Image("Swans Reflecting Elephants").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dali, Swans Reflecting Elephants, Oil On Panel, 1937
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    HStack {
+                        Text("""
+                            The paranoiac-critical method is a surrealist technique developed by Salvador Dalí in the early 1930s. He employed it in the production of paintings and other artworks, especially those that involved optical illusions and other multiple images. Employing the method when creating a work of art uses an active process of the mind to visualize images in the work and incorporate these into the final product. An example of the resulting work is a double image or multiple image in which an ambiguous image can be interpreted in different ways.
+                            """).font(.system(.title, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                    
+                }
+                
+                Group {
+                    Image("The Face of War").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dali, The Face of War, Oil On Canvas, 1940
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
+                    
+                    Image("Geopoliticus Child Watching the Birth of the New Man").resizable().scaledToFill()
+                    HStack {
+                        Text("""
+                            Dali, Geopoliticus Child Watching the Birth of the New Man, Oil On Panel, 1943
+                            """).font(.system(.body, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                    }
                 }
             }
             
