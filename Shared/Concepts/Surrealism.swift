@@ -92,7 +92,7 @@ struct Surrealism: View {
                         Spacer()
                     }
                     
-                    Image("Salvador Dali ").resizable().scaledToFill()
+                    Image("Salvador Dalí").resizable().scaledToFill()
                     HStack {
                         Text("""
                             Spanish, 1904-1989
@@ -234,7 +234,7 @@ struct Surrealism: View {
                         Spacer()
                     }
                     
-                    Image("The Collective Invention")
+                    Image("The Collective Invention").resizable().scaledToFill()
                     HStack {
                         Text("""
                             René Magritte, The Collective Invention, 1934, oil on canvas, 73.5 x 97.5 cm.
@@ -382,7 +382,7 @@ struct Surrealism: View {
                     }
                     
                     Image("Not Crazy").resizable().scaledToFill()
-                    Image("Salvador Dali").resizable().scaledToFill()
+                    Image("Salvador Dali 1").resizable().scaledToFill()
                     HStack {
                         Text("""
                             - Key figure in the surrealist movement
@@ -394,7 +394,7 @@ struct Surrealism: View {
                         Spacer()
                     }
                     
-                    Image("The Persistence of Memory").resizable().scaledToFill()
+                    Image("Persistence of Memory").resizable().scaledToFill()
                     HStack {
                         Text("""
                             Dali, The Persistence of Memory, Oil On Canvas, 1931
