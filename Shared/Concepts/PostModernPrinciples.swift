@@ -208,7 +208,6 @@ struct PostModernPrinciples: View {
             
             
         }
-        //Need to fix the frame shift
     }
 }
 
