@@ -93,7 +93,7 @@ This period was also responsible for the emergence of the illuminated manuscript
                         Post-Impressionist painters include Georges Seurat, noted for his pointillism technique that used small, distinct dots to form an image. Vincent van Gogh is also considered a Post-Impressionist painter, searching for personal expression through his art, often through rugged brushstrokes and dark tones.
                         """, works: ["Georges Seurat - A Sunday Afternoon on the Island of La Grande Jatte, 1886", "Vincent van Gogh - The Starry Night, 1889"], contributors: "Georges Seurat, Vincent van Gogh"))
         
-        periods.append(Period(name: "Fauvism", characteristics: "Expressive color, line, and brushwork, bold surface design, flat composition", artists: [], time: "A.D. 1900–A.D. 1935", description: """
+        periods.append(Period(name: "Fauvism", characteristics: "Expressive color, line, and brushwork, bold surface design, flat composition", artists: [getArtist(named: "André Derain")], time: "A.D. 1900–A.D. 1935", description: """
                         Led by Henri Matisse, Fauvism built upon examples from Vincent van Gogh and George Seurat. As the first avant-garde, 20th-century movement, this style was characterized by expressive use of intense color, line, and brushwork, a bold sense of surface design, and flat composition.
 
                         As seen in many of the works of Matisse himself, the separation of color from its descriptive, representational purpose was one of the core elements that shaped this movement. Fauvism was an important precursor of Cubism and Expressionism.
