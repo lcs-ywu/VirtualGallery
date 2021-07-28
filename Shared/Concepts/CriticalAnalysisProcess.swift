@@ -16,7 +16,7 @@ struct CriticalAnalysisProcess: View {
                     
                     Spacer()
                 }
-                Image("The Critical Analysis Process").resizable().scaledToFill()
+//                Image("The Critical Analysis Process").resizable().scaledToFill()
                 
                 Spacer()
                 HStack {
