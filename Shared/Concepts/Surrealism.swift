@@ -65,6 +65,7 @@ struct Surrealism: View {
                     }
                     
                     Image("André Masson").resizable().scaledToFill()
+                    
                     HStack {
                         Text("French, 1896–1987").font(.system(.body, design: .serif)).padding(.leading)
                         Spacer()
@@ -206,9 +207,6 @@ struct Surrealism: View {
                             """).font(.system(.title, design: .serif)).bold().italic().padding(.all).fixedSize(horizontal: false, vertical: true)
                         Spacer()
                     }
-                    
-                    
-                    
                     
                 }
             }

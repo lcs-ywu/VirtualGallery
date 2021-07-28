@@ -25,13 +25,13 @@ struct PurposeOfArt: View {
                     
                     Spacer()
                     
-                    HStack {
-                        Text("Description goes here")
-                            .font(.system(.title, design: .serif))
-                            .padding()
-                        
-                        Spacer()
-                    }
+//                    HStack {
+//                        Text("Description goes here")
+//                            .font(.system(.title, design: .serif))
+//                            .padding()
+//
+//                        Spacer()
+//                    }
                     
                     
                     HStack {
