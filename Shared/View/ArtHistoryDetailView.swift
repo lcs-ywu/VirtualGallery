@@ -19,7 +19,7 @@ struct ArtHistoryDetailView: View {
             Text(period.name) .font(.system(.title, design: .serif)).bold()
             Text(period.time) .font(.system(.title2, design: .serif))
             Text(period.characteristics).font(.system(.title2, design: .serif)).multilineTextAlignment(.center)
-            Text("Leading Contributors: \(period.contributors)").font(.system(.title2, design: .serif)).multilineTextAlignment(.center)
+            Text("Leading Contributors: \(period.contributors)").font(.system(.title2, design: .serif)).multilineTextAlignment(.center).padding()
             
             Spacer(minLength: 30)
             
@@ -27,7 +27,7 @@ struct ArtHistoryDetailView: View {
             
             if !period.artists.isEmpty {
                 HStack {
-                    Text("Leading Artists:").font(.system(.title2, design: .serif))
+                    Text("Leading Artists:").font(.system(.title2, design: .serif)).padding()
                     Spacer()
                 }
                 // Issue: Is there a better algorithm?
@@ -40,7 +40,7 @@ struct ArtHistoryDetailView: View {
                             Spacer().frame(height: 15.0)
                         }
                         
-                    }
+                    }.padding()
                     
                 }
             }
