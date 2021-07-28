@@ -99,7 +99,7 @@ This period was also responsible for the emergence of the illuminated manuscript
                         As seen in many of the works of Matisse himself, the separation of color from its descriptive, representational purpose was one of the core elements that shaped this movement. Fauvism was an important precursor of Cubism and Expressionism.
                         """, works: ["Henri Matisse - Woman with a Hat, 1905", "André Derain - The Houses of Parliament, 1905-1906"], contributors: "André Derain, Henri Matisse"))
         
-        periods.append(Period(name: "Expressionism", characteristics: "Distortion of form, strong use of colors", artists: [], time: "A.D. 1905–A.D. 1920", description: """
+        periods.append(Period(name: "Expressionism", characteristics: "Distortion of form, strong use of colors", artists: [getArtist(named: "Edvard Munch")], time: "A.D. 1905–A.D. 1920", description: """
                         Expressionism emerged as a response to increasingly conflicted world views and the loss of spirituality. Expressionist art sought to draw from within the artist, using a distortion of form and strong colors to display anxieties and raw emotions. Expressionist painters, in a quest for authenticity, looked for inspiration beyond that of Western art and frequented ethnographic museums to revisit native folk traditions and tribal art.
 
                         The roots of Expressionism can be traced to Vincent van Gogh, Edvard Munch, and James Ensor. Prominent groups including Die Brücke (The Bridge) and Der Blaue Reiter (The Blue Rider) formed so artists could publish works and express their ideals collectively.
