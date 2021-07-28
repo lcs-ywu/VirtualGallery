@@ -68,7 +68,7 @@ This period was also responsible for the emergence of the illuminated manuscript
                         Prominent Romantic painters include Henry Fuseli, who created strange, macabre paintings that explored the dark recesses of human psychology, and William Blake, whose mysterious poems and images conveyed mystical visions and his disappointment in societal constraints.
                         """, works: ["Henry Fuseli - The Nightmare, 1781", "William Blake - The Ghost of a Flea, 1820", "Francisco Goya - Saturn Devouring His Son, 1823"], contributors: "Francisco Goya, Henry Fuseli, William Blake"))
         
-        periods.append(Period(name: "Realism", characteristics: "Detailed depictions of everyday life", artists: [], time: "A.D. 1848–A.D. 1900", description: """
+        periods.append(Period(name: "Realism", characteristics: "Detailed depictions of everyday life", artists: [getArtist(named: "Gustave Courbet")], time: "A.D. 1848–A.D. 1900", description: """
                         Arguably the first modern art movement, Realism, began in France in the 1840s. Realism was a result of multiple events: the anti-Romantic movement in Germany, the rise of journalism, and the advent of photography. Each inspired new interest in accurately capturing everyday life. This attention to accuracy is evident in art produced during the movement, which featured detailed, life-like depictions of subject matter.
 
                         One of the most influential leaders of the Realist movement is Gustave Courbet, a French artist committed to painting only what he could physically see.

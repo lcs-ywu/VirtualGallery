@@ -1289,6 +1289,9 @@ struct Artworks {
         
         list.append(Artwork(name: "The Clothed Maja", artist: "Francisco Goya", yearCreated: 1805, description: "The Clothed Maja is a pendant painting by the Spanish painter Francisco de Goya between 1800 and 1805. It is a clothed version of the earlier La maja desnuda and is exhibited next to it in the same room at the Prado Museum in Madrid. The painting was first owned by Prime Minister Manuel de Godoy. ", more: "", onDisplay: true, museum: "Museo del Prado", latitude: 40.4138, longitude: -3.6921, medium: "Museo del Prado", LCSart: false))
         
+        list.append(Artwork(name: "A Burial At Ornans", artist: "Gustave Courbet", yearCreated: 1850, description: "A Burial At Ornans is a painting of 1849–50 by Gustave Courbet, and one of the major turning points of 19th-century French art. The painting records the funeral in September 1848 of his great-uncle in the painter's birthplace, the small town of Ornans.", more: "", onDisplay: true, museum: "Musée d'Orsay", latitude: 48.8600, longitude: 2.3266, medium: "Oil Paint", LCSart: false))
+        
+        list.append(Artwork(name: "The Desperate Man", artist: "Gustave Courbet", yearCreated: 1845, description: "Le Désespéré is an 1843-1845 oil on canvas self-portrait by Gustave Courbet, produced early during his stay in Paris.", more: "", onDisplay: false, museum: "Private collection", latitude: 0, longitude: 0, medium: "Oil Painting", LCSart: false))
         //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
         
         
