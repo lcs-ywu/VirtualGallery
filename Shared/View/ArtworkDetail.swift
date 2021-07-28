@@ -20,7 +20,12 @@ struct ArtworkDetail: View {
                 .resizable()
                 .scaledToFit()
             
-            Text(artwork.name).font(.title).bold()
+            HStack {
+                Spacer()
+                Text(artwork.name).font(.title).bold().multilineTextAlignment(.center)
+                Spacer()
+            }
+            
             
             Spacer()
             
@@ -49,7 +54,7 @@ struct ArtworkDetail: View {
                 }
                 HStack {
                     Spacer()
-                    Text("Currently stored in \(artwork.museum)").font(.body)
+                    Text("Currently stored in \(artwork.museum)").font(.body).multilineTextAlignment(.center)
 //                        .italic()
                     Spacer()
                 }

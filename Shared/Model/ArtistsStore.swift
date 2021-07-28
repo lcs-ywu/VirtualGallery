@@ -46,5 +46,17 @@ func getNonLCSArtist(artists: [Artist]) -> [Artist] {
     return outputArray
 }
 
-
+func getHistoricArtist(artists: [Artist] , artistName: String) -> Artist {
+    var output: Artist
+    for artist in testArtistsStore {
+        if artist.name == artistName {
+            return artist
+        }
+    }
+    
+    // Raise an error here
+    print("Artist is not stored in the file, wrong artist name input")
+    
+    return Artist(name: "Error", age: "404", identity: "Computational Error Designer", infor: "10001011", artistStatement: "00100100", LCSArtist: false, works: [])
+}
 let testArtistStore = ArtistsStore()
