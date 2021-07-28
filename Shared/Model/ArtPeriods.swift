@@ -24,13 +24,13 @@ The medium of a work of art from this period varies depending on the civilizatio
 One of the most famous works from ancient Mesopotamia is the Code of Hammurabi. Created around 1792 B.C., the piece bears a Babylonian set of laws carved in stone, adorned by an image of King Hammurabi—the sixth King of Babylonia—and the Mesopotamian god, Shabash.
 """, works: ["Ancient Art", "Code of Hammurabi, 1754 B.C."], contributors: "Civilizations from Mesopotamia, Egypt, Greece, and the Americas"))
         
-        periods.append(Period(name: "Medieval", characteristics: "Dark imagery, biblical subjects, Classical mythology, Gothic architecture", artists: [], time: "A.D. 500–A.D. 1400", description: """
+        periods.append(Period(name: "Medieval", characteristics: "Dark imagery, biblical subjects, Classical mythology, Gothic architecture", artists: [getArtist(named: "Cimabue")], time: "A.D. 500–A.D. 1400", description: """
 The Middle Ages, often referred to as the “Dark Ages,” marked a period of economic and cultural deterioration following the fall of the Roman Empire in 476 A.D. Much of the artwork produced in the early years of the period reflects that darkness, characterized by grotesque imagery and brutal scenery. Art produced during this time was centered around the Church. As the first millennium passed, more sophisticated and elaborately decorated churches emerged; windows and silhouettes were adorned with biblical subjects and scenes from classical mythology.
 
 This period was also responsible for the emergence of the illuminated manuscript and Gothic architecture style. Definitive examples of influential art from this period include the catacombs in Rome, Hagia Sophia in Istanbul, the Lindisfarne Gospels, one of the best-known examples of the illuminated manuscript, and Notre Dame, a Parisian cathedral and prominent example of Gothic architecture.
 """, works: ["Cimabue - Crucifix, 1288", "Giotto - Lamentation of Christ, 1305"], contributors: "Abbot Suger, Cimabue, Giotto"))
         
-        periods.append(Period(name: "Renaissance", characteristics: "Natural elements, individualism, realism, attention-to-detail, precision of human anatomy", artists: [], time: "A.D. 1400–A.D. 1600", description: """
+        periods.append(Period(name: "Renaissance", characteristics: "Natural elements, individualism, realism, attention-to-detail, precision of human anatomy", artists: [getArtist(named: "Leonardo da Vinci")], time: "A.D. 1400–A.D. 1600", description: """
                         This style of painting, sculpture, and decorative art was characterized by a focus on nature and individualism, the thought of man as independent and self-reliant. Though these ideals were present in the late Medieval period, they flourished in the 15th and 16th centuries, paralleling social and economic changes like secularization.
 
                         The Renaissance reached its height in Florence, Italy, due in large part to the Medici, a wealthy merchant family who adamantly supported the arts and humanism, a variety of beliefs and philosophies that places emphasis on the human realm. Italian designer Filippo Brunelleschi and sculptor Donatello were key innovators during this period.
@@ -38,25 +38,25 @@ This period was also responsible for the emergence of the illuminated manuscript
                         The High Renaissance, which lasted from 1490 to 1527, produced influential artists such as da Vinci, Michelangelo, and Raphael, each of whom brought creative power and spearheaded ideals of emotional expression. Artwork throughout the Renaissance was characterized by realism, attention to detail, and precise study of human anatomy. Artists used linear perspective and created depth through intense lighting and shading. Art began to change stylistically shortly after the High Renaissance, when clashes between the Christian faith and humanism gave way to Mannerism.
                         """, works: ["Leonardo da Vinci - Mona Lisa, 1503", "Michelangelo - David, 1504", "Raphael - The School of Athens, 1511"], contributors: "Leonardo da Vinci, Michelangelo, Raphael"))
         
-        periods.append(Period(name: "Mannerism", characteristics: "Stylized features, exaggerated details, decorative elements", artists: [], time: "A.D. 1527–A.D. 1580", description: """
+        periods.append(Period(name: "Mannerism", characteristics: "Stylized features, exaggerated details, decorative elements", artists: [getArtist(named: "Giorgio Vasari")], time: "A.D. 1527–A.D. 1580", description: """
                         Mannerist artists emerged from the ideals of Michelangelo, Raphael, and other Late Renaissance artists, but their focus on style and technique outweighed the meaning of the subject matter. Often, figures had graceful, elongated limbs, small heads, stylized features and exaggerated details. This yielded more complex, stylized compositions rather than relying on the classical ideals of harmonious composition and linear perspective used by their Renaissance predecessors.
 
                         Some of the most celebrated Mannerist artists include Giorgio Vasari, Francesco Salviati, Domenico Beccafumi, and Bronzino, who is widely considered to be the most important Mannerist painter in Florence during his time.
                         """, works: ["Bronzino - Venus, Cupid, Folly and Time, 1540", "Giorgio Vasari - Allegory of the Immaculate Conception, 1541"], contributors: "Bronzino, Francesco Salviati, Giorgio Vasari"))
         
-        periods.append(Period(name: "Baroque", characteristics: "Ornate, grandeur, richness, stylistically complex, dramatic", artists: [], time: "A.D. 1600–A.D. 1750", description: """
+        periods.append(Period(name: "Baroque", characteristics: "Ornate, grandeur, richness, stylistically complex, dramatic", artists: [getArtist(named: "Caravaggio")], time: "A.D. 1600–A.D. 1750", description: """
                         The Baroque period that followed Mannerism yielded ornate, over-the-top visual arts and architecture. It was characterized by grandeur and richness, punctuated by an interest in broadening human intellect and global discovery. Baroque artists were stylistically complex.
 
                         Baroque paintings were characterized by drama, as seen in the iconic works of Italian painter Caravaggio and Dutch painter Rembrandt. Painters used an intense contrast between light and dark and had energetic compositions matched by rich color palettes.
                         """, works: ["Caravaggio - The Calling of St Matthew, 1600","Rembrandt - The Night Watch, 1642", "Johannes Vermeer - Girl with a Pearl Earring, 1665"], contributors: "Caravaggio"))
         
-        periods.append(Period(name: "Rococo", characteristics: "Lightness, elegance, natural forms, asymmetrical design, subtle colors", artists: [], time: "A.D. 1699–A.D. 1780", description: """
+        periods.append(Period(name: "Rococo", characteristics: "Lightness, elegance, natural forms, asymmetrical design, subtle colors", artists: [getArtist(named: "Antoine Watteau")], time: "A.D. 1699–A.D. 1780", description: """
                         Rococo originated in Paris, encompassing decorative art, painting, architecture, and sculpture. The aesthetic offered a softer style of decorative art compared to Baroque’s exuberance. Rococo is characterized by lightness and elegance, focusing on the use of natural forms, asymmetrical design, and subtle colors.
 
                         Painters like Antoine Watteau and Francois Boucher used lighthearted treatments, rich brushwork, and fresh colors. The Rococo style also easily translated to silver, porcelain, and French furniture. Many chairs and armoires featured curving forms, floral designs, and an expressive use of gilt.
                         """, works: ["Antoine Watteau - Embarkation for Cythera, 1718", "Francois Boucher - Venus Consoling Love, 1751"], contributors: "Antoine Watteau, Francois Boucher"))
         
-        periods.append(Period(name: "Neoclassicism", characteristics: "Renewed interest in classical antiquity, harmony, simplicity, and proportion", artists: [], time: "A.D. 1750–A.D. 1850", description: """
+        periods.append(Period(name: "Neoclassicism", characteristics: "Renewed interest in classical antiquity, harmony, simplicity, and proportion", artists: [getArtist(named: "Jacques-Louis David")], time: "A.D. 1750–A.D. 1850", description: """
                         As its name suggests, the Neoclassical period drew upon elements from classical antiquity. Archaeological ruins of ancient civilizations in Athens and Naples that were discovered at the time reignited a passion for all things past, and artists strove to recreate the great works of ancient art. This translated to a renewed interest in classical ideals of harmony, simplicity, and proportion.
 
                         Neoclassical artists were influenced by classical elements; in particular, a focus on idealism. Inevitably, they also included modern, historically relevant depictions in their works. For example, Italian sculptor Antonio Canova drew upon classical elements in his marble sculptures, but avoided the cold artificiality that was represented in many of these early creations.
@@ -163,3 +163,14 @@ This period was also responsible for the emergence of the illuminated manuscript
 }
 
 let testPeriods = Periods()
+
+func getArtist(named name: String) -> Artist {
+    if let artist = testArtistsStore.first(where: {$0.name == name}) {
+        return artist
+    } else {
+        
+        print("Something went terribly wrong")
+        
+        return Artist(name: "Error", age: "404", identity: "Computational Error Designer", infor: "10001011", artistStatement: "00100100", LCSArtist: false, works: [])
+    }
+}
