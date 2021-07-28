@@ -75,7 +75,7 @@ This period was also responsible for the emergence of the illuminated manuscript
 
                         """, works: ["Jean-François Millet - The Gleaners, 1857", "Gustave Courbet - Woman with a Parrot, 1866"], contributors: "Gustave Courbet, Jean-Francois Millet"))
         
-        periods.append(Period(name: "Art Nouveau", characteristics: "Long, sinuous lines and curves", artists: [], time: "A.D. 1890–A.D. 1910", description: """
+        periods.append(Period(name: "Art Nouveau", characteristics: "Long, sinuous lines and curves", artists: [getArtist(named: "Alphonse Mucha")], time: "A.D. 1890–A.D. 1910", description: """
                         Art Nouveau, which translates to “New Art,” attempted to create an entirely authentic movement free from any imitation of styles that preceded it. This movement heavily influenced applied arts, graphics, and illustration. It focused on the natural world, characterized by long, sinuous lines and curves.
 
                         Influential Art Nouveau artists worked in a variety of media, including architecture, graphic and interior design, jewelry-making, and painting. Czechoslovakian graphic designer Alphonse Mucha is best-known for his theatrical posters of French actress Sarah Bernhardt. Spanish architect and sculptor Antoni Gaudi went beyond focusing on lines to create curving, brightly-colored constructions like that of the Basilica de la Sagrada Familia in Barcelona.
