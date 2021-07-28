@@ -23,7 +23,7 @@ struct ArtHistoryDetailView: View {
             
             Spacer(minLength: 30)
             
-            Text(period.description).font(.system(.title2, design: .serif)).padding(.all)
+            Text(period.description).font(.system(.title2, design: .serif)).padding(.all).fixedSize(horizontal: false, vertical: true)
             
             if !period.artists.isEmpty {
                 HStack {
@@ -35,7 +35,7 @@ struct ArtHistoryDetailView: View {
                     NavigationLink(destination: ArtistDetailView(artist: artist)){
                         VStack {
                             Image(artist.name).resizable().scaledToFit()
-                            Text(artist.name).font(.system(.title2, design: .serif))
+                            Text(artist.name).font(.system(.title2, design: .serif)).padding(.bottom, 1)
                             Text(artist.age).font(.system(.title2, design: .serif))
                             Spacer().frame(height: 15.0)
                         }

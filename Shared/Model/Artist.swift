@@ -44,7 +44,8 @@ let testArtistsStore =
         
         Artist(name: "Giorgio Vasari", age: "1511 - 1574", identity: "Italian painter", infor: "Giorgio Vasari was an Italian painter, architect, engineer, writer, and historian, best known for his Lives of the Most Excellent Painters, Sculptors, and Architects, considered the ideological foundation of art-historical writing, and basis for biographies of several Renaissance artists including Leonardo da Vinci.", artistStatement: "", LCSArtist: false, works: ["Six Tuscan Poets", "Allegory of the Immaculate Conception"]),
         
-     
+        
+        Artist(name: "Caravaggio", age: "1571 - 1610", identity: "Italian painter", infor: "Michelangelo Merisi (Michele Angelo Merigi or Amerighi) da Caravaggio, known as Caravaggio, was an Italian painter active in Rome for most of his artistic life. During the final four years of his life he moved between Naples, Malta, and Sicily until his death. His paintings have been characterized by art critics as combining a realistic observation of the human state, both physical and emotional, with a dramatic use of lighting, which had a formative influence on Baroque painting.", artistStatement: "Caravaggio's innovations inspired Baroque painting, but the latter incorporated the drama of his chiaroscuro without the psychological realism. The style evolved and fashions changed, and Caravaggio fell out of favour. In the 20th century interest in his work revived, and his importance to the development of Western art was reevaluated. The 20th-century art historian André Berne-Joffroy stated: \"What begins in the work of Caravaggio is, quite simply, modern painting.\"", LCSArtist: false, works: ["Supper at Emmaus", "Young Sick Bachhus"]),
      
       
         // LCS artist goes here

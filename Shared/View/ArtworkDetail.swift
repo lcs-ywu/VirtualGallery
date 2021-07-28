@@ -20,7 +20,12 @@ struct ArtworkDetail: View {
                 .resizable()
                 .scaledToFit()
             
-            Text(artwork.name).font(.title).bold()
+            HStack {
+                Spacer()
+                Text(artwork.name).font(.title).bold().multilineTextAlignment(.center)
+                Spacer()
+            }
+            
             
             Spacer()
             
