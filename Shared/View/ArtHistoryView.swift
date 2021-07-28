@@ -37,7 +37,7 @@ struct ArtHistoryView: View {
                 Text("""
 Notes: This introduction to art history only contains mostly periods in Western art history, the significance of other cultures will be added soon.
 """).font(.system(.body, design: .serif)).padding(.all)
-                .multilineTextAlignment(.leading)
+                    .multilineTextAlignment(.leading)
             }
             HStack {
                 Text("""
@@ -46,7 +46,7 @@ Reference from: https://www.invaluable.com/blog/art-history-timeline/
                     .multilineTextAlignment(.leading)
             }
         }.ignoresSafeArea()
-//        .background(Image("Art History4").resizable().scaledToFill().ignoresSafeArea())
+        //        .background(Image("Art History4").resizable().scaledToFill().ignoresSafeArea())
     }
 }
 

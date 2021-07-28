@@ -50,13 +50,13 @@ This period was also responsible for the emergence of the illuminated manuscript
                         Baroque paintings were characterized by drama, as seen in the iconic works of Italian painter Caravaggio and Dutch painter Rembrandt. Painters used an intense contrast between light and dark and had energetic compositions matched by rich color palettes.
                         """, works: ["Caravaggio - The Calling of St Matthew, 1600","Rembrandt - The Night Watch, 1642", "Johannes Vermeer - Girl with a Pearl Earring, 1665"], contributors: "Caravaggio"))
         
-        periods.append(Period(name: "Rococo", characteristics: "Lightness, elegance, natural forms, asymmetrical design, subtle colors", artists: [], time: "A.D. 1699–A.D. 1780", description: """
+        periods.append(Period(name: "Rococo", characteristics: "Lightness, elegance, natural forms, asymmetrical design, subtle colors", artists: [getArtist(named: "Antoine Watteau")], time: "A.D. 1699–A.D. 1780", description: """
                         Rococo originated in Paris, encompassing decorative art, painting, architecture, and sculpture. The aesthetic offered a softer style of decorative art compared to Baroque’s exuberance. Rococo is characterized by lightness and elegance, focusing on the use of natural forms, asymmetrical design, and subtle colors.
 
                         Painters like Antoine Watteau and Francois Boucher used lighthearted treatments, rich brushwork, and fresh colors. The Rococo style also easily translated to silver, porcelain, and French furniture. Many chairs and armoires featured curving forms, floral designs, and an expressive use of gilt.
                         """, works: ["Antoine Watteau - Embarkation for Cythera, 1718", "Francois Boucher - Venus Consoling Love, 1751"], contributors: "Antoine Watteau, Francois Boucher"))
         
-        periods.append(Period(name: "Neoclassicism", characteristics: "Renewed interest in classical antiquity, harmony, simplicity, and proportion", artists: [], time: "A.D. 1750–A.D. 1850", description: """
+        periods.append(Period(name: "Neoclassicism", characteristics: "Renewed interest in classical antiquity, harmony, simplicity, and proportion", artists: [getArtist(named: "Jacques-Louis David")], time: "A.D. 1750–A.D. 1850", description: """
                         As its name suggests, the Neoclassical period drew upon elements from classical antiquity. Archaeological ruins of ancient civilizations in Athens and Naples that were discovered at the time reignited a passion for all things past, and artists strove to recreate the great works of ancient art. This translated to a renewed interest in classical ideals of harmony, simplicity, and proportion.
 
                         Neoclassical artists were influenced by classical elements; in particular, a focus on idealism. Inevitably, they also included modern, historically relevant depictions in their works. For example, Italian sculptor Antonio Canova drew upon classical elements in his marble sculptures, but avoided the cold artificiality that was represented in many of these early creations.

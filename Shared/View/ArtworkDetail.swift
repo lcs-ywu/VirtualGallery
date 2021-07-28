@@ -54,7 +54,7 @@ struct ArtworkDetail: View {
                 }
                 HStack {
                     Spacer()
-                    Text("Currently stored in \(artwork.museum)").font(.body)
+                    Text("Currently stored in \(artwork.museum)").font(.body).multilineTextAlignment(.center)
 //                        .italic()
                     Spacer()
                 }
