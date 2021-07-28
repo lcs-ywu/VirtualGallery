@@ -1264,6 +1264,11 @@ struct Artworks {
         list.append(Artwork(name: "单面镜", artist: "Chelsea Yue", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "To be Added", LCSart: true))
         
         
+        list.append(Artwork(name: "Maestà di Santa Trinità", artist: "Cimabue", yearCreated: 1286, description: "The Santa Trinita Maestà is a panel painting by the Italian medieval artist Cimabue, dating to c. 1290–1300. Originally painted for the church of Santa Trinita, Florence, where it remained until 1471, it is now housed in the Uffizi Gallery of Florence, Italy.", more: "", onDisplay: true, museum: "Uffizi Gallery", latitude: 43.7678, longitude: 11.2553, medium: "Tempera on Panel", LCSart: false))
+        
+        list.append(Artwork(name: "The Virgin and Child with Two Angels", artist: "Cimabue", yearCreated: 1280, description: "", more: "", onDisplay: true, museum: "The National Gallery", latitude: 51.5089, longitude: 0.1283, medium: "Tempera on a Poplar Panel", LCSart: false))
+        
+        
         
         
         //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
@@ -1275,6 +1280,9 @@ struct Artworks {
         listOnDisplay.append(Artwork(name: "Rumination", artist: "James", yearCreated: 2019, description: "The model in the photo is sitting on marble platform in a posture which demonstrates his muscle definition. Hence the sketch is a great exercise of studying anatomy and physical beauty.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil and pastel on sketch paper", LCSart: true))
         listOnDisplay.append(Artwork(name: "Harmony", artist: "James", yearCreated: 2019, description: "This pencil sketch of a skull is one of my practice during my anatomy studying. I intend to strengthen my understanding of the structure of human head through this drawing. I sharpen the contrast and add details such as tooth and the cracks with the sketching process.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Charcoal pencil on sketch paper", LCSart: true))
         listOnDisplay.append(Artwork(name: "Anton", artist: "James", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil on canvas", LCSart: true))
+        
+        
+        
     }
     
     

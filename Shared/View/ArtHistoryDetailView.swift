@@ -10,9 +10,11 @@ import SwiftUI
 struct ArtHistoryDetailView: View {
     
     let period : Period
+    let artists = ArtistsStore()
     
     var body: some View {
         ScrollView {
+            
             Image(period.name).resizable().scaledToFit()
             Text(period.name) .font(.system(.title, design: .serif)).bold()
             Text(period.time) .font(.system(.title2, design: .serif))
@@ -28,15 +30,24 @@ struct ArtHistoryDetailView: View {
                     Text("Leading Artists:").font(.system(.title2, design: .serif))
                     Spacer()
                 }
+                // Issue: Is there a better algorithm?
                 ForEach(period.artists){artist in
                     NavigationLink(destination: ArtistDetailView(artist: artist)){
-                        Image(artist.name).resizable().scaledToFill()
-                        Text(artist.name).font(.system(.title2, design: .serif))
-                        Text(artist.age)
+                        VStack {
+                            Image(artist.name).resizable().scaledToFit()
+                            Text(artist.name).font(.system(.title2, design: .serif))
+                            Text(artist.age).font(.system(.title2, design: .serif))
+                            Spacer().frame(height: 15.0)
+                        }
+                        
                     }
                     
                 }
             }
+            
+          
+
+            
             
         }.ignoresSafeArea()
     }

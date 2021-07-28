@@ -24,7 +24,7 @@ The medium of a work of art from this period varies depending on the civilizatio
 One of the most famous works from ancient Mesopotamia is the Code of Hammurabi. Created around 1792 B.C., the piece bears a Babylonian set of laws carved in stone, adorned by an image of King Hammurabi—the sixth King of Babylonia—and the Mesopotamian god, Shabash.
 """, works: ["Ancient Art", "Code of Hammurabi, 1754 B.C."], contributors: "Civilizations from Mesopotamia, Egypt, Greece, and the Americas"))
         
-        periods.append(Period(name: "Medieval", characteristics: "Dark imagery, biblical subjects, Classical mythology, Gothic architecture", artists: [], time: "A.D. 500–A.D. 1400", description: """
+        periods.append(Period(name: "Medieval", characteristics: "Dark imagery, biblical subjects, Classical mythology, Gothic architecture", artists: [getArtist(named: "Cimabue")], time: "A.D. 500–A.D. 1400", description: """
 The Middle Ages, often referred to as the “Dark Ages,” marked a period of economic and cultural deterioration following the fall of the Roman Empire in 476 A.D. Much of the artwork produced in the early years of the period reflects that darkness, characterized by grotesque imagery and brutal scenery. Art produced during this time was centered around the Church. As the first millennium passed, more sophisticated and elaborately decorated churches emerged; windows and silhouettes were adorned with biblical subjects and scenes from classical mythology.
 
 This period was also responsible for the emergence of the illuminated manuscript and Gothic architecture style. Definitive examples of influential art from this period include the catacombs in Rome, Hagia Sophia in Istanbul, the Lindisfarne Gospels, one of the best-known examples of the illuminated manuscript, and Notre Dame, a Parisian cathedral and prominent example of Gothic architecture.
@@ -163,3 +163,14 @@ This period was also responsible for the emergence of the illuminated manuscript
 }
 
 let testPeriods = Periods()
+
+func getArtist(named name: String) -> Artist {
+    if let artist = testArtistsStore.first(where: {$0.name == name}) {
+        return artist
+    } else {
+        
+        print("Something went terribly wrong")
+        
+        return Artist(name: "Error", age: "404", identity: "Computational Error Designer", infor: "10001011", artistStatement: "00100100", LCSArtist: false, works: [])
+    }
+}

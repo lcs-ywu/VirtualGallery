@@ -37,6 +37,11 @@ let testArtistsStore =
       
       Artist(name: "Vincent van Gogh", age: "30 March 1853 – 29 July 1890", identity: "Dutch post-impressionist painter", infor: "Vincent Willem van Gogh was a Dutch post-impressionist painter who posthumously became one of the most famous and influential figures in the history of Western art. In a decade, he created about 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. He was not commercially successful, and his suicide at 37 came after years of mental illness, depression and poverty.", artistStatement: "", LCSArtist: false, works: ["Sunflowers", "The Potato Eaters"]),
       
+     Artist(name: "Cimabue", age: "1251 - 1302", identity: "Italian painter", infor: "Cimabue, also known as Cenni di Pepo or Cenni di Pepi, was an Italian painter and designer of mosaics from Florence. Although heavily influenced by Byzantine models, Cimabue is generally regarded as one of the first great Italian painters to break from the Italo-Byzantine style.", artistStatement: "", LCSArtist: false, works: ["The Virgin and Child with Two Angels", "Maestà di Santa Trinità"]),
+     
+     
+      
+      
       Artist(name: "James Wu", age: "16 Dec. 2002 - present", identity: "Chinese Visual Artist", infor: "Art has been my earliest interest. I have been an apprentice and appreciator in art in China in the last twelve years. During the past years, I have been learning different artistic techniques and skills, including sketching, painting, wash painting, oil painting and so on. But I know my path to becoming an artist  who could fully express my imaginary is still long. Besides creating artworks, I also have interest in music, sports and reading, since they are all great method of relaxing and cultivating myself.", artistStatement: "If this is our first meet, I'm currently seventeen a grad at Lakefield College School. This is my second year at Lakefield and LCS has truly become my second home in Canada. Although born in Canada, I grew up in China with my family and continued my studies until high school. ", LCSArtist: true, works: ["Fruit", "Eye"]),
       
       Artist(name: "Minah Bae", age: "", identity: "", infor: """
@@ -158,3 +163,6 @@ let testArtistsStore =
       Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
       Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"]),
     ]
+
+
+
