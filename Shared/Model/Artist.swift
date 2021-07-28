@@ -49,6 +49,8 @@ let testArtistsStore =
      
         Artist(name: "Antoine Watteau", age: "1684 - 1721", identity: "French painter", infor: "Jean-Antoine Watteau was a French painter and draughtsman whose brief career spurred the revival of interest in colour and movement, as seen in the tradition of Correggio and Rubens. He revitalized the waning Baroque style, shifting it to the less severe, more naturalistic, less formally classical, Rococo.", artistStatement: "", LCSArtist: false, works: ["The Embarkation for Cythera", "Pierrot"]),
         
+        Artist(name: "Francisco Goya", age: "1746 - 1728", identity: "Spanish painter", infor: "Francisco José de Goya y Lucientes was a Spanish romantic painter and printmaker. He is considered the most important Spanish artist of the late 18th and early 19th centuries. His paintings, drawings, and engravings reflected contemporary historical upheavals and influenced important 19th- and 20th-century painters.", artistStatement: "", LCSArtist: false, works: ["Saturn Devouring His Son", "The Clothed Maja"]),
+        
         Artist(name: "Jacques-Louis David", age: "1748 - 1825", identity: "French painter", infor: """
         Jacques-Louis David, the most celebrated French artist of his day and a principal exponent of the late 18th-century Neoclassical reaction against the Rococo style.
 
