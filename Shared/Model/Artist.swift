@@ -217,6 +217,14 @@ After gallbladder surgery, Warhol died of cardiac arrhythmia in February 1987 at
 
 Warhol has been the subject of numerous retrospective exhibitions, books, and feature and documentary films. The Andy Warhol Museum in his native city of Pittsburgh, which holds an extensive permanent collection of art and archives, is the largest museum in the United States dedicated to a single artist. Many of his creations are very collectible and highly valuable. The highest price ever paid for a Warhol painting is US$105 million for a 1963 canvas titled Silver Car Crash (Double Disaster); his works include some of the most expensive paintings ever sold. A 2009 article in The Economist described Warhol as the "bellwether of the art market".
 """, artistStatement: "", LCSArtist: false, works: []),
+        
+        Artist(name: "Michelangelo Pistoletto", age: "23 June 1933 (age 88)", identity: "Italian Painting", infor: """
+Michelangelo Pistoletto (born 23 June 1933 in Biella) is an Italian painter, action and object artist, and art theorist. Pistoletto is acknowledged as one of the main representatives of the Italian Arte Povera. His work mainly deals with the subject matter of reflection and the unification of art and everyday life in terms of a Gesamtkunstwerk.
+
+From 1947 until 1958, Pistoletto worked in his father's restoration workshop in Turin. In the 1950s, he started painting figurative works and self-portraits. In 1959, he participated in the Biennale di San Marino. In the following year, he had his first solo exhibition in the Galleria Galatea in Turin. In the beginning of the 1960s, Pistoletto started painting figurative works and self-portraits which he painted on a monochrome, metallic background. Later on, he combined painting with photography using collage techniques on reflective backgrounds. Eventually, he switched over to printing photorealistic scenes on steel plates polished to a high finish. He did that using the screen-printing method which made the observer almost completely melt in with what was depicted. In the mid-1960s, gallery owner Ileana Sonnabend brought him into contact with an international audience.
+
+In 1965/1966, he produced the series of works Oggetti in meno (Minus Objects), which belongs to Pistoletto's early sculptural works. In 1966, Pistoletto had his first solo exhibition in the US, at the Walker Art Center in Minneapolis. In 1967, his work was awarded first prize in the Biennale de São Paulo. In the same year, Pistoletto started focusing on performance, video art and theatre. He founded an action art group, called "Zoo Group", which gave several performances between 1968 and 1970. These took place in the studio, public buildings or on the streets of Turin or other large cities. As was already the case with Pistoletto's 2-dimensional and sculptural works, the aim was to display the unity of art and everyday life.
+""", artistStatement: "", LCSArtist: false, works: []),
       
     ]
 

@@ -1348,6 +1348,14 @@ Warhol was a commercial illustrator before embarking on painting. Campbell's Sou
 
 Warhol produced a wide variety of art works depicting Campbell's Soup cans during three distinct phases of his career, and he produced other works using a variety of images from the world of commerce and mass media. Today, the Campbell's Soup cans theme is generally used in reference to the original set of paintings as well as the later Warhol drawings and paintings depicting Campbell's Soup cans. Because of the eventual popularity of the entire series of similarly themed works, Warhol's reputation grew to the point where he was not only the most-renowned American pop art artist, but also the highest-priced living American artist.
 """, more: "", onDisplay: true, museum: "MoMA", latitude: 40.7616, longitude: -73.9776, medium: "Synthetic polymer paint on canvas", LCSart: false))
+        
+        list.append(Artwork(name: "Venus of the Rags", artist: "Michelangelo Pistoletto", yearCreated: 1967, description: """
+Venus of the Rags juxtaposes an over-life sized classical statue of the Roman goddess of love, beauty and fertility, with a large pile of brightly coloured, discarded clothes that are heaped on the floor. The Venus statue is positioned with its back to the viewer.
+""", more: "", onDisplay: false, museum: "", latitude: 0, longitude: 0, medium: "Marble and textiles", LCSart: false))
+        
+        list.append(Artwork(name: "Autoritratto", artist: "Michelangelo Pistoletto", yearCreated: 1963, description: """
+Venus of the Rags juxtaposes an over-life sized classical statue of the Roman goddess of love, beauty and fertility, with a large pile of brightly coloured, discarded clothes that are heaped on the floor. The Venus statue is positioned with its back to the viewer.
+""", more: "", onDisplay: true, museum: "Museum of Modern and Contemporary Art of Trento and Rovereto", latitude: 45.894, longitude: 11.045, medium: "Mixed media on paper", LCSart: false))
 
         //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
         

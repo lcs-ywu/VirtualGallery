@@ -133,7 +133,7 @@ This period was also responsible for the emergence of the illuminated manuscript
                         Pop artists like Andy Warhol and Roy Lichtenstein sought to establish the idea that art can draw from any source and there is no hierarchy of culture to disrupt that. Perhaps the most famous pop culture work of art is Warhol’s Campbell’s Soup Cans production.
                         """, works: ["Andy Warhol - Campbell's Soup Cans, 1962", "Roy Lichtenstein - Brushstrokes, 1962"], contributors: "Andy Warhol, Roy Lichtenstein"))
         
-        periods.append(Period(name: "Arte Povera", characteristics: "Use of soil, rocks, paper, and other natural elements to create a pre-industrial sentiment", artists: [], time: "A.D. 1960s", description: """
+        periods.append(Period(name: "Arte Povera", characteristics: "Use of soil, rocks, paper, and other natural elements to create a pre-industrial sentiment", artists: [getArtist(named: "Michelangelo Pistoletto")], time: "A.D. 1960s", description: """
                         Translating literally to “poor art,” Arte Povera challenged modernist, contemporary systems by infusing commonplace materials into creations. Artists used soil, rocks, paper, rope, and other earthen elements to evoke a pre-industrial sentiment. As a result, many of the notable works during this movement are sculptural.
 
                         Italian artist Mario Merz, in conjunction with other Italian artists such as Giovanni Anselmo and Alighiero Boetti, created anti-elitist works by drawing upon materials from everyday life. His 1968 Giap’s Igloo, one of what would soon become his signature series of igloos, focused on his occupations with the necessities of life: shelter, warmth, and food.
