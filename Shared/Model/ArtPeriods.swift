@@ -127,19 +127,19 @@ This period was also responsible for the emergence of the illuminated manuscript
                         English artist Bridget Riley is one of the most prominent Op Art practitioners. Her 1964 artwork Blaze features zigzag black and white lines that create the illusion of a circular decent.
                         """, works: ["Bridget Riley - Blaze, 1964"], contributors: "Bridget Riley, Jean-Pierre Yvaral, Victor Vasarely"))
         
-        periods.append(Period(name: "Pop Art", characteristics: "Use of everyday, mundane objects, bold, vivid colors, mass media", artists: [], time: "A.D. 1950–A.D. 1960s", description: """
+        periods.append(Period(name: "Pop Art", characteristics: "Use of everyday, mundane objects, bold, vivid colors, mass media", artists: [getArtist(named: "Andy Warhol")], time: "A.D. 1950–A.D. 1960s", description: """
                         Pop art is one of the most recognizable artistic developments of the 20th century. The movement transitioned away from methods used in Abstract Expressionism, and instead used everyday, mundane objects to create innovative works of art that challenged consumerism and mass media. This introduction to identifiable imagery was a shift from the direction of modernism.
 
                         Pop artists like Andy Warhol and Roy Lichtenstein sought to establish the idea that art can draw from any source and there is no hierarchy of culture to disrupt that. Perhaps the most famous pop culture work of art is Warhol’s Campbell’s Soup Cans production.
                         """, works: ["Andy Warhol - Campbell's Soup Cans, 1962", "Roy Lichtenstein - Brushstrokes, 1962"], contributors: "Andy Warhol, Roy Lichtenstein"))
         
-        periods.append(Period(name: "Arte Povera", characteristics: "Use of soil, rocks, paper, and other natural elements to create a pre-industrial sentiment", artists: [], time: "A.D. 1960s", description: """
+        periods.append(Period(name: "Arte Povera", characteristics: "Use of soil, rocks, paper, and other natural elements to create a pre-industrial sentiment", artists: [getArtist(named: "Michelangelo Pistoletto")], time: "A.D. 1960s", description: """
                         Translating literally to “poor art,” Arte Povera challenged modernist, contemporary systems by infusing commonplace materials into creations. Artists used soil, rocks, paper, rope, and other earthen elements to evoke a pre-industrial sentiment. As a result, many of the notable works during this movement are sculptural.
 
                         Italian artist Mario Merz, in conjunction with other Italian artists such as Giovanni Anselmo and Alighiero Boetti, created anti-elitist works by drawing upon materials from everyday life. His 1968 Giap’s Igloo, one of what would soon become his signature series of igloos, focused on his occupations with the necessities of life: shelter, warmth, and food.
                         """, works: ["Mario Merz - Giap’s Igloo, 1968"], contributors: "Alighiero Boetti, Giovanni Anselmo, Mario Merz"))
         
-        periods.append(Period(name: "Minimalism", characteristics: "A focus on exactly what the art portrays, aside from outside realities and emotions", artists: [], time: "A.D. 1960–A.D. 1970s", description: """
+        periods.append(Period(name: "Minimalism", characteristics: "A focus on exactly what the art portrays, aside from outside realities and emotions", artists: [getArtist(named: "Donald Judd")], time: "A.D. 1960–A.D. 1970s", description: """
                         The Minimalist movement emerged in New York as a group of younger artists began to question the overly expressive works of Abstract Expressionist artists. Minimalist art instead focused on anonymity, calling attention to the materiality of works. Artists urged viewers to focus on precisely what was in front of them, rather than draw parallels to outside realities and emotive thoughts through the use of purified forms, order, simplicity, and harmony.
 
                         American artist Frank Stella was of the earliest adopters of Minimalism, producing nonrepresentational paintings, as seen in his Black Paintings completed between 1958 and 1960. Each features a pattern of rectilinear stripes of uniform width printed in metallic black ink.

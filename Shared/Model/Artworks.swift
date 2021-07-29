@@ -1328,7 +1328,44 @@ struct Artworks {
         list.append(Artwork(name: "Vega-Nor", artist: "Victor Vasarely", yearCreated: 1969, description: "Victor Vasarely was at the core of the movement, earning him the nickname “Father of Op Art.” Vega-Nor is one of a number of paintings the artist created in which an orderly grid seemingly swells and protrudes off the picture plane.", more: "", onDisplay: true, museum: "Albright-Knox Art Gallery", latitude: 42.9325,  longitude: -78.8756, medium: "Acrylic on canvas", LCSart: false))
         
         list.append(Artwork(name: "Zebra", artist: "Victor Vasarely", yearCreated: 1937, description: """
-            Vasarely delivered one of the most important pieces of his career when he created Zebra, a painting inscribed in Op-art movement. The first version of this artwork had been made 30 years before the Op-art concept was conceived; however, it is considered to be a part of this movement. The last version of Zebra was created in 1965.
+
+Vasarely delivered one of the most important pieces of his career when he created Zebra, a painting inscribed in Op-art movement. The first version of this artwork had been made 30 years before the Op-art concept was conceived; however, it is considered to be a part of this movement. The last version of Zebra was created in 1965.
+
+Between 1939 and 1948, Vasarely laid out the fundamentals of Op-art in his early works. He was focused on studying the use of lines, the interaction between shadow and light, and the creation of perspective. Vasarely once affirmed: “The celebrated transition from the representational to nonrepresentational art is only one of the stages of profound transformation taking place in the plastics arts. The term ‘abstract’ in painting refers not to an established fact, but to an irresistible trend towards plastic creation different from the kind we already know.”
+""", more: "", onDisplay: true, museum: "Städel Museum", latitude: 50.1031,  longitude: 8.6741, medium: "Acrylic on canvas", LCSart: false))
+        
+        list.append(Artwork(name: "Shot Marilyns", artist: "Andy Warhol", yearCreated: 1964, description: """
+The Shot Marilyns is a work of art produced in 1964 by Andy Warhol. It consists of four canvases, each a square measuring 40 inches and each consisting of a painting of Marilyn Monroe, each shot through in the forehead by a single bullet.
+
+Warhol actually painted five colored Marilyns in 1964 with different colored backgrounds: red, orange, light blue, sage blue, and turquoise. He stored them at The Factory, his studio on East 47th Street in Manhattan. Dorothy Podber (1932–2008), a friend of Factory photographer Billy Name, saw the recently completed paintings stacked against one another at the studio and asked Warhol if she could shoot them. Believing that she meant she wanted to photograph the paintings, Warhol agreed. Podber doffed her pair of black gloves, withdrew a small revolver from her purse, and fired a shot into the stack of four "Marilyn" paintings, which became known as The Shot Marilyns. The fifth painting with the turquoise background was not in the stack.
+
+Billy Name, in the Ray Johnson documentary How to Draw a Bunny, describes this event as a "performance piece" by Podber. After she had shot the Marilyns and left, Andy Warhol purportedly asked Billy Name to please ask Dorothy not to do that again. Podber was, however, henceforth barred from The Factory for life.
+""", more: "", onDisplay: false, museum: "", latitude: 0,  longitude: 0, medium: "Synthetic polymer paint on canvas", LCSart: false))
+        
+        list.append(Artwork(name: "Campbell's Soup Cans", artist: "Andy Warhol", yearCreated: 1962, description: """
+Campbell's Soup Cans is a work of art produced between November 1961 and March or April 1962 by American artist Andy Warhol. It consists of thirty-two canvases, each measuring 20 inches (51 cm) in height × 16 inches (41 cm) in width and each consisting of a painting of a Campbell's Soup can—one of each of the canned soup varieties the company offered at the time. The non-painterly works were produced by a screen printing process and depict imagery deriving from popular culture and belong to the pop art movement.
+
+Warhol was a commercial illustrator before embarking on painting. Campbell's Soup Cans was shown on July 9, 1962 in Warhol's first one-man gallery exhibition in the Ferus Gallery of Los Angeles, California curated by Irving Blum. The exhibition marked the West Coast debut of pop art. The subject matter initially caused offense, in part for its affront to the technique and philosophy of the earlier art movement of abstract expressionism. Warhol's motives as an artist were questioned. Warhol's association with the subject led to his name becoming synonymous with the Campbell's Soup Can paintings.
+
+Warhol produced a wide variety of art works depicting Campbell's Soup cans during three distinct phases of his career, and he produced other works using a variety of images from the world of commerce and mass media. Today, the Campbell's Soup cans theme is generally used in reference to the original set of paintings as well as the later Warhol drawings and paintings depicting Campbell's Soup cans. Because of the eventual popularity of the entire series of similarly themed works, Warhol's reputation grew to the point where he was not only the most-renowned American pop art artist, but also the highest-priced living American artist.
+""", more: "", onDisplay: true, museum: "MoMA", latitude: 40.7616, longitude: -73.9776, medium: "Synthetic polymer paint on canvas", LCSart: false))
+        
+        list.append(Artwork(name: "Venus of the Rags", artist: "Michelangelo Pistoletto", yearCreated: 1967, description: """
+Venus of the Rags juxtaposes an over-life sized classical statue of the Roman goddess of love, beauty and fertility, with a large pile of brightly coloured, discarded clothes that are heaped on the floor. The Venus statue is positioned with its back to the viewer.
+""", more: "", onDisplay: false, museum: "", latitude: 0, longitude: 0, medium: "Marble and textiles", LCSart: false))
+        
+        list.append(Artwork(name: "Autoritratto", artist: "Michelangelo Pistoletto", yearCreated: 1963, description: """
+Venus of the Rags juxtaposes an over-life sized classical statue of the Roman goddess of love, beauty and fertility, with a large pile of brightly coloured, discarded clothes that are heaped on the floor. The Venus statue is positioned with its back to the viewer.
+""", more: "", onDisplay: true, museum: "Museum of Modern and Contemporary Art of Trento and Rovereto", latitude: 45.894, longitude: 11.045, medium: "Mixed media on paper", LCSart: false))
+        
+        list.append(Artwork(name: "Untitled (Stack)", artist: "Donald Judd", yearCreated: 1967, description: """
+Although it is hung on a wall like a painting, Untitled (Stack) projects nearly three feet from the wall and climbs like rungs on a ladder from floor to ceiling. It is made of galvanized iron boxes, all identical and of equal importance. The space around the boxes is also important.
+""", more: "", onDisplay: true, museum: "MoMA", latitude: 40.7616, longitude: -73.9776, medium: "Lacquer", LCSart: false))
+        
+        list.append(Artwork(name: "Galvanized steel", artist: "Donald Judd", yearCreated: 1979, description: """
+Rounded, projecting elements grow progressively smaller from left to right. The corresponding empty spaces between these elements grow larger, creating a structured, balanced rhythm. Here sculptor and critic Donald Judd examines mathematical progression, order, and the relationship between positive and negative space—all crucial concepts in the artist’s work. The surface of this object is enlivened by Judd’s use of galvanized iron. Painted with a thin red varnish, the crystalline surface of the metal shimmers through
+""", more: "", onDisplay: true, museum: "Saint Louis Art Museum", latitude: 38.639444, longitude: -90.294444, medium: "Galvanized steel", LCSart: false))
+
 
             Between 1939 and 1948, Vasarely laid out the fundamentals of Op-art in his early works. He was focused on studying the use of lines, the interaction between shadow and light, and the creation of perspective. Vasarely once affirmed: “The celebrated transition from the representational to nonrepresentational art is only one of the stages of profound transformation taking place in the plastics arts. The term ‘abstract’ in painting refers not to an established fact, but to an irresistible trend towards plastic creation different from the kind we already know.”
         """, more: "", onDisplay: true, museum: "Städel Museum", latitude: 50.1031,  longitude: 8.6741, medium: "Acrylic on canvas", LCSart: false))
