@@ -176,10 +176,17 @@ let testArtistsStore =
       
         Artist(name: "Sihan Chen", age: "27 Dec. 2003 - present", identity: "Chinese Computer Designer", infor: "teste info", artistStatement: "", LCSArtist: true, works: ["The Reminder App", "School Life Guide App"]),
         Artist(name: "Mr. Gordon", age: "test age", identity: "LCS Computer Software Designer", infor: "test info", artistStatement: "", LCSArtist: true, works: ["The Sandwich App"]),
+        
         Artist(name: "Jackson Pollock", age: "January 28, 1912 – August 11, 1956", identity: "American painter and major figure in the abstract expressionist movement", infor: """
-He was widely noticed for his technique of pouring or splashing liquid household paint onto a horizontal surface ("drip technique"), enabling him to view and paint his canvases from all angles. It was also called all-over painting and "action painting", since he covered the entire canvas and used the force of his whole body to paint, often in a frenetic dancing style. This extreme form of abstraction divided the critics: some praised the immediacy of the creation, while others derided the random effects. In 2016, Pollock's painting titled Number 17A was reported to have fetched US$200 million in a private purchase.
+Jackson Pollock was widely noticed for his technique of pouring or splashing liquid household paint onto a horizontal surface ("drip technique"), enabling him to view and paint his canvases from all angles. It was also called all-over painting and "action painting", since he covered the entire canvas and used the force of his whole body to paint, often in a frenetic dancing style. This extreme form of abstraction divided the critics: some praised the immediacy of the creation, while others derided the random effects. In 2016, Pollock's painting titled Number 17A was reported to have fetched US$200 million in a private purchase.
 
 A reclusive and volatile personality, Pollock struggled with alcoholism for most of his life. In 1945, he married the artist Lee Krasner, who became an important influence on his career and on his legacy. Pollock died at the age of 44 in an alcohol-related single-car accident when he was driving. In December 1956, four months after his death, Pollock was given a memorial retrospective exhibition at the Museum of Modern Art (MoMA) in New York City. A larger, more comprehensive exhibition of his work was held there in 1967. In 1998 and 1999, his work was honored with large-scale retrospective exhibitions at MoMA and at The Tate in London.
+""", artistStatement: "", LCSArtist: false, works: []),
+        
+        Artist(name: "Victor Vasarely", age: "9 April 1906 – 15 March 1997", identity: "Hungarian-French artist", infor: """
+Victor Vasarely, born Győző Vásárhelyi,, was a Hungarian-French artist, who is widely accepted as a "grandfather" and leader[2] of the Op art movement.
+
+His work entitled Zebra, created in 1937, is considered by some to be one of the earliest examples of Op art.
 """, artistStatement: "", LCSArtist: false, works: []),
       
     ]

@@ -121,7 +121,7 @@ This period was also responsible for the emergence of the illuminated manuscript
                         Celebrated Abstract Expressionist painters include Jackson Pollock, known for his unique style of drip painting, and Mark Rothko, whose paintings employed large blocks of color to convey a sense of spirituality.
                         """, works: ["Jackson Pollock - Autumn Rhythm (Number 30), 1950", "Mark Rothko - Orange and Yellow, 1956"], contributors: "Jackson Pollock, Mark Rothko"))
         
-        periods.append(Period(name: "Op Art", characteristics: "Use of colors, patterns, shapes, and contrast to create images that appeared to be moving or blurring", artists: [], time: "A.D. 1950–A.D. 1960s", description: """
+        periods.append(Period(name: "Op Art", characteristics: "Use of colors, patterns, shapes, and contrast to create images that appeared to be moving or blurring", artists: [getArtist(named: "Victor Vasarely")], time: "A.D. 1950–A.D. 1960s", description: """
                         Heightened by advances in science and technology as well as an interest in optical effects and illusions, the Op art (short for “optical” art) movement launched with Le Mouvement, a group exhibition at Galerie Denise Rene in 1955. Artists active in this style used shapes, colors, and patterns to create images that appeared to be moving or blurring, often produced in black and white for maximum contrast. These abstract patterns were meant to both confuse and excite the eye.
 
                         English artist Bridget Riley is one of the most prominent Op Art practitioners. Her 1964 artwork Blaze features zigzag black and white lines that create the illusion of a circular decent.
