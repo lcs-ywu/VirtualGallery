@@ -12,7 +12,6 @@ struct ArtworkDetail: View {
     let artwork: Artwork
 
     @State private var showingAddComment = false
-    
     var body: some View {
         ScrollView {
            
@@ -36,6 +35,7 @@ struct ArtworkDetail: View {
                     Text(artwork.artist)
                         .italic()
                         .font(.body)
+                        .bold()
 
                     Spacer()
                   
@@ -74,6 +74,11 @@ struct ArtworkDetail: View {
             }
            
             Text(artwork.description).padding(.horizontal)
+                .font(.subheadline)
+                .minimumScaleFactor(0.01)
+                
+                
+                
             
             if artwork.more.count != 0 {
                 HStack {
@@ -100,6 +105,23 @@ struct ArtworkDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
             ArtworkDetail(artwork: Artwork.example) //, CommentStore: testCommentStore
+        }
+    }
+}
+// Referenced from https://stackoverflow.com/questions/57035746/how-to-scale-text-to-fit-parent-view-with-swiftui
+
+struct FitSystemFont: ViewModifier {
+    var lineLimit: Int
+    var minimumScaleFactor: CGFloat
+    var percentage: CGFloat
+
+    func body(content: Content) -> some View {
+        GeometryReader { geometry in
+            content
+                .font(.system(size: min(geometry.size.width, geometry.size.height) * percentage))
+                .lineLimit(self.lineLimit)
+                .minimumScaleFactor(self.minimumScaleFactor)
+                .position(x: geometry.frame(in: .local).midX, y: geometry.frame(in: .local).midY)
         }
     }
 }

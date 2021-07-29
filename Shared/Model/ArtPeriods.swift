@@ -62,50 +62,50 @@ This period was also responsible for the emergence of the illuminated manuscript
                         Neoclassical artists were influenced by classical elements; in particular, a focus on idealism. Inevitably, they also included modern, historically relevant depictions in their works. For example, Italian sculptor Antonio Canova drew upon classical elements in his marble sculptures, but avoided the cold artificiality that was represented in many of these early creations.
                         """, works: ["Jacques-Louis David - Napoleon Crossing the Alps, 1801", "Antonio Canova - The Three Graces, 1816"], contributors: "Antonio Canova, Jacques-Louis David"))
         
-        periods.append(Period(name: "Romanticism", characteristics: "Imaginative elements, focus on passion, emotion, and observing the senses", artists: [], time: "A.D. 1780–A.D. 1850", description: """
+        periods.append(Period(name: "Romanticism", characteristics: "Imaginative elements, focus on passion, emotion, and observing the senses", artists: [getArtist(named: "Francisco Goya")], time: "A.D. 1780–A.D. 1850", description: """
                         Romanticism embodies a broad range of disciplines, from painting to music to literature. The ideals present in each of these art forms reject order, harmony, and rationality, which were embraced in both classical art and Neoclassicism. Instead, Romantic artists emphasized the individual and imagination. Another defining Romantic ideal was an appreciation for nature, with many turning to plein air painting, which brought artists out of dark interiors and enabled them to paint outside. Artists also focused on passion, emotion, and sensation over intellect and reason.
 
                         Prominent Romantic painters include Henry Fuseli, who created strange, macabre paintings that explored the dark recesses of human psychology, and William Blake, whose mysterious poems and images conveyed mystical visions and his disappointment in societal constraints.
                         """, works: ["Henry Fuseli - The Nightmare, 1781", "William Blake - The Ghost of a Flea, 1820", "Francisco Goya - Saturn Devouring His Son, 1823"], contributors: "Francisco Goya, Henry Fuseli, William Blake"))
         
-        periods.append(Period(name: "Realism", characteristics: "Detailed depictions of everyday life", artists: [], time: "A.D. 1848–A.D. 1900", description: """
+        periods.append(Period(name: "Realism", characteristics: "Detailed depictions of everyday life", artists: [getArtist(named: "Gustave Courbet")], time: "A.D. 1848–A.D. 1900", description: """
                         Arguably the first modern art movement, Realism, began in France in the 1840s. Realism was a result of multiple events: the anti-Romantic movement in Germany, the rise of journalism, and the advent of photography. Each inspired new interest in accurately capturing everyday life. This attention to accuracy is evident in art produced during the movement, which featured detailed, life-like depictions of subject matter.
 
                         One of the most influential leaders of the Realist movement is Gustave Courbet, a French artist committed to painting only what he could physically see.
 
                         """, works: ["Jean-François Millet - The Gleaners, 1857", "Gustave Courbet - Woman with a Parrot, 1866"], contributors: "Gustave Courbet, Jean-Francois Millet"))
         
-        periods.append(Period(name: "Art Nouveau", characteristics: "Long, sinuous lines and curves", artists: [], time: "A.D. 1890–A.D. 1910", description: """
+        periods.append(Period(name: "Art Nouveau", characteristics: "Long, sinuous lines and curves", artists: [getArtist(named: "Alphonse Mucha")], time: "A.D. 1890–A.D. 1910", description: """
                         Art Nouveau, which translates to “New Art,” attempted to create an entirely authentic movement free from any imitation of styles that preceded it. This movement heavily influenced applied arts, graphics, and illustration. It focused on the natural world, characterized by long, sinuous lines and curves.
 
                         Influential Art Nouveau artists worked in a variety of media, including architecture, graphic and interior design, jewelry-making, and painting. Czechoslovakian graphic designer Alphonse Mucha is best-known for his theatrical posters of French actress Sarah Bernhardt. Spanish architect and sculptor Antoni Gaudi went beyond focusing on lines to create curving, brightly-colored constructions like that of the Basilica de la Sagrada Familia in Barcelona.
                         """, works: ["Antoni Gaudí - Church of Sagrada Familia, 1882" ,"Gustav Klimt - The Kiss, 1908", "Alphonse Mucha - Princess Hyacinth, 1911"], contributors: "Alphonse Mucha, Antoni Gaudí, Gustav Klimt"))
         
-        periods.append(Period(name: "Impressionism", characteristics: "Short, quick brushstrokes, separation of color, sketch-like finish, modern subject matter", artists: [], time: "A.D. 1865–A.D. 1885", description: """
+        periods.append(Period(name: "Impressionism", characteristics: "Short, quick brushstrokes, separation of color, sketch-like finish, modern subject matter", artists: [getArtist(named: "Claude Monet")], time: "A.D. 1865–A.D. 1885", description: """
                         Impressionist painters sought to capture the immediate impression of a particular moment. This was characterized by short, quick brushstrokes and an unfinished, sketch-like feel. Impressionist artists used modern life as their subject matter, painting situations like dance halls and sailboat regattas rather than historical and mythological events.
 
                         Claude Monet, a French artist who spearheaded the idea of expressing one’s perceptions before nature, is virtually synonymous with the Impressionist movement. His notable works include The Water Lily Pond (1899), Woman with a Parasol (1875), and Impression, Sunrise (1872), from which the name of the movement itself is derived.
                         """, works: ["Pierre-Auguste Renoir - Dance in the City, 1872", "Claude Monet - Impression, Sunrise, 1899"], contributors: "Claude Monet, Pierre-Auguste Renoir"))
         
-        periods.append(Period(name: "Post-Impressionism", characteristics: "Subjective visions, symbolism, abstraction", artists: [], time: "A.D. 1885–A.D. 1910", description: """
+        periods.append(Period(name: "Post-Impressionism", characteristics: "Subjective visions, symbolism, abstraction", artists: [getArtist(named: "Vincent van Gogh")], time: "A.D. 1885–A.D. 1910", description: """
                         Post-Impressionist painters worked independently rather than as a group, but each influential Post-Impressionist painter had similar ideals. They concentrated on subjective visions and symbolic, personal meanings rather than observations of the outside world. This was often achieved through abstract forms.
 
                         Post-Impressionist painters include Georges Seurat, noted for his pointillism technique that used small, distinct dots to form an image. Vincent van Gogh is also considered a Post-Impressionist painter, searching for personal expression through his art, often through rugged brushstrokes and dark tones.
                         """, works: ["Georges Seurat - A Sunday Afternoon on the Island of La Grande Jatte, 1886", "Vincent van Gogh - The Starry Night, 1889"], contributors: "Georges Seurat, Vincent van Gogh"))
         
-        periods.append(Period(name: "Fauvism", characteristics: "Expressive color, line, and brushwork, bold surface design, flat composition", artists: [], time: "A.D. 1900–A.D. 1935", description: """
+        periods.append(Period(name: "Fauvism", characteristics: "Expressive color, line, and brushwork, bold surface design, flat composition", artists: [getArtist(named: "André Derain")], time: "A.D. 1900–A.D. 1935", description: """
                         Led by Henri Matisse, Fauvism built upon examples from Vincent van Gogh and George Seurat. As the first avant-garde, 20th-century movement, this style was characterized by expressive use of intense color, line, and brushwork, a bold sense of surface design, and flat composition.
 
                         As seen in many of the works of Matisse himself, the separation of color from its descriptive, representational purpose was one of the core elements that shaped this movement. Fauvism was an important precursor of Cubism and Expressionism.
                         """, works: ["Henri Matisse - Woman with a Hat, 1905", "André Derain - The Houses of Parliament, 1905-1906"], contributors: "André Derain, Henri Matisse"))
         
-        periods.append(Period(name: "Expressionism", characteristics: "Distortion of form, strong use of colors", artists: [], time: "A.D. 1905–A.D. 1920", description: """
+        periods.append(Period(name: "Expressionism", characteristics: "Distortion of form, strong use of colors", artists: [getArtist(named: "Edvard Munch")], time: "A.D. 1905–A.D. 1920", description: """
                         Expressionism emerged as a response to increasingly conflicted world views and the loss of spirituality. Expressionist art sought to draw from within the artist, using a distortion of form and strong colors to display anxieties and raw emotions. Expressionist painters, in a quest for authenticity, looked for inspiration beyond that of Western art and frequented ethnographic museums to revisit native folk traditions and tribal art.
 
                         The roots of Expressionism can be traced to Vincent van Gogh, Edvard Munch, and James Ensor. Prominent groups including Die Brücke (The Bridge) and Der Blaue Reiter (The Blue Rider) formed so artists could publish works and express their ideals collectively.
                         """, works: ["Edvard Munch - The Dance of Life, 1900", "Wassily Kandinsky - The Blue Rider, 1903"], contributors: "Edvard Munch, Wassily Kandinsky"))
         
-        periods.append(Period(name: "Cubism", characteristics: "Abstraction, flat, two-dimensional surfaces, geometric forms, contrasting vantage points", artists: [], time: "A.D. 1907–A.D. 1914", description: """
+        periods.append(Period(name: "Cubism", characteristics: "Abstraction, flat, two-dimensional surfaces, geometric forms, contrasting vantage points", artists: [getArtist(named: "Pablo Picasso")], time: "A.D. 1907–A.D. 1914", description: """
                         Cubism was established by Pablo Picasso and Georges Braque, who rejected the concept that art should copy nature. They moved away from traditional techniques and perspectives; instead, they created radically fragmented objects through abstraction. Many Cubist painters’ works are marked by flat, two-dimensional surfaces, geometric forms or “cubes” of objects, and multiple vantage points. Often, their subjects weren’t even discernible.
                         """, works: ["Georges Braque - Violin and Palette, 1909", "Pablo Picasso - Guernica, 1937"], contributors: "Georges Braque, Pablo Picasso"))
         
