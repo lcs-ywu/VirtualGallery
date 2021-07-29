@@ -105,7 +105,7 @@ This period was also responsible for the emergence of the illuminated manuscript
                         The roots of Expressionism can be traced to Vincent van Gogh, Edvard Munch, and James Ensor. Prominent groups including Die Brücke (The Bridge) and Der Blaue Reiter (The Blue Rider) formed so artists could publish works and express their ideals collectively.
                         """, works: ["Edvard Munch - The Dance of Life, 1900", "Wassily Kandinsky - The Blue Rider, 1903"], contributors: "Edvard Munch, Wassily Kandinsky"))
         
-        periods.append(Period(name: "Cubism", characteristics: "Abstraction, flat, two-dimensional surfaces, geometric forms, contrasting vantage points", artists: [], time: "A.D. 1907–A.D. 1914", description: """
+        periods.append(Period(name: "Cubism", characteristics: "Abstraction, flat, two-dimensional surfaces, geometric forms, contrasting vantage points", artists: [getArtist(named: "Pablo Picasso")], time: "A.D. 1907–A.D. 1914", description: """
                         Cubism was established by Pablo Picasso and Georges Braque, who rejected the concept that art should copy nature. They moved away from traditional techniques and perspectives; instead, they created radically fragmented objects through abstraction. Many Cubist painters’ works are marked by flat, two-dimensional surfaces, geometric forms or “cubes” of objects, and multiple vantage points. Often, their subjects weren’t even discernible.
                         """, works: ["Georges Braque - Violin and Palette, 1909", "Pablo Picasso - Guernica, 1937"], contributors: "Georges Braque, Pablo Picasso"))
         
