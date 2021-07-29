@@ -145,18 +145,25 @@ This period was also responsible for the emergence of the illuminated manuscript
                         American artist Frank Stella was of the earliest adopters of Minimalism, producing nonrepresentational paintings, as seen in his Black Paintings completed between 1958 and 1960. Each features a pattern of rectilinear stripes of uniform width printed in metallic black ink.
                         """, works: ["Frank Stella - Black Series I, 1967"], contributors: "Carl Andre, Donald Judd, Frank Stella"))
         
-        periods.append(Period(name: "Conceptual Art", characteristics: "An emphasis on ideas over visual components in the form of performances, ephemera, and other forms", artists: [], time: "Mid 1960s - Mid 1970s", description: "Conceptual art completely rejected previous art movements, and artists prized ideas over visual components, creating art in the from of performances, ephemera, and other forms. Polish performance artist Ewa Partum’s Active Poetry consisted of her scattering single alphabet letters across various landscapes. American artist Joseph Kosuth explored the production and role of language within art, as seen in his 1965, One and Three Chairs. In it, he represents one chair in three different ways to represent different meanings of the same object. Because this type of art focused on ideas and concepts, there was no distinct style or form.", works: ["Joseph Kosuth - One and Three Chairs, 1965"], contributors: "Joseph Kosuth, Marcel Duchamp, Sol LeWitt"))
+        periods.append(Period(name: "Conceptual Art", characteristics: "An emphasis on ideas over visual components in the form of performances, ephemera, and other forms", artists: [getArtist(named: "Marcel Duchamp")], time: "Mid 1960s - Mid 1970s", description: "Conceptual art completely rejected previous art movements, and artists prized ideas over visual components, creating art in the from of performances, ephemera, and other forms. Polish performance artist Ewa Partum’s Active Poetry consisted of her scattering single alphabet letters across various landscapes. American artist Joseph Kosuth explored the production and role of language within art, as seen in his 1965, One and Three Chairs. In it, he represents one chair in three different ways to represent different meanings of the same object. Because this type of art focused on ideas and concepts, there was no distinct style or form.", works: ["Joseph Kosuth - One and Three Chairs, 1965"], contributors: "Joseph Kosuth, Marcel Duchamp, Sol LeWitt"))
         
-        periods.append(Period(name: "Contemporary Art", characteristics: "Exploration of Postmodernism, Feminist art, Neo Expressionism, Street art, Appropriation art, Digital art, and other small schools", artists: [], time: "1970 - Present", description: """
+        periods.append(Period(name: "Contemporary Art", characteristics: "Exploration of Postmodernism, Feminist art, Neo Expressionism, Street art, Appropriation art, Digital art, and other small schools", artists: [getArtist(named: "Jeff Koons")], time: "1970 - Present", description: """
                         The 1970s marked the beginning of contemporary art, which extends through present day. This period is dominated by various schools and smaller movements that emerged.
 
                         Postmodernism: In reaction against modernism, artists created works that reflected skepticism, irony, and philosophical critiques.
+
                         Feminist art: This movement arose in an attempt to transform stereotypes and break the model of a male-dominated art history.
+
                         Neo Expressionism: Artists sought to revive original aspects of Expressionism and create highly textural, expressive, large works.
+
                         Street art: Artists such as Keith Haring, Jean-Michel Basquiat, Barry McGee, Banksy, and more created graffiti-like art on surfaces in public places like sidewalks, buildings, and overpasses.
+
                         The Pictures Generation: Artists Cindy Sherman, Louise Lawler, Gary Simmons, and others who were influenced by Conceptual and Pop art experimented with recognizable imagery to explore images shaped our perceptions of the world.
+
                         Appropriation art: This movement focused on the use of images in art with little transformation from their original form.
+
                         Young British Artists (YBA): This group of London artists were notorious for their willingness to shock audiences through their imagery, and a willingness to push beyond limits of decency. They’re also known for their zestful, entrepreneurial spirit.
+
                         Digital art: The advent of the camera lent way to this artistic practice that allowed artists to use the infusion of art and technology to create with mediums like computers, audio and visual software, sound, and pixels.
                         """, works: ["Jeff Koons - Michael Jackson and Bubbles, 1988"], contributors: "Jeff Koons"))
     }
