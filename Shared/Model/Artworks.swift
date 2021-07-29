@@ -1356,6 +1356,14 @@ Venus of the Rags juxtaposes an over-life sized classical statue of the Roman go
         list.append(Artwork(name: "Autoritratto", artist: "Michelangelo Pistoletto", yearCreated: 1963, description: """
 Venus of the Rags juxtaposes an over-life sized classical statue of the Roman goddess of love, beauty and fertility, with a large pile of brightly coloured, discarded clothes that are heaped on the floor. The Venus statue is positioned with its back to the viewer.
 """, more: "", onDisplay: true, museum: "Museum of Modern and Contemporary Art of Trento and Rovereto", latitude: 45.894, longitude: 11.045, medium: "Mixed media on paper", LCSart: false))
+        
+        list.append(Artwork(name: "Untitled (Stack)", artist: "Donald Judd", yearCreated: 1967, description: """
+Although it is hung on a wall like a painting, Untitled (Stack) projects nearly three feet from the wall and climbs like rungs on a ladder from floor to ceiling. It is made of galvanized iron boxes, all identical and of equal importance. The space around the boxes is also important.
+""", more: "", onDisplay: true, museum: "MoMA", latitude: 40.7616, longitude: -73.9776, medium: "Lacquer", LCSart: false))
+        
+        list.append(Artwork(name: "Galvanized steel", artist: "Donald Judd", yearCreated: 1979, description: """
+Rounded, projecting elements grow progressively smaller from left to right. The corresponding empty spaces between these elements grow larger, creating a structured, balanced rhythm. Here sculptor and critic Donald Judd examines mathematical progression, order, and the relationship between positive and negative space—all crucial concepts in the artist’s work. The surface of this object is enlivened by Judd’s use of galvanized iron. Painted with a thin red varnish, the crystalline surface of the metal shimmers through
+""", more: "", onDisplay: true, museum: "Saint Louis Art Museum", latitude: 38.639444, longitude: -90.294444, medium: "Galvanized steel", LCSart: false))
 
         //        list.append(Artwork(name: "Test", artist: "Sihan Chen", yearCreated: 2020, description: "this is a test", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "aba", LCSart: true))
         

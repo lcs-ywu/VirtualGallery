@@ -225,6 +225,10 @@ From 1947 until 1958, Pistoletto worked in his father's restoration workshop in 
 
 In 1965/1966, he produced the series of works Oggetti in meno (Minus Objects), which belongs to Pistoletto's early sculptural works. In 1966, Pistoletto had his first solo exhibition in the US, at the Walker Art Center in Minneapolis. In 1967, his work was awarded first prize in the Biennale de São Paulo. In the same year, Pistoletto started focusing on performance, video art and theatre. He founded an action art group, called "Zoo Group", which gave several performances between 1968 and 1970. These took place in the studio, public buildings or on the streets of Turin or other large cities. As was already the case with Pistoletto's 2-dimensional and sculptural works, the aim was to display the unity of art and everyday life.
 """, artistStatement: "", LCSArtist: false, works: []),
+        
+        Artist(name: "Donald Judd", age: "June 3, 1928 – February 12, 1994", identity: "American minimalism artist", infor: """
+Donald Clarence Judd was an American artist associated with minimalism (a term he nonetheless stridently disavowed). In his work, Judd sought autonomy and clarity for the constructed object and the space created by it, ultimately achieving a rigorously democratic presentation without compositional hierarchy. He is generally considered the leading international exponent of "minimalism," and its most important theoretician through such writings as "Specific Objects" (1964). Judd voiced his unorthodox perception of minimalism in Arts Yearbook 8, where he asserts; "The new three dimensional work doesn't constitute a movement, school, or style. The common aspects are too general and too little common to define a movement. The differences are greater than the similarities."
+""", artistStatement: "", LCSArtist: false, works: []),
       
     ]
 
