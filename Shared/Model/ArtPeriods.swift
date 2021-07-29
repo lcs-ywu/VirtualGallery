@@ -127,7 +127,7 @@ This period was also responsible for the emergence of the illuminated manuscript
                         English artist Bridget Riley is one of the most prominent Op Art practitioners. Her 1964 artwork Blaze features zigzag black and white lines that create the illusion of a circular decent.
                         """, works: ["Bridget Riley - Blaze, 1964"], contributors: "Bridget Riley, Jean-Pierre Yvaral, Victor Vasarely"))
         
-        periods.append(Period(name: "Pop Art", characteristics: "Use of everyday, mundane objects, bold, vivid colors, mass media", artists: [], time: "A.D. 1950–A.D. 1960s", description: """
+        periods.append(Period(name: "Pop Art", characteristics: "Use of everyday, mundane objects, bold, vivid colors, mass media", artists: [getArtist(named: "Andy Warhol")], time: "A.D. 1950–A.D. 1960s", description: """
                         Pop art is one of the most recognizable artistic developments of the 20th century. The movement transitioned away from methods used in Abstract Expressionism, and instead used everyday, mundane objects to create innovative works of art that challenged consumerism and mass media. This introduction to identifiable imagery was a shift from the direction of modernism.
 
                         Pop artists like Andy Warhol and Roy Lichtenstein sought to establish the idea that art can draw from any source and there is no hierarchy of culture to disrupt that. Perhaps the most famous pop culture work of art is Warhol’s Campbell’s Soup Cans production.
