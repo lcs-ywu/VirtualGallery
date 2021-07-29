@@ -45,10 +45,6 @@ struct ArtHistoryDetailView: View {
                 }
             }
             
-          
-
-            
-            
         }.ignoresSafeArea()
     }
 }
