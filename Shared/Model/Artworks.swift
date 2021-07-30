@@ -1365,11 +1365,6 @@ Although it is hung on a wall like a painting, Untitled (Stack) projects nearly 
         list.append(Artwork(name: "Galvanized steel", artist: "Donald Judd", yearCreated: 1979, description: """
 Rounded, projecting elements grow progressively smaller from left to right. The corresponding empty spaces between these elements grow larger, creating a structured, balanced rhythm. Here sculptor and critic Donald Judd examines mathematical progression, order, and the relationship between positive and negative space—all crucial concepts in the artist’s work. The surface of this object is enlivened by Judd’s use of galvanized iron. Painted with a thin red varnish, the crystalline surface of the metal shimmers through
 """, more: "", onDisplay: true, museum: "Saint Louis Art Museum", latitude: 38.639444, longitude: -90.294444, medium: "Galvanized steel", LCSart: false))
-
-
-            Between 1939 and 1948, Vasarely laid out the fundamentals of Op-art in his early works. He was focused on studying the use of lines, the interaction between shadow and light, and the creation of perspective. Vasarely once affirmed: “The celebrated transition from the representational to nonrepresentational art is only one of the stages of profound transformation taking place in the plastics arts. The term ‘abstract’ in painting refers not to an established fact, but to an irresistible trend towards plastic creation different from the kind we already know.”
-        """, more: "", onDisplay: true, museum: "Städel Museum", latitude: 50.1031,  longitude: 8.6741, medium: "Acrylic on canvas", LCSart: false))
-        
         
         list.append(Artwork(name: "The Balloon Dog", artist: "Jeff Koons", yearCreated: 1995, description: "The Balloon Dog (Red), which is one of Koons's most celebrated figures, was executed in 1995 and is numbered 568 in an edition of 2300. Koons also executes his figures in massive dimensions, such as his Balloon Rabbit and Ballerina.", more: "", onDisplay: true, museum: "Los Angeles County Museum of Art", latitude: 34.0639, longitude: -118.3592, medium: "Mirror-polished stainless steel with transparent color coating", LCSart: false))
         
