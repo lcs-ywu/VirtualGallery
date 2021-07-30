@@ -30,29 +30,35 @@ struct ArtworksList: View {
             
             //            SearchBarView(text: $searchText)
             //                .padding(.top)
-            Text("Everything You need to Know About Art").bold().foregroundColor(.black).font(.system(.largeTitle, design: .serif)).padding(.leading).multilineTextAlignment(.leading)
+
+            Text("Everything You need to Know About Art").bold().foregroundColor(.black).font(.system(.largeTitle, design: .serif)).padding(.horizontal).multilineTextAlignment(.leading)
+
+                
             
             Spacer()
             
+
             ACarousel(store.artworksOnDisplay,
-                      spacing: 10,
-                      headspace: 10,
-                      sidesScaling: 0.7,
-                      isWrap: true,
-                      autoScroll: .active(4)) { item in
-                VStack {
-                    NavigationLink(destination: ArtworkDetail(artwork: item)){
-                        Image(item.name)
-                            .resizable()
-                            .scaledToFit()
-                            .cornerRadius(30)
+                          spacing: 10,
+                          headspace: 10,
+                          sidesScaling: 0.7,
+                          isWrap: true,
+                          autoScroll: .active(4)) { item in
+                    VStack {
+                        NavigationLink(destination: ArtworkDetail(artwork: item)){
+                            Image(item.name)
+                                .resizable()
+                                .scaledToFit()
+                                .cornerRadius(30)
+                        }
+                        Text(item.name).font(.system(.title2, design: .serif))
+                        Text(item.artist).font(.system(.title3, design: .serif))
                     }
-                    Text(item.name).font(.system(.title2, design: .serif))
-                    Text(item.artist).font(.system(.title3, design: .serif))
                 }
-            }
-            .frame(height: 600)
-            .shadow(radius: 20)
+                .frame(height: 600)
+                .shadow(radius: 20)
+                Spacer()
+
             
             VStack(alignment: .leading,spacing:5, content: {
                 

@@ -18,8 +18,15 @@ struct ArtHistoryDetailView: View {
             Image(period.name).resizable().scaledToFit()
             Text(period.name) .font(.system(.title, design: .serif)).bold()
             Text(period.time) .font(.system(.title2, design: .serif))
-            Text(period.characteristics).font(.system(.title2, design: .serif)).multilineTextAlignment(.center)
-            Text("Leading Contributors: \(period.contributors)").font(.system(.title2, design: .serif)).multilineTextAlignment(.center).padding()
+            VStack {
+                Text("Artwork Characteristics:").font(.system(.title2, design: .serif)).bold().multilineTextAlignment(.center).padding(.top)
+                Text(period.characteristics).font(.system(.title2, design: .serif)).multilineTextAlignment(.center)
+            }
+            
+            VStack {
+                Text("Leading Contributors: ").font(.system(.title2, design: .serif)).bold().multilineTextAlignment(.center).padding(.top)
+                Text("\(period.contributors)").font(.system(.title2, design: .serif)).multilineTextAlignment(.center)
+            }
             
             Spacer(minLength: 30)
             
@@ -27,16 +34,26 @@ struct ArtHistoryDetailView: View {
             
             if !period.artists.isEmpty {
                 HStack {
-                    Text("Leading Artists:").font(.system(.title2, design: .serif)).padding()
+                    Text("Leading Artists:").font(.system(.title2, design: .serif)).bold().padding()
                     Spacer()
                 }
+                HStack {
+                    Spacer()
+                    Text("↓ Tap to see more about the artist! ↓").font(.system(.title2, design: .serif)).padding()
+                    Spacer()
+                }
+                
                 // Issue: Is there a better algorithm?
                 ForEach(period.artists){artist in
                     NavigationLink(destination: ArtistDetailView(artist: artist)){
                         VStack {
                             Image(artist.name).resizable().scaledToFit()
-                            Text(artist.name).font(.system(.title2, design: .serif)).padding(.bottom, 1)
-                            Text(artist.age).font(.system(.title2, design: .serif))
+                            VStack {
+                                Text(artist.name).padding(.bottom, 1)
+                                Text(artist.age)
+                            }.font(.system(.title2, design: .serif))
+                            .foregroundColor(.black)
+                            
                             Spacer().frame(height: 15.0)
                         }
                         

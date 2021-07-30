@@ -44,13 +44,21 @@ struct LCSArtCommunityView: View {
                 
                 }.frame(height: 300)
                 
-                Text("The Peter Dalglish Awards").bold().font(.title).foregroundColor(Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1))
+                HStack {
+                    Text("The Peter Dalglish Awards").bold().font(.title).foregroundColor(Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1)).padding(.horizontal)
+                    Spacer()
+                }
+                
                 Spacer()
                 Text("""
 The purpose of the Peter Dalglish Art Award is to inspire, encourage and recognize artistic talent at Lakefield College School by promoting promising young artists and their future contributions to art in Canada and beyond. In recognition of their father's affection for Lakefield College School, his love of the arts and his commitment to nurturing and supporting young artists, Geordie Dalglish ’89, and Kim Dalglish Abell, have established the Peter Dalglish Art Award funded by an endowed gift made in 2014.
 """).font(.title2).padding()
                
-                Text("Meet the Dalglish Recipients!").bold().font(.title).foregroundColor(Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1))
+                HStack {
+                    Text("Meet the Dalglish Recipients!").bold().font(.title).foregroundColor(Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1)).padding(.horizontal)
+                    Spacer()
+                }
+                
                 
                 HStack {
                     Text("Placeholder for recipients").font(.title2).padding()
