@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ArtworkDetail: View {
-    
+    @State private var isNavigationBarHidden = false
     let artwork: Artwork
 
     @State private var showingAddComment = false
@@ -65,17 +65,20 @@ struct ArtworkDetail: View {
             }
             .padding(.horizontal)
             
-            HStack {
-                Text("General Information")
-                    .font(.title3)
-                    .bold()
-                    .padding([.top, .leading, .bottom])
-                Spacer()
+            if !artwork.description.isEmpty {
+                HStack {
+                    Text("General Information")
+                        .font(.title3)
+                        .bold()
+                        .padding([.top, .leading, .bottom])
+                    Spacer()
+                }
+               
+                Text(artwork.description).padding(.horizontal)
+                    .font(.subheadline)
+                    .minimumScaleFactor(0.01)
             }
-           
-            Text(artwork.description).padding(.horizontal)
-                .font(.subheadline)
-                .minimumScaleFactor(0.01)
+            
                 
                 
                 
@@ -96,6 +99,12 @@ struct ArtworkDetail: View {
             
         }
         .edgesIgnoringSafeArea(.top)
+        // Consider smooth transition?
+        .navigationBarHidden(isNavigationBarHidden)
+        .onTapGesture {
+            isNavigationBarHidden.toggle()
+        }
+        
         
         
     }
