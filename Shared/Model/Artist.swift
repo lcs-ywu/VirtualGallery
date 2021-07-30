@@ -81,17 +81,17 @@ let testArtistsStore =
         
         // LCS artist goes here
         Artist(name: "James Wu", age: "16 Dec. 2002 - present", identity: "Chinese Visual Artist", infor: "Art has been my earliest interest. I have been an apprentice and appreciator in art in China in the last twelve years. During the past years, I have been learning different artistic techniques and skills, including sketching, painting, wash painting, oil painting and so on. But I know my path to becoming an artist  who could fully express my imaginary is still long. Besides creating artworks, I also have interest in music, sports and reading, since they are all great method of relaxing and cultivating myself.", artistStatement: "If this is our first meet, I'm currently seventeen a grad at Lakefield College School. This is my second year at Lakefield and LCS has truly become my second home in Canada. Although born in Canada, I grew up in China with my family and continued my studies until high school. ", LCSArtist: true, works: ["Fruit", "Eye"]),
-      
-        Artist(name: "Minah Bae", age: "", identity: "", infor: """
-        Hi, I'm Minah Bae! I love art and photography!
-        I was born in Busan, South Korea.  I grew up in a city where everything is five minutes away from my house.
-
-        Since I grew up in a city, I didn't really get a change to be in nature. This is why I started taking photos of nature such as sky, flowers, trees, and ocean. Whenever I go on a trip with my family, I wanted to capture those moments with my camera. Now that I have took lots of nature photographs, I became close to nature and I am able to appreciate the beauty of nature now.
-
-        I've always loved art as well especially painting with acrylic. I believe that every artworks are priceless, it has the creator's own story, life, and feelings. I make art whenever I feel down, it makes me feel relieved and I can put all my feelings into artwork.
-
-        I like abstract art and most of my artworks are abstract. Whereas realistic art is easier to notice what the creator is trying to say through the artwork, abstracts art makes audience to think more and also connect to their own life. Also, my idea comes from my creativity and experiences which makes it more special.
-        """, artistStatement: "", LCSArtist: true, works: []),
+      // Still need to get permission for Minah
+//        Artist(name: "Minah Bae", age: "", identity: "", infor: """
+//        Hi, I'm Minah Bae! I love art and photography!
+//        I was born in Busan, South Korea.  I grew up in a city where everything is five minutes away from my house.
+//
+//        Since I grew up in a city, I didn't really get a change to be in nature. This is why I started taking photos of nature such as sky, flowers, trees, and ocean. Whenever I go on a trip with my family, I wanted to capture those moments with my camera. Now that I have took lots of nature photographs, I became close to nature and I am able to appreciate the beauty of nature now.
+//
+//        I've always loved art as well especially painting with acrylic. I believe that every artworks are priceless, it has the creator's own story, life, and feelings. I make art whenever I feel down, it makes me feel relieved and I can put all my feelings into artwork.
+//
+//        I like abstract art and most of my artworks are abstract. Whereas realistic art is easier to notice what the creator is trying to say through the artwork, abstracts art makes audience to think more and also connect to their own life. Also, my idea comes from my creativity and experiences which makes it more special.
+//        """, artistStatement: "", LCSArtist: true, works: []),
       
         Artist(name: "Hinako Hotta", age: "2002 - Present", identity: "", infor: """
         About Me

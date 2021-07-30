@@ -17,19 +17,20 @@ struct CDSideMenuAccountView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            VStack(alignment: .center) {
-                Image(self.configuration.userData!.imageUrl)
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                    .clipShape(Circle())
-                    .overlay(Circle().stroke(self.configuration.menuForegroundColor, lineWidth: 3))
-                
-                Text("Hi, \(self.configuration.userData!.userName)")
-                    .font(self.configuration.menuFont)
-                    .bold()
-                    .foregroundColor(self.configuration.menuForegroundColor)
-            }
-            .frame(maxWidth: .infinity)
+            // User's picture and name for profile in the side menu
+//            VStack(alignment: .center) {
+//                Image(self.configuration.userData!.imageUrl)
+//                    .resizable()
+//                    .frame(width: 100, height: 100)
+//                    .clipShape(Circle())
+//                    .overlay(Circle().stroke(self.configuration.menuForegroundColor, lineWidth: 3))
+//
+//                Text("Hi, \(self.configuration.userData!.userName)")
+//                    .font(self.configuration.menuFont)
+//                    .bold()
+//                    .foregroundColor(self.configuration.menuForegroundColor)
+//            }
+//            .frame(maxWidth: .infinity)
             
             VStack(alignment: .leading) {
                 
