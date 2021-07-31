@@ -1361,7 +1361,7 @@ Venus of the Rags juxtaposes an over-life sized classical statue of the Roman go
 Although it is hung on a wall like a painting, Untitled (Stack) projects nearly three feet from the wall and climbs like rungs on a ladder from floor to ceiling. It is made of galvanized iron boxes, all identical and of equal importance. The space around the boxes is also important.
 """, more: "", onDisplay: true, museum: "MoMA", latitude: 40.7616, longitude: -73.9776, medium: "Lacquer", LCSart: false))
         
-        list.append(Artwork(name: "Galvanized steel", artist: "Donald Judd", yearCreated: 1979, description: """
+        list.append(Artwork(name: "Untitled (Progression)", artist: "Donald Judd", yearCreated: 1979, description: """
 Rounded, projecting elements grow progressively smaller from left to right. The corresponding empty spaces between these elements grow larger, creating a structured, balanced rhythm. Here sculptor and critic Donald Judd examines mathematical progression, order, and the relationship between positive and negative space—all crucial concepts in the artist’s work. The surface of this object is enlivened by Judd’s use of galvanized iron. Painted with a thin red varnish, the crystalline surface of the metal shimmers through
 """, more: "", onDisplay: true, museum: "Saint Louis Art Museum", latitude: 38.639444, longitude: -90.294444, medium: "Galvanized steel", LCSart: false))
 

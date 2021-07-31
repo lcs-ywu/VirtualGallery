@@ -37,17 +37,29 @@ struct ArtHistoryDetailView: View {
                     Text("Leading Artists:").font(.system(.title2, design: .serif)).bold().padding()
                     Spacer()
                 }
-                HStack {
-                    Spacer()
-                    Text("↓ Tap to see more about the artist! ↓").font(.system(.title2, design: .serif)).padding()
-                    Spacer()
-                }
+//                HStack {
+//                    Spacer()
+//                    Text("↓ Tap to see more about the artist! ↓").font(.system(.title2, design: .serif)).padding()
+//                    Spacer()
+//                }
                 
                 // Issue: Is there a better algorithm?
                 ForEach(period.artists){artist in
                     NavigationLink(destination: ArtistDetailView(artist: artist)){
                         VStack {
-                            Image(artist.name).resizable().scaledToFit()
+                            ZStack {
+                                Image(artist.name).resizable().scaledToFit()
+                                VStack {
+                                    Spacer()
+                                    Text("Click to see more")
+                                        .font(.system(.title2,design: .serif))
+                                        .bold()
+                                        .colorScheme(.light)
+                                        .padding(.all)
+                                        .colorInvert()
+                                        .foregroundColor(.secondary)
+                                }
+                            }
                             VStack {
                                 Text(artist.name).padding(.bottom, 1)
                                 Text(artist.age)

@@ -81,7 +81,7 @@ struct ArtworksList: View {
                                 NavigationLink(destination: PurposeOfArt())
                                 {
                                     HStack{
-                                        Image("Purpose Of Art")
+                                        Image("Purpose of Art")
                                             .resizable()
                                             .scaledToFit()
                                             .frame(width: 44, height:44)
@@ -90,7 +90,7 @@ struct ArtworksList: View {
                                             Text("Purpose of Art")
                                         Spacer()
                                         Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
-                                    }.frame(width: 310, height: 50, alignment: .center)
+                                    }.frame(width: 315, height: 50, alignment: .center)
                                 }
                                 Divider().frame(width: 300)
                             }
@@ -99,13 +99,13 @@ struct ArtworksList: View {
                                 NavigationLink(destination: ElementsOfArt())
                                 {
                                     HStack{
-                                        Image("Elements Of Art")
+                                        Image("Elements of Art")
                                             .resizable()
                                             .scaledToFit()
                                             .frame(width: 44, height:44)
                                             .cornerRadius(15)
                                 
-                                            Text("Elements Of Art")
+                                            Text("Elements of Art")
                                         Spacer()
                                         Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
                                     }.frame(width: 310, height: 50, alignment: .center)
@@ -118,13 +118,13 @@ struct ArtworksList: View {
                                 NavigationLink(destination: PrinciplesOfDesign())
                                 {
                                     HStack{
-                                        Image("Principles Of Design")
+                                        Image("Principles of Design")
                                             .resizable()
                                             .scaledToFit()
                                             .frame(width: 44, height:44)
                                             .cornerRadius(15)
                                 
-                                            Text("Principles Of Design")
+                                            Text("Principles of Design")
                                         Spacer()
                                         Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
                                     }.frame(width: 310, height: 50, alignment: .center)
@@ -213,13 +213,13 @@ struct ArtworksList: View {
                                 NavigationLink(destination: GroupOfSeven())
                                 {
                                     HStack{
-                                        Image("Group of Seven")
+                                        Image("The Group of Seven")
                                             .resizable()
                                             .scaledToFit()
                                             .frame(width: 44, height:44)
                                             .cornerRadius(15)
                                 
-                                            Text("Group of Seven")
+                                            Text("The Group of Seven")
                                         Spacer()
                                         Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
                                     }.frame(width: 310, height: 50, alignment: .center)
