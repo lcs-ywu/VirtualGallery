@@ -43,7 +43,7 @@ struct ArtistsList: View {
                                 .resizable()
                                 .scaledToFill()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(height: 300)
+                                .frame(height: 280)
                                 .cornerRadius(30)
                         }
                         
@@ -57,19 +57,19 @@ struct ArtistsList: View {
                 }.scaledToFill()
                 // End cited code
                 
-//                ScrollView(.horizontal) {
-//                    HStack(spacing: 20) {
-//                        ForEach(artworkStore.artworks) { item in
-//                            NavigationLink(destination: ArtworkDetail(artwork: item)){
-//                                Image(item.name)
-//                                    .resizable()
-//                                    .scaledToFill()
-//                                    .frame(width: 300, height: 300)
-//                                    .cornerRadius(20)
-//                            }
-//                        }
-//                    }.padding()
-//                }
+                //                ScrollView(.horizontal) {
+                //                    HStack(spacing: 20) {
+                //                        ForEach(artworkStore.artworks) { item in
+                //                            NavigationLink(destination: ArtworkDetail(artwork: item)){
+                //                                Image(item.name)
+                //                                    .resizable()
+                //                                    .scaledToFill()
+                //                                    .frame(width: 300, height: 300)
+                //                                    .cornerRadius(20)
+                //                            }
+                //                        }
+                //                    }.padding()
+                //                }
                 
             }
             //            .shadow(radius: 20)
@@ -99,7 +99,7 @@ struct ArtistsList: View {
                             .resizable()
                             .scaledToFill()
                             .aspectRatio(contentMode: .fit)
-                            .frame(height: 300)
+                            .frame(height: 270)
                             .cornerRadius(30)
                     }
                     
@@ -112,20 +112,28 @@ struct ArtistsList: View {
             }.scaledToFill()
             // End cited code
             
-//            ScrollView(.horizontal) {
-//                HStack(spacing: 20) {
-//                    ForEach(artworkStore.artworks) { item in
-//                        NavigationLink(destination: ArtworkDetail(artwork: item)){
-//                            Image(item.name)
-//                                .resizable()
-//                                .scaledToFit()
-//                                .frame(width: 300, height: 300)
-//                                .background(Color.red).cornerRadius(20)
-//                        }
-//                    }
-//                }.padding()
-//            }
-            
+            //            ScrollView(.horizontal) {
+            //                HStack(spacing: 20) {
+            //                    ForEach(artworkStore.artworks) { item in
+            //                        NavigationLink(destination: ArtworkDetail(artwork: item)){
+            //                            Image(item.name)
+            //                                .resizable()
+            //                                .scaledToFit()
+            //                                .frame(width: 300, height: 300)
+            //                                .background(Color.red).cornerRadius(20)
+            //                        }
+            //                    }
+            //                }.padding()
+            //            }
+            NavigationLink(
+                destination: LCSArtCommunityView(),
+                label: {
+                    HStack{
+                        Text("Find out more about the LCS art community!").font(.title3).foregroundColor(Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1))
+                        Spacer()
+                        Image(systemName: "chevron.right").resizable().frame(width: 6, height: 13).padding()
+                    }.frame(width: 310, height: 50, alignment: .center)
+                })
         }
         
     }
