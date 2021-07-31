@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ArtHistoryDetailView: View {
-    
+    @State private var isNavigationBarHidden = false
     let period : Period
     let artists = ArtistsStore()
     
@@ -62,7 +62,9 @@ struct ArtHistoryDetailView: View {
                 }
             }
             
-        }.ignoresSafeArea()
+        }.ignoresSafeArea().navigationBarHidden(isNavigationBarHidden).onTapGesture {
+            isNavigationBarHidden.toggle()
+        }
     }
 }
 
