@@ -234,7 +234,7 @@ struct ArtworksList: View {
                 }
                 
             })
-            .frame(width: 400, alignment: .center)
+            .frame(width: 320, alignment: .center)
             .scaledToFit()
             .padding(.bottom)
             .cornerRadius(20)
@@ -258,7 +258,7 @@ struct ArtworksList: View {
             
            
             //        }
-            .frame(width: 400, alignment: .center)
+            .frame(width: 320, alignment: .center)
             .padding(7)
 //            .background(LinearGradient(gradient: .init(colors: [.gray, .white]), startPoint: .top, endPoint: .bottom))
             .cornerRadius(20)
