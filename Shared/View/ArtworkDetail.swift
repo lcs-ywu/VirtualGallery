@@ -73,10 +73,18 @@ struct ArtworkDetail: View {
                         .padding([.top, .leading, .bottom])
                     Spacer()
                 }
-               
-                Text(artwork.description).padding(.horizontal)
-                    .font(.subheadline)
-                    .minimumScaleFactor(0.01)
+                
+                HStack {
+                    Text(artwork.description).padding(.horizontal)
+                        .font(.subheadline)
+                        
+                        // Autoshrink?
+                        .minimumScaleFactor(0.01)
+                    
+                    Spacer()
+                }
+                
+                    
             }
             
                 

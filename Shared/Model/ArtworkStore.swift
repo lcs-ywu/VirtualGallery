@@ -18,7 +18,8 @@ class ArtworkStore: ObservableObject {
     init(artworks: [Artwork] = []) {
         
         self.artworks = testArtworksStore.list
-        self.artworksOnDisplay = testArtworksStore.listOnDisplay
+        // Display random pics each time
+        self.artworksOnDisplay = testArtworksStore.listOnDisplay.shuffled()
 //        self.LCSArtworks = getLCSArtWork(artworks: artworks)
 //        self.NonLCSArtworks = getNonLCSArtWork(artworks: artworks)
     }

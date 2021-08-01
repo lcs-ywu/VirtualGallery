@@ -793,7 +793,7 @@ struct Artworks {
                         At first, I believed this would be a quick process but painting them proved to be a much longer process.  This was due to factors like; Inability to tell what color would look like after firing in the kiln, blending or showing an effective transition between the pieces.
                         
                         The final product after having encouuntered multiple issues with the kiln had come out rather successful. I believe the transitions I attempted to make came out successful and worked as I had hoped. I do although believe the colors could have been a little different as the idea I had was not quite the outcome.
-""", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Low Fire Clay, Glaze", LCSart: true))
+                        """, onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Low Fire Clay, Glaze", LCSart: true))
         
         list.append(Artwork(name: "Awakened", artist: "Marc Bossongbra", yearCreated: 2020, description: """
                         The first step was the easiest. Involving creating the image. I needed to show someone rising or growing. This was to represent growth. To emphasize on this on a personal level, I decided to use paint as it was not a strong suit.
@@ -1509,6 +1509,8 @@ Rounded, projecting elements grow progressively smaller from left to right. The 
                         Video:
                         https://youtu.be/9fHijK31MfY
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Makeup (contour, highlighter, fundation…), Aquarelle Paint", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "单面镜", artist: "Chelsea Yue", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "To be Added", LCSart: true))
     }
     
     
