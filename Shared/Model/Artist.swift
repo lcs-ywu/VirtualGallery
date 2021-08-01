@@ -113,7 +113,7 @@ Donald Clarence Judd was an American artist associated with minimalism (a term h
 """, artistStatement: "", LCSArtist: false, works: []),
       
         // LCS artist goes here
-        Artist(name: "James Wu", age: "16 Dec. 2002 - present", identity: "Chinese Visual Artist", infor: "Art has been my earliest interest. I have been an apprentice and appreciator in art in China in the last twelve years. During the past years, I have been learning different artistic techniques and skills, including sketching, painting, wash painting, oil painting and so on. But I know my path to becoming an artist  who could fully express my imaginary is still long. Besides creating artworks, I also have interest in music, sports and reading, since they are all great method of relaxing and cultivating myself.", artistStatement: "If this is our first meet, I'm currently seventeen a grad at Lakefield College School. This is my second year at Lakefield and LCS has truly become my second home in Canada. Although born in Canada, I grew up in China with my family and continued my studies until high school. ", LCSArtist: true, works: ["Fruit", "Eye"]),
+        Artist(name: "James Wu", age: "", identity: "Chinese Visual Artist", infor: "Art has been my earliest interest. I have been an apprentice and appreciator in art in China in the last twelve years. During the past years, I have been learning different artistic techniques and skills, including sketching, painting, wash painting, oil painting and so on. But I know my path to becoming an artist  who could fully express my imaginary is still long. Besides creating artworks, I also have interest in music, sports and reading, since they are all great method of relaxing and cultivating myself.", artistStatement: "If this is our first meet, I'm currently seventeen a grad at Lakefield College School. This is my second year at Lakefield and LCS has truly become my second home in Canada. Although born in Canada, I grew up in China with my family and continued my studies until high school. ", LCSArtist: true, works: ["Fruit", "Eye"]),
       // Still need to get permission for Minah
 //        Artist(name: "Minah Bae", age: "", identity: "", infor: """
 //        Hi, I'm Minah Bae! I love art and photography!
@@ -126,7 +126,7 @@ Donald Clarence Judd was an American artist associated with minimalism (a term h
 //        I like abstract art and most of my artworks are abstract. Whereas realistic art is easier to notice what the creator is trying to say through the artwork, abstracts art makes audience to think more and also connect to their own life. Also, my idea comes from my creativity and experiences which makes it more special.
 //        """, artistStatement: "", LCSArtist: true, works: []),
       
-        Artist(name: "Hinako Hotta", age: "2002 - Present", identity: "", infor: """
+        Artist(name: "Hinako Hotta", age: "", identity: "", infor: """
         About Me
         Hi everyone! Thank you for finding my site and having interested in my portfolio. Before you explore my artworks, please let me introduce myself...
 
@@ -144,7 +144,7 @@ Donald Clarence Judd was an American artist associated with minimalism (a term h
                                 ー Wolfgang Amadeus Mozart
         """, LCSArtist: true, works: []),
       
-        Artist(name: "Alana Kim", age: "2006 - Present", identity: "", infor: """
+        Artist(name: "Alana Kim", age: "", identity: "", infor: """
         As an artist, I would describe myself as someone who particularly enjoys drawing faces and portraits. My style mostly centres around realism.
 
         I am 15 years old and a grade 11 student taking grade 12 art at Lakefield College School in Ontario. I am from Ottawa, Canada, however I have grown up in places such as China and Brazil throughout my life. I currently live in Rio de Janeiro, Brazil, and a few other interests of mine include dance, traveling, and watching movies.
@@ -172,7 +172,7 @@ Donald Clarence Judd was an American artist associated with minimalism (a term h
         As I grew older it changed into a skill I wanted to perfect. I desired to create my own style while learning about others. I used art to express feelings and emotions that could not be shown through words. As I had seen many others do, it became away to present myself to the world all the while also being a source of comfort.
         """, LCSArtist: true, works: []),
       
-        Artist(name: "Joe Huang", age: "2002 - Present", identity: "Chinese Visual Artist", infor: """
+        Artist(name: "Joe Huang", age: "", identity: "Chinese Visual Artist", infor: """
         Hello, my name is Joe Huang. I was born in September, 2002 in Shanghai, China. Right now I am a grade 12 student in Lakefield College School, Canada.
 
         Growing up in Shanghai, I have been making art since I was in grade school. One of the first forms of art I have been exposed to is Chinese Calligraphy. Traditional Chinese painting has also influenced me as an artist. I got a lot of my inspiration from my life, the things I see and people I meet. I have always believed a great artwork is derived from real life. I love making artworks that are genuine, emotional and have a story behind it. I want my audience to immerse in the art I make and have a pleasant experience. Photography is also one form of art I make a lot. Most photos you will see are shot on iPhone, no filters, all authentic.
@@ -205,7 +205,7 @@ Donald Clarence Judd was an American artist associated with minimalism (a term h
         I want find myself as an artist and try everything along the way. Recently I have been trying out digital art connected to anime and manga. I really enjoy painting, it makes me more relaxed and relives stress. Also one form of art I love is tattoos.
         """, artistStatement: "", LCSArtist: true, works: []),
       
-        Artist(name: "Fatima Shahbaz", age: "2003 - present", identity: "", infor: "My name is Fatima Shahbaz, I am an Irish born and raised artist attending my final year at Lakefield College School. I am on a never-ending journey to find new ways to innovate and add extra depth to my work. I have always been inspired by art. What influences me is the world around us. Art can be a way of expressing emotions and is a technique I like to play around with. I plan on pursuing art for leisure purposes because it has always been an outlet for me throughout my busy life.  Explore my updated Art Portfolio to discover my influences and inspiration behind some of my proudest accomplishments.", artistStatement: "", LCSArtist: true, works: []),
+        Artist(name: "Fatima Shahbaz", age: "", identity: "", infor: "My name is Fatima Shahbaz, I am an Irish born and raised artist attending my final year at Lakefield College School. I am on a never-ending journey to find new ways to innovate and add extra depth to my work. I have always been inspired by art. What influences me is the world around us. Art can be a way of expressing emotions and is a technique I like to play around with. I plan on pursuing art for leisure purposes because it has always been an outlet for me throughout my busy life.  Explore my updated Art Portfolio to discover my influences and inspiration behind some of my proudest accomplishments.", artistStatement: "", LCSArtist: true, works: []),
       
         Artist(name: "Carlota Tommasi", age: "", identity: "Professional Fine Artist", infor: """
         Artist. Creator. Visionary.

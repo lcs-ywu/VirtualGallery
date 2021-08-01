@@ -47,7 +47,6 @@ func getNonLCSArtist(artists: [Artist]) -> [Artist] {
 }
 
 func getHistoricArtist(artists: [Artist] , artistName: String) -> Artist {
-    var output: Artist
     for artist in testArtistsStore {
         if artist.name == artistName {
             return artist
