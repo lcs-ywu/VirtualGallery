@@ -431,242 +431,242 @@ struct Artworks {
         
         
         
-        
-        list.append(Artwork(name: "Untitled Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 22", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 23", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 24", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Painting 25", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pencil Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 22", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 23", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 24", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 25", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 26", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 27", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 28", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 29", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 30", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 31", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 32", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 33", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 34", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 35", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Pen Painting 36", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 22", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 23", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Colour Pencil Painting 24", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
+      // Hinako's artwork (About 100) --- Wait till image can be uploaded to online server
+//        list.append(Artwork(name: "Untitled Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 22", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 23", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 24", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Painting 25", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Paint", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pencil Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 22", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 23", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 24", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 25", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 26", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 27", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 28", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 29", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 30", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 31", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 32", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 33", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 34", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 35", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Pen Painting 36", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pen", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 18", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 19", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 20", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 21", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 22", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 23", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Colour Pencil Painting 24", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Coloured Pencil", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
         list.append(Artwork(name: "Untitled Digital Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Digital Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Mixed Media 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Mixed Media 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Mixed Media 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
-        
-        list.append(Artwork(name: "Untitled Mixed Media 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 5", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 6", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 7", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 8", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 9", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 10", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 11", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 12", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 13", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 14", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 15", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 16", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Digital Painting 17", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Mixed Media 1", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Mixed Media 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Mixed Media 3", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
+//
+//        list.append(Artwork(name: "Untitled Mixed Media 4", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
         
         list.append(Artwork(name: "The Faces", artist: "Joe Huang", yearCreated: 2020, description: """
                         In this series of paintings, I explore some of the most extreme expressions on human faces and try to amplify them with colours.
@@ -995,18 +995,6 @@ struct Artworks {
                         
                         In the final stage I added the details in the grass on the left, and created the suns reflection off the water.
                         """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint on Canvas", LCSart: true))
-        
-        list.append(Artwork(name: "Different Qualities", artist: "Carlota Tommasi", yearCreated: 2020, description: """
-                        In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
-
-                        My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
-                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint", LCSart: true))
-        
-        list.append(Artwork(name: "Different Qualities", artist: "Carlota Tommasi", yearCreated: 2020, description: """
-                        In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
-
-                        My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
-                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint", LCSart: true))
         
         list.append(Artwork(name: "Different Qualities", artist: "Carlota Tommasi", yearCreated: 2020, description: """
                         In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
@@ -1379,13 +1367,148 @@ Rounded, projecting elements grow progressively smaller from left to right. The 
         
         
         // Artwork on display added here
+        // Maybe using the property??
         listOnDisplay.append(Artwork(name: "Fruit", artist: "James", yearCreated: 2020, description: "In this oil painting, I intend to discuss the thesis of time and vividness through the difference between the rotten loquat in front and the fresh fruits behind. I put much time and effort into trying to magnify the freshness and realism of the subjects inside the painting with shade and colour. This work is also my initiation of detailed realistic oil paintings.", more: "", onDisplay: false, museum: "LCS Gallery", latitude: 0, longitude: 0, medium: "Oil on canvas", LCSart: true))
+        
         listOnDisplay.append(Artwork(name: "Rumination", artist: "James", yearCreated: 2019, description: "The model in the photo is sitting on marble platform in a posture which demonstrates his muscle definition. Hence the sketch is a great exercise of studying anatomy and physical beauty.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Pencil and pastel on sketch paper", LCSart: true))
+        
         listOnDisplay.append(Artwork(name: "Harmony", artist: "James", yearCreated: 2019, description: "This pencil sketch of a skull is one of my practice during my anatomy studying. I intend to strengthen my understanding of the structure of human head through this drawing. I sharpen the contrast and add details such as tooth and the cracks with the sketching process.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Charcoal pencil on sketch paper", LCSart: true))
+        
         listOnDisplay.append(Artwork(name: "Anton", artist: "James", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil on canvas", LCSart: true))
         
+        listOnDisplay.append(Artwork(name: "Untitled Digital Painting 2", artist: "Hinako Hotta", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Digital Painting", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "My Identity", artist: "Fatima Shahbaz", yearCreated: 2020, description: """
+                        This artwork is one of my first pieces completed at Lakefield College School. It is one of the very first creative "risks" that I have taken. The piece of 4 panels combined together is meant to give a metaphorical aspect to my identity and what makes me who I am. I decided to represent myself through what I embody within my mind. My creation is handmade with the use of acrylic paint, real flowers and dirt, books, coffee, and paper flowers - all embedded in a picture frame which is the fourth "window" of my creation. The harmony of this project is heavily emphasized by color and form. The picture frame portrays the importance of what is within me. It is the border that protects my identity. Keep reading for a deeper look inside my artistic world represented by this artwork.
+                        """, more: """
+                        This section of my project shows butterflies, clouds, and book paper The purple butterflies are handmade. Around the world, people view the butterfly as representing endurance, change, hope, and life. Butterflies are very symbolic to me as I have been through a lot of changes in my life that make me who I am. Through the lowest points in my life, I have endured change and learned hope. A simple object reminds me to keep pushing and that change is okay. This aspect of myself has been represented by an acrylic painting of a butterfly that drew with art pencils. I laid the butterflies on a collage of book scraps that were brushed with coffee so that the paper would appear old. This represents me being an Old-soul. Also, my love of literature.
+                        
+                        I have made this aspect of the piece very intricate and whimsical. I took a creative risk and used real flowers and dirt in which I pressed into a glued bristol board. The flowers took the longest time as it was quite trial and error, Ironing and using the printing press was a setback until a very lovely peer inspired me with a suggestion to microwave the flowers. Into the dirt, I have made root-like figures using paper maché - which will now lead to what this means to me. I am a very spiritual person and I stay true to my values. In a way, I stay true to my roots and my family. My family has been the most important thing to me for as long as I have remembered. My roots will always stay with me as I blossom and grow like a flower. I included the sky using layered tissue paper. The blue sky represents happiness and peace. Both that I have always tried to make a goal out of.
+                        
+                        I painted clouds with acrylic paint to symbolize myself as being a dreamer. I constantly daydream of what my future may hold. Being a dreamer allows me to set goals for myself in becoming the best version I can be.
+                        """
+                            , onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Art Pencils, Acrylic Paint", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "Different Qualities", artist: "Carlota Tommasi", yearCreated: 2020, description: """
+                        In this work of art I was inspired by focusing on my different qualities. But mainly I focus on those that I feel describe me, loving, caring, loving, friendly, supportive, empathetic.
+
+                        My purpose of this work was to make me focus on my positive qualities. It was hard to think about them, so I asked my friends to describe me.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "In My Mind", artist: "Alana Kim", yearCreated: 2020, description: """
+                        This piece is called In My Mind because, in a literal sense, it is revealing the inside of my mind. The portrait is drawn with coloured pencils while the shirt is comprised of magazine cutouts of a variety of flowers. The solid background is painted with watercolour and decorated with gold leaf. This was another one of my pieces that I wanted to be in colour because it pulls the drawing together. For instance, the use of blue for the face in the middle was essential in what message I wanted to set forth with this drawing. My intention for this artwork was to take a look into my mind and who I think I am on the inside, because there is so much more to someone than what is shown on the outside. I illustrated my head splitting in half down the middle to exhibit a 'second head' that represents my mind. I chose blue to represent my mind because if I were a colour, I think I would be blue. When you think of blue, you think of the sky or the sea; commonly calm things. Blue is also not a harsh colour; it's soft and, in a way, 'trustworthy' or 'approachable.'
+
+                        For this reason, I chose blue to symbolize the calm and collected way in which I carry myself and how others see me. The flowers covering my shirt are not only to add an interesting aspect to the drawing , but display my top VIA character strength: love. Flowers can symbolize a lot of things, but in this case, I used them to show my greatest strength of love, as flowers are often used as a token of appreciation. The specks of gold leaf in he background were just to add something that felt missing in the drawing, and I think were the perfect finalizing detail in this piece. This is one of my favourite artworks in the entire series because it is one of the coolest. My attempts to recreate what I had in my head for this were very successful in my opinion, and may have even exceeded my expectations for it. Specifically, I am very happy with how the colouring turned out and I feel as though the other media that was used worked well with each other.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Mixed Media", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "Sushi", artist: "Alana Kim", yearCreated: 2020, description: """
+                        This assignment is an extension of my personal identity and how food plays a factor in it. For instance, how food universally holds cultural significance. The purpose of this assignment was to create a plate of food that connected to our own individual lives, whether it connected to family, friends, or memories. In this project, food is used as a source of expression through trying to tell a story through a particular dish. Not only that, but along the way, we picked up skills corresponding to hand-built pottery.
+                            
+                        For my plate of food, I wanted to choose something that I love to eat and that gives me joy, which is sushi. Although it does not hold any cultural significance to me, I have grown up eating and loving sushi. My entire family loves sushi, and whenever we want to go out and have a meal, our top choice is always sushi. I have a so many fond memories of sushi that connect to my family and friends that I wanted to create something that encapsulates that joy and love for this food.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Clay, Low Fire Glaze", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "Serenity", artist: "Alana Kim", yearCreated: 2020, description: """
+                        This piece is called Serenity. It is an oil painting on a 3ft by 2ft canvas. I decided to do an oil painting because it was a medium that I did not have much experience with, but wanted to try. The only time I had used oil paint in the past was in a previous assignment where we painted facial expressions on wooden panels. After that, I wanted to continue practicing with with it because of how much I loved the consistency and how easily they blended with each other. However, before starting the painting process, I made sure to watch videos about painting with oil paint in order to pick up some valuable tips before getting started so that I could get a deeper understanding of how to successfully work with the medium. I mainly focused on how to mix skin tones as well as how to accurately paint water. Painting water was something that I had never done before therefore, for me, it was crucial that I had at least some knowledge on how to do it beforehand. Ultimately, this preparation helped me become more confident in what I was doing and I managed to apply a lot of what I learned into my work. During the painting process, I learned a lot along the way about oil paint and what techniques work the best for certain things. Overall, I treated this process as a learning experience that took trial and error and a lot of patience. The biggest advice I would give for using oil paints is to blend, but also take the time to analyze your reference photo to know what colours to use and know how to mix them. The face was the most stressful part because I wanted it to look as realistic as possible. I rarely ever used the colour straight from the tube, and mixed every one of the shades I used on the face. The more I painted, the more I got an understanding of how to get the colours I wanted. Throughout the mixing process, I compared the colour on my paintbrush to the one in the photo side by side to see if it matched or if I was still a bit off. I acquired a lot of knowledge from the videos I watched, like mixing a tiny amount of blue to make the skin less warm or adding yellow to make it less red. For the water, although I had also watched a few videos surrounded it, I followed my own instincts as well. After trying a few things, I developed a technique that I eventually used for the rest of the water in my painting. First, I would mix the colour I needed and laid it on the areas they appeared in in the photo. I wasn't too picky with the water process because nature is not perfect, and I just wanted to have the general look of water to not waste time either. The most important part was blending out the colour with a dry brush to get that smooth effect. I repeated this process throughout the entire painting. Although I did not have an intended message for this painting, I was certain that I wanted to convey the feeling of peace, freedom, and life, symbolized through the water. Universally, water serves as a symbol for life and freedom, and you could say that my painting is a celebration of those things. Essentially, I wanted to capture the general idea of being at ease with oneself and letting nature take its course. My other theme for this artwork was challenging myself and exploring my own artistic style. I believe that I am still in the process of discovering my creative style, and this was a big step towards finding that. I knew that I loved painting portraits, and that painting was something I've always wanted to try and master. Overall, I think I was a bit ambitious with the entire concept of my project, however, the water in particular served as a great challenge because of how hard it is to capture in a painting. Despite this, I decided to take a leap of faith, and I was motivated to try something I've never done before. The elements of the painting that ultimately helped me in conveying my intended mood was the realistic aspect of it. I knew that realism was something that I wanted to work towards in my artistic journey, and I think I did a good job of demonstrating that in the painting. I wanted the painting to be realistic because that's what I know I enjoy doing. This project essentially served as a huge learning opportunity for me to find my own personal style as an artist and learn a lot of valuable skills and techniques when it comes to oil painting. I think the theme of allowing us to create anything we wanted with any type of medium was an exciting opportunity for me to do something that I wanted to do, which ultimately affected my performance in the task and motivated me even more to make it the best it could be. I feel as though my initial intentions for this assignment were full-filled with the end result because I can proudly say that it came out exactly how I wanted it to. I wanted to stick to my style of realism, and picking up useful tips from videos and having patience helped me achieve this. With that being said, I am very happy with how the final piece turned out, and have learned so much during the process of making it. It was something that took up a lot of time and patience, however, it was worth it in the end to have created something that I was happy with. Moving forward, I want to continue with realism as well as painting with oil paints because of how much I enjoyed using them in this assignment.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Clay, Low Fire Glaze", LCSart: true))
         
         
+        listOnDisplay.append(Artwork(name: "The Unsullied", artist: "Marc Bossongbra", yearCreated: 2020, description: """
+                        II knew I wanted to challenge myself t something I wasn't particularly good at but enjoyed and was determined to improve on. This led to the decision of using a graphic tablet to create the piece.
+
+                        The media used on the tablet were, Airbrush, Graphite, and Ink.
+
+                        I chose these because I believed they would best convey the feeling I was attempting to get across.
+
+                        This so far has been the hardest and most draining piece to make for me.
+                        ​
+                        The prompt was whatever we wanted and I had trouble finding something. I knew I wanted to express my emotions and bring to life the feelings evoked in me.
+
+                        To start I began researching meanings behind it, and how I could incorporate them into something on a bigger scale. This was in part due to my fear of personalizing and expressing my emotions on a deeper scale.
+
+                        I decided to go with the feelings of depression and anxiety along with PTSD. This showed and expressed the meaning and feeling I wanted to portray and allowed for an explanation that was partially detached from my original intent.
+
+                        Starting the sketches were simple as the ideas had come to me straight from the start. having done this I began drawing on the tablet creating sketches and Identifying the different areas that needed to be looked at or would have some concern.
+
+                        The body seemed to need a lot of detail despite being a rather small piece of the puzzle. I enlarged it to allow for more detail and began drawing. The intersections between muscles, bone, and skin may have been a rather high concern, but the hip bone was the hardest one to draw and define. to concur with this I went over it countless times referring to bone structures, anatomy books, and internet pictures of different bones in different lighting.
+
+                        The muscles only required minimal detail and were shown by short sharp lines in high numbers. This proved effective and once learned made them a rather easy part.
+
+                        After completing the body I decided to make the character lookup with a blindfold which quickly proved challenging and required me to refer to our previous units' skills. Real-life drawing.
+
+                        This was not much of a challenge, unfortunately, as I completed the body the file got deleted and so I was back to square one.
+
+                        I was not deterred from completing this but had run into a wall as I had no idea what I was meant to do from there. I stayed clueless for a period of 3 days unsure of what to do or add.
+
+                        This was until I remembered that I could just express the very emotions that I felt as it occurred and so I began once again.
+
+                        Thankfully with knowing how to do it, the process of drawing the body was much faster. This allowed me to integrate things that I could not in the first piece such as smooth transitions from bone to muscle and skin, and completing the monster I would later on refer to as ET.
+
+                        The human having a glow that attracts evil almost in this case being E.T and The monster itself being almost translucent to show that our fears aren't as real as they seem to us.
+
+                        I would then come to draw a picture of a human body without a face, and only muscles and bones exposed. Behind this would be E.T surrounded by darkness and white smoke.
+
+                        The humanoid figure would be completely unsuspecting to the monster, much like I was to the possibility of it all failing. In relation to my original prompt the ignorance, we all have to the issues we contain inside us.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Airbrush, Graphite, Ink", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "Pandemic 2020", artist: "Joe Huang", yearCreated: 2020, description: "May 31, 2020. ‎⁨Shanghai Pudong International Airport⁩, Shanghai, China.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "The Arc", artist: "Joe Huang", yearCreated: 2018, description: "March 19, 2018. Lower Antelope Canyon, Arizona, U.S.A", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Photo", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "Confidence", artist: "Carter Chartier", yearCreated: 2020, description: """
+                        While approaching my final culminating task, knowing this would be my final art project, I knew I had to make it the best I possibly could to finish my art career at LCS with a bang. The main theme I felt I could focus on for my project was confidence. With this in mind, I first analyzed my life to determine why I have felt confident in the past. This immediately made me think of my father and our relationship. Before any sporting event or school assessment I always remember he would ask “how you feelin?” and I would always say “I’m nervous” which he would respond with “good” considering he felt me being nervous just showed I cared. But then he would always end the conversation with “Just do what you do, and be confident”.
+
+                        Now was the time to decide what media to use, what to do in general, and how I would get the point of “Confidence” across to my audience. I ended up deciding on drawing a portrait because I genuinely felt drawing is my best use of media. I originally thought paint would be interesting although, my painting skills are not very good therefore I felt drawing was my safest route.
+
+                        Choosing who or what I wanted to draw really boggled my mind. My original plan was to draw Connor McGregor and Carey Price in the safe portrait, but I quickly realized that this would be near impossible in the time frame we were given, therefore, I quickly decided to only do Connor. I felt he displayed the confidence theme the best considering he is known worldwide for his trash talk, and ultimate confidence while in the octagon. He talks the talk and walks the walk, that is something I have always admired that about this athlete.
+
+                        During the process, some of my most successful parts included the right eye as well as the tattoo. The right eye was the first eye I targeted in this piece and I genuinely think it is the best feature of the piece. Using the 8B pencil I was able to develop an emphasis on the inner eye as well as the slight glare in the pupil. This gave an effect of lights being shined on Connor giving the stadium feel. My second favourite element was the tattoo. I felt it honestly looked very realistic and represented Connor’s chest very well.
+
+                        With this process came many annoying and rage-inducing moments as well. This included the left eye as well as the beard. The left eye was more than painful then the right considering I had to restart it four different times and did not finish with a product I was 100% confident with the final product. My second biggest challenge was the beard. It wasn’t exactly difficult but I had to darken it approximately three times and I had to re-do each strand of hair taking me an enormous amount of time. Although, I was happy with the final product.
+
+                        This project has taught me a lot about my skills and patients as an artist. I was genuinely happy with the end result and am very sad art is over. I felt this was the best project I could have finished my year with and I am excited to create more art in the future.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Exterior acrylic paint", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "Ocean Bliss", artist: "Grace Devitt", yearCreated: 2020, description: "I chose to create a pour painting to represent the ocean, because that is where I feel home is. My cottage is right by the ocean, and it feels like a second home to me. The ocean is a big part of my identity.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Acrylic Paint, Varnish, Gloss Finish, Silicon Drops, Pouring Medium and Water", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "Summer Beach", artist: "Grace Devitt", yearCreated: 2020, description: """
+                        In class we were assigned to create a piece of art, using whatever media we wanted. I chose to use oil paint to try and recreate a photo I took on the beach this summer. This was my proposal.
+                        
+                        I chose to use a graph to paint the beach because I have experience using one, and I feel it gives me more accurate proportions. I started to paint the background sky with acrylic pint.
+                        
+                        I added oil paint on top of the acrylic paint to help blend and paint the details. I started to paint in the forground adding details in the sand.
+                        
+                        Then I added the clouds, which were challenging to paint accurately, because when I blended them they would become bigger and not look accurate to the photo.
+                        
+                        I added in the details in the water, and changed up the clouds a bit, to soften the look of them and make them look a bit more realistic.
+                        
+                        In the final stage I added the details in the grass on the left, and created the suns reflection off the water.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil Paint on Canvas", LCSart: true))
+        
+        listOnDisplay.append(Artwork(name: "The Anxious Trees of an Overthinker", artist: "Ellie Murdock", yearCreated: 2020, description: """
+                        The art culminating project was presented as an opportunity to express any project media of choice. For this assignment I decided to try something new and make trees with wire. The idea was inspired by my love of metal working artists and the creativity that goes into sculpting. While on a trip to Vancouver, I met an artist that uses old metal pieces to weld them together and make new art pieces. I did not have experience or access to welding so I started with bending wire. Over time experimenting with different medias, I have found my passion for sculpting and working with my hands in a tactile way.
+
+                        Over the past year or so I have noticed a deep connection to trees and their beautiful structures in nature. Most of my recent works have revolved around the idea of trees and how they can describe me as a person.
+
+                        I am an over thinker therefore when I get good ideas, the end product is always different. For my wire trees there is variety in the shape of the trees, branches and the rocks they sit on. The colour of the leaves are only significant to the season they represent and the favourite colour of each of my family members. My dads tree is red, moms is blue, brothers is green and my tree has no leaves. The reasoning behind the lack of leaves on my tree was to resemble winter but also the fact that I grow and change every day just like the season.
+
+                        The anatomy of a tree is like the anatomy of me as a person. the leaves are wild and spread out all over the place reaching for the sky. This is a representation or my thoughts and goals, all over the place but still end back to the same place or origin. The tree trunk is like my core, the sturdy structure of my body. no matter how much people poke, prod and push, I still stand tall and proud of who I am. I am a very huggable person and when someone needs a helping hand or somewhere to go for comfort I am there. Last but not least is my roots. The roots are my morals and everything I stand for. Their strength keeps me grounded, holding me down to earth.
+
+                        The wooden table and board that all the trees sat on were not as significant but brought out the earthy feel the trees represented.
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Rocks, Malleable Wire (coloured)", LCSart: true))
+        
+        
+        listOnDisplay.append(Artwork(name: "Bare", artist: "Meeri Matilla", yearCreated: 2020, description: """
+                        As my project I decided to do a project about body image, specifically about eating disorders (anorexia). There are so many young women who suffer from the body image pressures that society has set for us. There is this one model that everyone should fit to in order to reach the beauty standards. This pressure causes young women to go to extreme measures to transform their bodies to that model.
+
+                        With my art piece I wanted to address this problem. The physical as well as psychological illnesses this kind of setting causes for young women all over the world is heartbreaking.
+
+                        This article is a big part of my inspiration. In the article it said that people who suffer from anorexia use multiple layers of makeup to hide it.
+
+                        https://www.mirror.co.uk/news/real-life-stories/anorexia-sufferer-spent-three-hours-10200765
+
+                        Video:
+                        https://youtu.be/9fHijK31MfY
+                        """, more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Makeup (contour, highlighter, fundation…), Aquarelle Paint", LCSart: true))
     }
     
     
