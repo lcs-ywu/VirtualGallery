@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ArtistDetailView: View {
-    
+    @State private var isNavigationBarHidden = false
     let artist: Artist
     let artworkStore = ArtworkStore()
     
@@ -16,21 +16,24 @@ struct ArtistDetailView: View {
         //        NavigationView{
         ScrollView {
             
-            
             Image(artist.name).resizable().scaledToFit()
+            
+            HStack {
+                Spacer()
+                Text(artist.name).font(.title).bold().multilineTextAlignment(.center)
+                Spacer()
+            }
             
             VStack {
                 HStack {
                     Spacer()
                     Text(artist.identity)
-                    //                        .italic()
                     Spacer()
                 }
                 if artist.LCSArtist == false{
                     HStack {
                         Spacer()
                         Text(artist.age).font(.body)
-                        //                        .italic()
                         Spacer()
                     }
                 }
@@ -45,10 +48,9 @@ struct ArtistDetailView: View {
                     .font(.title3)
                     .bold()
                     .padding([.top, .leading, .bottom])
-                //                    Spacer()
                 
                 Text(artist.infor).padding(.horizontal)
-                    .lineLimit(nil)
+                    .lineLimit(nil).fixedSize(horizontal: false, vertical: true)
             }
             
             if artist.artistStatement.count != 0 {
@@ -58,9 +60,9 @@ struct ArtistDetailView: View {
                         .font(.title3)
                         .bold()
                         .padding([.top, .leading, .bottom])
-                    //                        Spacer()
+                    
                     Text(artist.artistStatement).padding(.horizontal)
-                        .lineLimit(nil)
+                        .lineLimit(nil).fixedSize(horizontal: false, vertical: true)
                 }
             }
             
@@ -105,9 +107,12 @@ struct ArtistDetailView: View {
             }
             
             
-        }.navigationTitle(artist.name)
-        //            .ignoresSafeArea(edges: .top)
-        //        }
+        }
+        .navigationTitle(artist.name)
+        .navigationBarHidden(isNavigationBarHidden)
+        .onTapGesture {
+            isNavigationBarHidden.toggle()
+        }
         
     }
     
