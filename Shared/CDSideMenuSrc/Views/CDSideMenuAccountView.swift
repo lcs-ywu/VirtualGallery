@@ -44,7 +44,7 @@ struct CDSideMenuAccountView: View {
                     HStack {
                         Image(systemName: "power")
                             .imageScale(.large)
-                        Text("Logout")
+                        Text("Back")
                             .font(self.configuration.menuFont)
                         
                     }

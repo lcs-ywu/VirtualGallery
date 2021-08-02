@@ -22,3 +22,8 @@ struct VirtualGalleryApp: App {
         }
     }
 }
+
+// Use custom colors in the view modifiers
+extension Color {
+    static let LCSGreen = Color(red: 0/255, green: 101/255, blue: 82/255, opacity: 1)
+}
