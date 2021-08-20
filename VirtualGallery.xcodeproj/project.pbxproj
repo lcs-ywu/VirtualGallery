@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19080D5B26D0197900465EDC /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19080D5A26D0197900465EDC /* Placeholder.swift */; };
+		19080D5C26D0197900465EDC /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19080D5A26D0197900465EDC /* Placeholder.swift */; };
 		8A1A2A7D25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */; };
 		8A1A2A7E25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */; };
 		8A1A2A8B25F18982005F6BCA /* ArtistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */; };
@@ -101,6 +103,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19080D5A26D0197900465EDC /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
 		8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarColorChange.swift; sourceTree = "<group>"; };
 		8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
 		8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCSArtCommunityView.swift; sourceTree = "<group>"; };
@@ -290,6 +293,7 @@
 				9C024B0B2665B02E00483A32 /* Contributors.swift */,
 				8A27AB5A2659404E0084CCE6 /* ArtHistoryView.swift */,
 				8ACCF289266607510091F545 /* ArtHistoryDetailView.swift */,
+				19080D5A26D0197900465EDC /* Placeholder.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -453,6 +457,7 @@
 				8A42FEFF25C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
 				8A27ABD5265A0D820084CCE6 /* CDViewsModifier.swift in Sources */,
 				8A7E667726634D0F00BE054E /* PostModernPrinciples.swift in Sources */,
+				19080D5B26D0197900465EDC /* Placeholder.swift in Sources */,
 				8A1A2A9C25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
 				8ACCF2A026661F060091F545 /* ArtPeriod.swift in Sources */,
 				8ACCF2A5266620F10091F545 /* ArtPeriods.swift in Sources */,
@@ -504,6 +509,7 @@
 				8A42FF0025C0550500829CBC /* VirtualGalleryApp.swift in Sources */,
 				8A27ABD6265A0D820084CCE6 /* CDViewsModifier.swift in Sources */,
 				8A7E667826634D0F00BE054E /* PostModernPrinciples.swift in Sources */,
+				19080D5C26D0197900465EDC /* Placeholder.swift in Sources */,
 				8A1A2A9D25F324FA005F6BCA /* LCSArtCommunityView.swift in Sources */,
 				8ACCF2A126661F060091F545 /* ArtPeriod.swift in Sources */,
 				8ACCF2A6266620F10091F545 /* ArtPeriods.swift in Sources */,

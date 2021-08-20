@@ -16,6 +16,7 @@ struct ArtistDetailView: View {
         //        NavigationView{
         ScrollView {
             
+            
             Image(artist.name).resizable().scaledToFit()
             
             HStack {
