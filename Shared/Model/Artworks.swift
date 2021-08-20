@@ -1513,6 +1513,23 @@ Rounded, projecting elements grow progressively smaller from left to right. The 
         listOnDisplay.append(Artwork(name: "单面镜", artist: "Chelsea Yue", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "To be Added", LCSart: true))
     }
     
+    func getUrl(name:String) -> String {
+            let url = "https://www.russellgordon.ca/vg/" + "\(name)" + ".imageset" + "\(name)" + ".jpg"
+            var newUrl : [String] = []
+            
+            for each in url {
+                if each == " " {
+                    newUrl.append("%20")
+                } else if each == "?" {
+                    newUrl.append("-Question")
+                } else {
+                    newUrl.append(String(each))
+                }
+            }
+            
+            return newUrl.joined()
+            
+        }
     
 }
 
