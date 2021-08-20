@@ -11,6 +11,8 @@ struct Artworks {
     var list: [Artwork] = []
     var listOnDisplay: [Artwork] = []
     
+    
+    
     init() {
         list.append(Artwork(name: "Mona Lisa", artist: "Leonardo da Vinci", yearCreated: 1506, description: "The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as 'the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world'. The painting's novel qualities include the subject's enigmatic expression, the monumentality of the composition, the subtle modelling of forms, and the atmospheric illusionism", more: "The painting is probably of the Italian noblewoman Lisa Gherardini, the wife of Francesco del Giocondo, and is in oil on a white Lombardy poplar panel. It had been believed to have been painted between 1503 and 1506; however, Leonardo may have continued working on it as late as 1517. It was acquired by King Francis I of France and is now the property of the French Republic itself, on permanent display at the Louvre, Paris since 1797.", onDisplay: true, museum: "Louvre Museum", latitude: 48.861111, longitude: 2.336389, medium: "Oil on canvas", LCSart: false))
         
@@ -1513,23 +1515,6 @@ Rounded, projecting elements grow progressively smaller from left to right. The 
         listOnDisplay.append(Artwork(name: "单面镜", artist: "Chelsea Yue", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "To be Added", LCSart: true))
     }
     
-    func getUrl(name:String) -> String {
-            let url = "https://www.russellgordon.ca/vg/" + "\(name)" + ".imageset" + "\(name)" + ".jpg"
-            var newUrl : [String] = []
-            
-            for each in url {
-                if each == " " {
-                    newUrl.append("%20")
-                } else if each == "?" {
-                    newUrl.append("-Question")
-                } else {
-                    newUrl.append(String(each))
-                }
-            }
-            
-            return newUrl.joined()
-            
-        }
     
 }
 

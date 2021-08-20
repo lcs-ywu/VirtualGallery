@@ -124,3 +124,22 @@ let testArtworkStore = [
 //    Artwork(name: "Harmony", artist: "James", yearCreated: 2019, description: "This pencil sketch of a skull is one of my practice during my anatomy studying. I intend to strengthen my understanding of the structure of human head through this drawing. I sharpen the contrast and add details such as tooth and the cracks with the sketching process.", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Charcoal pencil on sketch paper", LCSart: true),
 //    Artwork(name: "Anton", artist: "James", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil on canvas", LCSart: true)
 //]
+
+func getUrl(name:String) -> URL {
+        let url = "https://www.russellgordon.ca/vg/" + "\(name)" + ".imageset/" + "\(name)" + ".jpg"
+        var newUrl : [String] = []
+        
+        for each in url {
+            if each == " " {
+                newUrl.append("%20")
+            } else if each == "?" {
+                newUrl.append("-Question")
+            } else {
+                newUrl.append(String(each))
+            }
+        }
+        let result = URL(string: newUrl.joined())!
+
+    return result
+        
+    }
