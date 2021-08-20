@@ -1514,7 +1514,7 @@ Rounded, projecting elements grow progressively smaller from left to right. The 
     }
     
     func getUrl(name:String) -> String {
-            let url = "https://www.russellgordon.ca/vg/" + "\(name)" + ".imageset" + "\(name)" + ".jpg"
+            let url = "https://www.russellgordon.ca/vg/" + "\(name)" + ".imageset/" + "\(name)" + ".jpg"
             var newUrl : [String] = []
             
             for each in url {
