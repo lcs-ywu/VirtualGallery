@@ -15,9 +15,21 @@ struct ArtworkDetail: View {
     var body: some View {
         ScrollView {
            
-            Image(artwork.name)
-                .resizable()
-                .scaledToFit()
+            if #available(iOS 15.0, *) {
+                AsyncImage(url: getUrl(name: artwork.name)) { image in
+                    image.resizable()
+                    image.scaledToFit()
+                } placeholder: {
+                    Placeholder()
+                }
+            } else {
+                // Fallback on earlier versions
+//                Image(artwork.name)
+//                    .resizable()
+//                    .scaledToFit()
+                Text("Wrong")
+            }
+            
             
             HStack {
                 Spacer()
