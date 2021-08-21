@@ -6,22 +6,69 @@
 //
 
 import SwiftUI
+enum URLExtensionError: Error {
+    case extension1IsNotCorrect
+    case extension2IsNotCorrect
+    case extension3IsNotCorrect
+}
 
 struct ArtworkDetail: View {
     @State private var isNavigationBarHidden = false
     let artwork: Artwork
 
     @State private var showingAddComment = false
+    
+    @State private var errorInExtension = false
+    @State private var shouldAnimate = false
+    //
+    @State private var validURL = URL(string: "https://www.russellgordon.ca/vg/Ocean%20Bliss.imageset/Ocean%20Bliss.jpg")
+    var ext = [".jpg", ".png", ".jpeg"]
+        
     var body: some View {
+       
         ScrollView {
-           
+            ActivityIndicator(shouldAnimate: $shouldAnimate).frame(width: 200, height: 60, alignment: .center)
             if #available(iOS 15.0, *) {
-                AsyncImage(url: getUrl(name: artwork.name)) { image in
-                    image.resizable()
-                    image.scaledToFit()
-                } placeholder: {
-                    Placeholder()
-                }
+                
+                
+                AsyncImage(url: validURL) { phase in
+                    
+                        if let image = phase.image {
+                            // Displays the loaded image.
+                            
+                            image.resizable().scaledToFit().onAppear {
+                                shouldAnimate = false
+                            }
+                            
+                            
+                            } else if phase.error != nil {
+                                // Indicates an error.
+                                
+                                Placeholder().onAppear {
+                                    validURL = findValidURL(name: artwork.name)
+                                    shouldAnimate = true
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                                        shouldAnimate = false
+                                    }
+                                }
+                                
+                                
+                            } else {
+                                // Acts as a placeholder.
+                                Placeholder().onAppear{
+                                    shouldAnimate = true
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                                        shouldAnimate = false
+                                    }
+                                }
+                                
+                                
+                                
+                            }
+                    }
+               
+                
+               
             } else {
                 // Fallback on earlier versions
 //                Image(artwork.name)
