@@ -6,123 +6,185 @@
 //
 
 import SwiftUI
+enum URLExtensionError: Error {
+    case extension1IsNotCorrect
+    case extension2IsNotCorrect
+    case extension3IsNotCorrect
+}
 
 struct ArtworkDetail: View {
     @State private var isNavigationBarHidden = false
     let artwork: Artwork
 
     @State private var showingAddComment = false
+    
+    @State private var errorInExtension = false
+    @State private var shouldAnimate = false
+    //
+    @State private var validURL = URL(string: "https://www.russellgordon.ca/vg/Ocean%20Bliss.imageset/Ocean%20Bliss.jpg")
+    var ext = [".jpg", ".png", ".jpeg"]
+    
+    func shareArtwork() {
+        // Can this be store to somewhere to reduce running time?
+        let url = findValidURL(name: artwork.name)
+        let avc = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        UIApplication.shared.windows.first?.rootViewController!.present(avc, animated: true, completion: nil)
+    }
+    
+    
     var body: some View {
+       
         ScrollView {
-           
-            if #available(iOS 15.0, *) {
-                AsyncImage(url: getUrl(name: artwork.name)) { image in
-                    image.resizable()
-                    image.scaledToFit()
-                } placeholder: {
-                    Placeholder()
-                }
-            } else {
-                // Fallback on earlier versions
+    ActivityIndicator(shouldAnimate: $shouldAnimate).frame(width: 200, height: 60, alignment: .center)
+    if #available(iOS 15.0, *) {
+        
+        
+        AsyncImage(url: validURL) { phase in
+            
+                if let image = phase.image {
+                    // Displays the loaded image.
+                    
+                    image.resizable().scaledToFit().onAppear {
+                        shouldAnimate = false
+                    }
+                    
+                    
+                    } else if phase.error != nil {
+                        // Indicates an error.
+                        
+                        Placeholder().onAppear {
+                            validURL = findValidURL(name: artwork.name)
+                            shouldAnimate = true
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                                shouldAnimate = false
+                            }
+                        }
+                        
+                        
+                    } else {
+                        // Acts as a placeholder.
+                        Placeholder().onAppear{
+                            shouldAnimate = true
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                                shouldAnimate = false
+                            }
+                        }
+                        
+                        
+                        
+                    }
+            }
+        
+        
+        
+    } else {
+        // Fallback on earlier versions
 //                Image(artwork.name)
 //                    .resizable()
 //                    .scaledToFit()
-                Text("Wrong")
-            }
-            
-            
-            HStack {
-                Spacer()
-                Text(artwork.name).font(.title).bold().multilineTextAlignment(.center)
-                Spacer()
-            }
-            
+        Text("Wrong")
+    }
+    
+    
+    HStack {
+        Spacer()
+        Text(artwork.name).font(.title).bold().multilineTextAlignment(.center)
+        Spacer()
+    }
+    
+    
+    Spacer()
+    
+    VStack{
+        HStack{
             
             Spacer()
-            
-            VStack{
-                HStack{
-                    
-                    Spacer()
-                    Text(artwork.artist)
-                        .italic()
-                        .font(.body)
-                        .bold()
+            Text(artwork.artist)
+                .italic()
+                .font(.body)
+                .bold()
 
-                    Spacer()
-                  
-                 }
-                HStack {
-                    Spacer()
-                    Text(artwork.medium).font(.body)
+            Spacer()
+            
+            }
+        HStack {
+            Spacer()
+            Text(artwork.medium).font(.body)
 //                        .italic()
-                   Spacer()
-                }
-                HStack {
-                    Spacer()
-                    Text("Created in " + String(artwork.yearCreated)).font(.body)
+            Spacer()
+        }
+        HStack {
+            Spacer()
+            Text("Created in " + String(artwork.yearCreated)).font(.body)
 //                        .italic()
-                    Spacer()
-                }
-                HStack {
-                    Spacer()
-                    Text("Currently stored in \(artwork.museum)").font(.body).multilineTextAlignment(.center)
+            Spacer()
+        }
+        HStack {
+            Spacer()
+            Text("Currently stored in \(artwork.museum)").font(.body).multilineTextAlignment(.center)
 //                        .italic()
-                    Spacer()
-                }
+            Spacer()
+        }
 //                Text("Created in \(artwork.yearCreated)")
 //                    .font(.body)
 //                    .padding(.bottom)
-           
-            }
-            .padding(.horizontal)
-            
-            if !artwork.description.isEmpty {
-                HStack {
-                    Text("General Information")
-                        .font(.title3)
-                        .bold()
-                        .padding([.top, .leading, .bottom])
-                    Spacer()
-                }
-                
-                HStack {
-                    Text(artwork.description).padding(.horizontal)
-                        .font(.subheadline)
-                        
-                        // Autoshrink?
-                        .minimumScaleFactor(0.01)
-                    
-                    Spacer()
-                }
-                
-                    
-            }
-            
-                
-                
-                
-            
-            if artwork.more.count != 0 {
-                HStack {
-                    Text("Did you know?")
-                        .font(.title3)
-                        .bold()
-                        .padding(.vertical)
-                    
-                    Spacer()
-                }
-                .padding(.horizontal)
-                
-                Text(artwork.more).padding(.horizontal)
-            }
-            
+    
+    }
+    .padding(.horizontal)
+    
+    if !artwork.description.isEmpty {
+        HStack {
+            Text("General Information")
+                .font(.title3)
+                .bold()
+                .padding([.top, .leading, .bottom])
+            Spacer()
         }
+        
+        HStack {
+            Text(artwork.description).padding(.horizontal)
+                .font(.subheadline)
+                
+                // Autoshrink?
+                .minimumScaleFactor(0.01)
+            
+            Spacer()
+        }
+        
+            
+    }
+    
+        
+        
+        
+    
+    if artwork.more.count != 0 {
+        HStack {
+            Text("Did you know?")
+                .font(.title3)
+                .bold()
+                .padding(.vertical)
+            
+            Spacer()
+        }
+        .padding(.horizontal)
+        
+        Text(artwork.more).padding(.horizontal)
+    }
+}
         .edgesIgnoringSafeArea(.top)
         // Consider smooth transition?
         .navigationBarHidden(isNavigationBarHidden)
         .onTapGesture {
             isNavigationBarHidden.toggle()
+        }
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button(action: shareArtwork) {
+                    Image(systemName: "square.and.arrow.up")
+                }
+                
+            }
         }
         
         
@@ -154,3 +216,5 @@ struct FitSystemFont: ViewModifier {
         }
     }
 }
+
+

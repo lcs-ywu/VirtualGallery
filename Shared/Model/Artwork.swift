@@ -125,8 +125,9 @@ let testArtworkStore = [
 //    Artwork(name: "Anton", artist: "James", yearCreated: 2020, description: "", more: "", onDisplay: true, museum: "LCS Gallery", latitude: 44.43922, longitude: -78.26571, medium: "Oil on canvas", LCSart: true)
 //]
 
-func getUrl(name:String) -> URL {
-        let url = "https://www.russellgordon.ca/vg/" + "\(name)" + ".imageset/" + "\(name)" + ".jpg"
+func getUrl(name: String, extension urlExt: String) -> URL {
+        let url = "https://www.russellgordon.ca/vg/" + "\(name)" + ".imageset/" + "\(name)" + urlExt
+        
         var newUrl : [String] = []
         
         for each in url {
@@ -138,8 +139,56 @@ func getUrl(name:String) -> URL {
                 newUrl.append(String(each))
             }
         }
-        let result = URL(string: newUrl.joined())!
-
-    return result
+        let result = URL(string: newUrl.joined())
+    
+    
+    
+    return result!
         
     }
+
+func isUrlValid(url: URL) -> Bool {
+    var isValid = false
+    URLSession.shared.dataTask(with: url) { data, resp, err in
+
+        guard let resp = resp as? HTTPURLResponse else { print("not a HTTP URL"); return }
+
+        if (200..<300).contains(resp.statusCode){
+            print("valid")
+            isValid = true
+        } else{
+            print("invalid")
+        }
+        
+       
+        
+    }.resume()
+    
+    do {
+        sleep(2)
+    }
+    return isValid
+}
+
+func findValidURL(name: String) -> URL {
+    print(isUrlValid(url: URL(string: "https://www.russellgordon.ca/vg/Sushi.imageset/Sushi.jpg")!))
+    var ext = ".jpg"
+    var testURL =  getUrl(name: name, extension: ext)
+    
+    if isUrlValid(url: testURL) {
+        print(testURL)
+        return testURL
+    } else {
+        ext = ".jpeg"
+        testURL = getUrl(name: name, extension: ext)
+        if isUrlValid(url: testURL) {
+            print(testURL)
+            return testURL
+        } else {
+            testURL = getUrl(name: name, extension: ".png")
+            print(testURL)
+            return testURL
+        }
+    }
+   
+}
