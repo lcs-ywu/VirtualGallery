@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		19080D5B26D0197900465EDC /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19080D5A26D0197900465EDC /* Placeholder.swift */; };
 		19080D5C26D0197900465EDC /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19080D5A26D0197900465EDC /* Placeholder.swift */; };
+		19080D6226D07FFE00465EDC /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19080D6126D07FFD00465EDC /* ActivityIndicator.swift */; };
+		19080D6326D07FFE00465EDC /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19080D6126D07FFD00465EDC /* ActivityIndicator.swift */; };
 		8A1A2A7D25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */; };
 		8A1A2A7E25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */; };
 		8A1A2A8B25F18982005F6BCA /* ArtistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */; };
@@ -104,6 +106,8 @@
 
 /* Begin PBXFileReference section */
 		19080D5A26D0197900465EDC /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
+		19080D5D26D0662C00465EDC /* DebugPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DebugPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		19080D6126D07FFD00465EDC /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		8A1A2A7C25F14105005F6BCA /* NavigationBarColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarColorChange.swift; sourceTree = "<group>"; };
 		8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailView.swift; sourceTree = "<group>"; };
 		8A1A2A9B25F324FA005F6BCA /* LCSArtCommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCSArtCommunityView.swift; sourceTree = "<group>"; };
@@ -175,6 +179,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19080D6026D06E8700465EDC /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				19080D5D26D0662C00465EDC /* DebugPlayground.playground */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
 		8A27ABC0265A0D810084CCE6 /* CDSideMenuSrc */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +253,7 @@
 		8A42FEEB25C0550000829CBC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				19080D6026D06E8700465EDC /* Debug */,
 				8A42FEEC25C0550000829CBC /* VirtualGalleryApp.swift */,
 				8A42FF1025C0555C00829CBC /* Model */,
 				8A42FF0F25C0555100829CBC /* View */,
@@ -284,6 +297,7 @@
 				8A42FF3E25C3A3F200829CBC /* ArtworksList.swift */,
 				9C85FAB226640EDE0069A55E /* SearchView.swift */,
 				8A42FF2825C0596600829CBC /* ArtworkDetail.swift */,
+				19080D6126D07FFD00465EDC /* ActivityIndicator.swift */,
 				8A52CD6F25EDC30A006B6A3D /* ArtistsList.swift */,
 				8A1A2A8A25F18982005F6BCA /* ArtistDetailView.swift */,
 				8A42FF4925C4A15100829CBC /* WorldMap.swift */,
@@ -443,6 +457,7 @@
 				8A27AB5B2659404E0084CCE6 /* ArtHistoryView.swift in Sources */,
 				8A52CD7025EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A27ABE7265A0D820084CCE6 /* CDSideMenuAccountView.swift in Sources */,
+				19080D6226D07FFE00465EDC /* ActivityIndicator.swift in Sources */,
 				9CA266E22660ADF700378A7F /* MyContentView.swift in Sources */,
 				8A42FF1D25C0570300829CBC /* Artwork.swift in Sources */,
 				8A1A2A7D25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */,
@@ -495,6 +510,7 @@
 				8A27AB5C2659404E0084CCE6 /* ArtHistoryView.swift in Sources */,
 				8A52CD7125EDC30A006B6A3D /* ArtistsList.swift in Sources */,
 				8A27ABE8265A0D820084CCE6 /* CDSideMenuAccountView.swift in Sources */,
+				19080D6326D07FFE00465EDC /* ActivityIndicator.swift in Sources */,
 				9CA266E72660AE9A00378A7F /* MyContentView.swift in Sources */,
 				8A42FF1E25C0570300829CBC /* Artwork.swift in Sources */,
 				8A1A2A7E25F14105005F6BCA /* NavigationBarColorChange.swift in Sources */,
