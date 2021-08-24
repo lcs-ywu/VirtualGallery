@@ -7,8 +7,10 @@
 
 import Foundation
 
-struct Artworks {
+struct Artworks: ObservableObject {
     var list: [Artwork] = []
+    
+    //Remove this list and use the onDisplay property instead
     var listOnDisplay: [Artwork] = []
     
     

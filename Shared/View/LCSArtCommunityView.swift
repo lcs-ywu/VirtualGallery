@@ -83,7 +83,7 @@ struct LCSArtCommunityView_Previews: PreviewProvider {
 }
 
 
-func peterDalglishEntry(artistName: String, year: String, imageName: String) -> some View {
+private func peterDalglishEntry(artistName: String, year: String, imageName: String) -> some View {
     Group {
         VStack {
             HStack {
